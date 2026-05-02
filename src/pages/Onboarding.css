@@ -1,0 +1,294 @@
+.onboarding-page {
+  min-height: 100vh;
+  background-color: #f8fafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.onboarding-container {
+  width: 100%;
+  max-width: 550px;
+}
+
+/* Progress Bar */
+.onboarding-progress {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.progress-step {
+  width: 36px;
+  height: 36px;
+  background: white;
+  border: 2px solid #e2e8f0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: #94a3b8;
+  z-index: 2;
+  transition: all 0.3s;
+}
+
+.progress-step.active {
+  border-color: #4096EE;
+  color: #4096EE;
+}
+
+.progress-step.completed {
+  background: #4096EE;
+  border-color: #4096EE;
+  color: white;
+}
+
+.progress-line {
+  position: absolute;
+  top: 18px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: #e2e8f0;
+  z-index: 1;
+}
+
+.line-fill {
+  height: 100%;
+  background: #4096EE;
+  transition: width 0.3s ease;
+}
+
+/* Card */
+.onboarding-card {
+  background: white;
+  padding: 3rem;
+  border-radius: 32px;
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.step-icon {
+  width: 64px;
+  height: 64px;
+  background: #eff6ff;
+  color: #4096EE;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.5rem;
+}
+
+.step-content h1 {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  color: #0f172a;
+}
+
+.step-content p {
+  color: #64748b;
+  margin-bottom: 2.5rem;
+  font-size: 1.1rem;
+}
+
+.input-group {
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+
+.input-group.centered label {
+  text-align: center;
+}
+
+.input-group label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: #94a3b8;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+
+.input-group input, 
+.input-group select {
+  width: 100%;
+  padding: 0.8rem 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  outline: none;
+  background: #f8fafc;
+}
+
+.input-group input:focus,
+.input-group select:focus {
+  border-color: #4096EE;
+  box-shadow: 0 0 0 4px rgba(64, 150, 238, 0.1);
+}
+
+.onboarding-btn {
+  width: 100%;
+  background: #4096EE;
+  color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1rem;
+}
+
+.onboarding-btn:disabled {
+  background: #cbd5e1;
+  cursor: not-allowed;
+}
+
+.onboarding-btn.finish {
+  background: #1e293b;
+}
+
+.onboarding-btn-outline {
+  width: 100px;
+  padding: 1rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 14px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.btn-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.btn-row .onboarding-btn {
+  flex-grow: 1;
+}
+
+.invalid-input {
+  border-color: #ef4444 !important;
+}
+
+.input-hint.error {
+  display: block;
+  font-size: 0.75rem;
+  color: #ef4444;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+/* Gender Selection */
+.gender-selection {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+  justify-content: center;
+}
+
+.gender-option {
+  flex: 0 1 110px;
+  background: #f8fafc;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gender-option:hover {
+  border-color: #cbd5e1;
+  transform: translateY(-2px);
+}
+
+.gender-option.active {
+  border-color: #4096EE;
+  background: white;
+  box-shadow: 0 10px 15px -3px rgba(64, 150, 238, 0.1);
+}
+
+.gender-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  transition: all 0.3s;
+}
+
+.gender-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.gender-icon.male {
+  background: #eff6ff;
+  color: #4096EE;
+}
+
+.gender-icon.female {
+  background: #fdf4ff;
+  color: #d946ef;
+}
+
+.gender-option span {
+  font-weight: 700;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.gender-option.active span {
+  color: #0f172a;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 640px) {
+  .onboarding-page {
+    padding: 1rem;
+  }
+  
+  .onboarding-card {
+    padding: 2rem 1.5rem;
+    border-radius: 24px;
+  }
+  
+  .step-content h1 {
+    font-size: 1.5rem;
+  }
+  
+  .step-content p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .gender-selection {
+    gap: 1rem;
+  }
+  
+  .gender-option {
+    padding: 1rem;
+  }
+  
+  .gender-icon {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .onboarding-progress {
+    margin-bottom: 2rem;
+  }
+}

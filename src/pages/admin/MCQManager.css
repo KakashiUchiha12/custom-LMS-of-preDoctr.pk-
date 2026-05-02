@@ -1,0 +1,279 @@
+.mcq-manager {
+  padding: 1rem;
+}
+
+.header-actions {
+  display: flex;
+  gap: 1rem;
+}
+
+/* Database Controls */
+.db-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  border: 1px solid #e2e8f0;
+}
+
+.search-group {
+  display: flex;
+  gap: 1rem;
+  flex: 1;
+  max-width: 600px;
+}
+
+.search-input {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: #f1f5f9;
+  padding: 0.6rem 1.2rem;
+  border-radius: 12px;
+  flex: 1;
+}
+
+.search-input input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 100%;
+  font-size: 0.95rem;
+}
+
+.subject-select {
+  background: #f1f5f9;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 12px;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+}
+
+.quick-stats {
+  display: flex;
+  gap: 2rem;
+  padding-left: 2rem;
+  border-left: 1px solid #e2e8f0;
+}
+
+.q-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.q-stat .label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #94a3b8;
+  margin-bottom: 0.25rem;
+}
+
+.q-stat .val {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1e293b;
+}
+
+.q-stat.warning .val {
+  color: #ef4444;
+}
+
+/* MCQ List Styles */
+.list-filters {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  align-items: center;
+}
+
+.list-filters button {
+  background: transparent;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #64748b;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.2s;
+}
+
+.list-filters button.active {
+  background: #3b82f6;
+  color: white;
+}
+
+.list-filters button:hover:not(.active) {
+  background: #f1f5f9;
+}
+
+.btn-filter-icon {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white !important;
+  border: 1px solid #e2e8f0 !important;
+}
+
+.mcq-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+  gap: 1.5rem;
+}
+
+.mcq-admin-card {
+  background: white;
+  border-radius: 16px;
+  padding: 1.5rem;
+  border: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.2s;
+}
+
+.mcq-admin-card:hover {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  border-color: #3b82f6;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.mcq-id {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #94a3b8;
+  background: #f8fafc;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+.card-tags {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.difficulty {
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 30px;
+}
+
+.difficulty.easy { background: #ecfdf5; color: #10b981; }
+.difficulty.medium { background: #fff7ed; color: #f97316; }
+.difficulty.hard { background: #fef2f2; color: #ef4444; }
+
+.flag-badge {
+  background: #fef2f2;
+  color: #ef4444;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 0.2rem 0.6rem;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.question-text {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #1e293b;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.options-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.opt-item {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.85rem;
+  color: #64748b;
+  padding: 0.5rem;
+  background: #f8fafc;
+  border-radius: 8px;
+}
+
+.opt-item.correct {
+  background: #f0fdf4;
+  color: #10b981;
+  font-weight: 600;
+}
+
+.opt-item .dot {
+  width: 6px;
+  height: 6px;
+  background: #cbd5e1;
+  border-radius: 50%;
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-top: 1.25rem;
+  border-top: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meta-info {
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-weight: 600;
+}
+
+.dot-sep {
+  margin: 0 0.5rem;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.action-btn {
+  width: 34px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+  background: #f8fafc;
+  color: #64748b;
+}
+
+.action-btn:hover { background: #f1f5f9; color: #1e293b; }
+.action-btn.edit:hover { background: #eff6ff; color: #3b82f6; }
+.action-btn.delete:hover { background: #fef2f2; color: #ef4444; }
+
+@media (max-width: 600px) {
+  .mcq-cards-grid {
+    grid-template-columns: 1fr;
+  }
+}

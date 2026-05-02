@@ -1,0 +1,213 @@
+.predoctr-contact-section {
+  padding: 5rem 0;
+  background-color: #f8fafc;
+  min-height: calc(100vh - 70px);
+}
+
+.predoctr-contact-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.predoctr-contact-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.predoctr-contact-title {
+  font-size: 2.75rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.predoctr-contact-title span {
+  color: #4096EE;
+}
+
+.predoctr-contact-subtitle {
+  font-size: 1.1rem;
+  color: #64748b;
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.predoctr-contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.predoctr-contact-card {
+  background: white;
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.predoctr-contact-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.predoctr-icon-box {
+  width: 60px;
+  height: 60px;
+  background: #eff6ff;
+  color: #4096EE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  margin-bottom: 1.5rem;
+}
+
+.predoctr-icon-box svg {
+  width: 32px;
+  height: 32px;
+}
+
+.predoctr-card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.predoctr-card-desc {
+  font-size: 0.9rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+}
+
+.predoctr-action-btn-group {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #f8fafc;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  width: 100%;
+  justify-content: center;
+}
+
+.predoctr-action-link {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: #4096EE;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.predoctr-copy-btn {
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 6px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #64748b;
+  transition: all 0.2s;
+}
+
+.predoctr-copy-btn:hover {
+  background: #eff6ff;
+  color: #4096EE;
+  border-color: #4096EE;
+}
+
+.predoctr-copy-btn.copied {
+  border-color: #10b981;
+  background: #f0fdf4;
+}
+
+/* Social Media */
+.predoctr-social-container {
+  text-align: center;
+}
+
+.predoctr-social-title {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+}
+
+.predoctr-social-list {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.predoctr-social-link {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: white;
+  color: #64748b;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+.predoctr-social-link:hover {
+  transform: scale(1.1);
+  color: white;
+}
+
+.predoctr-social-link.fb:hover { background: #1877f2; }
+.predoctr-social-link.ig:hover { background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); }
+.predoctr-social-link.gh:hover { background: #333; }
+
+/* Floating WhatsApp */
+.predoctr-float-wa {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #25d366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.predoctr-float-wa:hover {
+  transform: scale(1.1) rotate(10deg);
+  box-shadow: 0 6px 20px rgba(37, 211, 102, 0.6);
+}
+
+@media (max-width: 1024px) {
+  .predoctr-contact-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .predoctr-contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .predoctr-contact-title {
+    font-size: 2.25rem;
+  }
+}

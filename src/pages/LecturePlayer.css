@@ -1,0 +1,342 @@
+/* --- Lesson Viewer Layout (MCQ Match) --- */
+.lecture-viewer-layout {
+  display: flex;
+  height: calc(100vh - 74px);
+  width: 100%;
+  overflow: hidden;
+  background-color: #f8fafc;
+}
+
+/* Sidebar */
+.lecture-sidebar {
+  width: 320px;
+  background: white;
+  border-right: 1px solid #e2e8f0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  flex-shrink: 0;
+  z-index: 10;
+}
+
+.sidebar-header {
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #f1f5f9;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-header h2 {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0;
+}
+
+.sidebar-accordion-container {
+  flex: 1;
+  overflow-y: auto;
+  padding: 1rem;
+}
+
+.empty-sidebar-msg {
+  padding: 2rem;
+  text-align: center;
+  color: #94a3b8;
+  font-style: italic;
+}
+
+/* Main Content Area */
+.lecture-main-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.lecture-topbar {
+  height: 60px;
+  background: white;
+  border-bottom: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 1.5rem;
+  flex-shrink: 0;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sidebar-toggle-btn {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+.sidebar-toggle-btn:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.back-to-course {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 700;
+  color: #4096EE;
+  text-transform: capitalize;
+  font-size: 0.95rem;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.lecture-progress {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.mark-complete-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #10b981;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border: none;
+  cursor: pointer;
+}
+
+.mark-complete-btn:hover {
+  background: #059669;
+}
+
+.close-lecture-btn {
+  color: #94a3b8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close-lecture-btn:hover {
+  color: #1e293b;
+}
+
+.lecture-content-wrapper {
+  flex: 1;
+  overflow-y: auto;
+  background-color: #f1f5f9;
+  position: relative;
+  padding: 2rem;
+}
+
+.lecture-content-inner {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.course-main {
+  background: white;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+  margin-bottom: 2rem;
+}
+
+.course-info {
+  padding: 2.5rem;
+}
+
+.badge-premium-lecture {
+  display: inline-block;
+  background: #eff6ff;
+  color: #4096EE;
+  padding: 0.4rem 1rem;
+  border-radius: 30px;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.05em;
+  margin-bottom: 1rem;
+}
+
+.course-info h1 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #0f172a;
+  margin-bottom: 1rem;
+}
+
+.course-description {
+  color: #64748b;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+/* Resources Footer */
+.lecture-resources-footer {
+  background: white;
+  border-radius: 24px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+}
+
+.lecture-resources-footer h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #1e293b;
+}
+
+.resource-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.resource-item-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.resource-item-card:hover {
+  border-color: #4096EE;
+  background: #f8fafc;
+  transform: translateY(-2px);
+}
+
+.res-card-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.res-card-info span {
+  font-weight: 600;
+  color: #1e293b;
+  font-size: 0.9rem;
+}
+
+.res-card-info small {
+  color: #94a3b8;
+  font-size: 0.75rem;
+}
+
+/* Animations */
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-10px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.fade-in-left {
+  animation: fadeInLeft 0.3s ease-out forwards;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(15, 23, 42, 0.4);
+    backdrop-filter: blur(4px);
+    z-index: 9998;
+  }
+
+  .lecture-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 280px; /* Use a fixed width for predictability on mobile */
+    max-width: 85%;
+    height: 100%;
+    background-color: white !important;
+    display: flex !important;
+    flex-direction: column;
+    z-index: 9999; /* Extremely high to beat any other UI elements */
+    box-shadow: 10px 0 30px rgba(0,0,0,0.2);
+    border-right: 1px solid #e2e8f0;
+    transform: none !important; /* Kill any animation transforms */
+    animation: none !important;
+  }
+  
+  .lecture-content-wrapper {
+    padding: 1rem;
+  }
+  
+  .course-info {
+    padding: 1.5rem;
+  }
+  
+  .course-info h1 {
+    font-size: 1.4rem;
+  }
+  
+  .topbar-right {
+    display: none;
+  }
+}
+
+.sidebar-close-mobile {
+  background: #f1f5f9;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.sidebar-close-mobile:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+.hide-desktop {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hide-desktop {
+    display: block;
+  }
+  .hide-mobile {
+    display: none;
+  }
+}
