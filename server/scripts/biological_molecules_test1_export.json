@@ -1,0 +1,1778 @@
+[
+  {
+    "id": 69553,
+    "question": "Which of the following elements is NOT required for a cell to synthesize DNA?",
+    "options": [
+      "Phosphorus",
+      "Nitrogen",
+      "Hydrogen",
+      "Iron"
+    ],
+    "correct_answer": "Iron",
+    "explanation": "DNA nucleotides contain carbon, hydrogen, oxygen, nitrogen (in bases), and phosphorus (in phosphate backbone). Iron is not a component but is involved in oxygen transport (e.g., hemoglobin)."
+  },
+  {
+    "id": 69554,
+    "question": "Which of the following DNA sequences is least likely to represent a restriction endonuclease cut site?",
+    "options": [
+      "AGCT",
+      "GACGAC",
+      "GGATCC",
+      "AAGCTT"
+    ],
+    "correct_answer": "AGCT",
+    "explanation": "Restriction endonucleases typically recognize 4-8 base palindromic sequences (e.g., GACGAC, GGATCC, AAGCTT). AGCT is too short and not palindromic, making it unlikely."
+  },
+  {
+    "id": 69555,
+    "question": "In genetic engineering, the term 'sticky ends' refers to",
+    "options": [
+      "Effects on mRNA post-transcription",
+      "Results of DNA replisome",
+      "Product produced by most restriction enzymes",
+      "Changes from inversion mutation"
+    ],
+    "correct_answer": "Product produced by most restriction enzymes",
+    "explanation": "Sticky ends are single-stranded DNA overhangs produced by restriction enzymes (e.g., EcoRI). They facilitate ligation in genetic engineering, unlike mRNA, replisome, or mutations."
+  },
+  {
+    "id": 69556,
+    "question": "DNA ligase is used to",
+    "options": [
+      "Initiate DNA synthesis",
+      "Stabilize DNA helix",
+      "Identify operon site",
+      "Join Okazaki fragments"
+    ],
+    "correct_answer": "Join Okazaki fragments",
+    "explanation": "DNA ligase joins phosphodiester bonds, linking Okazaki fragments in lagging-strand replication and recombinant DNA. Initiation is by primase; stabilization by topoisomerase; operon sites are for transcription."
+  },
+  {
+    "id": 69557,
+    "question": "Which of the following is not a steroid?",
+    "options": [
+      "Cortisone",
+      "Progesterone",
+      "Glycolipid",
+      "Ergosterol"
+    ],
+    "correct_answer": "Glycolipid",
+    "explanation": "Steroids (e.g., cortisone, progesterone, ergosterol) have a four-ring structure. Glycolipids are lipids with carbohydrate groups, not steroids."
+  },
+  {
+    "id": 69558,
+    "question": "Which of the following statements regarding the properties of starch is not correct?",
+    "options": [
+      "Presence of amylose and amylopectin",
+      "Stored food in plants",
+      "Soluble in water",
+      "Not sweet"
+    ],
+    "correct_answer": "Soluble in water",
+    "explanation": "Starch, composed of amylose (linear) and amylopectin (branched), is insoluble in water but forms colloidal suspensions. It’s a plant storage polysaccharide and not sweet."
+  },
+  {
+    "id": 69559,
+    "question": "Which one of the following pairs is not correctly matched?",
+    "options": [
+      "Triose sugar ➮ Glyceraldehyde ➮ Aldo sugar",
+      "Pentose sugar ➮ Ribulose ➮ Keto sugar",
+      "Hexose sugar ➮ Fructose ➮ Aldo sugar",
+      "Triose sugar ➮ Dihydroxyacetone ➮ Keto sugar"
+    ],
+    "correct_answer": "Hexose sugar ➮ Fructose ➮ Aldo sugar",
+    "explanation": "Fructose is a keto sugar (ketose), not an aldo sugar (aldose). Glyceraldehyde is an aldo triose; ribulose is a keto pentose; dihydroxyacetone is a keto triose."
+  },
+  {
+    "id": 69560,
+    "question": "Which of the following pairs regarding the biological importance of carbohydrates is not correctly matched?",
+    "options": [
+      "Cellulose ➮ Plant cell wall",
+      "Glycogen ➮ Reserve food in animals",
+      "Ribose sugar ➮ Structural component of ATP",
+      "Galactose ➮ Most widely used in respiration"
+    ],
+    "correct_answer": "Galactose ➮ Most widely used in respiration",
+    "explanation": "Glucose, not galactose, is the primary substrate for cellular respiration. Cellulose forms plant cell walls; glycogen stores energy in animals; ribose is in ATP/RNA."
+  },
+  {
+    "id": 69561,
+    "question": "Which of the following is not an example of a keto sugar?",
+    "options": [
+      "Fructose",
+      "Ribulose",
+      "Ribose",
+      "Dihydroxyacetone"
+    ],
+    "correct_answer": "Ribose",
+    "explanation": "Keto sugars (ketoses) have a ketone group (e.g., fructose, ribulose, dihydroxyacetone). Ribose is an aldo sugar (aldose) with an aldehyde group."
+  },
+  {
+    "id": 69562,
+    "question": "Which of the following pairs is not correctly matched?",
+    "options": [
+      "Butter ➮ Glycerol + 3 Fatty acids",
+      "Waxes ➮ Monohydroxy alcohol + 1 Fatty acid",
+      "Cortisone ➮ Presence of –COOH group",
+      "Glycolipid ➮ Glycerol + Lipid"
+    ],
+    "correct_answer": "Cortisone ➮ Presence of –COOH group",
+    "explanation": "Cortisone (a steroid) has keto and hydroxyl groups, not –COOH (carboxylic acid). Butter is a triglyceride; waxes are esters; glycolipids combine glycerol, lipids, and carbohydrates."
+  },
+  {
+    "id": 69563,
+    "question": "Which one of these is not a lipid?",
+    "options": [
+      "Fats",
+      "Oils",
+      "Proteins",
+      "Waxes"
+    ],
+    "correct_answer": "Proteins",
+    "explanation": "Lipids include fats, oils, and waxes (hydrophobic, energy-rich). Proteins are amino acid polymers, not lipids."
+  },
+  {
+    "id": 69564,
+    "question": "What type of glycosidic bond links glucose units in amylose?",
+    "options": [
+      "α-1,4",
+      "β-1,4",
+      "α-1,6",
+      "Peptide bond"
+    ],
+    "correct_answer": "α-1,4",
+    "explanation": "Amylose is a linear starch polymer with glucose units linked by α-1,4 glycosidic bonds. β-1,4 is in cellulose; α-1,6 is in amylopectin branches; peptide bonds are in proteins."
+  },
+  {
+    "id": 69565,
+    "question": "Which factor contributes most to the fluidity of a lipid bilayer?",
+    "options": [
+      "Degree of unsaturation in fatty acids",
+      "Presence of glycerol",
+      "Length of fatty acid chains",
+      "Presence of cholesterol"
+    ],
+    "correct_answer": "Degree of unsaturation in fatty acids",
+    "explanation": "Unsaturated fatty acids (double bonds) introduce kinks, increasing bilayer fluidity. Glycerol is structural; chain length affects packing; cholesterol modulates fluidity."
+  },
+  {
+    "id": 69566,
+    "question": "Which component is NOT part of a nucleotide?",
+    "options": [
+      "Nitrogenous base",
+      "Phosphate group",
+      "Pentose sugar",
+      "Amino acid"
+    ],
+    "correct_answer": "Amino acid",
+    "explanation": "Nucleotides consist of a nitrogenous base, phosphate group, and pentose sugar (ribose/deoxyribose). Amino acids are protein components, not nucleotides."
+  },
+  {
+    "id": 69567,
+    "question": "Lipids are relatively insoluble in…",
+    "options": [
+      "Chloroform",
+      "Water",
+      "Benzene",
+      "Ether"
+    ],
+    "correct_answer": "Water",
+    "explanation": "Lipids are hydrophobic, insoluble in water but soluble in non-polar solvents (chloroform, benzene, ether) due to their non-polar hydrocarbon chains."
+  },
+  {
+    "id": 69568,
+    "question": "Which of the following statements regarding fatty acids is not correct?",
+    "options": [
+      "Unsaturated fatty acids have double bonds",
+      "Saturated fatty acids accept hydrogen",
+      "Butyric and palmitic are saturated",
+      "Crotonic and oleic are unsaturated"
+    ],
+    "correct_answer": "Crotonic and oleic are unsaturated",
+    "explanation": "Crotonic and oleic acids are unsaturated (contain double bonds). Unsaturated fatty acids have C=C bonds; saturated ones (e.g., butyric, palmitic) can accept H₂."
+  },
+  {
+    "id": 69569,
+    "question": "Which of the following statements regarding lipids is not correct?",
+    "options": [
+      "Three types: simple, complex, steroids",
+      "Heterogeneous group related to fatty acids",
+      "High energy value in diet",
+      "Lipids have fewer H atoms than O"
+    ],
+    "correct_answer": "Lipids have fewer H atoms than O",
+    "explanation": "Lipids (e.g., triglycerides) have more H than O (e.g., C₅₇H₁₁₀O₆). They are simple (fats), complex (phospholipids), or steroids, related to fatty acids, and energy-rich."
+  },
+  {
+    "id": 69570,
+    "question": "Which of the following statements regarding amylose is not correct?",
+    "options": [
+      "Unbranched polysaccharide of glucose",
+      "Amylose occurs in glycogen",
+      "Occurs in starch",
+      "None of these"
+    ],
+    "correct_answer": "Amylose occurs in glycogen",
+    "explanation": "Amylose is a linear glucose polymer (α-1,4 bonds) in starch, not glycogen (which has amylopectin-like structure). It’s unbranched and abundant in starch."
+  },
+  {
+    "id": 69571,
+    "question": "The abundantly distributed enzyme in germinating seeds and adipocytes is",
+    "options": [
+      "Lipase",
+      "Proteases",
+      "Cellulase",
+      "Nuclease"
+    ],
+    "correct_answer": "Lipase",
+    "explanation": "Lipase breaks down lipids into glycerol and fatty acids in seeds (energy mobilization) and adipocytes (fat storage). Proteases degrade proteins; cellulase breaks cellulose; nuclease degrades nucleic acids."
+  },
+  {
+    "id": 69572,
+    "question": "Rancidity of lipid-rich foodstuffs is because of",
+    "options": [
+      "Reduction of fatty acids",
+      "Hydrogenation of unsaturated fatty acids",
+      "Dehydrogenation of saturated fatty acids",
+      "Oxidation of fatty acids"
+    ],
+    "correct_answer": "Oxidation of fatty acids",
+    "explanation": "Rancidity results from fatty acid oxidation, producing off-flavors/odors. Reduction adds H; hydrogenation saturates bonds; dehydrogenation removes H."
+  },
+  {
+    "id": 69573,
+    "question": "The chemical formula of starch is…",
+    "options": [
+      "(C6H10O5)n",
+      "(C6H12O6)n",
+      "C12H22O11",
+      "CH3COOH"
+    ],
+    "correct_answer": "(C6H10O5)n",
+    "explanation": "Starch is a glucose polymer, (C₆H₁₀O₅)ₙ. C₆H₁₂O₆ is glucose; C₁₂H₂₂O₁₁ is sucrose; CH₃COOH is acetic acid."
+  },
+  {
+    "id": 69574,
+    "question": "Find out the wrongly matched pair",
+    "options": [
+      "Primary metabolite - Ribose",
+      "Secondary metabolite - Insulin",
+      "Protein - Insulin",
+      "Cellulose - Heteropolymer"
+    ],
+    "correct_answer": "Secondary metabolite - Insulin",
+    "explanation": "Insulin is a primary metabolite (protein hormone essential for metabolism). Ribose is a primary metabolite; insulin is a protein; cellulose is a heteropolymer."
+  },
+  {
+    "id": 69575,
+    "question": "Chitin is a…",
+    "options": [
+      "Polysaccharide",
+      "Nitrogenous polysaccharide",
+      "Lipoprotein",
+      "Protein"
+    ],
+    "correct_answer": "Nitrogenous polysaccharide",
+    "explanation": "Chitin is a nitrogenous polysaccharide (N-acetylglucosamine polymer) in fungal walls and arthropod exoskeletons. It’s not a simple polysaccharide, lipoprotein, or protein."
+  },
+  {
+    "id": 69576,
+    "question": "In a polysaccharide, the individual monosaccharides are linked by a…",
+    "options": [
+      "Glycosidic bond",
+      "Peptide bond",
+      "Ester bond",
+      "Phosphodiester bond"
+    ],
+    "correct_answer": "Glycosidic bond",
+    "explanation": "Polysaccharides (e.g., starch, cellulose) are linked by glycosidic bonds between monosaccharides. Peptide bonds link amino acids; ester bonds are in lipids; phosphodiester bonds are in DNA/RNA."
+  },
+  {
+    "id": 69577,
+    "question": "Generally, protein and carbohydrate components are found in cow milk…",
+    "options": [
+      "Albumin, Lactose",
+      "Globulin, Casein",
+      "Casein, Lactose",
+      "Casein, Fructose"
+    ],
+    "correct_answer": "Casein, Lactose",
+    "explanation": "Cow milk contains casein (major protein) and lactose (disaccharide). Albumin and globulin are minor; fructose is not in milk."
+  },
+  {
+    "id": 69578,
+    "question": "Starch and cellulose are compounds made up of many units of…",
+    "options": [
+      "Simple sugar",
+      "Fatty acid",
+      "Glycerol",
+      "Amino acid"
+    ],
+    "correct_answer": "Simple sugar",
+    "explanation": "Starch and cellulose are polysaccharides of glucose (simple sugar). Fatty acids and glycerol form lipids; amino acids form proteins."
+  },
+  {
+    "id": 69579,
+    "question": "Which of the following is a characteristic of plants?",
+    "options": [
+      "Glucose and Cellulose",
+      "Pyruvic acid and Glucose",
+      "Cellulose and Starch",
+      "Starch and Pyruvic acid"
+    ],
+    "correct_answer": "Cellulose and Starch",
+    "explanation": "Plants store energy as starch and have cell walls of cellulose. Glucose is universal; pyruvic acid is a metabolic intermediate, not plant-specific."
+  },
+  {
+    "id": 69580,
+    "question": "The most common monomer of carbohydrates is…",
+    "options": [
+      "Glucose",
+      "Fructose",
+      "Sucrose",
+      "Maltose"
+    ],
+    "correct_answer": "Glucose",
+    "explanation": "Glucose is the most common carbohydrate monomer, forming starch, cellulose, and glycogen. Fructose is less common; sucrose and maltose are disaccharides."
+  },
+  {
+    "id": 69581,
+    "question": "Lipids are insoluble in water because lipid molecules are…",
+    "options": [
+      "Neutral",
+      "Zwitter ions",
+      "Hydrophobic",
+      "Hydrophilic"
+    ],
+    "correct_answer": "Hydrophobic",
+    "explanation": "Lipids’ non-polar hydrocarbon chains make them hydrophobic, insoluble in water. Neutrality varies; zwitterions are in amino acids; hydrophilic molecules dissolve in water."
+  },
+  {
+    "id": 69582,
+    "question": "The most abundant organic compounds in cells are…",
+    "options": [
+      "Proteins",
+      "Lipids",
+      "Nucleic acids",
+      "Carbohydrates"
+    ],
+    "correct_answer": "Proteins",
+    "explanation": "Proteins (~50-60% of cell dry weight) are most abundant due to their roles in structure, enzymes, and signaling. Carbohydrates and lipids are less abundant; nucleic acids are minimal."
+  },
+  {
+    "id": 69583,
+    "question": "All __________ are proteins, and they control the whole metabolism of the cell…",
+    "options": [
+      "Hormones",
+      "Antibodies",
+      "Enzymes",
+      "Immunoglobulins"
+    ],
+    "correct_answer": "Enzymes",
+    "explanation": "Enzymes (proteins) catalyze metabolic reactions, controlling cell metabolism. Some hormones are proteins; antibodies and immunoglobulins are proteins but not metabolic controllers."
+  },
+  {
+    "id": 69584,
+    "question": "The organic biomolecules that exhibit maximum physiological diversity in living beings are…",
+    "options": [
+      "Lipids",
+      "Proteins",
+      "Nucleic acids",
+      "Carbohydrates"
+    ],
+    "correct_answer": "Proteins",
+    "explanation": "Proteins have diverse sequences and functions (enzymes, structural, signaling), giving maximum physiological diversity. Lipids, nucleic acids, and carbohydrates are less versatile."
+  },
+  {
+    "id": 69585,
+    "question": "Some proteins work as carriers and transport specific substances, for example…",
+    "options": [
+      "Immunoglobulins",
+      "Enzymes",
+      "Albumins",
+      "Hemoglobin"
+    ],
+    "correct_answer": "Hemoglobin",
+    "explanation": "Hemoglobin transports oxygen in blood. Immunoglobulins are antibodies; enzymes catalyze reactions; albumins maintain osmotic pressure, not specific transport."
+  },
+  {
+    "id": 69586,
+    "question": "The protein that prevents blood loss after injury is…",
+    "options": [
+      "Albumin",
+      "Fibrin",
+      "Globulin",
+      "Keratin"
+    ],
+    "correct_answer": "Fibrin",
+    "explanation": "Fibrin forms blood clots to prevent bleeding. Albumin regulates osmosis; globulins are antibodies; keratin is structural."
+  },
+  {
+    "id": 69587,
+    "question": "These are polymers of amino acids…",
+    "options": [
+      "Hormones",
+      "Enzymes",
+      "Hemoglobin",
+      "Proteins"
+    ],
+    "correct_answer": "Proteins",
+    "explanation": "Proteins are amino acid polymers. Hormones (some are proteins), enzymes, and hemoglobin are specific protein types, but ‘proteins’ is the general term."
+  },
+  {
+    "id": 69588,
+    "question": "Amino acids mostly contain the following elements…",
+    "options": [
+      "C, N, O, H",
+      "C, N, S, O, H",
+      "C, S, O, H",
+      "C, N, S, O"
+    ],
+    "correct_answer": "C, N, S, O, H",
+    "explanation": "Amino acids (H₂N-CHR-COOH) contain C, N, O, H; some (e.g., cysteine) include S. All listed elements are correct in context."
+  },
+  {
+    "id": 69589,
+    "question": "All amino acids invariably have the following components, EXCEPT…",
+    "options": [
+      "NH2",
+      "H",
+      "COOH",
+      "CH3"
+    ],
+    "correct_answer": "CH3",
+    "explanation": "Amino acids have NH₂ (amino), COOH (carboxyl), H, and R-group on the alpha carbon. CH₃ is specific to alanine’s R-group, not universal."
+  },
+  {
+    "id": 69590,
+    "question": "All amino acids have an amino group and a carboxyl group attached to the same carbon atom, also known as…",
+    "options": [
+      "Central carbon",
+      "Major carbon",
+      "Alpha carbon",
+      "Beta carbon"
+    ],
+    "correct_answer": "Alpha carbon",
+    "explanation": "The alpha carbon in amino acids (H₂N-CHR-COOH) binds NH₂, COOH, H, and R-group. It’s not central, major, or beta (which is the next carbon)."
+  },
+  {
+    "id": 69591,
+    "question": "Amino acids mainly differ due to the type or nature of…",
+    "options": [
+      "Carboxyl group",
+      "R-group",
+      "Amino group",
+      "Methyl group"
+    ],
+    "correct_answer": "R-group",
+    "explanation": "The R-group (side chain) varies among amino acids, determining their properties (e.g., polar, non-polar). NH₂ and COOH are constant; methyl is specific to alanine."
+  },
+  {
+    "id": 69592,
+    "question": "The _______ group of one amino acid may react with the _______ group of another, releasing water to form a dipeptide.",
+    "options": [
+      "Functional, Amino",
+      "Amino, Amino",
+      "Carboxyl, Carboxyl",
+      "Carboxyl, Amino"
+    ],
+    "correct_answer": "Carboxyl, Amino",
+    "explanation": "A peptide bond forms when the carboxyl group (COOH) of one amino acid reacts with the amino group (NH₂) of another, releasing H₂O (condensation)."
+  },
+  {
+    "id": 69593,
+    "question": "If the R-group is a hydrogen atom, the amino acid will be…",
+    "options": [
+      "Alanine",
+      "Glycine",
+      "Leucine",
+      "Tyrosine"
+    ],
+    "correct_answer": "Glycine",
+    "explanation": "Glycine has H as its R-group (H₂N-CH₂-COOH). Alanine has CH₃; leucine and tyrosine have larger R-groups."
+  },
+  {
+    "id": 69594,
+    "question": "A peptide bond is a…",
+    "options": [
+      "C-O bond",
+      "C-N bond",
+      "C-C bond",
+      "C-O-P bond"
+    ],
+    "correct_answer": "C-N bond",
+    "explanation": "A peptide bond is a C-N bond between the carboxyl C and amino N, formed by condensation. C-O is in esters; C-C is structural; C-O-P is in nucleotides."
+  },
+  {
+    "id": 69595,
+    "question": "A dipeptide has an/a _______ group at one end and a _________ group at the other end of the molecule.",
+    "options": [
+      "Amino, Carboxyl",
+      "Amino, Functional",
+      "Functional, Carboxyl",
+      "Amino, Amino"
+    ],
+    "correct_answer": "Amino, Carboxyl",
+    "explanation": "A dipeptide (e.g., H₂N-CHR-CONH-CHR-COOH) has a free NH₂ at the N-terminus and COOH at the C-terminus. Functional is vague; both ends aren’t identical."
+  },
+  {
+    "id": 69596,
+    "question": "A dipeptide glycylalanine consists of…",
+    "options": [
+      "Glycine and glycine",
+      "Glycine and alanine",
+      "Alanine and alanine",
+      "Glycine and valine"
+    ],
+    "correct_answer": "Glycine and alanine",
+    "explanation": "Glycylalanine is a dipeptide with glycine (N-terminus) linked to alanine (C-terminus) via a peptide bond."
+  },
+  {
+    "id": 69597,
+    "question": "Each protein has specific properties determined by the…",
+    "options": [
+      "Number of amino acids",
+      "Specific sequence of amino acids",
+      "Shape of amino acids",
+      "Number and specific sequence"
+    ],
+    "correct_answer": "Specific sequence of amino acids",
+    "explanation": "Protein function depends on the specific amino acid sequence (primary structure), dictating folding and activity. Number alone or shape is insufficient."
+  },
+  {
+    "id": 69598,
+    "question": "Proteins have _____ levels of organization.",
+    "options": [
+      "Two",
+      "Three",
+      "Four",
+      "Five"
+    ],
+    "correct_answer": "Four",
+    "explanation": "Proteins have four structural levels: primary (sequence), secondary (α-helix, β-sheet), tertiary (3D fold), quaternary (multi-subunit)."
+  },
+  {
+    "id": 69599,
+    "question": "F. Sanger was the first scientist who determined the _________ structure of a protein molecule.",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correct_answer": "Primary",
+    "explanation": "F. Sanger sequenced insulin’s primary structure (amino acid order) in 1955. Secondary, tertiary, and quaternary structures were later elucidated."
+  },
+  {
+    "id": 69600,
+    "question": "One chain of insulin consists of _____ amino acids, and the other has ______ amino acids.",
+    "options": [
+      "21, 30",
+      "20, 31",
+      "31, 20",
+      "22, 29"
+    ],
+    "correct_answer": "21, 30",
+    "explanation": "Insulin has two chains: A (21 amino acids) and B (30 amino acids), linked by disulfide bonds."
+  },
+  {
+    "id": 69601,
+    "question": "Both chains of insulin are held together by…",
+    "options": [
+      "Peptide bonds",
+      "Disulphide bonds",
+      "Hydrogen bonds",
+      "Glycosidic bonds"
+    ],
+    "correct_answer": "Disulphide bonds",
+    "explanation": "Insulin’s A and B chains are linked by disulfide bonds (S-S) between cysteine residues. Peptide bonds form the backbone; hydrogen bonds stabilize folding; glycosidic bonds are in carbohydrates."
+  },
+  {
+    "id": 69602,
+    "question": "The primary structure of proteins is stabilized by…",
+    "options": [
+      "Disulphide bonds",
+      "Hydrogen bonds",
+      "Hydrophobic interaction",
+      "Peptide bonds"
+    ],
+    "correct_answer": "Peptide bonds",
+    "explanation": "Primary structure (amino acid sequence) is held by peptide bonds (C-N). Disulfide, hydrogen, and hydrophobic interactions stabilize higher-order structures."
+  },
+  {
+    "id": 69603,
+    "question": "Hemoglobin is composed of…",
+    "options": [
+      "Two alpha chains",
+      "Two beta chains",
+      "Two alpha and two beta chains",
+      "Four alpha chains"
+    ],
+    "correct_answer": "Two alpha and two beta chains",
+    "explanation": "Hemoglobin has four subunits: two alpha and two beta chains, each with a heme group for oxygen binding."
+  },
+  {
+    "id": 69604,
+    "question": "Each alpha chain of hemoglobin consists of…",
+    "options": [
+      "151 amino acids",
+      "146 amino acids",
+      "141 amino acids",
+      "156 amino acids"
+    ],
+    "correct_answer": "141 amino acids",
+    "explanation": "Hemoglobin’s alpha chain has 141 amino acids, forming part of its globular structure."
+  },
+  {
+    "id": 69605,
+    "question": "Each beta chain of hemoglobin consists of…",
+    "options": [
+      "146 amino acids",
+      "156 amino acids",
+      "141 amino acids",
+      "151 amino acids"
+    ],
+    "correct_answer": "146 amino acids",
+    "explanation": "Hemoglobin’s beta chain has 146 amino acids, slightly longer than the alpha chain."
+  },
+  {
+    "id": 69606,
+    "question": "Number of amino acids incorporated in beta chains of a hemoglobin molecule is…",
+    "options": [
+      "280",
+      "282",
+      "292",
+      "290"
+    ],
+    "correct_answer": "292",
+    "explanation": "Hemoglobin has two beta chains, each with 146 amino acids: 2 × 146 = 292."
+  },
+  {
+    "id": 69607,
+    "question": "Number of peptide bonds in the primary structure of a hemoglobin molecule is…",
+    "options": [
+      "574",
+      "570",
+      "572",
+      "573"
+    ],
+    "correct_answer": "570",
+    "explanation": "Hemoglobin has 574 amino acids (2 × 141 + 2 × 146). Peptide bonds = amino acids – 1 per chain: (141–1) + (141–1) + (146–1) + (146–1) = 570."
+  },
+  {
+    "id": 69608,
+    "question": "Number of peptide bonds in the primary structure of the shorter chain of insulin is…",
+    "options": [
+      "30",
+      "21",
+      "20",
+      "19"
+    ],
+    "correct_answer": "20",
+    "explanation": "Insulin’s shorter chain (A) has 21 amino acids, forming 21–1 = 20 peptide bonds."
+  },
+  {
+    "id": 69609,
+    "question": "The size of a protein molecule at the primary level is determined by…",
+    "options": [
+      "Number of amino acids",
+      "Type of amino acids",
+      "Number and sequence of amino acids",
+      "Number and specific sequence"
+    ],
+    "correct_answer": "Number and sequence of amino acids",
+    "explanation": "Primary structure size depends on the number and sequence of amino acids, defining length and composition."
+  },
+  {
+    "id": 69610,
+    "question": "Proteins in the human body are composed of a unique and specific arrangement of…",
+    "options": [
+      "25 types",
+      "20 types",
+      "Over 20 types",
+      "Less than 20 types"
+    ],
+    "correct_answer": "20 types",
+    "explanation": "Human proteins use 20 standard amino acids, arranged uniquely to form diverse proteins."
+  },
+  {
+    "id": 69611,
+    "question": "Due to the unique arrangement of amino acids, more than _____ different proteins are found in the human body…",
+    "options": [
+      "10,000",
+      "1000",
+      "10,0000",
+      "100"
+    ],
+    "correct_answer": "10,000",
+    "explanation": "Over 10,000 proteins exist in humans due to unique amino acid sequences enabling diverse functions."
+  },
+  {
+    "id": 69612,
+    "question": "For proper functioning, a protein should have its amino acids in…",
+    "options": [
+      "Random arrangement",
+      "Specific medium",
+      "Specific arrangement",
+      "Ascending order"
+    ],
+    "correct_answer": "Specific arrangement",
+    "explanation": "Protein function requires a specific amino acid sequence (primary structure) for correct folding and activity."
+  },
+  {
+    "id": 69613,
+    "question": "The physiological ill effect of changing the amino acid sequence of a protein is…",
+    "options": [
+      "Uremia",
+      "Hypoglycemia",
+      "Goiter",
+      "Sickle cell anemia"
+    ],
+    "correct_answer": "Sickle cell anemia",
+    "explanation": "Sickle cell anemia results from a point mutation (glutamic acid to valine) in hemoglobin’s beta chain, altering shape and function. Uremia, hypoglycemia, and goiter are unrelated."
+  },
+  {
+    "id": 69614,
+    "question": "If one amino acid out of 574 in hemoglobin is replaced, it will lose the following properties, EXCEPT…",
+    "options": [
+      "Shape",
+      "Functional capacity",
+      "Oxygen-carrying capacity",
+      "Quaternary level"
+    ],
+    "correct_answer": "Quaternary level",
+    "explanation": "A mutation (e.g., sickle cell) alters hemoglobin’s shape, function, and O₂ capacity but retains its quaternary structure (two alpha, two beta chains)."
+  },
+  {
+    "id": 69615,
+    "question": "Hypoxia, from a change in hemoglobin, originates at the ________ level of structure…",
+    "options": [
+      "Quaternary",
+      "Tertiary",
+      "Secondary",
+      "Primary"
+    ],
+    "correct_answer": "Primary",
+    "explanation": "Hypoxia in sickle cell anemia starts with a primary structure mutation (amino acid change), affecting higher-order structures and function."
+  },
+  {
+    "id": 69616,
+    "question": "Polypeptide chains in a protein usually do not…",
+    "options": [
+      "Remain stable",
+      "Lie flat",
+      "Acquire coiling",
+      "Acquire folding"
+    ],
+    "correct_answer": "Lie flat",
+    "explanation": "Proteins coil (secondary) and fold (tertiary/quaternary), stabilized by bonds. They don’t lie flat due to structural complexity."
+  },
+  {
+    "id": 69617,
+    "question": "The example of a structural protein is…",
+    "options": [
+      "Hemoglobin",
+      "Albumin",
+      "Antibodies",
+      "Collagen"
+    ],
+    "correct_answer": "Collagen",
+    "explanation": "Collagen provides structural support (e.g., connective tissue). Hemoglobin transports O₂; albumin regulates osmosis; antibodies are immune proteins."
+  },
+  {
+    "id": 69618,
+    "question": "One of the common secondary structures of a protein is…",
+    "options": [
+      "α-helix",
+      "β-helix",
+      "γ helix",
+      "Pi helix"
+    ],
+    "correct_answer": "α-helix",
+    "explanation": "The α-helix is a common secondary structure, stabilized by hydrogen bonds. β-helix, γ-helix, and pi-helix are not standard protein structures."
+  },
+  {
+    "id": 69619,
+    "question": "It is a uniform geometric structure with 3.6 amino acids per turn of the helix…",
+    "options": [
+      "α-helix",
+      "β-helix",
+      "α-pleated sheet",
+      "β-pleated sheet"
+    ],
+    "correct_answer": "α-helix",
+    "explanation": "The α-helix has 3.6 amino acids per turn, stabilized by hydrogen bonds. β-sheet is flat; β-helix and α-pleated sheet are not standard terms."
+  },
+  {
+    "id": 69620,
+    "question": "The helical structure of secondary protein is kept by the formation of _______ among amino acids in successive turns…",
+    "options": [
+      "Ionic bond",
+      "Peptide bond",
+      "Hydrogen bond",
+      "Disulphide bond"
+    ],
+    "correct_answer": "Hydrogen bond",
+    "explanation": "Hydrogen bonds between C=O and N-H groups in the polypeptide backbone stabilize the α-helix. Ionic and disulfide bonds are tertiary; peptide bonds form the backbone."
+  },
+  {
+    "id": 69621,
+    "question": "It is formed by the folding back of the polypeptide chain…",
+    "options": [
+      "α-helix",
+      "β-helix",
+      "α-pleated sheet",
+      "β-pleated sheet"
+    ],
+    "correct_answer": "β-pleated sheet",
+    "explanation": "The β-pleated sheet forms when the polypeptide folds back, stabilized by hydrogen bonds between strands. α-helix is coiled; β-helix and α-pleated sheet are incorrect."
+  },
+  {
+    "id": 104358,
+    "question": "Pick up the triose.",
+    "options": [
+      "Glyceraldehyde",
+      "Fructose",
+      "Ribose",
+      "Glucose"
+    ],
+    "correct_answer": "Glyceraldehyde",
+    "explanation": "A triose is a monosaccharide with three carbon atoms. Glyceraldehyde is a triose, while fructose, ribose, and glucose are hexoses (six carbon atoms) or pentoses (five carbon atoms)."
+  },
+  {
+    "id": 104359,
+    "question": "Choose the incorrect pair from the following.",
+    "options": [
+      "Nucleus - RNA",
+      "Lysosome - Protein synthesis",
+      "Mitochondria - Respiration",
+      "Cytoskeleton - Microtubules"
+    ],
+    "correct_answer": "Lysosome - Protein synthesis",
+    "explanation": "Lysosomes are involved in degradation and recycling, not protein synthesis. Protein synthesis occurs in ribosomes. The other pairs are correct: the nucleus contains RNA, mitochondria are sites of respiration, and the cytoskeleton includes microtubules."
+  },
+  {
+    "id": 104360,
+    "question": "Photo-respiration can generate:",
+    "options": [
+      "4-ATP",
+      "36-ATP",
+      "32-ATP",
+      "No-ATP"
+    ],
+    "correct_answer": "No-ATP",
+    "explanation": "Photorespiration is a process in plants that consumes oxygen and releases carbon dioxide without generating ATP, unlike photosynthesis or cellular respiration."
+  },
+  {
+    "id": 104361,
+    "question": "Pick up the fibrous protein:",
+    "options": [
+      "Keratin",
+      "Hemoglobin",
+      "Enzyme",
+      "Antibodies"
+    ],
+    "correct_answer": "Keratin",
+    "explanation": "Keratin is a fibrous protein that provides structural support (e.g., in hair and nails). Hemoglobin, enzymes, and antibodies are globular proteins with functional roles, not structural."
+  },
+  {
+    "id": 104362,
+    "question": "Which one of the following enzymes works fastest at neutral pH?",
+    "options": [
+      "Amylase",
+      "Invertase",
+      "Catalase",
+      "None"
+    ],
+    "correct_answer": "Amylase",
+    "explanation": "Amylase, particularly salivary and pancreatic amylase, functions optimally at a neutral pH (around 6.7-7.0) to digest starch. Invertase and catalase work best at acidic and slightly basic pH ranges, respectively."
+  },
+  {
+    "id": 104363,
+    "question": "Which one is the most abundant protein on earth?",
+    "options": [
+      "Keratin",
+      "Rubisco",
+      "Thrombin",
+      "None of these"
+    ],
+    "correct_answer": "Rubisco",
+    "explanation": "Rubisco (Ribulose-1,5-bisphosphate carboxylase/oxygenase) is the most abundant protein on Earth, found in plants, algae, and some bacteria, where it plays a key role in photosynthesis."
+  },
+  {
+    "id": 104364,
+    "question": "It is energy currency of the cell",
+    "options": [
+      "ATP",
+      "GTP",
+      "CTP",
+      "dTTP"
+    ],
+    "correct_answer": "ATP",
+    "explanation": "Adenosine triphosphate (ATP) is the primary energy currency of the cell, used to store and transfer energy for metabolic processes. Other nucleotides like GTP, CTP, and dTTP have specialized roles."
+  },
+  {
+    "id": 104365,
+    "question": "Which of the following is heterogeneous group?",
+    "options": [
+      "Lipid",
+      "Nucleic acid",
+      "Chitin",
+      "Protein"
+    ],
+    "correct_answer": "Lipid",
+    "explanation": "Lipids are a heterogeneous group of organic compounds, including fats, oils, waxes, and steroids, which vary widely in structure and function. Nucleic acids, chitin, and proteins are more uniform in their composition."
+  },
+  {
+    "id": 104366,
+    "question": "At which level of protein hydrophobic interaction are absent altogether?",
+    "options": [
+      "Primary level only",
+      "Primary and secondary level",
+      "Primary, secondary and tertiary level",
+      "Secondary and quaternary level"
+    ],
+    "correct_answer": "Primary level only",
+    "explanation": "Hydrophobic interactions occur at the secondary, tertiary, and quaternary levels of protein structure due to the folding of the polypeptide chain. The primary level involves only the sequence of amino acids linked by peptide bonds, where hydrophobic interactions are absent."
+  },
+  {
+    "id": 104367,
+    "question": "Alpha helices in secondary structure are due to",
+    "options": [
+      "Disulphide Bridges",
+      "Peptide bonds",
+      "Hydrogen bondings",
+      "Ionic bonds"
+    ],
+    "correct_answer": "Hydrogen bondings",
+    "explanation": "Alpha helices are stabilized by hydrogen bonds between the backbone atoms of the polypeptide chain, specifically between the carbonyl oxygen and the amide hydrogen of amino acids."
+  },
+  {
+    "id": 104368,
+    "question": "A molecule which is composed of one glycerol molecule, two fatty acid and one phosphate group",
+    "options": [
+      "Phosphatidic acid",
+      "Phosphatidyl choline",
+      "Phospholipid",
+      "Triacylglycerol"
+    ],
+    "correct_answer": "Phosphatidic acid",
+    "explanation": "Phosphatidic acid consists of a glycerol backbone esterified with two fatty acids and one phosphate group. Phosphatidyl choline and phospholipids are more complex derivatives, while triacylglycerol has three fatty acids."
+  },
+  {
+    "id": 104369,
+    "question": "Which of the following is composed of long chain of alcohol and long chain of fatty acid?",
+    "options": [
+      "Neutral lipid",
+      "Waxes",
+      "None of these",
+      "Terpenes"
+    ],
+    "correct_answer": "Waxes",
+    "explanation": "Waxes are esters formed from a long-chain alcohol and a long-chain fatty acid, providing a protective coating in plants and animals. Neutral lipids and terpenes do not fit this composition."
+  },
+  {
+    "id": 104370,
+    "question": "Which of the following is synthesize from isoprenoids",
+    "options": [
+      "Steroid nucleus",
+      "Chlorophyll tail",
+      "beta Carotene",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Isoprenoids are the building blocks for various compounds, including the steroid nucleus, the phytol tail of chlorophyll, and beta-carotene, all of which are biosynthesized from isoprene units."
+  },
+  {
+    "id": 104371,
+    "question": "Pulses store food in the form of",
+    "options": [
+      "Starch",
+      "Protein",
+      "Lipid",
+      "All of these"
+    ],
+    "correct_answer": "Protein",
+    "explanation": "Pulses, such as lentils, beans, and peas, are seeds of leguminous plants and are primarily known for their high protein content, which is their main storage form. While some starch and lipids are present, proteins predominate."
+  },
+  {
+    "id": 104372,
+    "question": "Approximately, % of total content of a cell are tRNA",
+    "options": [
+      "3-4",
+      "15",
+      "80",
+      "None of these"
+    ],
+    "correct_answer": "15",
+    "explanation": "Transfer RNA (tRNA) constitutes approximately 15% of the total RNA content in a cell, which is a significant but small portion of the cell’s overall composition."
+  },
+  {
+    "id": 104373,
+    "question": "A tetrapeptide contains",
+    "options": [
+      "Five Amino acids and four peptide bonds",
+      "Four Amino acids and four peptide bonds",
+      "Four Amino acids and three peptide bonds",
+      "Four Amino acids and five peptide bonds"
+    ],
+    "correct_answer": "Four Amino acids and three peptide bonds",
+    "explanation": "A tetrapeptide consists of four amino acids linked by three peptide bonds, as each bond forms between consecutive amino acids."
+  },
+  {
+    "id": 104374,
+    "question": "The most abundant organic compound in a cell is",
+    "options": [
+      "Protein",
+      "Lipid",
+      "Steroid",
+      "Carbohydrate"
+    ],
+    "correct_answer": "Protein",
+    "explanation": "Proteins constitute about 50–60% of a cell’s dry weight, dominating due to their diverse structural, enzymatic, and regulatory roles."
+  },
+  {
+    "id": 104375,
+    "question": "Which of the following is also known as transport sugar",
+    "options": [
+      "Sucrose",
+      "Maltose",
+      "Lactose",
+      "None of these"
+    ],
+    "correct_answer": "Sucrose",
+    "explanation": "Sucrose, a disaccharide, is the primary form in which carbohydrates are transported through the phloem in plants."
+  },
+  {
+    "id": 104376,
+    "question": "Phospholipid is amphiphilic that contain both polar and hydrophobic region, the polar region contains",
+    "options": [
+      "Glycerol and Phosphate group",
+      "Phosphate group only",
+      "Nitrogenous Organic compound",
+      "Glycerol, Phosphate group, and Nitrogenous Organic compound"
+    ],
+    "correct_answer": "Glycerol, Phosphate group, and Nitrogenous Organic compound",
+    "explanation": "The polar head of phospholipids consists of glycerol, a phosphate group, and often a nitrogenous organic compound (e.g., choline), making it hydrophilic."
+  },
+  {
+    "id": 104377,
+    "question": "Which of the following has the highest solubility in water and has high boiling point",
+    "options": [
+      "Palmitic acid",
+      "Stearic acid",
+      "Both a and b",
+      "Fats are insoluble in water"
+    ],
+    "correct_answer": "Fats are insoluble in water",
+    "explanation": "Palmitic and stearic acids are long-chain fatty acids (fats), which are insoluble in water due to their hydrophobic nature."
+  },
+  {
+    "id": 104378,
+    "question": "Which of the following lipid is not used as an energy source",
+    "options": [
+      "Steroid",
+      "Phytol",
+      "Acylglycerol",
+      "Both a and b"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Steroids (e.g., cholesterol) and phytol have structural or metabolic roles, not energy storage. Acylglycerols (e.g., triglycerides) are primary energy storage lipids."
+  },
+  {
+    "id": 104379,
+    "question": "If all water is removed from a cell, the remaining mass has the major content with",
+    "options": [
+      "Carbohydrates",
+      "Protein",
+      "Lipid",
+      "Nucleic acid"
+    ],
+    "correct_answer": "Protein",
+    "explanation": "Proteins account for 50–60% of a cell’s dry weight due to their roles in structure, catalysis, and regulation."
+  },
+  {
+    "id": 104380,
+    "question": "Test for the presence of lipid in a solution",
+    "options": [
+      "Benedict’s test",
+      "Emulsion test",
+      "Iodine test",
+      "Biuret’s test"
+    ],
+    "correct_answer": "Emulsion test",
+    "explanation": "The emulsion test forms a cloudy emulsion with lipids due to their insolubility in water. Benedict’s, iodine, and Biuret’s tests detect sugars, starch, and proteins, respectively."
+  },
+  {
+    "id": 104381,
+    "question": "If a DNA contains 30% adenine, then find the percentage of guanine",
+    "options": [
+      "30%",
+      "60%",
+      "20%",
+      "None of these"
+    ],
+    "correct_answer": "20%",
+    "explanation": "In DNA, adenine (30%) pairs with thymine (30%), leaving 40% for guanine and cytosine, split equally (20% each)."
+  },
+  {
+    "id": 104382,
+    "question": "ATP when hydrolyzed to ADP and Pi, the energy released which is about",
+    "options": [
+      "10 kcal",
+      "7 kcal",
+      "17 kcal",
+      "8.7 kcal"
+    ],
+    "correct_answer": "7 kcal",
+    "explanation": "ATP hydrolysis to ADP and Pi releases approximately 7 kcal/mol under standard conditions, driving cellular processes."
+  },
+  {
+    "id": 104383,
+    "question": "Which component is common to both DNA and RNA",
+    "options": [
+      "Phosphate group",
+      "Purine",
+      "Cytosine",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Both DNA and RNA contain phosphate groups, purines (adenine, guanine), and cytosine. DNA has thymine, while RNA has uracil."
+  },
+  {
+    "id": 104384,
+    "question": "A segment of DNA has 110 adenine and 110 cytosine bases. The total number of nucleotides present in the segment is",
+    "options": [
+      "220",
+      "440",
+      "110",
+      "None of these"
+    ],
+    "correct_answer": "440",
+    "explanation": "In DNA, 110 adenine pairs with 110 thymine, and 110 cytosine pairs with 110 guanine, totaling 440 nucleotides."
+  },
+  {
+    "id": 104385,
+    "question": "Globular protein differs from fibrous protein in",
+    "options": [
+      "Having amino acids",
+      "Having peptide bonds",
+      "Being soluble in aqueous medium",
+      "Being non-crystalline"
+    ],
+    "correct_answer": "Being soluble in aqueous medium",
+    "explanation": "Globular proteins are soluble due to hydrophilic surfaces, while fibrous proteins are insoluble, forming structural frameworks."
+  },
+  {
+    "id": 104386,
+    "question": "The most abundant organic biological molecule in nature is",
+    "options": [
+      "Protein",
+      "Carbohydrate",
+      "Lipid",
+      "H₂O"
+    ],
+    "correct_answer": "Carbohydrate",
+    "explanation": "Carbohydrates, especially cellulose in plant cell walls, are the most abundant organic molecules in nature."
+  },
+  {
+    "id": 104387,
+    "question": "Which one is unbranched?",
+    "options": [
+      "Chitin",
+      "Glycogen",
+      "Both",
+      "None"
+    ],
+    "correct_answer": "Chitin",
+    "explanation": "Chitin is a linear, unbranched polysaccharide, while glycogen is highly branched."
+  },
+  {
+    "id": 104388,
+    "question": "Is not a homopolysaccharide?",
+    "options": [
+      "Chitin",
+      "Cellulose",
+      "Peptidoglycan",
+      "All"
+    ],
+    "correct_answer": "Peptidoglycan",
+    "explanation": "Peptidoglycan contains two different sugar units (N-acetylglucosamine and N-acetylmuramic acid), making it a heteropolysaccharide."
+  },
+  {
+    "id": 104389,
+    "question": "Vitamin A is a",
+    "options": [
+      "Monoterpene",
+      "Diterpene",
+      "Triterpene",
+      "Polyterpene"
+    ],
+    "correct_answer": "Diterpene",
+    "explanation": "Vitamin A (retinol) is a diterpene, derived from four isoprene units (20 carbons)."
+  },
+  {
+    "id": 104390,
+    "question": "A diterpene is composed of _______ isoprene?",
+    "options": [
+      "One",
+      "Two",
+      "Four",
+      "Eight"
+    ],
+    "correct_answer": "Four",
+    "explanation": "A diterpene consists of four isoprene units, each with five carbons, totaling 20 carbons."
+  },
+  {
+    "id": 104391,
+    "question": "Cellulose of wood, cotton, and paper is an example of:",
+    "options": [
+      "Carbohydrates",
+      "Proteins",
+      "Nucleic acids",
+      "Lipids"
+    ],
+    "correct_answer": "Carbohydrates",
+    "explanation": "Cellulose is a polysaccharide, a type of carbohydrate, forming structural components in plant cell walls."
+  },
+  {
+    "id": 104392,
+    "question": "The main constituents of cell walls in plants, algae, fungi, and eukaryotic microorganisms are:",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "correct_answer": "Carbohydrates",
+    "explanation": "Carbohydrates like cellulose (plants) and chitin (fungi) are the main components of cell walls."
+  },
+  {
+    "id": 104393,
+    "question": "Carbohydrates are composed of:",
+    "options": [
+      "Carbon, nitrogen, and oxygen",
+      "Carbon, hydrogen, oxygen, and phosphorus",
+      "Carbon, hydrogen, oxygen, and nitrogen",
+      "Carbon, hydrogen, and oxygen"
+    ],
+    "correct_answer": "Carbon, hydrogen, and oxygen",
+    "explanation": "Carbohydrates follow the formula Cₓ(H₂O)ᵧ, consisting of carbon, hydrogen, and oxygen."
+  },
+  {
+    "id": 104394,
+    "question": "In simple carbohydrates, the ratio of hydrogen and oxygen is the same as in:",
+    "options": [
+      "Lipids",
+      "Proteins",
+      "Water",
+      "Nucleic acids"
+    ],
+    "correct_answer": "Water",
+    "explanation": "Simple carbohydrates (e.g., glucose, C₆H₁₂O₆) have a 2:1 hydrogen-to-oxygen ratio, like water (H₂O)."
+  },
+  {
+    "id": 104395,
+    "question": "The general formula of carbohydrates is Cₓ(H₂O)ᵧ where ‘x’ is the whole number:",
+    "options": [
+      "From three to many thousands",
+      "From three to seven thousands",
+      "From three to three thousands",
+      "From seven to many thousands"
+    ],
+    "correct_answer": "From three to many thousands",
+    "explanation": "Carbohydrates range from simple monosaccharides (x=3) to complex polysaccharides (x in thousands)."
+  },
+  {
+    "id": 104396,
+    "question": "Reverse transcriptase can convert:",
+    "options": [
+      "Single stranded RNA genome into single stranded DNA",
+      "Single stranded RNA genome into double stranded DNA",
+      "Double stranded DNA genome into single stranded RNA",
+      "Double stranded DNA genome into double stranded RNA"
+    ],
+    "correct_answer": "Single stranded RNA genome into double stranded DNA",
+    "explanation": "Reverse transcriptase synthesizes double-stranded DNA from a single-stranded RNA template in retroviruses."
+  },
+  {
+    "id": 104397,
+    "question": "In case of HIV, only _______ can infect host cells.",
+    "options": [
+      "Single stranded RNA",
+      "Double stranded DNA",
+      "Double stranded RNA",
+      "Single stranded DNA"
+    ],
+    "correct_answer": "Single stranded RNA",
+    "explanation": "HIV’s single-stranded RNA genome, with reverse transcriptase, infects host cells."
+  },
+  {
+    "id": 104398,
+    "question": "The double stranded viral DNA can be incorporated into host T4 genome as a:",
+    "options": [
+      "Prophage",
+      "Provirus",
+      "Bacteriophage",
+      "Phage virus"
+    ],
+    "correct_answer": "Provirus",
+    "explanation": "HIV’s double-stranded DNA integrates into the host genome as a provirus."
+  },
+  {
+    "id": 104399,
+    "question": "Some retroviruses can convert:",
+    "options": [
+      "Cancer cells into normal cells",
+      "Cancer cells into germ line cells",
+      "Cancer cells into degenerated cells",
+      "Normal cells into cancer cells"
+    ],
+    "correct_answer": "Normal cells into cancer cells",
+    "explanation": "Oncogenic retroviruses can transform normal cells into cancer cells via oncogenes or gene disruption."
+  },
+  {
+    "id": 104400,
+    "question": "The AIDS was reported by some physicians in early 1980’s in young homosexual males. They showed following symptoms, EXCEPT:",
+    "options": [
+      "Severe pneumonia and a rare vascular cancer",
+      "Rare pneumonia and a severe vascular cancer",
+      "Sudden weight loss and swollen lymph nodes",
+      "Swollen lymph nodes and general loss of immune functions"
+    ],
+    "correct_answer": "Rare pneumonia and a severe vascular cancer",
+    "explanation": "AIDS symptoms included severe pneumonia, Kaposi’s sarcoma (a rare cancer), weight loss, swollen lymph nodes, and immune loss. ‘Severe vascular cancer’ is not a precise term."
+  },
+  {
+    "id": 104401,
+    "question": "Soon after the initial victims of AIDS, the disease was discovered in _________ patients, who were given blood products.",
+    "options": [
+      "Homosexuals",
+      "Females",
+      "Non-homosexuals",
+      "Transsexuals"
+    ],
+    "correct_answer": "Non-homosexuals",
+    "explanation": "AIDS was found in non-homosexuals, such as hemophiliacs, via contaminated blood products."
+  },
+  {
+    "id": 104402,
+    "question": "The agent causing the AIDS was identified by research teams from:",
+    "options": [
+      "Pasteur Institute in USA",
+      "National Institute of Health in France",
+      "Pasteur Institute in USA and National Institute of Health in France",
+      "Pasteur Institute in France and National Institute of Health in USA"
+    ],
+    "correct_answer": "Pasteur Institute in France and National Institute of Health in USA",
+    "explanation": "HIV was identified by Luc Montagnier (Pasteur Institute, France) and Robert Gallo (NIH, USA)."
+  },
+  {
+    "id": 104403,
+    "question": "Human immunodeficiency virus causes:",
+    "options": [
+      "Severe combined immunodeficiency syndrome",
+      "Acquired immunodeficiency syndrome",
+      "Non-Hodgkin’s lymphoma",
+      "Bubble boy disease"
+    ],
+    "correct_answer": "Acquired immunodeficiency syndrome",
+    "explanation": "HIV causes Acquired Immunodeficiency Syndrome (AIDS) by destroying CD4+ T-cells."
+  },
+  {
+    "id": 104404,
+    "question": "Recent studies on HIV reveal that the virus infects and multiplies in ________ but does not cause disease in them.",
+    "options": [
+      "Heterosexual males",
+      "Young homosexual males",
+      "Monkeys",
+      "Young homosexual females"
+    ],
+    "correct_answer": "Monkeys",
+    "explanation": "Certain monkeys carry SIV, a relative of HIV, without developing AIDS-like symptoms."
+  },
+  {
+    "id": 104405,
+    "question": "Following are the means of transmission of AIDS, EXCEPT:",
+    "options": [
+      "Intimate sexual contact and breast feeding",
+      "Use of common syringes and surgical instruments",
+      "Blood transfusion without screening",
+      "Human immunodeficiency virus"
+    ],
+    "correct_answer": "Human immunodeficiency virus",
+    "explanation": "AIDS is transmitted via sexual contact, breastfeeding, contaminated syringes, and blood transfusions. HIV is the virus, not a transmission route."
+  },
+  {
+    "id": 104406,
+    "question": "HIV is uncoated:",
+    "options": [
+      "Outside the cytoplasm",
+      "At the surface of the host cell",
+      "Inside the cytoplasm",
+      "Inside the nucleus of the host cell"
+    ],
+    "correct_answer": "Inside the cytoplasm",
+    "explanation": "HIV uncoating occurs in the cytoplasm after fusion, releasing the RNA genome."
+  },
+  {
+    "id": 104407,
+    "question": "How many molecules of RNA are found in HIV:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "2",
+    "explanation": "HIV contains two identical single-stranded RNA molecules in its virion."
+  },
+  {
+    "id": 104408,
+    "question": "How many molecules of reverse transcriptase are found in HIV:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correct_answer": "2",
+    "explanation": "Each HIV virion typically contains two reverse transcriptase molecules for RNA-to-DNA conversion."
+  },
+  {
+    "id": 104409,
+    "question": "In the infection cycle of HIV, RNA is converted into DNA duplex by:",
+    "options": [
+      "Replication",
+      "Transcription",
+      "Reverse transcription",
+      "Translation"
+    ],
+    "correct_answer": "Reverse transcription",
+    "explanation": "Reverse transcription, catalyzed by reverse transcriptase, converts HIV’s RNA to double-stranded DNA."
+  },
+  {
+    "id": 104410,
+    "question": "In the infection cycle of HIV, after attachment there comes:",
+    "options": [
+      "Entry",
+      "Uncoiling",
+      "Reverse transcription",
+      "Integration"
+    ],
+    "correct_answer": "Entry",
+    "explanation": "After attachment to CD4 receptors, HIV enters the host cell via membrane fusion."
+  },
+  {
+    "id": 104411,
+    "question": "CD4 receptor-bearing T lymphocyte is infected by:",
+    "options": [
+      "HIV",
+      "HBV",
+      "HCV",
+      "HAV"
+    ],
+    "correct_answer": "HIV",
+    "explanation": "HIV specifically infects cells with CD4 receptors, such as T-helper lymphocytes."
+  },
+  {
+    "id": 104412,
+    "question": "T4 phage consists of:",
+    "options": [
+      "Head",
+      "Tail",
+      "Nucleocapsid",
+      "Head and tail"
+    ],
+    "correct_answer": "Head and tail",
+    "explanation": "T4 phage has a head (containing DNA) and a tail (for attachment and injection)."
+  },
+  {
+    "id": 104413,
+    "question": "The following are true about the head of T4 phage EXCEPT:",
+    "options": [
+      "Hexagonal structure",
+      "Pyramidal structure",
+      "Prism-shaped structure",
+      "An oval structure"
+    ],
+    "correct_answer": "An oval structure",
+    "explanation": "The T4 phage head is icosahedral, often described as hexagonal or prism-shaped, not oval."
+  },
+  {
+    "id": 104414,
+    "question": "“Two triangular structures with a common base” is the description of the structure of ______ of T4 phage.",
+    "options": [
+      "Tail",
+      "Collar",
+      "Head",
+      "Base plate"
+    ],
+    "correct_answer": "Base plate",
+    "explanation": "The T4 phage base plate, at the tail’s end, has a structure of two triangular components sharing a base."
+  },
+  {
+    "id": 104415,
+    "question": "Within the head of T4 phage ________ molecule is present.",
+    "options": [
+      "Single-stranded DNA",
+      "Double-stranded DNA",
+      "Single-stranded RNA",
+      "Double-stranded RNA"
+    ],
+    "correct_answer": "Double-stranded DNA",
+    "explanation": "The T4 phage head contains double-stranded DNA as its genetic material."
+  },
+  {
+    "id": 104416,
+    "question": "The structure of phage ______ is more complex than ______.",
+    "options": [
+      "Head, Tail",
+      "Tail, Head",
+      "Collar, Base plate",
+      "Head, Base plate"
+    ],
+    "correct_answer": "Tail, Head",
+    "explanation": "The T4 phage tail, with core, sheath, and fibers, is more complex than the icosahedral head."
+  },
+  {
+    "id": 104417,
+    "question": "About the tail of T4 phage, which one is not true:",
+    "options": [
+      "Core or tube is made up of distinct protein",
+      "Core or tube is enclosed in sheath",
+      "Core and sheath are made of the same type of protein",
+      "Sheath is made of another type of protein"
+    ],
+    "correct_answer": "Core and sheath are made of the same type of protein",
+    "explanation": "The T4 phage tail core and sheath are made of distinct proteins, not the same type."
+  },
+  {
+    "id": 104418,
+    "question": "The volume of T4 phage is about _____ times shorter than that of the host:",
+    "options": [
+      "01",
+      "10",
+      "100",
+      "1000"
+    ],
+    "correct_answer": "1000",
+    "explanation": "T4 phage is approximately 1000 times smaller in volume than its bacterial host."
+  },
+  {
+    "id": 104419,
+    "question": "Viruses reproduce only in animal and plant cells by replication:",
+    "options": [
+      "Mutualistic parasites",
+      "Extracellular parasites",
+      "Obligate intercellular parasites",
+      "Facultative intercellular parasites"
+    ],
+    "correct_answer": "Obligate intercellular parasites",
+    "explanation": "Viruses replicate only inside host cells, making them obligate intracellular parasites."
+  },
+  {
+    "id": 104420,
+    "question": "The enzymes involved in viral replication are synthesized?",
+    "options": [
+      "By viral ribosomes",
+      "By viral envelope",
+      "By host cell ribosome",
+      "By interior surface of viral capsid"
+    ],
+    "correct_answer": "By host cell ribosome",
+    "explanation": "Viruses use host cell ribosomes to synthesize their enzymes and proteins."
+  },
+  {
+    "id": 104421,
+    "question": "In the lysogenic cycle, DNA of a bacteriophage?",
+    "options": [
+      "Enters into the bacterial chromosome",
+      "Attaches to the inner surface of the host membrane",
+      "Is immediately degraded when it enters the host",
+      "Goes directly to the host’s ribosome for translation"
+    ],
+    "correct_answer": "Enters into the bacterial chromosome",
+    "explanation": "In the lysogenic cycle, bacteriophage DNA integrates as a prophage."
+  },
+  {
+    "id": 104422,
+    "question": "Viroids differ from viruses in?",
+    "options": [
+      "Satellite RNA packed with viral capsid",
+      "Naked RNA molecules only",
+      "Naked DNA packaged with viral capsid",
+      "Naked DNA molecule"
+    ],
+    "correct_answer": "Naked RNA molecules only",
+    "explanation": "Viroids are single-stranded RNA without a protein capsid, unlike viruses."
+  },
+  {
+    "id": 104423,
+    "question": "Which of the following cannot be grown on artificial agar culture medium?",
+    "options": [
+      "Bacteria",
+      "Yeast",
+      "Mold",
+      "Virus"
+    ],
+    "correct_answer": "Virus",
+    "explanation": "Viruses cannot grow on agar as they require living host cells to replicate."
+  },
+  {
+    "id": 104424,
+    "question": "Which viral structure is responsible for attachment to the host cell?",
+    "options": [
+      "Capsid",
+      "Envelope",
+      "Tail fibers",
+      "Nucleoid"
+    ],
+    "correct_answer": "Tail fibers",
+    "explanation": "Tail fibers in bacteriophages like T4 attach to host cell receptors."
+  },
+  {
+    "id": 104425,
+    "question": "Which of the following viruses is associated with liver cancer?",
+    "options": [
+      "HIV",
+      "Hepatitis B virus",
+      "Influenza virus",
+      "Poliovirus"
+    ],
+    "correct_answer": "Hepatitis B virus",
+    "explanation": "HBV causes chronic liver infection, leading to hepatocellular carcinoma."
+  },
+  {
+    "id": 104426,
+    "question": "The term “retrovirus” refers to viruses that:",
+    "options": [
+      "Replicate only in bacteria",
+      "Use reverse transcriptase to convert RNA to DNA",
+      "Have a double-stranded DNA genome",
+      "Lack an envelope"
+    ],
+    "correct_answer": "Use reverse transcriptase to convert RNA to DNA",
+    "explanation": "Retroviruses convert RNA to DNA using reverse transcriptase."
+  },
+  {
+    "id": 104427,
+    "question": "Which virus is known to cause the common cold?",
+    "options": [
+      "Rhinovirus",
+      "Rabies virus",
+      "Herpes simplex virus",
+      "Epstein-Barr virus"
+    ],
+    "correct_answer": "Rhinovirus",
+    "explanation": "Rhinoviruses are the primary cause of the common cold."
+  },
+  {
+    "id": 104428,
+    "question": "The lytic cycle of a bacteriophage results in:",
+    "options": [
+      "Integration of viral DNA into the host genome",
+      "Dormancy of the virus",
+      "Lysis of the host cell",
+      "Budding of new virions"
+    ],
+    "correct_answer": "Lysis of the host cell",
+    "explanation": "The lytic cycle ends with the rupture of the host cell to release new virions."
+  },
+  {
+    "id": 104429,
+    "question": "Which of the following is a characteristic of prions?",
+    "options": [
+      "Contain RNA as genetic material",
+      "Are infectious proteins without nucleic acid",
+      "Have a lipid envelope",
+      "Replicate using reverse transcriptase"
+    ],
+    "correct_answer": "Are infectious proteins without nucleic acid",
+    "explanation": "Prions are infectious proteins without nucleic acid, causing diseases like mad cow disease."
+  },
+  {
+    "id": 104430,
+    "question": "The influenza virus undergoes antigenic shift, which involves:",
+    "options": [
+      "Minor mutations in surface proteins",
+      "Reassortment of genome segments",
+      "Integration into the host genome",
+      "Loss of the viral envelope"
+    ],
+    "correct_answer": "Reassortment of genome segments",
+    "explanation": "Antigenic shift occurs when influenza strains reassort their segmented RNA genomes."
+  },
+  {
+    "id": 104431,
+    "question": "The coat of HIV is made from?",
+    "options": [
+      "P24",
+      "P17",
+      "Lipoprotein",
+      "gp120"
+    ],
+    "correct_answer": "P24",
+    "explanation": "The HIV capsid (coat) is primarily composed of the p24 protein."
+  },
+  {
+    "id": 104432,
+    "question": "Which viral enzyme is responsible for integrating the HIV DNA into the host genome?",
+    "options": [
+      "Reverse transcriptase",
+      "Integrase",
+      "Protease",
+      "RNA polymerase"
+    ],
+    "correct_answer": "Integrase",
+    "explanation": "Integrase facilitates the integration of HIV’s double-stranded DNA into the host genome."
+  },
+  {
+    "id": 104433,
+    "question": "The envelope of HIV is made from?",
+    "options": [
+      "gp120",
+      "Lipoprotein",
+      "P17",
+      "P24"
+    ],
+    "correct_answer": "Lipoprotein",
+    "explanation": "The HIV envelope is a lipoprotein bilayer derived from the host cell membrane."
+  },
+  {
+    "id": 104434,
+    "question": "Restriction enzyme is found in?",
+    "options": [
+      "HIV",
+      "HCV",
+      "Influenza",
+      "None of these"
+    ],
+    "correct_answer": "None of these",
+    "explanation": "Restriction enzymes are bacterial defenses, not found in HIV, HCV, or influenza."
+  },
+  {
+    "id": 104435,
+    "question": "HIV contains?",
+    "options": [
+      "Two copies of ss + RNA",
+      "Single RNA molecule",
+      "DNA and RNA",
+      "DNA molecule"
+    ],
+    "correct_answer": "Two copies of ss + RNA",
+    "explanation": "HIV contains two copies of single-stranded, positive-sense RNA."
+  },
+  {
+    "id": 104436,
+    "question": "Phage virus secretes an enzyme “lysozyme” from its?",
+    "options": [
+      "Tail region",
+      "Head region",
+      "Neck region",
+      "Capsule region"
+    ],
+    "correct_answer": "Tail region",
+    "explanation": "T4 phage secretes lysozyme from its tail to degrade the bacterial cell wall."
+  }
+]

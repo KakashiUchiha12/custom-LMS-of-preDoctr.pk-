@@ -1,0 +1,899 @@
+[
+  {
+    "id": 56017,
+    "category": "",
+    "question": "The name Melvin Calvin is associated with",
+    "options": [
+      "A. synthesis of ATP during photosynthesis",
+      "B. release of water during photosynthesis",
+      "C. carbon fixation during photosynthesis",
+      "D. capture light energy during photosynthesis"
+    ],
+    "correct_answer": "C. carbon fixation during photosynthesis",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56018,
+    "category": "",
+    "question": "Who gave chemical compositions of chlorophyll and carotenoids?",
+    "options": [
+      "A. Park and Biggins",
+      "B. Meyers and French",
+      "C. Willstatter and Stahi",
+      "D. Arnon and Benson"
+    ],
+    "correct_answer": "C. Willstatter and Stahi",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56019,
+    "category": "",
+    "question": "The non-polar part of chlorophyll is",
+    "options": [
+      "A. phytol",
+      "B. porphyrin",
+      "C. pyrrol",
+      "D. none above"
+    ],
+    "correct_answer": "A. phytol",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56020,
+    "category": "",
+    "question": "The approximate dimension of chlorophyll porphyrin ring is.",
+    "options": [
+      "A. 1 Ångstrom square",
+      "B. 5 Ångstrom square",
+      "C. 10 Ångstrom square",
+      "D. 15 Ångstrom square"
+    ],
+    "correct_answer": "D. 15 Ångstrom square",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56021,
+    "category": "",
+    "question": "Photosynthesis is most active in",
+    "options": [
+      "A. sunlight",
+      "B. yellow",
+      "C. red",
+      "D. green"
+    ],
+    "correct_answer": "A. sunlight",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56022,
+    "category": "",
+    "question": "Intensity of light increases 20 times, the rate of photosynthesis will",
+    "options": [
+      "A. increase",
+      "B. not increase",
+      "C. decrease",
+      "D. increase till feedback inhibition"
+    ],
+    "correct_answer": "D. increase till feedback inhibition",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56023,
+    "category": "",
+    "question": "Out of the total light energy that is available for plants is",
+    "options": [
+      "A. 50%",
+      "B. 75%",
+      "C. 25%",
+      "D. 1–2%"
+    ],
+    "correct_answer": "A. 50%",
+    "explanation": "Total solar light energy starts at the top of Earth\\'s atmosphere = 100%.rnrn~30% is reflected back to space (by clouds, atmosphere, and surface — Earth\\'s albedo).rn~20–23% is absorbed by the atmosphere (gases, dust, clouds).rn~47–51% (commonly rounded to 50%) actually reaches and is absorbed by Earth\\'s surface (land + oceans).rnrnThis ~50% is the light energy available at the surface for plants.rn"
+  },
+  {
+    "id": 56024,
+    "category": "",
+    "question": "One photon in blue light contains....kcal and of red light....kcal",
+    "options": [
+      "A. 70; 40",
+      "B. 220; 70",
+      "C. 10; 90",
+      "D. 90; 10"
+    ],
+    "correct_answer": "D. 90; 10",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56025,
+    "category": "",
+    "question": "The most efficient converter of sunlight is",
+    "options": [
+      "A. Potato",
+      "B. Tomato",
+      "C. Sugar cane",
+      "D. Papaya"
+    ],
+    "correct_answer": "C. Sugar cane",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56026,
+    "category": "",
+    "question": "Cyclic photophosphorylation is confined to",
+    "options": [
+      "A. Photosystem I",
+      "B. Photosystem II",
+      "C. both a & b",
+      "D. none above"
+    ],
+    "correct_answer": "A. Photosystem I",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56027,
+    "category": "",
+    "question": "For the synthesis of one gram of hexose, the land plant consumes.",
+    "options": [
+      "A. Only 1/3 of the CO2 of air",
+      "B. Only 1/4 of the CO2 of air",
+      "C. Only 2/3 of the CO2 of air",
+      "D. none of the above"
+    ],
+    "correct_answer": "B. Only 1/4 of the CO2 of air",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56028,
+    "category": "",
+    "question": "For the synthesis of one glucose molecule, the number of ATP required are",
+    "options": [
+      "A. 9 ATP for C3 cycle and 20 ATP for C4 cycle",
+      "B. 18 ATP for C3 cycle and 30 ATP for C4 cycle",
+      "C. 22 ATP for C3 cycle and 35 ATP for C4 cycle",
+      "D. 24 ATP for C3 cycle and 36 ATP for C4 cycle"
+    ],
+    "correct_answer": "B. 18 ATP for C3 cycle and 30 ATP for C4 cycle",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56029,
+    "category": "",
+    "question": "The volume of O2 liberated in photosynthesis has the following ratio to CO2.",
+    "options": [
+      "A. O2/CO2 = 1",
+      "B. O2/CO2 = 1/2",
+      "C. O2/CO2 = 2/1",
+      "D. O2/CO2 = 3/1"
+    ],
+    "correct_answer": "A. O2/CO2 = 1",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56030,
+    "category": "",
+    "question": "The inhibiting effect of oxygen in C3 plants on photosynthesis is",
+    "options": [
+      "A. solarization",
+      "B. photooxidation",
+      "C. Warburg’s effect",
+      "D. none above"
+    ],
+    "correct_answer": "C. Warburg’s effect",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56031,
+    "category": "",
+    "question": "Pick up C4 plant.",
+    "options": [
+      "A. Papaya",
+      "B. Potato",
+      "C. Maize",
+      "D. Pea"
+    ],
+    "correct_answer": "C. Maize",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56032,
+    "category": "",
+    "question": "It is advantageous to use a water plant to demonstrate photosynthesis other than a land plant because.",
+    "options": [
+      "A. it photosynthesizes rapidly",
+      "B. it respires slowly",
+      "C. it does not transpire",
+      "D. O2 bubbles form and can be collected over H2O"
+    ],
+    "correct_answer": "D. O2 bubbles form and can be collected over H2O",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56033,
+    "category": "",
+    "question": "For chlorophyll formation, the most important are",
+    "options": [
+      "A. Fe²⁺ and Ca²⁺",
+      "B. Fe²⁺ and Mg²⁺",
+      "C. Mg²⁺ and Ca²⁺",
+      "D. all of the above"
+    ],
+    "correct_answer": "B. Fe²⁺ and Mg²⁺",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56034,
+    "category": "",
+    "question": "Translocation of sugar in angiosperms occurs in the form of",
+    "options": [
+      "A. glucose",
+      "B. starch",
+      "C. lactose",
+      "D. sucrose"
+    ],
+    "correct_answer": "D. sucrose",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56035,
+    "category": "",
+    "question": "QI0 is",
+    "options": [
+      "A. respiratory coefficients",
+      "B. photosynthetic coefficient",
+      "C. photosynthetic yield",
+      "D. temperature coefficient"
+    ],
+    "correct_answer": "D. temperature coefficient",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56036,
+    "category": "",
+    "question": "Photorespiration is favored by",
+    "options": [
+      "A. low temperatures",
+      "B. low light intensity",
+      "C. high O2 and low CO2",
+      "D. low O2 and high CO2"
+    ],
+    "correct_answer": "C. high O2 and low CO2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56037,
+    "category": "",
+    "question": "Quinones are",
+    "options": [
+      "A. mobile electron carriers",
+      "B. enzymes of oxidative phosphorylation",
+      "C. enzymes of the Krebs cycle",
+      "D. none of the above"
+    ],
+    "correct_answer": "A. mobile electron carriers",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56038,
+    "category": "",
+    "question": "During dark reaction, for the fixation of carbon, the three carbon atoms of each molecule of 3-phosphoglyceric acid (PGA) are derived from",
+    "options": [
+      "A. RuBP only",
+      "B. CO2 only",
+      "C. RuBP + CO2",
+      "D. RuBP + CO2 + PEP"
+    ],
+    "correct_answer": "C. RuBP + CO2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56039,
+    "category": "",
+    "question": "Calvin cycle utilizes for fixation of 3 molecules of CO2",
+    "options": [
+      "A. 9 ATP and 6 NADPH2",
+      "B. 8 ATP and 8 NADPH2",
+      "C. 9 ATP and 3 NADPH2",
+      "D. 6 ATP and 6 NADPH2"
+    ],
+    "correct_answer": "A. 9 ATP and 6 NADPH2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56040,
+    "category": "",
+    "question": "Chloroplast has the maximum quantity of.... in stroma",
+    "options": [
+      "A. dehydrogenase",
+      "B. RuBP carboxylase",
+      "C. pyruvic carboxylase",
+      "D. hexokinase"
+    ],
+    "correct_answer": "B. RuBP carboxylase",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56041,
+    "category": "",
+    "question": "If thylakoids are removed and kept in a culture medium having CO2 and H2O and exposed to light; they cannot form hexose sugars as an end product because.",
+    "options": [
+      "A. light trapping device is absent",
+      "B. pigments P-700 and P-680 are not linked",
+      "C. CO2 assimilating enzymes are absent",
+      "D. CO2 assimilation cannot occur in light"
+    ],
+    "correct_answer": "C. CO2 assimilating enzymes are absent",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56042,
+    "category": "",
+    "question": "Which of the following plants is an efficient converter of solar energy whose net productivity is 2-4 kg/m²/yr. or even higher.",
+    "options": [
+      "A. Wheat",
+      "B. Rice",
+      "C. Sugarcane",
+      "D. Bajra"
+    ],
+    "correct_answer": "C. Sugarcane",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56043,
+    "category": "",
+    "question": "The number of photons required to release one mole of O2 in photosynthesis is called",
+    "options": [
+      "A. quantum yield",
+      "B. quantum requirement",
+      "C. red drop",
+      "D. Emerson’s effect"
+    ],
+    "correct_answer": "B. quantum requirement",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56044,
+    "category": "",
+    "question": "Calvin cycle represents one of the following phenomena.",
+    "options": [
+      "A. oxidative carboxylation",
+      "B. dark phosphorylation",
+      "C. dark respiration",
+      "D. reductive carboxylation"
+    ],
+    "correct_answer": "D. reductive carboxylation",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56045,
+    "category": "",
+    "question": "Hill reaction takes place",
+    "options": [
+      "A. in the absence of CO2",
+      "B. in the presence of carbon dioxide",
+      "C. in the absence of a suitable electron acceptor",
+      "D. none of the above"
+    ],
+    "correct_answer": "D. none of the above",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56046,
+    "category": "",
+    "question": "Maximum photosynthesis occurs in which of these lights?",
+    "options": [
+      "A. Red",
+      "B. Green",
+      "C. Very high light",
+      "D. Continuous bright light"
+    ],
+    "correct_answer": "A. Red",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56047,
+    "category": "",
+    "question": "In C4 plants showing Kranz anatomy, which of the following is correct?",
+    "options": [
+      "A. Bundle sheath cells without grana and mesophyll cells with grana",
+      "B. Bundle sheath cells with grana and mesophyll cells without grana",
+      "C. Both are without grana",
+      "D. Both are with grana"
+    ],
+    "correct_answer": "A. Bundle sheath cells without grana and mesophyll cells with grana",
+    "explanation": "Correct Answer: ArnIn C4 plants with Kranz anatomy:rnrnMesophyll cells: Chloroplasts have well-developed grana (perform light reactions + initial CO₂ fixation).rnBundle sheath cells: Chloroplasts are without grana (agranal; mainly decarboxylation and Calvin cycle, minimal PSII).rnrnThis separation allows efficient CO₂ concentration and reduces photorespiration.rnOptions B, C, and D are incorrect."
+  },
+  {
+    "id": 56048,
+    "category": "",
+    "question": "In Blackmann’s 'Law of Limiting Factors,' the rate of photosynthesis continues to increase with the successive increase in the amounts of",
+    "options": [
+      "A. carbon dioxide, light, temperature",
+      "B. temperature, light, carbon dioxide",
+      "C. light, temperature, carbon dioxide",
+      "D. light, carbon dioxide, temperature"
+    ],
+    "correct_answer": "A. carbon dioxide, light, temperature",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56049,
+    "category": "",
+    "question": "Choose the correct statement",
+    "options": [
+      "A. Chl a is a blue-green pigment with the formula C55H70O6N4Mg",
+      "B. Chl a is a blue-green pigment with the formula C55H72O5N4Mg",
+      "C. Chl b is a yellow-green pigment with the formula C55H70O5N4Mg",
+      "D. Xanthophyll is a pigment with the formula C40H60"
+    ],
+    "correct_answer": "B. Chl a is a blue-green pigment with the formula C55H72O5N4Mg",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56050,
+    "category": "",
+    "question": "Chlorophyll a is absent in which of the following photosynthesizing organisms?",
+    "options": [
+      "A. Bacteria",
+      "B. Cyanobacteria",
+      "C. Red algae",
+      "D. Brown algae"
+    ],
+    "correct_answer": "A. Bacteria",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56051,
+    "category": "",
+    "question": "Photorespiration in C3 plants starts from.",
+    "options": [
+      "A. phosphoglycerate",
+      "B. phosphoglycolate",
+      "C. glycerate",
+      "D. glycine"
+    ],
+    "correct_answer": "B. phosphoglycolate",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56052,
+    "category": "",
+    "question": "Which one of the following is wrong in relation to photorespiration?",
+    "options": [
+      "A. Occurs in chloroplasts",
+      "B. Occurs in the daytime only",
+      "C. Is a characteristic of C4 plants",
+      "D. Is a characteristic of C3 plants"
+    ],
+    "correct_answer": "C. Is a characteristic of C4 plants",
+    "explanation": "Photorespiration occurs in C3 plants, not C4 plants."
+  },
+  {
+    "id": 56053,
+    "category": "",
+    "question": "In the sugarcane plant, CO2 is fixed in malic acid, in which the enzyme that fixes CO2 is",
+    "options": [
+      "A. ribulose biphosphate carboxylase",
+      "B. phosphoenol pyruvic acid carboxylase",
+      "C. ribulose phosphate kinase",
+      "D. fructose phosphatase"
+    ],
+    "correct_answer": "B. phosphoenol pyruvic acid carboxylase",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56054,
+    "category": "",
+    "question": "Plants are removed from patients' rooms at night because",
+    "options": [
+      "A. They produce CO2 at night in more concentration",
+      "B. They produce CO2 all the time but release O2 also in the daytime",
+      "C. They consume O2 at night.",
+      "D. They do not photosynthesize at night, therefore fail to deplete CO2 of the room, hence their presence will increase CO2"
+    ],
+    "correct_answer": "B. They produce CO2 all the time but release O2 also in the daytime",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56055,
+    "category": "",
+    "question": "Who is that scientist who gave the Law of limiting factors?",
+    "options": [
+      "A. Blackman",
+      "B. Hill",
+      "C. Liebig",
+      "D. Von Mohl"
+    ],
+    "correct_answer": "A. Blackman",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56056,
+    "category": "",
+    "question": "Which of the following is correct for chlorophyll:",
+    "options": [
+      "A. Chl a = C55H70O6N4Mg",
+      "B. Chl a = C55H72O5N4Mg",
+      "C. Chl b = C55H72O6N4Mg",
+      "D. Xanthophyll = C40H56"
+    ],
+    "correct_answer": "B. Chl a = C55H72O5N4Mg",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56057,
+    "category": "",
+    "question": "How many electrons are involved in the formation of 1 mole of glucose and 6O2 molecules?",
+    "options": [
+      "A. 6",
+      "B. 12",
+      "C. 18",
+      "D. 24"
+    ],
+    "correct_answer": "D. 24",
+    "explanation": "**Photosynthesis electron count (for 1 mole glucose + 6 O₂):**rnrn6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂rnrn- In light reactions: 12 H₂O are split → releases **24 electrons** (and 6 O₂).rn- These **24 electrons** are carried by 12 NADPH (2 e⁻ each) to the Calvin cycle.rn- In Calvin cycle: 24 electrons reduce 6 CO₂ to 1 glucose (4 e⁻ per carbon atom).rnrn**Total electrons involved: 24 moles of electrons** per mole of glucose formed (along with 6 moles of O₂).rnrn**Concise answer:** rn**24 moles of electrons** are transferred from water to CO₂."
+  },
+  {
+    "id": 56058,
+    "category": "",
+    "question": "Which of the following best describes the 'compensation point' in plants?",
+    "options": [
+      "A) The point at which photosynthesis exceeds respiration, leading to a net gain of oxygen.",
+      "B) The point at which respiration exceeds photosynthesis, leading to a net gain of carbon dioxide.",
+      "C) The point at which the rate of photosynthesis equals the rate of respiration, resulting in no net exchange of gases.",
+      "D) The point at which plants produce maximum glucose during photosynthesis."
+    ],
+    "correct_answer": "C) The point at which the rate of photosynthesis equals the rate of respiration, resulting in no net exchange of gases.",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56059,
+    "category": "",
+    "question": "Choose the correct statement.",
+    "options": [
+      "A. The C4 plants do not have Rubisco.",
+      "B. Carboxylation of RuBP leads to the formation of PGA and phosphoglycolate.",
+      "C. Decarboxylation of C4 acids occurs in the mesophyll cells.",
+      "D. In CAM plants, Calvin’s cycle reactions occur during the night."
+    ],
+    "correct_answer": "C. Decarboxylation of C4 acids occurs in the mesophyll cells.",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56060,
+    "category": "",
+    "question": "During photosynthesis, plants",
+    "options": [
+      "A. absorb O2, release CO2",
+      "B. release O2, absorb CO2",
+      "C. absorb N2, release O2",
+      "D. absorb N2 and release NH3"
+    ],
+    "correct_answer": "B. release O2, absorb CO2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56061,
+    "category": "",
+    "question": "It is estimated that about 85% of the earth’s photosynthetic activity is carried out by",
+    "options": [
+      "A. trees",
+      "B. savannas",
+      "C. phytoplanktons",
+      "D. herbaceous plants"
+    ],
+    "correct_answer": "C. phytoplanktons",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56062,
+    "category": "",
+    "question": "Respiration is",
+    "options": [
+      "A. Anabolic process",
+      "B. Catabolic process",
+      "C. Both a and b",
+      "D. Endothermic process"
+    ],
+    "correct_answer": "B. Catabolic process",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56063,
+    "category": "",
+    "question": "Metabolism involves",
+    "options": [
+      "A. Anabolic process",
+      "B. Catabolic process",
+      "C. Both a and b",
+      "D. Only redox process"
+    ],
+    "correct_answer": "C. Both a and b",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56064,
+    "category": "",
+    "question": "Organisms obtain energy through",
+    "options": [
+      "A. Reproduction",
+      "B. Excretion",
+      "C. Respiration",
+      "D. Digestion"
+    ],
+    "correct_answer": "C. Respiration",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56065,
+    "category": "",
+    "question": "Respiration is a",
+    "options": [
+      "A. Endergonic process",
+      "B. Exergonic process",
+      "C. Both A and B",
+      "D. Neutralization reaction"
+    ],
+    "correct_answer": "B. Exergonic process",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56066,
+    "category": "",
+    "question": "During respiration the food is",
+    "options": [
+      "A. Oxidized",
+      "B. Reduced",
+      "C. Both oxidized and reduced",
+      "D. Neither oxidized nor reduced"
+    ],
+    "correct_answer": "A. Oxidized",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56067,
+    "category": "",
+    "question": "Which of the following is a main respiratory substrate in animals",
+    "options": [
+      "A. Fructose",
+      "B. Starch",
+      "C. Glucose",
+      "D. Proteins"
+    ],
+    "correct_answer": "C. Glucose",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56068,
+    "category": "",
+    "question": "During the formation of ATP from ADP, which is released",
+    "options": [
+      "A. Water",
+      "B. Oxygen",
+      "C. Both A and B",
+      "D. Energy"
+    ],
+    "correct_answer": "A. Water",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56069,
+    "category": "",
+    "question": "Respiration is found in",
+    "options": [
+      "A. Bacteria",
+      "B. Prokaryotes",
+      "C. Only animals",
+      "D. All of these"
+    ],
+    "correct_answer": "D. All of these",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56070,
+    "category": "",
+    "question": "Respiratory substrate is completely oxidized in",
+    "options": [
+      "A. Aerobic respiration",
+      "B. Anaerobic respiration",
+      "C. Both A and B",
+      "D. Fermentation"
+    ],
+    "correct_answer": "A. Aerobic respiration",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56071,
+    "category": "",
+    "question": "In which of the following types of respiration, the amount of energy released is comparatively more",
+    "options": [
+      "A. Aerobic respiration",
+      "B. Anaerobic respiration",
+      "C. Equal energy is released in both A and B",
+      "D. None of these is correct"
+    ],
+    "correct_answer": "A. Aerobic respiration",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56072,
+    "category": "",
+    "question": "Fermentation occurs in the",
+    "options": [
+      "A. Presence of oxygen",
+      "B. Presence of water",
+      "C. Absence of oxygen",
+      "D. Mitochondria"
+    ],
+    "correct_answer": "C. Absence of oxygen",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56073,
+    "category": "",
+    "question": "The first stage in respiration is",
+    "options": [
+      "A. Glycolysis",
+      "B. Krebs cycle",
+      "C. ETS (Electron Transport System)",
+      "D. Glycogenesis"
+    ],
+    "correct_answer": "A. Glycolysis",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56074,
+    "category": "",
+    "question": "Glucose is converted to pyruvic acid in",
+    "options": [
+      "A. Krebs cycle",
+      "B. C4 cycle",
+      "C. C3 cycle",
+      "D. Glycolysis"
+    ],
+    "correct_answer": "D. Glycolysis",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56075,
+    "category": "",
+    "question": "The number of pyruvic acid molecules formed in glycolysis is",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 6"
+    ],
+    "correct_answer": "B. 2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56076,
+    "category": "",
+    "question": "The number of carbons present in a pyruvic acid molecule is",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 6"
+    ],
+    "correct_answer": "B. 3",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56077,
+    "category": "",
+    "question": "Glycolysis occurs in",
+    "options": [
+      "A. Cytoplasm",
+      "B. Mitochondria",
+      "C. Chloroplast",
+      "D. Golgi complex"
+    ],
+    "correct_answer": "A. Cytoplasm",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56078,
+    "category": "",
+    "question": "The number of oxygen molecules used in glycolysis",
+    "options": [
+      "A. 12",
+      "B. 4",
+      "C. 6",
+      "D. 0"
+    ],
+    "correct_answer": "D. 0",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56079,
+    "category": "",
+    "question": "The number of CO2 molecules produced in glycolysis is",
+    "options": [
+      "A. 2",
+      "B. 3",
+      "C. 4",
+      "D. 0"
+    ],
+    "correct_answer": "D. 0",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56080,
+    "category": "",
+    "question": "In respiration, the final acceptor of protons is:",
+    "options": [
+      "A. Oxygen",
+      "B. NAD+",
+      "C. FAD",
+      "D. UQ"
+    ],
+    "correct_answer": "A. Oxygen",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56081,
+    "category": "",
+    "question": "Which is not formed during anaerobic respiration?",
+    "options": [
+      "A. Pyruvate",
+      "B. Ethyl alcohol",
+      "C. Acetyl CoA",
+      "D. CO2"
+    ],
+    "correct_answer": "C. Acetyl CoA",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56082,
+    "category": "",
+    "question": "ADP combines with inorganic phosphate (Pi) to give",
+    "options": [
+      "A. ATP",
+      "B. AMP",
+      "C. GDP",
+      "D. GTP"
+    ],
+    "correct_answer": "A. ATP",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56083,
+    "category": "",
+    "question": "Dihydroxyacetone phosphate is a",
+    "options": [
+      "A. 2 C compound",
+      "B. 3 C compound",
+      "C. 4 C compound",
+      "D. 6 C compound"
+    ],
+    "correct_answer": "B. 3 C compound",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56084,
+    "category": "",
+    "question": "The number of ATPs consumed in glycolysis is",
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 6",
+      "D. 8"
+    ],
+    "correct_answer": "A. 2",
+    "explanation": "No explanation provided"
+  },
+  {
+    "id": 56085,
+    "category": "",
+    "question": "When NADH is converted to NAD, the process is categorized as",
+    "options": [
+      "A. dehydration.",
+      "B. oxidation.",
+      "C. catalysis.",
+      "D. reduction."
+    ],
+    "correct_answer": "B. oxidation.",
+    "explanation": "No explanation provided"
+  }
+]

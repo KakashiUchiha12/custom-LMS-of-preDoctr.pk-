@@ -1,0 +1,302 @@
+[
+  {
+    "question_text": "Viruses are often described as 'complex biochemicals' rather than simple organisms. Which of the following properties most strongly supports their non-living status?",
+    "options": ["The presence of a genetic code", "The ability to undergo antigenic drift", "The lack of biosynthetic machinery and ribosomes", "The ability to respond to host cell receptors"],
+    "correct_answer": "The lack of biosynthetic machinery and ribosomes",
+    "explanation": "Independent life is defined by the ability to carry out metabolism and protein synthesis. Viruses are acellular and totally dependent on host ribosomes for translation."
+  },
+  {
+    "question_text": "In the history of virology, the term 'contagium vivum fluidum' was used to describe the agent of TMV. What did this term imply about the nature of viruses at the time?",
+    "options": ["They were solid particles smaller than bacteria", "They were an infectious living fluid", "They were inorganic poisons", "They were only found in the soil"],
+    "correct_answer": "They were an infectious living fluid",
+    "explanation": "Martinus Beijerinck coined this term to describe the filterable agent, believing it to be a liquid infectious agent rather than a particulate one."
+  },
+  {
+    "question_text": "Which of the following is a structural difference between the Influenza virus and the T4 Bacteriophage?",
+    "options": ["Influenza has an envelope; T4 does not", "T4 has RNA; Influenza has DNA", "Influenza has a tail; T4 does not", "T4 is pleomorphic; Influenza is icosahedral"],
+    "correct_answer": "Influenza has an envelope; T4 does not",
+    "explanation": "Influenza is an enveloped animal virus, while T4 is a naked complex virus with a protein tail machinery."
+  },
+  {
+    "question_text": "A virus is an 'obligate' parasite. What is the molecular reason a virus cannot complete its life cycle without a host?",
+    "options": ["It needs host ATP for energy and host ribosomes for protein synthesis", "It needs the host's oxygen to breathe", "It needs host water to maintain its shape", "It needs the host cell wall for protection"],
+    "correct_answer": "It needs host ATP for energy and host ribosomes for protein synthesis",
+    "explanation": "Viruses lack mitochondria for energy production and ribosomes for protein assembly, making them totally dependent on the host's metabolic 'bank'."
+  },
+  {
+    "question_text": "How do viruses like HIV effectively hide from the host's circulating antibodies during the latent phase?",
+    "options": ["By destroying all the B-cells in the body", "By integrating the viral genome as a provirus into the host DNA", "By changing their shape every hour", "By living inside red blood cells"],
+    "correct_answer": "By integrating the viral genome as a provirus into the host DNA",
+    "explanation": "Once the viral DNA is integrated (as a provirus), it is physically part of the host's chromosome and is not 'visible' to the immune system as a foreign particle."
+  },
+  {
+    "question_text": "In the absence of a suitable host cell, how does a virus 'survive' or persist through unfavorable environmental conditions?",
+    "options": ["By forming resistant endospores", "By entering a state of crystalline metabolic inactivity", "By burrowing into the soil", "By feeding on dead organic matter"],
+    "correct_answer": "By entering a state of crystalline metabolic inactivity",
+    "explanation": "Outside a host, viruses exist as inert, non-living particles (virions). They do not have a metabolism to maintain and can often be crystallized."
+  },
+  {
+    "question_text": "During the Lysogenic cycle, the prophage is replicated. How is this replication achieved?",
+    "options": ["The viral DNA replicates independently of the host", "The viral DNA is replicated along with the host's chromosome during binary fission", "The virus uses its own ribosomes to replicate", "The virus forces the cell to produce more tail fibers"],
+    "correct_answer": "The viral DNA is replicated along with the host's chromosome during binary fission",
+    "explanation": "Since the prophage is integrated into the bacterial DNA, it is copied every time the bacterium divides, spreading the virus without killing the host."
+  },
+  {
+    "question_text": "What allows a temperate phage to transition from the lysogenic cycle to the lytic cycle (Induction)?",
+    "options": ["The death of the host cell", "Environmental stress, such as UV radiation or chemical triggers", "The presence of other viruses", "The exhaustion of the cell's glucose"],
+    "correct_answer": "Environmental stress, such as UV radiation or chemical triggers",
+    "explanation": "Stress factors can trigger the excision of the prophage from the bacterial chromosome, initiating the lytic phase."
+  },
+  {
+    "question_text": "Bacteriophages are utilized in genetic engineering primarily because of their ability to perform:",
+    "options": ["Conjugation", "Transduction", "Transformation", "Nitrogen fixation"],
+    "correct_answer": "Transduction",
+    "explanation": "Transduction is the process where a virus transfers genetic material from one bacterium to another, making them excellent vectors for gene cloning."
+  },
+  {
+    "question_text": "The HIV life cycle involves an 'uncoating' step. Where does the RNA typically leave the capsid in the modern understanding of the process?",
+    "options": ["At the plasma membrane surface", "Near or at the nuclear pore", "Inside the mitochondria", "Within a lysosome"],
+    "correct_answer": "Near or at the nuclear pore",
+    "explanation": "The capsid stays mostly intact while traveling through the cytoplasm to protect the genome from host defenses, uncoating only as it reaches the nucleus."
+  },
+  {
+    "question_text": "Why is the destruction of Helper T-cells (CD4+) so catastrophic for the immune system?",
+    "options": ["They are the only cells that can produce antibodies", "They act as 'conductors' that activate both B-cells and Cytotoxic T-cells", "They are the largest cells in the immune system", "They carry oxygen to the lymph nodes"],
+    "correct_answer": "They act as 'conductors' that activate both B-cells and Cytotoxic T-cells",
+    "explanation": "Helper T-cells release cytokines (like interleukins) that are necessary to trigger both the humoral and cell-mediated branches of immunity."
+  },
+  {
+    "question_text": "HIV specificity for CD4+ cells is determined by the precise fit between:",
+    "options": ["Viral p24 and host MHC-I", "Viral gp120 and host CD4 receptor", "Viral RNA and host ribosomes", "Viral envelope and host cholesterol"],
+    "correct_answer": "Viral gp120 and host CD4 receptor",
+    "explanation": "The gp120 glycoprotein 'key' fits the CD4 'lock' found on Helper T-cells and certain macrophages."
+  },
+  {
+    "question_text": "A person with AIDS often develops 'Kaposi's Sarcoma.' What type of disease is this?",
+    "options": ["A bacterial infection of the lungs", "A viral-induced cancer of the blood vessels", "A fungal infection of the skin", "A protozoan infection of the brain"],
+    "correct_answer": "A viral-induced cancer of the blood vessels",
+    "explanation": "Kaposi's Sarcoma is an opportunistic cancer caused by Human Herpesvirus 8 (HHV-8) that appears when the immune system is failed."
+  },
+  {
+    "question_text": "The primary goal of ART (Antiretroviral Therapy) in treating AIDS is to:",
+    "options": ["Kill the HIV virus entirely", "Reduce the viral load to undetectable levels and preserve CD4 count", "Vaccinate the patient against future infections", "Repair the damaged host DNA"],
+    "correct_answer": "Reduce the viral load to undetectable levels and preserve CD4 count",
+    "explanation": "There is no cure for HIV, but ART stops the virus from replicating, allowing the immune system to recover."
+  },
+  {
+    "question_text": "Which of the following is a common symptom of Hepatitis C, often leading to it being called a 'silent killer'?",
+    "options": ["High fever and skin rash", "Chronic liver inflammation often with no early symptoms", "Instant paralysis", "Sudden blindness"],
+    "correct_answer": "Chronic liver inflammation often with no early symptoms",
+    "explanation": "Hepatitis C can remain asymptomatic for decades while slowly causing cirrhosis or liver cancer."
+  },
+  {
+    "question_text": "The Cotton Leaf Curl Virus (CLCuV) is economically devastating in Pakistan. Structurally, it is a:",
+    "options": ["Geminivirus with a twin-capsid structure", "Large enveloped DNA virus", "Small helical RNA virus", "Bacteriophage"],
+    "correct_answer": "Geminivirus with a twin-capsid structure",
+    "explanation": "Geminiviruses are named for their 'twinned' (geminate) icosahedral capsid structure."
+  },
+  {
+    "question_text": "Herpes Simplex Virus (HSV) is known for 'latency.' Where does the virus hide during its inactive phase?",
+    "options": ["In the blood plasma", "In the nerve ganglia (neurons)", "In the skin cells", "In the liver"],
+    "correct_answer": "In the nerve ganglia (neurons)",
+    "explanation": "After the initial infection, HSV travels up sensory nerves and stays dormant in the nerve cell bodies until reactivated."
+  },
+  {
+    "question_text": "The Polio virus is primarily transmitted through which route?",
+    "options": ["Sexual contact", "Fecal-oral route (contaminated water/food)", "Mosquito bites", "Airborne droplets"],
+    "correct_answer": "Fecal-oral route (contaminated water/food)",
+    "explanation": "Poliovirus is an enteric (intestinal) virus that spreads through poor sanitation."
+  },
+  {
+    "question_text": "Prions are infectious agents that cause Mad Cow Disease and Kuru. Chemically, they are:",
+    "options": ["Misfolded proteins with no nucleic acid", "Circular strands of RNA with no protein", "DNA viruses with a lipid envelope", "Small bacteria"],
+    "correct_answer": "Misfolded proteins with no nucleic acid",
+    "explanation": "Prions contain only protein. They cause disease by inducing normal proteins to misfold into the pathogenic shape."
+  },
+  {
+    "question_text": "Viroids are different from viruses because viroids:",
+    "options": ["Only contain DNA", "Lack a protein capsid", "Are much larger", "Only infect humans"],
+    "correct_answer": "Lack a protein capsid",
+    "explanation": "Viroids consist only of short, circular, highly complementary RNA without any protein coat."
+  },
+  {
+    "question_text": "Which disease is caused by a viroid?",
+    "options": ["Potato Spindle Tuber disease", "Scrapie in sheep", "Creutzfeldt-Jakob disease", "Hepatitis B"],
+    "correct_answer": "Potato Spindle Tuber disease",
+    "explanation": "Most known viroid diseases affect plants. Scrapie and CJD are caused by prions."
+  },
+  {
+    "question_text": "What is the global economic impact of viral infections primarily attributed to?",
+    "options": ["The cost of microscope manufacturing", "Loss of agricultural yields and healthcare expenses", "The price of paper for textbooks", "The cost of building more hospitals"],
+    "correct_answer": "Loss of agricultural yields and healthcare expenses",
+    "explanation": "Viral diseases in crops (like CLCuV) and livestock, plus the cost of human pandemics, cause trillions in losses."
+  },
+  {
+    "question_text": "Why is it difficult to develop a permanent vaccine for the Common Cold or Flu?",
+    "options": ["The viruses are too large to handle", "The viruses undergo frequent mutations and antigenic changes", "The viruses do not have a protein coat", "The viruses only infect people once"],
+    "correct_answer": "The viruses undergo frequent mutations and antigenic changes",
+    "explanation": "High mutation rates (drift) and segment swapping (shift) mean the surface antigens change every year, requiring new vaccines."
+  },
+  {
+    "question_text": "In the Lytic cycle, the bacterial cell 'bursts.' What specific enzyme, produced by the virus, causes this?",
+    "options": ["Reverse Transcriptase", "Lysozyme", "Integrase", "Amylase"],
+    "correct_answer": "Lysozyme",
+    "explanation": "Phage lysozyme digests the peptidoglycan of the bacterial cell wall from within, causing osmotic lysis."
+  },
+  {
+    "question_text": "A 'virion' is best defined as:",
+    "options": ["A virus that has entered a cell", "A fully formed, mature, and infectious viral particle outside a cell", "The integrated DNA of a virus", "A misfolded infectious protein"],
+    "correct_answer": "A fully formed, mature, and infectious viral particle outside a cell",
+    "explanation": "The term virion refers specifically to the extracellular, infectious form of the virus."
+  },
+  {
+    "question_text": "Which of the following is NOT a characteristic of Hepatitis B?",
+    "options": ["It is a DNA virus", "It can be transmitted by sharing needles", "It is caused by a viroid", "There is an effective vaccine available"],
+    "correct_answer": "It is caused by a viroid",
+    "explanation": "Hepatitis B is caused by a complex DNA virus (HBV), not a viroid."
+  },
+  {
+    "question_text": "The envelope of many animal viruses, like HIV, contains 'spikes' made of:",
+    "options": ["Lipids", "Glycoproteins", "Pure DNA", "Cellulose"],
+    "correct_answer": "Glycoproteins",
+    "explanation": "These spikes are proteins with carbohydrate chains that facilitate attachment to host receptors."
+  },
+  {
+    "question_text": "Which of the following describes 'Antigenic Shift' in Influenza?",
+    "options": ["Small point mutations in the genome", "Major changes due to the reassortment of RNA segments", "A change in the color of the virus", "The virus moving from the lungs to the liver"],
+    "correct_answer": "Major changes due to the reassortment of RNA segments",
+    "explanation": "Shift occurs when two different strains infect the same cell and swap segments, creating a new subtype."
+  },
+  {
+    "question_text": "The core of a T4 bacteriophage tail is hollow. Its purpose is to:",
+    "options": ["Store extra protein", "Act as a channel for the injection of viral DNA", "Suck nutrients out of the bacterium", "Provide balance to the head"],
+    "correct_answer": "Act as a channel for the injection of viral DNA",
+    "explanation": "Once the tail sheath contracts, the hollow core acts as a needle through which the genome passes into the host."
+  },
+  {
+    "question_text": "In HIV, the enzyme 'Protease' is necessary because it:",
+    "options": ["Makes DNA from RNA", "Cleaves polyproteins into functional units for assembly", "Integrates the virus into the nucleus", "Neutralizes host antibodies"],
+    "correct_answer": "Cleaves polyproteins into functional units for assembly",
+    "explanation": "HIV produces its structural and enzymatic proteins as long 'polyprotein' chains that must be cut by protease to become active."
+  },
+  {
+    "question_text": "Which group of viruses is characterized by a 'bullet-shaped' morphology?",
+    "options": ["Bacteriophages", "Rhabdoviruses (e.g., Rabies)", "Retroviruses", "Adenoviruses"],
+    "correct_answer": "Rhabdoviruses (e.g., Rabies)",
+    "explanation": "Rabies virus is a classic example of a bullet-shaped, enveloped virus."
+  },
+  {
+    "question_text": "What is the primary function of the viral 'Capsid'?",
+    "options": ["To help the virus move", "To protect the nucleic acid and facilitate attachment", "To produce energy", "To replicate the viral DNA"],
+    "correct_answer": "To protect the nucleic acid and facilitate attachment",
+    "explanation": "The protein shell (capsid) protects the fragile genome from environmental damage and contains receptors for host cell recognition."
+  },
+  {
+    "question_text": "The reverse transcriptase enzyme is an RNA-dependent DNA polymerase. This means it uses ____ as a template to make ____.",
+    "options": ["DNA; RNA", "RNA; DNA", "RNA; Protein", "Protein; DNA"],
+    "correct_answer": "RNA; DNA",
+    "explanation": "It reads the viral RNA and synthesizes a complementary DNA strand."
+  },
+  {
+    "question_text": "Prion diseases, like Bovine Spongiform Encephalopathy, typically affect which organ system?",
+    "options": ["Digestive system", "Central Nervous System (Brain)", "Respiratory system", "Excretory system"],
+    "correct_answer": "Central Nervous System (Brain)",
+    "explanation": "Prions cause the 'spongiform' (sponge-like) degeneration of brain tissue."
+  },
+  {
+    "question_text": "Which virus is an example of a DNA enveloped virus?",
+    "options": ["HIV", "Herpes Simplex Virus", "TMV", "Poliovirus"],
+    "correct_answer": "Herpes Simplex Virus",
+    "explanation": "HSV contains double-stranded DNA and is surrounded by a lipid envelope."
+  },
+  {
+    "question_text": "During HIV infection, 'Seroconversion' refers to the point when:",
+    "options": ["The virus enters the brain", "Antibodies against HIV become detectable in the blood", "The patient is cured", "The virus turns into DNA"],
+    "correct_answer": "Antibodies against HIV become detectable in the blood",
+    "explanation": "Seroconversion usually happens 3 to 12 weeks after infection."
+  },
+  {
+    "question_text": "Which of the following is an example of a 'Vertical' mode of transmission?",
+    "options": ["Sneezing on a classmate", "HIV passing from mother to fetus across the placenta", "Eating contaminated food", "Being bitten by a dog"],
+    "correct_answer": "HIV passing from mother to fetus across the placenta",
+    "explanation": "Vertical transmission occurs from parent to offspring, whereas horizontal occurs between members of the same generation."
+  },
+  {
+    "question_text": "The 'Tail Fibers' of a bacteriophage are involved in which specific step?",
+    "options": ["Lysis", "Adsorption (Attachment)", "DNA replication", "Transcription"],
+    "correct_answer": "Adsorption (Attachment)",
+    "explanation": "They recognize and 'land' on the specific receptors of the host cell wall."
+  },
+  {
+    "question_text": "Tobacco Mosaic Virus (TMV) is the first virus ever discovered. Who first proposed the term 'Virus' (meaning poison) for such agents?",
+    "options": ["Louis Pasteur", "Dmitri Iwanowsky", "Wendell Stanley", "Robert Koch"],
+    "correct_answer": "Louis Pasteur",
+    "explanation": "Pasteur used the word 'virus' to describe infectious agents he couldn't see but knew were present (like Rabies)."
+  },
+  {
+    "question_text": "A 'temperate' phage is one that is capable of:",
+    "options": ["Only the lytic cycle", "Only the lysogenic cycle", "Both the lytic and lysogenic cycles", "Replicating without a host"],
+    "correct_answer": "Both the lytic and lysogenic cycles",
+    "explanation": "Temperate phages can choose between immediate replication (lysis) or long-term integration (lysogeny)."
+  },
+  {
+    "question_text": "The majority of the symptoms of AIDS are actually caused by:",
+    "options": ["The HIV virus itself killing the heart", "Secondary opportunistic infections", "The high cost of medicine", "A lack of vitamins"],
+    "correct_answer": "Secondary opportunistic infections",
+    "explanation": "HIV destroys the immune system, but it is the tuberculosis, pneumonia, and cancers that usually cause death."
+  },
+  {
+    "question_text": "Which of the following is a symptom of late-stage AIDS?",
+    "options": ["Severe weight loss (wasting syndrome)", "Improved memory", "Stronger muscles", "Increased appetite"],
+    "correct_answer": "Severe weight loss (wasting syndrome)",
+    "explanation": "Wasting syndrome, chronic diarrhea, and prolonged fever are classic signs of AIDS."
+  },
+  {
+    "question_text": "Viroids differ from prions in that viroids are made of ____ while prions are made of ____.",
+    "options": ["DNA; RNA", "RNA; Protein", "Protein; RNA", "RNA; DNA"],
+    "correct_answer": "RNA; Protein",
+    "explanation": "Viroids are naked RNA; prions are infectious proteins."
+  },
+  {
+    "question_text": "The vaccination for Polio (Sabin/Salk) is effective because:",
+    "options": ["The Polio virus does not mutate as rapidly as the Flu virus", "The Polio virus has no protein coat", "The vaccine kills bacteria", "Polio is a DNA virus"],
+    "correct_answer": "The Polio virus does not mutate as rapidly as the Flu virus",
+    "explanation": "Poliovirus surface antigens are relatively stable, allowing a single vaccine to provide long-term protection."
+  },
+  {
+    "question_text": "In the nomenclature 'H1N1', the 'N' refers to:",
+    "options": ["Nucleoprotein", "Neuraminidase", "Nucleus", "N-type protein"],
+    "correct_answer": "Neuraminidase",
+    "explanation": "Neuraminidase is the viral enzyme involved in the release of the virus from host cells."
+  },
+  {
+    "question_text": "Which of the following is a structural feature of HIV but NOT of a bacteriophage?",
+    "options": ["A protein capsid", "Genetic material", "A lipid envelope derived from the host", "Capsomeres"],
+    "correct_answer": "A lipid envelope derived from the host",
+    "explanation": "HIV is enveloped; T4 bacteriophages are naked."
+  },
+  {
+    "question_text": "The term 'Retrovirus' is used for HIV because it:",
+    "options": ["Is a very old virus", "Reverses the direction of genetic information flow (RNA to DNA)", "Is found in the back of the body", "Replicates very fast"],
+    "correct_answer": "Reverses the direction of genetic information flow (RNA to DNA)",
+    "explanation": "They use reverse transcriptase to turn their RNA genome into DNA, 'reversing' the central dogma (DNA to RNA)."
+  },
+  {
+    "question_text": "The genome of a virus can be:",
+    "options": ["Only DNA", "Only RNA", "Either DNA or RNA, but never both in the same virion", "Both DNA and RNA in the same virion"],
+    "correct_answer": "Either DNA or RNA, but never both in the same virion",
+    "explanation": "Individual viral particles contain either DNA or RNA, which is a key basis for their classification."
+  },
+  {
+    "question_text": "Hepatitis C is most commonly transmitted through:",
+    "options": ["Eating raw vegetables", "Blood-to-blood contact (e.g., infected needles)", "Kissing", "Coughing"],
+    "correct_answer": "Blood-to-blood contact (e.g., infected needles)",
+    "explanation": "HCV is a blood-borne virus, often associated with needle sharing or transfusion of unscreened blood."
+  },
+  {
+    "question_text": "The classification of viruses into 'Plant,' 'Animal,' and 'Bacteriophage' is based on:",
+    "options": ["Chemical composition", "Host Range", "Size", "Color"],
+    "correct_answer": "Host Range",
+    "explanation": "This traditional classification is based on the organism the virus infects."
+  }
+]

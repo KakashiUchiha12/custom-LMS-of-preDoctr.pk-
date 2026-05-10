@@ -98,3 +98,44 @@
 .predoctr-card-btn:hover {
   background-color: #3b82f6;
 }
+
+/* ─── Card Image Wrapper ──────────────────────────────── */
+.predoctr-image-wrapper {
+  position: relative;
+  display: block;
+}
+
+/* ─── FREE Ribbon ─────────────────────────────────────── */
+.free-ribbon {
+  position: absolute;
+  top: 14px;
+  left: -4px;
+  background: linear-gradient(135deg, #16a34a, #15803d);
+  color: white;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  padding: 5px 12px 5px 10px;
+  border-radius: 0 99px 99px 0;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 0 4px 12px rgba(22,163,74,0.35);
+  z-index: 2;
+  text-transform: uppercase;
+}
+
+.free-ribbon-dot {
+  width: 6px;
+  height: 6px;
+  background: #86efac;
+  border-radius: 50%;
+  animation: freePulse 1.8s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes freePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.5); }
+}
+

@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
+import { api } from '../utils/api';
 import { User, Book, Star, Clock, ChevronRight, Bookmark, PlayCircle, Trash2, X, Settings } from 'lucide-react';
 import './Dashboard.css';
 
@@ -8,55 +9,58 @@ const Dashboard = () => {
   const { profile } = useAuth();
   const [collections, setCollections] = useState([]);
   const [mcqStats, setMcqStats] = useState({});
+  const [globalStats, setGlobalStats] = useState(null);
   const [isManageModalOpen, setIsManageModalOpen] = useState(false);
   const [isDeleteConfirmOpen, setIsDeleteConfirmOpen] = useState(false);
   const [folderToDelete, setFolderToDelete] = useState(null);
 
-  const loadData = () => {
-    const savedCols = JSON.parse(localStorage.getItem('predoctr-collections') || '[]');
-    const savedMcqs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-    
-    const counts = {};
-    savedMcqs.forEach(mcq => {
-      counts[mcq.folder] = (counts[mcq.folder] || 0) + 1;
-    });
-    
-    setCollections(savedCols);
-    setMcqStats(counts);
-  };
-
-  useEffect(() => {
-    loadData();
+  const loadData = useCallback(async () => {
+    try {
+      const [cols, stats] = await Promise.all([
+        api.get('/api/collections').catch(() => []),
+        api.get('/api/tests/stats').catch(() => null)
+      ]);
+      setCollections(cols);
+      const counts = {};
+      cols.forEach(c => { counts[c.name] = c.mcq_count || 0; });
+      setMcqStats(counts);
+      if (stats) setGlobalStats(stats);
+    } catch (err) {
+      console.error('Failed to load dashboard data:', err);
+    }
   }, []);
+
+  useEffect(() => { loadData(); }, [loadData]);
 
   const handleDeleteFolder = (folderName) => {
     setFolderToDelete(folderName);
     setIsDeleteConfirmOpen(true);
   };
 
-  const confirmDeleteAction = () => {
+  const confirmDeleteAction = async () => {
     if (!folderToDelete) return;
-    
-    // 1. Remove from collections
-    const savedCols = JSON.parse(localStorage.getItem('predoctr-collections') || '[]');
-    const updatedCols = savedCols.filter(c => c !== folderToDelete);
-    localStorage.setItem('predoctr-collections', JSON.stringify(updatedCols));
-
-    // 2. Remove all MCQs in this folder
-    const savedMcqs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-    const updatedMcqs = savedMcqs.filter(m => m.folder !== folderToDelete);
-    localStorage.setItem('predoctr-saved-mcqs', JSON.stringify(updatedMcqs));
-
-    // 3. Refresh state and close
-    loadData();
+    try {
+      await api.delete(`/api/collections/${folderToDelete.id}`);
+      await loadData();
+    } catch (err) {
+      console.error('Failed to delete collection:', err.message);
+    }
     setIsDeleteConfirmOpen(false);
     setFolderToDelete(null);
   };
 
-  const recentCourses = [
-    { title: 'Biology Lectures', progress: 65, lastChapter: 'Biological Molecules' },
-    { title: 'Chemistry MCQs', progress: 20, lastChapter: 'Atomic Structure' },
+  const recentCoursesToRender = (globalStats?.recent_subjects || []).slice(0, 2).map(sub => ({
+    title: sub.subject,
+    lastChapter: sub.topic || 'General Practice',
+    progress: sub.total > 0 ? Math.round((sub.score / sub.total) * 100) : 0,
+    slug: sub.subject.toLowerCase().replace(/ /g, '-').replace(/-mcqs$/, '') + '-mcqs'
+  }));
+
+  const fallbackCourses = [
+    { title: 'Biology MCQs', progress: 0, lastChapter: 'Start learning', slug: 'biology-mcqs' },
   ];
+
+  const displayCourses = recentCoursesToRender.length > 0 ? recentCoursesToRender : fallbackCourses;
 
   return (
     <div className="dashboard-page">
@@ -91,7 +95,7 @@ const Dashboard = () => {
           </div>
           <div className="header-stats">
             <div className="h-stat">
-              <span className="h-stat-val">12</span>
+              <span className="h-stat-val">{globalStats?.current_streak || 0}</span>
               <span className="h-stat-label">Days Streak</span>
             </div>
           </div>
@@ -99,6 +103,21 @@ const Dashboard = () => {
 
         <div className="dashboard-grid">
           <section className="dashboard-main">
+            {/* Free Chapter Nudge */}
+            <div className="free-nudge-card">
+              <div className="free-nudge-left">
+                <span className="free-nudge-pulse" />
+                <div className="free-nudge-text">
+                  <strong>🎁 Start with something free!</strong>
+                  <span>Biology Chapter 1 — Lectures & MCQ tests — are 100% free. No payment required, ever.</span>
+                </div>
+              </div>
+              <div className="free-nudge-actions">
+                <a href="/courses/biology-lectures" className="free-nudge-btn lectures">▶ Free Lecture</a>
+                <a href="/courses/biology-mcqs" className="free-nudge-btn mcqs">📝 Free MCQs</a>
+              </div>
+            </div>
+
             {/* Saved MCQ Collections */}
             <div className="section-title-row">
               <h2>My MCQ Collections</h2>
@@ -109,16 +128,16 @@ const Dashboard = () => {
             
             <div className="collections-grid">
               {collections.length > 0 ? (
-                collections.map((folder, index) => (
-                  <div key={index} className="collection-card fade-in-up">
+                collections.map((col) => (
+                  <div key={col.id} className="collection-card fade-in-up">
                     <div className="col-icon">
                       <Bookmark size={24} color="#4096EE" />
                     </div>
                     <div className="col-info">
-                      <h3>{folder}</h3>
-                      <p>{mcqStats[folder] || 0} Saved MCQs</p>
+                      <h3>{col.name}</h3>
+                      <p>{col.mcq_count || 0} Saved MCQs</p>
                     </div>
-                    <Link to={`/practice/saved/${folder.replace(/ /g, '-')}`} className="start-col-btn">
+                    <Link to={`/practice/saved/${col.name.replace(/ /g, '-')}`} className="start-col-btn">
                       <PlayCircle size={20} /> Start Quiz
                     </Link>
                   </div>
@@ -137,7 +156,7 @@ const Dashboard = () => {
             </div>
             
             <div className="continue-cards">
-              {recentCourses.map((course, index) => (
+              {displayCourses.map((course, index) => (
                 <div key={index} className="continue-card">
                   <div className="c-card-info">
                     <h3>{course.title}</h3>
@@ -149,7 +168,9 @@ const Dashboard = () => {
                     </div>
                     <span>{course.progress}%</span>
                   </div>
-                  <button className="resume-btn">Resume <ChevronRight size={16} /></button>
+                  <Link to={`/courses/${course.slug}`} className="resume-btn" style={{ textDecoration: 'none', display: 'flex', alignItems: 'center' }}>
+                    Resume <ChevronRight size={16} />
+                  </Link>
                 </div>
               ))}
             </div>
@@ -160,17 +181,17 @@ const Dashboard = () => {
                 <div className="perf-card">
                   <Book className="perf-icon" />
                   <h4>Lectures Watched</h4>
-                  <p>48 / 120</p>
+                  <p>0 / 120</p>
                 </div>
                 <div className="perf-card">
                   <Star className="perf-icon" />
                   <h4>MCQs Solved</h4>
-                  <p>{Object.values(mcqStats).reduce((a, b) => a + b, 0) + 1240}</p>
+                  <p>{globalStats?.total_correct || 0}</p>
                 </div>
                 <div className="perf-card">
                   <Clock className="perf-icon" />
                   <h4>Study Time</h4>
-                  <p>32h 15m</p>
+                  <p>{globalStats?.total_study_seconds ? `${Math.floor(globalStats.total_study_seconds / 3600)}h ${Math.floor((globalStats.total_study_seconds % 3600) / 60)}m` : '0h 0m'}</p>
                 </div>
               </div>
             </div>
@@ -211,18 +232,18 @@ const Dashboard = () => {
               
               <div className="folder-manage-list">
                 {collections.length > 0 ? (
-                  collections.map((folder, index) => (
-                    <div key={index} className="folder-manage-item">
+                  collections.map((col) => (
+                    <div key={col.id} className="folder-manage-item">
                       <div className="f-item-info">
                         <Bookmark size={20} color="#4096EE" />
                         <div>
-                          <span className="f-name">{folder}</span>
-                          <span className="f-count">{mcqStats[folder] || 0} questions</span>
+                          <span className="f-name">{col.name}</span>
+                          <span className="f-count">{col.mcq_count || 0} questions</span>
                         </div>
                       </div>
-                      <button 
-                        className="delete-folder-btn" 
-                        onClick={() => handleDeleteFolder(folder)}
+                      <button
+                        className="delete-folder-btn"
+                        onClick={() => handleDeleteFolder(col)}
                         title="Delete Folder"
                       >
                         <Trash2 size={18} />

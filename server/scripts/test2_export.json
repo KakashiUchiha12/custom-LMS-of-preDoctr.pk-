@@ -1,0 +1,860 @@
+[
+  {
+    "id": 56086,
+    "category": "",
+    "question": "Living things cannot grow, reproduce or stay alive without",
+    "options": [
+      "Oxygen",
+      "Food",
+      "Peace",
+      "Energy"
+    ],
+    "correct_answer": "Energy",
+    "explanation": "Energy is the fundamental requirement for all life processes, driving growth, reproduction, and maintenance."
+  },
+  {
+    "id": 56087,
+    "category": "",
+    "question": "The statistical study of energy transformations in a biological system or an organism is called?",
+    "options": [
+      "Respiration",
+      "Combustion",
+      "Bioenergetics",
+      "Depression"
+    ],
+    "correct_answer": "Bioenergetics",
+    "explanation": "Bioenergetics analyzes how organisms convert and utilize energy from nutrients and sunlight."
+  },
+  {
+    "id": 56088,
+    "category": "",
+    "question": "The most basic bioenergetics process(s) is/are",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Catabolism",
+      "A and B"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Photosynthesis and respiration are foundational processes that capture and release energy for life."
+  },
+  {
+    "id": 56089,
+    "category": "",
+    "question": "Chemically Photosynthesis is a which type of process?",
+    "options": [
+      "Redox",
+      "Reduction Process",
+      "Oxidation Process",
+      "Hydration Process"
+    ],
+    "correct_answer": "Redox",
+    "explanation": "Photosynthesis is a redox process where water is oxidized and CO2 is reduced to form glucose."
+  },
+  {
+    "id": 56090,
+    "category": "",
+    "question": "Chemically the Respiration is a which type of process?",
+    "options": [
+      "Oxidation Process",
+      "Reduction Process",
+      "Hydration Process",
+      "Halogenation Process"
+    ],
+    "correct_answer": "Oxidation Process",
+    "explanation": "Respiration is an oxidation process that oxidizes glucose to produce energy, CO2, and water."
+  },
+  {
+    "id": 56091,
+    "category": "",
+    "question": "What is the correct equation for the process of photosynthesis?",
+    "options": [
+      "6 H2O + light --> C6H12O6 + 6 O2CO2",
+      "12 CO2 + 5 H2O + light --> C6H12O6 + 6 O2",
+      "6 CO2 + 6 H2O + light -----> C6H12O6 + 6 O2",
+      "6 O2 +CO2 + 6 H2O + light --> C6H12O6 +"
+    ],
+    "correct_answer": "6 CO2 + 6 H2O + light -----> C6H12O6 + 6 O2",
+    "explanation": "Photosynthesis uses 6 CO2 and 6 H2O with light energy to produce 1 glucose (C6H12O6) and 6 O2."
+  },
+  {
+    "id": 56092,
+    "category": "",
+    "question": "The full range of all the electromagnetic radiations is called?",
+    "options": [
+      "Radio Waves",
+      "Light",
+      "Electromagnetic Spectrum",
+      "Prism"
+    ],
+    "correct_answer": "Electromagnetic Spectrum",
+    "explanation": "The electromagnetic spectrum includes all types of radiation, from radio waves to gamma rays."
+  },
+  {
+    "id": 56093,
+    "category": "",
+    "question": "Which part of the Electromagnetic Spectrum is used in the process of photosynthesis?",
+    "options": [
+      "Infra red",
+      "UV",
+      "Radio waves",
+      "Visible Light"
+    ],
+    "correct_answer": "Visible Light",
+    "explanation": "Visible light (400-700 nm) is used in photosynthesis, as it matches chlorophyll's absorption spectrum."
+  },
+  {
+    "id": 56094,
+    "category": "",
+    "question": "The graph which shows the effectiveness of different wavelengths of light for the process of photosynthesis is called?",
+    "options": [
+      "Electromagnetic Spectrum",
+      "Action Spectrum",
+      "Absorption Spectra",
+      "Rainbow Spectrum"
+    ],
+    "correct_answer": "Action Spectrum",
+    "explanation": "The action spectrum measures how effectively different light wavelengths drive photosynthesis."
+  },
+  {
+    "id": 56095,
+    "category": "",
+    "question": "The graph which shows the absorbance of different wavelengths of light in the process of photosynthesis is called?",
+    "options": [
+      "Electromagnetic Spectrum",
+      "Visible Light Spectrum",
+      "Emission Spectrum",
+      "Absorption Spectra"
+    ],
+    "correct_answer": "Absorption Spectra",
+    "explanation": "The absorption spectra indicates which wavelengths of light are absorbed by photosynthetic pigments."
+  },
+  {
+    "id": 56096,
+    "category": "",
+    "question": "Experimental Results suggests that the most effective wavelengths of light for the process of photosynthesis are?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "A and C options"
+    ],
+    "correct_answer": "A and C options",
+    "explanation": "Red and blue light are most effective for photosynthesis due to high chlorophyll absorption."
+  },
+  {
+    "id": 56097,
+    "category": "",
+    "question": "Pigment is any substance that absorbs__________.",
+    "options": [
+      "Sound",
+      "Heat",
+      "Light",
+      "Water"
+    ],
+    "correct_answer": "Light",
+    "explanation": "Pigments absorb light energy, enabling photosynthesis by capturing specific wavelengths."
+  },
+  {
+    "id": 56098,
+    "category": "",
+    "question": "Which of the following molecules are involved in the process of photosynthesis?",
+    "options": [
+      "Haemoglobin",
+      "Chlorophyll and Myoglobin",
+      "Chlorophyll and Carotenoids",
+      "Green Pigments"
+    ],
+    "correct_answer": "Chlorophyll and Carotenoids",
+    "explanation": "Chlorophyll and carotenoids capture light energy and protect the photosynthetic system."
+  },
+  {
+    "id": 56099,
+    "category": "",
+    "question": "Chlorophyll reflects which of the following light colours?",
+    "options": [
+      "Blue",
+      "Black",
+      "None",
+      "Green"
+    ],
+    "correct_answer": "Green",
+    "explanation": "Chlorophyll reflects green light, giving plants their characteristic color."
+  },
+  {
+    "id": 56100,
+    "category": "",
+    "question": "What are the two major types of chlorophylls?",
+    "options": [
+      "Chlorophyll A and chlorophyll F",
+      "Chlorophyll P and chlorophyll J",
+      "Chlorophyll A and Chlorophyll K",
+      "none of the above"
+    ],
+    "correct_answer": "none of the above",
+    "explanation": "Chlorophyll A and B are the primary types in plants, differing in their side groups.rn"
+  },
+  {
+    "id": 56101,
+    "category": "",
+    "question": "Chlorophyll A is NOT found in which of the following?",
+    "options": [
+      "Higher Plants",
+      "Lower Plants",
+      "Photosynthetic Bacteria",
+      "all of the above"
+    ],
+    "correct_answer": "Photosynthetic Bacteria",
+    "explanation": "Photosynthetic bacteria use bacteriochlorophyll, not Chlorophyll A, unlike plants."
+  },
+  {
+    "id": 56102,
+    "category": "",
+    "question": "The chlorophyll molecule contains which of the following metallic element atom?",
+    "options": [
+      "Magnesium",
+      "Iron",
+      "Sodium",
+      "Potassium"
+    ],
+    "correct_answer": "Magnesium",
+    "explanation": "Magnesium is central to the chlorophyll molecule, enabling light absorption."
+  },
+  {
+    "id": 56103,
+    "category": "",
+    "question": "What is the difference between Chlorophyll A and Chlorophyll B?",
+    "options": [
+      "They have different metal atoms in the centre",
+      "There is no difference they only differ in the names",
+      "On the 2nd Pyrole Ring the Chlorophyll A has a methyl group while the Chlorophyll B has aldehyde group on this position",
+      "Their structure is fundamentally different"
+    ],
+    "correct_answer": "On the 2nd Pyrole Ring the Chlorophyll A has a methyl group while the Chlorophyll B has aldehyde group on this position",
+    "explanation": "Chlorophyll A and B differ by a methyl vs. aldehyde group on the second pyrole ring."
+  },
+  {
+    "id": 56104,
+    "category": "",
+    "question": "The head of the chlorophyll molecule is ____________ in nature?",
+    "options": [
+      "Hydrophobic",
+      "Hydrophilic",
+      "In organic",
+      "Black colored"
+    ],
+    "correct_answer": "Hydrophilic",
+    "explanation": "The hydrophilic head of chlorophyll interacts with water in the thylakoid membrane."
+  },
+  {
+    "id": 56105,
+    "category": "",
+    "question": "Which of these are accessory pigments?",
+    "options": [
+      "Cholorphyll A",
+      "Chlorophyll B",
+      "Carotenoids",
+      "B and C"
+    ],
+    "correct_answer": "B and C",
+    "explanation": "Chlorophyll B and carotenoids are accessory pigments, broadening light absorption for photosynthesis."
+  },
+  {
+    "id": 56106,
+    "category": "",
+    "question": "The absorption of different colours of light by a pigment can be determined using",
+    "options": [
+      "Prism",
+      "Photometer",
+      "Spectrophotometer",
+      "Voltmeter"
+    ],
+    "correct_answer": "Spectrophotometer",
+    "explanation": "A spectrophotometer measures light absorption, revealing pigment properties in photosynthesis."
+  },
+  {
+    "id": 56107,
+    "category": "",
+    "question": "The pigments in the chloroplast are arranged in the form of?",
+    "options": [
+      "Clusters",
+      "Square",
+      "Rndomly",
+      "Sheet"
+    ],
+    "correct_answer": "Clusters",
+    "explanation": "Pigments are organized in clusters (photosystems) to efficiently capture light energy."
+  },
+  {
+    "id": 56108,
+    "category": "",
+    "question": "The peripheral part of the photosystem is called?",
+    "options": [
+      "Boundary",
+      "Edge",
+      "Antenna Complex",
+      "Corner"
+    ],
+    "correct_answer": "Antenna Complex",
+    "explanation": "The antenna complex surrounds the photosystem, collecting light for energy conversion."
+  },
+  {
+    "id": 56109,
+    "category": "",
+    "question": "The central part of the photosystem is called?",
+    "options": [
+      "Reaction Centre",
+      "Core",
+      "Prion",
+      "Cell"
+    ],
+    "correct_answer": "Reaction Centre",
+    "explanation": "The reaction centre converts absorbed light into chemical energy in photosynthesis."
+  },
+  {
+    "id": 56110,
+    "category": "",
+    "question": "Photosystem I is called?",
+    "options": [
+      "P3400",
+      "P100",
+      "P700",
+      "P001"
+    ],
+    "correct_answer": "P700",
+    "explanation": "Photosystem I is designated P700 due to its peak absorption at 700 nm."
+  },
+  {
+    "id": 56111,
+    "category": "",
+    "question": "What is Photosystem II called?",
+    "options": [
+      "P680",
+      "P33",
+      "P200",
+      "P002"
+    ],
+    "correct_answer": "P680",
+    "explanation": "Photosystem II is called P680, reflecting its peak absorption at 680 nm."
+  },
+  {
+    "id": 56112,
+    "category": "",
+    "question": "Carbon dioxide is used in which part of the photosynthesis?",
+    "options": [
+      "Dark reaction",
+      "Light Reaction",
+      "Calvin Cycle",
+      "Both A and C"
+    ],
+    "correct_answer": "Both A and C",
+    "explanation": "CO2 is fixed in the Calvin Cycle (dark reaction) to synthesize glucose."
+  },
+  {
+    "id": 56113,
+    "category": "",
+    "question": "Which scientist first suggested that the source of hydrogen in photosynthesis was water?",
+    "options": [
+      "Neil Van",
+      "Neil Bohr",
+      "Louis Pasteur",
+      "Iwanosky"
+    ],
+    "correct_answer": "Neil Van",
+    "explanation": "Cornelius van Niel proposed that water provides hydrogen for oxygen production in photosynthesis."
+  },
+  {
+    "id": 56114,
+    "category": "",
+    "question": "Which of these are the raw materials for the process of photosynthesis?",
+    "options": [
+      "Water",
+      "Carbon dioxide",
+      "Oxygen",
+      "A and B"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Water and CO2 are raw materials, converted by light into glucose and oxygen."
+  },
+  {
+    "id": 56115,
+    "category": "",
+    "question": "During the process of Photosynthesis energy is;",
+    "options": [
+      "Released",
+      "Stored",
+      "Neither released nor stored",
+      "First released then stored"
+    ],
+    "correct_answer": "Stored",
+    "explanation": "Photosynthesis stores light energy as chemical energy in glucose molecules."
+  },
+  {
+    "id": 56116,
+    "category": "",
+    "question": "The visible part of Electromagnetic spectrum ranges from;",
+    "options": [
+      "390nm to 760nm",
+      "200nm to 1000nm",
+      "3000nm to 5000nm",
+      "250nm to 350nm"
+    ],
+    "correct_answer": "390nm to 760nm",
+    "explanation": "The visible spectrum (390-760 nm) includes colors used in photosynthesis."
+  },
+  {
+    "id": 56117,
+    "category": "",
+    "question": "Where do the light independent reactions of the Photosynthesis take place?",
+    "options": [
+      "Grana",
+      "Stroma",
+      "Cell Membrane",
+      "Mitochondria"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "The stroma hosts the Calvin Cycle, where CO2 is fixed into carbohydrates."
+  },
+  {
+    "id": 56118,
+    "category": "",
+    "question": "Bacteriochlorophyll is found in;",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Human",
+      "Fungi"
+    ],
+    "correct_answer": "Bacteria",
+    "explanation": "Bacteriochlorophyll is a pigment used by photosynthetic bacteria for energy capture."
+  },
+  {
+    "id": 56119,
+    "category": "",
+    "question": "How many Pyrole Rings does a chloroplast molecule have?",
+    "options": [
+      "1",
+      "7",
+      "9",
+      "4"
+    ],
+    "correct_answer": "4",
+    "explanation": "A chlorophyll molecule contains 4 pyrole rings, forming its light-absorbing structure.rn"
+  },
+  {
+    "id": 56120,
+    "category": "",
+    "question": "What is the function of Carotenoids?",
+    "options": [
+      "No Function",
+      "To prevent oxidation of Chlorophyll by Oxygen",
+      "To protect the Chlorophyll from the intense sunlight",
+      "Both B and C"
+    ],
+    "correct_answer": "Both B and C",
+    "explanation": "Carotenoids protect chlorophyll from damage by oxygen and intense light in photosynthesis."
+  },
+  {
+    "id": 56121,
+    "category": "",
+    "question": "In which part of the chloroplast does the light dependent reaction take place?",
+    "options": [
+      "Granum",
+      "Stroma",
+      "Thylakoid Membrane",
+      "Cell Cytoplasm"
+    ],
+    "correct_answer": "Thylakoid Membrane",
+    "explanation": "The thylakoid membrane contains photosystems for light-dependent reactions."
+  },
+  {
+    "id": 56122,
+    "category": "",
+    "question": "The electrons released from the PSII after photoexcitation are accepted by which of the following electron acceptors?",
+    "options": [
+      "Plastoquinone",
+      "Plastocyanin",
+      "Cytochrome B",
+      "Cytochrome F"
+    ],
+    "correct_answer": "Plastoquinone",
+    "explanation": "Plastoquinone accepts electrons from PSII, initiating the electron transport chain."
+  },
+  {
+    "id": 56123,
+    "category": "",
+    "question": "The process of synthesis of ATP from ADP and inorganic phosphate in the electron transport chain of photosynthesis is called?",
+    "options": [
+      "Combustion",
+      "Phosphorylation",
+      "Photophosphorylation",
+      "Oxidation"
+    ],
+    "correct_answer": "Photophosphorylation",
+    "explanation": "Photophosphorylation uses light energy to synthesize ATP in the photosynthetic electron chain."
+  },
+  {
+    "id": 56124,
+    "category": "",
+    "question": "The electron acceptor of the PS II is",
+    "options": [
+      "FRS",
+      "Plastocyanin",
+      "Pheophytin",
+      "all of the above"
+    ],
+    "correct_answer": "Pheophytin",
+    "explanation": "Pheophytin accepts electrons from PSII, transferring them in the photosynthetic process."
+  },
+  {
+    "id": 56125,
+    "category": "",
+    "question": "The products of Light Reaction (non-cyclic electron transport chain) are?",
+    "options": [
+      "NADPH and ATP",
+      "ATP only",
+      "CO2 and Water",
+      "Water only"
+    ],
+    "correct_answer": "NADPH and ATP",
+    "explanation": "The non-cyclic electron transport produces NADPH and ATP for the Calvin Cycle."
+  },
+  {
+    "id": 56126,
+    "category": "",
+    "question": "What are the products of cyclic electron transport?",
+    "options": [
+      "NADPH and ATP",
+      "ATP only",
+      "CO2 and Water",
+      "Water only"
+    ],
+    "correct_answer": "ATP only",
+    "explanation": "Cyclic electron transport generates ATP using Photosystem I, without producing NADPH."
+  },
+  {
+    "id": 56127,
+    "category": "",
+    "question": "Which of the following enzymes are used in the Calvin Cycle or Dark Reaction of the Photosynthesis?",
+    "options": [
+      "Rubisco",
+      "Protease",
+      "Lipase",
+      "Lysozyme"
+    ],
+    "correct_answer": "Rubisco",
+    "explanation": "Rubisco catalyzes the fixation of CO2 into organic molecules in the Calvin Cycle."
+  },
+  {
+    "id": 56128,
+    "category": "",
+    "question": "Aerobic Respiration requires",
+    "options": [
+      "Oxygen",
+      "Nitorgen",
+      "Helium",
+      "Hydrogen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Oxygen is essential for aerobic respiration, accepting electrons to form water."
+  },
+  {
+    "id": 56129,
+    "category": "",
+    "question": "Anaerobic Respiration can occur in the absence",
+    "options": [
+      "Oxygen",
+      "Glucose",
+      "Enzymes",
+      "All of the above"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Anaerobic respiration proceeds without oxygen, using alternative electron acceptors like nitrate."
+  },
+  {
+    "id": 56131,
+    "category": "",
+    "question": "Which of the following is common in both aerobic and anaerobic respiration?",
+    "options": [
+      "Oxygen",
+      "Glycolysis",
+      "Krebs Cycle",
+      "all of the above"
+    ],
+    "correct_answer": "Glycolysis",
+    "explanation": "Glycolysis is the initial energy-producing step in both aerobic and anaerobic respiration."
+  },
+  {
+    "id": 56132,
+    "category": "",
+    "question": "Does pyruvate molecule directly enter the Krebs Cycle?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Sometimes only"
+    ],
+    "correct_answer": "No",
+    "explanation": "Pyruvate is converted to acetyl CoA by decarboxylation before entering the Krebs Cycle."
+  },
+  {
+    "id": 56133,
+    "category": "",
+    "question": "Anaerobic respiration is also called?",
+    "options": [
+      "Fermentation",
+      "Combustion",
+      "Hydration",
+      "Hydrogenation"
+    ],
+    "correct_answer": "Fermentation",
+    "explanation": "Fermentation is anaerobic respiration, producing alcohol or lactic acid without oxygen."
+  },
+  {
+    "id": 56134,
+    "category": "",
+    "question": "How many ATP molecules are released during the aerobic respiration?",
+    "options": [
+      "20",
+      "19-21",
+      "36-38",
+      "100-200"
+    ],
+    "correct_answer": "36-38",
+    "explanation": "Aerobic respiration yields 36-38 ATP molecules through glycolysis, Krebs Cycle, and ETC.rn"
+  },
+  {
+    "id": 56135,
+    "category": "",
+    "question": "Which of the following affect the process of photosynthesis?",
+    "options": [
+      "Temperature",
+      "CO2 Concentration",
+      "Light Intensity",
+      "all of the above"
+    ],
+    "correct_answer": "all of the above",
+    "explanation": "Temperature, CO2 levels, and light intensity regulate the rate of photosynthesis."
+  },
+  {
+    "id": 56136,
+    "category": "",
+    "question": "In cyclic electron transport chain which of the following system is involved?",
+    "options": [
+      "Photo System I",
+      "Photo System II",
+      "Both",
+      "None of the above"
+    ],
+    "correct_answer": "Photo System I",
+    "explanation": "Cyclic electron transport uses Photosystem I to produce ATP without NADPH."
+  },
+  {
+    "id": 56137,
+    "category": "",
+    "question": "Chlorophyll absorbs mainly which of the wavelengths of visible light?",
+    "options": [
+      "Blue",
+      "Red",
+      "A and B",
+      "Yellow"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Chlorophyll absorbs blue (430 nm) and red (660 nm) light most effectively for photosynthesis."
+  },
+  {
+    "id": 56138,
+    "category": "",
+    "question": "Fermentation products produced by the yeast are:",
+    "options": [
+      "H2O + CO2",
+      "Methyl alcohol + CO2",
+      "Methyl alcohol + Ethyl alcohol",
+      "Ethyl alcohol + CO2"
+    ],
+    "correct_answer": "Ethyl alcohol + CO2",
+    "explanation": "Yeast fermentation converts glucose to ethyl alcohol and CO2 in anaerobic conditions."
+  },
+  {
+    "id": 56139,
+    "category": "",
+    "question": "In anaerobic respiration only _______________% of the energy present within the chemical bond of glucose is converted into ATP.",
+    "options": [
+      "2/18%",
+      "1/10%",
+      "2/36%",
+      "100%"
+    ],
+    "correct_answer": "2/36%",
+    "explanation": "Anaerobic respiration converts about 2/36% of glucose energy to ATP due to incomplete oxidation."
+  },
+  {
+    "id": 56140,
+    "category": "",
+    "question": "In which of the following component of the body, lactic acid fermentation takes place?",
+    "options": [
+      "Heart",
+      "Brain",
+      "Liver",
+      "Muscles"
+    ],
+    "correct_answer": "Muscles",
+    "explanation": "Muscles perform lactic acid fermentation during intense exercise without oxygen."
+  },
+  {
+    "id": 56141,
+    "category": "",
+    "question": "In alcoholic fermentation pyruvic acid is broken down into?",
+    "options": [
+      "Acetaldehyde",
+      "Methyl alcohol",
+      "Ethyl alcohol",
+      "Lactic Acid"
+    ],
+    "correct_answer": "Ethyl alcohol",
+    "explanation": "In alcoholic fermentation, pyruvic acid is converted to ethyl alcohol via acetaldehyde."
+  },
+  {
+    "id": 56142,
+    "category": "",
+    "question": "Pyruvate is broken down to_______ in yeast.",
+    "options": [
+      "Acetyl CoA",
+      "Alcohol",
+      "Lactic acid",
+      "All of these"
+    ],
+    "correct_answer": "Alcohol",
+    "explanation": "Yeast breaks down pyruvate to ethyl alcohol in fermentation, producing energy anaerobically."
+  },
+  {
+    "id": 56143,
+    "category": "",
+    "question": "Lactic acid is produced as a result of:",
+    "options": [
+      "Glycolysis",
+      "Anaerobic respiration",
+      "Aerobic respiration",
+      "Both A and B"
+    ],
+    "correct_answer": "Anaerobic respiration",
+    "explanation": "Lactic acid is a byproduct of anaerobic respiration in muscles under low oxygen conditions."
+  },
+  {
+    "id": 56144,
+    "category": "",
+    "question": "Which of the following is not respiration?",
+    "options": [
+      "Breakdown of glucose",
+      "Formation of glucose",
+      "Release of energy",
+      "Exchange of gases"
+    ],
+    "correct_answer": "Formation of glucose",
+    "explanation": "Formation of glucose occurs in photosynthesis, not in the energy-releasing process of respiration."
+  },
+  {
+    "id": 56145,
+    "category": "",
+    "question": "Oxygen plays ___ role in respiration.",
+    "options": [
+      "It combines with acetyl-CoA at the start of the Krebs cycle",
+      "It plays no role",
+      "It is given off as a by-product during the oxidation of pyruvates",
+      "It is the final electron acceptor at the end of the electron transport chain"
+    ],
+    "correct_answer": "It is the final electron acceptor at the end of the electron transport chain",
+    "explanation": "Oxygen accepts electrons at the end of the ETC, forming water in respiration."
+  },
+  {
+    "id": 56146,
+    "category": "",
+    "question": "What is the product of the ETC in animals?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Water",
+      "All of these"
+    ],
+    "correct_answer": "Water",
+    "explanation": "The ETC in animals produces water by combining oxygen with electrons and protons."
+  },
+  {
+    "id": 56147,
+    "category": "",
+    "question": "Cytochromes are electron transport intermediates containing:",
+    "options": [
+      "Myoglobin",
+      "Haem",
+      "Globulin",
+      "Fibrin"
+    ],
+    "correct_answer": "Haem",
+    "explanation": "Cytochromes contain haem groups that facilitate electron transfer in respiration."
+  },
+  {
+    "id": 56148,
+    "category": "",
+    "question": "How does the electron transport system generate ATP?",
+    "options": [
+      "Symbiosis",
+      "Chemiosmosis",
+      "Both A and B",
+      "None of these"
+    ],
+    "correct_answer": "Chemiosmosis",
+    "explanation": "Chemiosmosis generates ATP by using a proton gradient across the membrane in the ETC."
+  },
+  {
+    "id": 56149,
+    "category": "",
+    "question": "Final acceptor of electrons in respiratory chain is?",
+    "options": [
+      "NADH",
+      "Cytochrome a3",
+      "Water",
+      "Oxygen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Oxygen is the final electron acceptor, combining with protons to form water."
+  },
+  {
+    "id": 56150,
+    "category": "",
+    "question": "Cytochrome a is oxidized by which of the following in ETC?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "ATP",
+      "Cytochrome a3"
+    ],
+    "correct_answer": "Cytochrome a3",
+    "explanation": "Cytochrome a3 oxidizes cytochrome a, passing electrons in the respiratory chain."
+  },
+  {
+    "id": 56151,
+    "category": "",
+    "question": "What is the copper containing protein involved in the ETC in plants?",
+    "options": [
+      "Pq",
+      "Pc",
+      "Pt",
+      "Po"
+    ],
+    "correct_answer": "Pc",
+    "explanation": "Plastocyanin (Pc) is a copper protein that transfers electrons in the photosynthetic ETC."
+  },
+  {
+    "id": 56152,
+    "category": "",
+    "question": "Cytochrome b is reduced by:",
+    "options": [
+      "Cytochrome c",
+      "Coenzyme Q",
+      "NADH",
+      "Cytochrome a"
+    ],
+    "correct_answer": "Coenzyme Q",
+    "explanation": "Coenzyme Q reduces cytochrome b, facilitating electron flow in the respiratory chain."
+  }
+]

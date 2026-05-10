@@ -255,17 +255,97 @@
 }
 
 .chapter-accordion.sidebar-variant .subtest-item.active {
-  background: #e0f2fe;
+  background: #4096EE !important;
   border-left: none;
   padding-left: 2rem;
 }
 
 .chapter-accordion.sidebar-variant .subtest-item.active .subtest-label {
-  color: #0284c7;
+  color: white !important;
+  font-weight: 700;
+}
+
+.chapter-accordion.sidebar-variant .subtest-item.active svg {
+  color: white !important;
 }
 
 .chapter-accordion.sidebar-variant .active-indicator {
   display: none;
+}
+
+/* ─── FREE Chapter Badge ──────────────────────────────── */
+.free-chapter-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: #dcfce7;
+  color: #15803d;
+  font-size: 0.65rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  padding: 3px 8px;
+  border-radius: 99px;
+  border: 1px solid #bbf7d0;
+  white-space: nowrap;
+}
+
+.free-badge-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #16a34a;
+  animation: freePulse 1.8s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
+@keyframes freePulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(1.4); }
+}
+
+/* Free chapter header highlight */
+.chapter-accordion.free-chapter .chapter-accordion-header {
+  background: linear-gradient(90deg, #f0fdf4, #f8fafc);
+}
+
+.chapter-accordion.free-chapter.open .chapter-accordion-header {
+  background: linear-gradient(90deg, #dcfce7, #eff6ff);
+}
+
+.chapter-accordion.free-chapter .chapter-accordion-name {
+  color: #15803d;
+}
+
+/* ─── Lock Icon on Chapter Header ─────────────────────── */
+.chapter-lock-icon {
+  color: #cbd5e1;
+  flex-shrink: 0;
+  transition: color 0.2s;
+}
+
+.chapter-accordion-header:hover .chapter-lock-icon {
+  color: #94a3b8;
+}
+
+/* ─── Locked Item Styles ──────────────────────────────── */
+.subtest-item.locked-item {
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.subtest-item.locked-item:hover {
+  background: #fef9f9;
+  opacity: 1;
+}
+
+.subtest-lock-icon {
+  color: #cbd5e1;
+  flex-shrink: 0;
+  transition: color 0.2s ease;
+}
+
+.subtest-item.locked-item:hover .subtest-lock-icon {
+  color: #ef4444;
 }
 
 @media (max-width: 768px) {
@@ -284,6 +364,14 @@
   .subtest-item.active {
     padding-left: calc(0.75rem - 4px);
   }
+
+.completion-circle {
+  width: 18px;
+  height: 18px;
+  border: 1px solid #cbd5e1;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
   .chapter-accordion.sidebar-variant .subtest-item.active {
     padding-left: 0.75rem;
   }

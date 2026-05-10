@@ -1,0 +1,4006 @@
+[
+  {
+    "id": 56086,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Living things cannot grow, reproduce or stay alive without",
+    "options": [
+      "Oxygen",
+      "Food",
+      "Peace",
+      "Energy"
+    ],
+    "correct_answer": "Energy",
+    "explanation": "Energy is the fundamental requirement for all life processes, driving growth, reproduction, and maintenance."
+  },
+  {
+    "id": 56087,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The statistical study of energy transformations in a biological system or an organism is called?",
+    "options": [
+      "Respiration",
+      "Combustion",
+      "Bioenergetics",
+      "Depression"
+    ],
+    "correct_answer": "Bioenergetics",
+    "explanation": "Bioenergetics analyzes how organisms convert and utilize energy from nutrients and sunlight."
+  },
+  {
+    "id": 56088,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The most basic bioenergetics process(s) is/are",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Catabolism",
+      "A and B"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Photosynthesis and respiration are foundational processes that capture and release energy for life."
+  },
+  {
+    "id": 56089,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Chemically Photosynthesis is a which type of process?",
+    "options": [
+      "Redox",
+      "Reduction Process",
+      "Oxidation Process",
+      "Hydration Process"
+    ],
+    "correct_answer": "Redox",
+    "explanation": "Photosynthesis is a redox process where water is oxidized and CO2 is reduced to form glucose."
+  },
+  {
+    "id": 56090,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Chemically the Respiration is a which type of process?",
+    "options": [
+      "Oxidation Process",
+      "Reduction Process",
+      "Hydration Process",
+      "Halogenation Process"
+    ],
+    "correct_answer": "Oxidation Process",
+    "explanation": "Respiration is an oxidation process that oxidizes glucose to produce energy, CO2, and water."
+  },
+  {
+    "id": 56091,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is the correct equation for the process of photosynthesis?",
+    "options": [
+      "6 H2O + light --> C6H12O6 + 6 O2CO2",
+      "12 CO2 + 5 H2O + light --> C6H12O6 + 6 O2",
+      "6 CO2 + 6 H2O + light -----> C6H12O6 + 6 O2",
+      "6 O2 +CO2 + 6 H2O + light --> C6H12O6 +"
+    ],
+    "correct_answer": "6 CO2 + 6 H2O + light -----> C6H12O6 + 6 O2",
+    "explanation": "Photosynthesis uses 6 CO2 and 6 H2O with light energy to produce 1 glucose (C6H12O6) and 6 O2."
+  },
+  {
+    "id": 56092,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The full range of all the electromagnetic radiations is called?",
+    "options": [
+      "Radio Waves",
+      "Light",
+      "Electromagnetic Spectrum",
+      "Prism"
+    ],
+    "correct_answer": "Electromagnetic Spectrum",
+    "explanation": "The electromagnetic spectrum includes all types of radiation, from radio waves to gamma rays."
+  },
+  {
+    "id": 56093,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which part of the Electromagnetic Spectrum is used in the process of photosynthesis?",
+    "options": [
+      "Infra red",
+      "UV",
+      "Radio waves",
+      "Visible Light"
+    ],
+    "correct_answer": "Visible Light",
+    "explanation": "Visible light (400-700 nm) is used in photosynthesis, as it matches chlorophyll's absorption spectrum."
+  },
+  {
+    "id": 56094,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The graph which shows the effectiveness of different wavelengths of light for the process of photosynthesis is called?",
+    "options": [
+      "Electromagnetic Spectrum",
+      "Action Spectrum",
+      "Absorption Spectra",
+      "Rainbow Spectrum"
+    ],
+    "correct_answer": "Action Spectrum",
+    "explanation": "The action spectrum measures how effectively different light wavelengths drive photosynthesis."
+  },
+  {
+    "id": 56095,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The graph which shows the absorbance of different wavelengths of light in the process of photosynthesis is called?",
+    "options": [
+      "Electromagnetic Spectrum",
+      "Visible Light Spectrum",
+      "Emission Spectrum",
+      "Absorption Spectra"
+    ],
+    "correct_answer": "Absorption Spectra",
+    "explanation": "The absorption spectra indicates which wavelengths of light are absorbed by photosynthetic pigments."
+  },
+  {
+    "id": 56096,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Experimental Results suggests that the most effective wavelengths of light for the process of photosynthesis are?",
+    "options": [
+      "Red",
+      "Yellow",
+      "Blue",
+      "A and C options"
+    ],
+    "correct_answer": "A and C options",
+    "explanation": "Red and blue light are most effective for photosynthesis due to high chlorophyll absorption."
+  },
+  {
+    "id": 56097,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Pigment is any substance that absorbs__________.",
+    "options": [
+      "Sound",
+      "Heat",
+      "Light",
+      "Water"
+    ],
+    "correct_answer": "Light",
+    "explanation": "Pigments absorb light energy, enabling photosynthesis by capturing specific wavelengths."
+  },
+  {
+    "id": 56098,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of the following molecules are involved in the process of photosynthesis?",
+    "options": [
+      "Haemoglobin",
+      "Chlorophyll and Myoglobin",
+      "Chlorophyll and Carotenoids",
+      "Green Pigments"
+    ],
+    "correct_answer": "Chlorophyll and Carotenoids",
+    "explanation": "Chlorophyll and carotenoids capture light energy and protect the photosynthetic system."
+  },
+  {
+    "id": 56099,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Chlorophyll reflects which of the following light colours?",
+    "options": [
+      "Blue",
+      "Black",
+      "None",
+      "Green"
+    ],
+    "correct_answer": "Green",
+    "explanation": "Chlorophyll reflects green light, giving plants their characteristic color."
+  },
+  {
+    "id": 56100,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What are the two major types of chlorophylls?",
+    "options": [
+      "Chlorophyll A and chlorophyll F",
+      "Chlorophyll P and chlorophyll J",
+      "Chlorophyll A and Chlorophyll K",
+      "none of the above"
+    ],
+    "correct_answer": "none of the above",
+    "explanation": "Chlorophyll A and B are the primary types in plants, differing in their side groups.rn"
+  },
+  {
+    "id": 56101,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Chlorophyll A is NOT found in which of the following?",
+    "options": [
+      "Higher Plants",
+      "Lower Plants",
+      "Photosynthetic Bacteria",
+      "all of the above"
+    ],
+    "correct_answer": "Photosynthetic Bacteria",
+    "explanation": "Photosynthetic bacteria use bacteriochlorophyll, not Chlorophyll A, unlike plants."
+  },
+  {
+    "id": 56102,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The chlorophyll molecule contains which of the following metallic element atom?",
+    "options": [
+      "Magnesium",
+      "Iron",
+      "Sodium",
+      "Potassium"
+    ],
+    "correct_answer": "Magnesium",
+    "explanation": "Magnesium is central to the chlorophyll molecule, enabling light absorption."
+  },
+  {
+    "id": 56103,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is the difference between Chlorophyll A and Chlorophyll B?",
+    "options": [
+      "They have different metal atoms in the centre",
+      "There is no difference they only differ in the names",
+      "On the 2nd Pyrole Ring the Chlorophyll A has a methyl group while the Chlorophyll B has aldehyde group on this position",
+      "Their structure is fundamentally different"
+    ],
+    "correct_answer": "On the 2nd Pyrole Ring the Chlorophyll A has a methyl group while the Chlorophyll B has aldehyde group on this position",
+    "explanation": "Chlorophyll A and B differ by a methyl vs. aldehyde group on the second pyrole ring."
+  },
+  {
+    "id": 56104,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The head of the chlorophyll molecule is ____________ in nature?",
+    "options": [
+      "Hydrophobic",
+      "Hydrophilic",
+      "In organic",
+      "Black colored"
+    ],
+    "correct_answer": "Hydrophilic",
+    "explanation": "The hydrophilic head of chlorophyll interacts with water in the thylakoid membrane."
+  },
+  {
+    "id": 56105,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of these are accessory pigments?",
+    "options": [
+      "Cholorphyll A",
+      "Chlorophyll B",
+      "Carotenoids",
+      "B and C"
+    ],
+    "correct_answer": "B and C",
+    "explanation": "Chlorophyll B and carotenoids are accessory pigments, broadening light absorption for photosynthesis."
+  },
+  {
+    "id": 56106,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The absorption of different colours of light by a pigment can be determined using",
+    "options": [
+      "Prism",
+      "Photometer",
+      "Spectrophotometer",
+      "Voltmeter"
+    ],
+    "correct_answer": "Spectrophotometer",
+    "explanation": "A spectrophotometer measures light absorption, revealing pigment properties in photosynthesis."
+  },
+  {
+    "id": 56107,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The pigments in the chloroplast are arranged in the form of?",
+    "options": [
+      "Clusters",
+      "Square",
+      "Rndomly",
+      "Sheet"
+    ],
+    "correct_answer": "Clusters",
+    "explanation": "Pigments are organized in clusters (photosystems) to efficiently capture light energy."
+  },
+  {
+    "id": 56108,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The peripheral part of the photosystem is called?",
+    "options": [
+      "Boundary",
+      "Edge",
+      "Antenna Complex",
+      "Corner"
+    ],
+    "correct_answer": "Antenna Complex",
+    "explanation": "The antenna complex surrounds the photosystem, collecting light for energy conversion."
+  },
+  {
+    "id": 56109,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The central part of the photosystem is called?",
+    "options": [
+      "Reaction Centre",
+      "Core",
+      "Prion",
+      "Cell"
+    ],
+    "correct_answer": "Reaction Centre",
+    "explanation": "The reaction centre converts absorbed light into chemical energy in photosynthesis."
+  },
+  {
+    "id": 56110,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Photosystem I is called?",
+    "options": [
+      "P3400",
+      "P100",
+      "P700",
+      "P001"
+    ],
+    "correct_answer": "P700",
+    "explanation": "Photosystem I is designated P700 due to its peak absorption at 700 nm."
+  },
+  {
+    "id": 56111,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is Photosystem II called?",
+    "options": [
+      "P680",
+      "P33",
+      "P200",
+      "P002"
+    ],
+    "correct_answer": "P680",
+    "explanation": "Photosystem II is called P680, reflecting its peak absorption at 680 nm."
+  },
+  {
+    "id": 56112,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Carbon dioxide is used in which part of the photosynthesis?",
+    "options": [
+      "Dark reaction",
+      "Light Reaction",
+      "Calvin Cycle",
+      "Both A and C"
+    ],
+    "correct_answer": "Both A and C",
+    "explanation": "CO2 is fixed in the Calvin Cycle (dark reaction) to synthesize glucose."
+  },
+  {
+    "id": 56113,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which scientist first suggested that the source of hydrogen in photosynthesis was water?",
+    "options": [
+      "Neil Van",
+      "Neil Bohr",
+      "Louis Pasteur",
+      "Iwanosky"
+    ],
+    "correct_answer": "Neil Van",
+    "explanation": "Cornelius van Niel proposed that water provides hydrogen for oxygen production in photosynthesis."
+  },
+  {
+    "id": 56114,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of these are the raw materials for the process of photosynthesis?",
+    "options": [
+      "Water",
+      "Carbon dioxide",
+      "Oxygen",
+      "A and B"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Water and CO2 are raw materials, converted by light into glucose and oxygen."
+  },
+  {
+    "id": 56115,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "During the process of Photosynthesis energy is;",
+    "options": [
+      "Released",
+      "Stored",
+      "Neither released nor stored",
+      "First released then stored"
+    ],
+    "correct_answer": "Stored",
+    "explanation": "Photosynthesis stores light energy as chemical energy in glucose molecules."
+  },
+  {
+    "id": 56116,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The visible part of Electromagnetic spectrum ranges from;",
+    "options": [
+      "390nm to 760nm",
+      "200nm to 1000nm",
+      "3000nm to 5000nm",
+      "250nm to 350nm"
+    ],
+    "correct_answer": "390nm to 760nm",
+    "explanation": "The visible spectrum (390-760 nm) includes colors used in photosynthesis."
+  },
+  {
+    "id": 56117,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Where do the light independent reactions of the Photosynthesis take place?",
+    "options": [
+      "Grana",
+      "Stroma",
+      "Cell Membrane",
+      "Mitochondria"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "The stroma hosts the Calvin Cycle, where CO2 is fixed into carbohydrates."
+  },
+  {
+    "id": 56118,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Bacteriochlorophyll is found in;",
+    "options": [
+      "Bacteria",
+      "Virus",
+      "Human",
+      "Fungi"
+    ],
+    "correct_answer": "Bacteria",
+    "explanation": "Bacteriochlorophyll is a pigment used by photosynthetic bacteria for energy capture."
+  },
+  {
+    "id": 56119,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "How many Pyrole Rings does a chloroplast molecule have?",
+    "options": [
+      "1",
+      "7",
+      "9",
+      "4"
+    ],
+    "correct_answer": "4",
+    "explanation": "A chlorophyll molecule contains 4 pyrole rings, forming its light-absorbing structure.rn"
+  },
+  {
+    "id": 56120,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is the function of Carotenoids?",
+    "options": [
+      "No Function",
+      "To prevent oxidation of Chlorophyll by Oxygen",
+      "To protect the Chlorophyll from the intense sunlight",
+      "Both B and C"
+    ],
+    "correct_answer": "Both B and C",
+    "explanation": "Carotenoids protect chlorophyll from damage by oxygen and intense light in photosynthesis."
+  },
+  {
+    "id": 56121,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "In which part of the chloroplast does the light dependent reaction take place?",
+    "options": [
+      "Granum",
+      "Stroma",
+      "Thylakoid Membrane",
+      "Cell Cytoplasm"
+    ],
+    "correct_answer": "Thylakoid Membrane",
+    "explanation": "The thylakoid membrane contains photosystems for light-dependent reactions."
+  },
+  {
+    "id": 56122,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The electrons released from the PSII after photoexcitation are accepted by which of the following electron acceptors?",
+    "options": [
+      "Plastoquinone",
+      "Plastocyanin",
+      "Cytochrome B",
+      "Cytochrome F"
+    ],
+    "correct_answer": "Plastoquinone",
+    "explanation": "Plastoquinone accepts electrons from PSII, initiating the electron transport chain."
+  },
+  {
+    "id": 56123,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The process of synthesis of ATP from ADP and inorganic phosphate in the electron transport chain of photosynthesis is called?",
+    "options": [
+      "Combustion",
+      "Phosphorylation",
+      "Photophosphorylation",
+      "Oxidation"
+    ],
+    "correct_answer": "Photophosphorylation",
+    "explanation": "Photophosphorylation uses light energy to synthesize ATP in the photosynthetic electron chain."
+  },
+  {
+    "id": 56124,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The electron acceptor of the PS II is",
+    "options": [
+      "FRS",
+      "Plastocyanin",
+      "Pheophytin",
+      "all of the above"
+    ],
+    "correct_answer": "Pheophytin",
+    "explanation": "Pheophytin accepts electrons from PSII, transferring them in the photosynthetic process."
+  },
+  {
+    "id": 56125,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "The products of Light Reaction (non-cyclic electron transport chain) are?",
+    "options": [
+      "NADPH and ATP",
+      "ATP only",
+      "CO2 and Water",
+      "Water only"
+    ],
+    "correct_answer": "NADPH and ATP",
+    "explanation": "The non-cyclic electron transport produces NADPH and ATP for the Calvin Cycle."
+  },
+  {
+    "id": 56126,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What are the products of cyclic electron transport?",
+    "options": [
+      "NADPH and ATP",
+      "ATP only",
+      "CO2 and Water",
+      "Water only"
+    ],
+    "correct_answer": "ATP only",
+    "explanation": "Cyclic electron transport generates ATP using Photosystem I, without producing NADPH."
+  },
+  {
+    "id": 56127,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of the following enzymes are used in the Calvin Cycle or Dark Reaction of the Photosynthesis?",
+    "options": [
+      "Rubisco",
+      "Protease",
+      "Lipase",
+      "Lysozyme"
+    ],
+    "correct_answer": "Rubisco",
+    "explanation": "Rubisco catalyzes the fixation of CO2 into organic molecules in the Calvin Cycle."
+  },
+  {
+    "id": 56128,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Aerobic Respiration requires",
+    "options": [
+      "Oxygen",
+      "Nitorgen",
+      "Helium",
+      "Hydrogen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Oxygen is essential for aerobic respiration, accepting electrons to form water."
+  },
+  {
+    "id": 56129,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Anaerobic Respiration can occur in the absence",
+    "options": [
+      "Oxygen",
+      "Glucose",
+      "Enzymes",
+      "All of the above"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Anaerobic respiration proceeds without oxygen, using alternative electron acceptors like nitrate."
+  },
+  {
+    "id": 56131,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of the following is common in both aerobic and anaerobic respiration?",
+    "options": [
+      "Oxygen",
+      "Glycolysis",
+      "Krebs Cycle",
+      "all of the above"
+    ],
+    "correct_answer": "Glycolysis",
+    "explanation": "Glycolysis is the initial energy-producing step in both aerobic and anaerobic respiration."
+  },
+  {
+    "id": 56132,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Does pyruvate molecule directly enter the Krebs Cycle?",
+    "options": [
+      "Yes",
+      "No",
+      "Maybe",
+      "Sometimes only"
+    ],
+    "correct_answer": "No",
+    "explanation": "Pyruvate is converted to acetyl CoA by decarboxylation before entering the Krebs Cycle."
+  },
+  {
+    "id": 56133,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Anaerobic respiration is also called?",
+    "options": [
+      "Fermentation",
+      "Combustion",
+      "Hydration",
+      "Hydrogenation"
+    ],
+    "correct_answer": "Fermentation",
+    "explanation": "Fermentation is anaerobic respiration, producing alcohol or lactic acid without oxygen."
+  },
+  {
+    "id": 56134,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "How many ATP molecules are released during the aerobic respiration?",
+    "options": [
+      "20",
+      "19-21",
+      "36-38",
+      "100-200"
+    ],
+    "correct_answer": "36-38",
+    "explanation": "Aerobic respiration yields 36-38 ATP molecules through glycolysis, Krebs Cycle, and ETC.rn"
+  },
+  {
+    "id": 56135,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of the following affect the process of photosynthesis?",
+    "options": [
+      "Temperature",
+      "CO2 Concentration",
+      "Light Intensity",
+      "all of the above"
+    ],
+    "correct_answer": "all of the above",
+    "explanation": "Temperature, CO2 levels, and light intensity regulate the rate of photosynthesis."
+  },
+  {
+    "id": 56136,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "In cyclic electron transport chain which of the following system is involved?",
+    "options": [
+      "Photo System I",
+      "Photo System II",
+      "Both",
+      "None of the above"
+    ],
+    "correct_answer": "Photo System I",
+    "explanation": "Cyclic electron transport uses Photosystem I to produce ATP without NADPH."
+  },
+  {
+    "id": 56137,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Chlorophyll absorbs mainly which of the wavelengths of visible light?",
+    "options": [
+      "Blue",
+      "Red",
+      "A and B",
+      "Yellow"
+    ],
+    "correct_answer": "A and B",
+    "explanation": "Chlorophyll absorbs blue (430 nm) and red (660 nm) light most effectively for photosynthesis."
+  },
+  {
+    "id": 56138,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Fermentation products produced by the yeast are:",
+    "options": [
+      "H2O + CO2",
+      "Methyl alcohol + CO2",
+      "Methyl alcohol + Ethyl alcohol",
+      "Ethyl alcohol + CO2"
+    ],
+    "correct_answer": "Ethyl alcohol + CO2",
+    "explanation": "Yeast fermentation converts glucose to ethyl alcohol and CO2 in anaerobic conditions."
+  },
+  {
+    "id": 56139,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "In anaerobic respiration only _______________% of the energy present within the chemical bond of glucose is converted into ATP.",
+    "options": [
+      "2/18%",
+      "1/10%",
+      "2/36%",
+      "100%"
+    ],
+    "correct_answer": "2/36%",
+    "explanation": "Anaerobic respiration converts about 2/36% of glucose energy to ATP due to incomplete oxidation."
+  },
+  {
+    "id": 56140,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "In which of the following component of the body, lactic acid fermentation takes place?",
+    "options": [
+      "Heart",
+      "Brain",
+      "Liver",
+      "Muscles"
+    ],
+    "correct_answer": "Muscles",
+    "explanation": "Muscles perform lactic acid fermentation during intense exercise without oxygen."
+  },
+  {
+    "id": 56141,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "In alcoholic fermentation pyruvic acid is broken down into?",
+    "options": [
+      "Acetaldehyde",
+      "Methyl alcohol",
+      "Ethyl alcohol",
+      "Lactic Acid"
+    ],
+    "correct_answer": "Ethyl alcohol",
+    "explanation": "In alcoholic fermentation, pyruvic acid is converted to ethyl alcohol via acetaldehyde."
+  },
+  {
+    "id": 56142,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Pyruvate is broken down to_______ in yeast.",
+    "options": [
+      "Acetyl CoA",
+      "Alcohol",
+      "Lactic acid",
+      "All of these"
+    ],
+    "correct_answer": "Alcohol",
+    "explanation": "Yeast breaks down pyruvate to ethyl alcohol in fermentation, producing energy anaerobically."
+  },
+  {
+    "id": 56143,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Lactic acid is produced as a result of:",
+    "options": [
+      "Glycolysis",
+      "Anaerobic respiration",
+      "Aerobic respiration",
+      "Both A and B"
+    ],
+    "correct_answer": "Anaerobic respiration",
+    "explanation": "Lactic acid is a byproduct of anaerobic respiration in muscles under low oxygen conditions."
+  },
+  {
+    "id": 56144,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Which of the following is not respiration?",
+    "options": [
+      "Breakdown of glucose",
+      "Formation of glucose",
+      "Release of energy",
+      "Exchange of gases"
+    ],
+    "correct_answer": "Formation of glucose",
+    "explanation": "Formation of glucose occurs in photosynthesis, not in the energy-releasing process of respiration."
+  },
+  {
+    "id": 56145,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Oxygen plays ___ role in respiration.",
+    "options": [
+      "It combines with acetyl-CoA at the start of the Krebs cycle",
+      "It plays no role",
+      "It is given off as a by-product during the oxidation of pyruvates",
+      "It is the final electron acceptor at the end of the electron transport chain"
+    ],
+    "correct_answer": "It is the final electron acceptor at the end of the electron transport chain",
+    "explanation": "Oxygen accepts electrons at the end of the ETC, forming water in respiration."
+  },
+  {
+    "id": 56146,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is the product of the ETC in animals?",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Water",
+      "All of these"
+    ],
+    "correct_answer": "Water",
+    "explanation": "The ETC in animals produces water by combining oxygen with electrons and protons."
+  },
+  {
+    "id": 56147,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Cytochromes are electron transport intermediates containing:",
+    "options": [
+      "Myoglobin",
+      "Haem",
+      "Globulin",
+      "Fibrin"
+    ],
+    "correct_answer": "Haem",
+    "explanation": "Cytochromes contain haem groups that facilitate electron transfer in respiration."
+  },
+  {
+    "id": 56148,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "How does the electron transport system generate ATP?",
+    "options": [
+      "Symbiosis",
+      "Chemiosmosis",
+      "Both A and B",
+      "None of these"
+    ],
+    "correct_answer": "Chemiosmosis",
+    "explanation": "Chemiosmosis generates ATP by using a proton gradient across the membrane in the ETC."
+  },
+  {
+    "id": 56149,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Final acceptor of electrons in respiratory chain is?",
+    "options": [
+      "NADH",
+      "Cytochrome a3",
+      "Water",
+      "Oxygen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Oxygen is the final electron acceptor, combining with protons to form water."
+  },
+  {
+    "id": 56150,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Cytochrome a is oxidized by which of the following in ETC?",
+    "options": [
+      "Carbon dioxide",
+      "Oxygen",
+      "ATP",
+      "Cytochrome a3"
+    ],
+    "correct_answer": "Cytochrome a3",
+    "explanation": "Cytochrome a3 oxidizes cytochrome a, passing electrons in the respiratory chain."
+  },
+  {
+    "id": 56151,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "What is the copper containing protein involved in the ETC in plants?",
+    "options": [
+      "Pq",
+      "Pc",
+      "Pt",
+      "Po"
+    ],
+    "correct_answer": "Pc",
+    "explanation": "Plastocyanin (Pc) is a copper protein that transfers electrons in the photosynthetic ETC."
+  },
+  {
+    "id": 56152,
+    "current_lesson_id": 960,
+    "category": "",
+    "question": "Cytochrome b is reduced by:",
+    "options": [
+      "Cytochrome c",
+      "Coenzyme Q",
+      "NADH",
+      "Cytochrome a"
+    ],
+    "correct_answer": "Coenzyme Q",
+    "explanation": "Coenzyme Q reduces cytochrome b, facilitating electron flow in the respiratory chain."
+  },
+  {
+    "id": 56154,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Plant cells synthesize the glucose sugar in;",
+    "options": [
+      "Thylakoid",
+      "Grana",
+      "Stroma",
+      "Cristae"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "The stroma of the chloroplast is where the Calvin Cycle occurs, producing glucose."
+  },
+  {
+    "id": 56155,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "In 'Chlorophyll a' the group attached to the porphyrin ring is;",
+    "options": [
+      "Hydroxyl group",
+      "Methyl group",
+      "Carboxyl group",
+      "Aldehyde group"
+    ],
+    "correct_answer": "Methyl group",
+    "explanation": "Chlorophyll a has a methyl group at the third position of its porphyrin ring, distinguishing it from Chlorophyll b."
+  },
+  {
+    "id": 56156,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "In 'Chlorophyll b' the group attached to the porphyrin ring is;",
+    "options": [
+      "Hydroxyl group",
+      "Methyl group",
+      "Carboxyl group",
+      "Aldehyde group"
+    ],
+    "correct_answer": "Aldehyde group",
+    "explanation": "Chlorophyll b has an aldehyde group at the third position of its porphyrin ring, unlike Chlorophyll a."
+  },
+  {
+    "id": 56157,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Chlorophyll is protected from intense light by;",
+    "options": [
+      "Plant hormones",
+      "Carotenoids",
+      "Plant enzymes",
+      "Water"
+    ],
+    "correct_answer": "Carotenoids",
+    "explanation": "Carotenoids act as accessory pigments, dissipating excess light energy to protect chlorophyll."
+  },
+  {
+    "id": 56158,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following in Glycolysis is the carrier of hydrogen?",
+    "options": [
+      "ADP",
+      "PGAL",
+      "DPGA",
+      "NAD"
+    ],
+    "correct_answer": "NAD",
+    "explanation": "NAD accepts hydrogen atoms during glycolysis, forming NADH for energy production."
+  },
+  {
+    "id": 56159,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following type of Cytochromes is common in both photosynthesis and respiration?",
+    "options": [
+      "Cyt a",
+      "Cyt b",
+      "Cyt a3",
+      "Cyt C"
+    ],
+    "correct_answer": "Cyt C",
+    "explanation": "Cytochrome c transfers electrons in the ETC of both photosynthesis and respiration."
+  },
+  {
+    "id": 56160,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "What happens to oxygen in electron transport chain?",
+    "options": [
+      "Reduced to water",
+      "Released as gas",
+      "Used as electron carrier",
+      "Supplies energy to produce ATP"
+    ],
+    "correct_answer": "Reduced to water",
+    "explanation": "Oxygen accepts electrons at the end of the ETC, combining with protons to form water."
+  },
+  {
+    "id": 56161,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The process responsible for energy production in animals is;",
+    "options": [
+      "Respiration",
+      "Digestion",
+      "Photosynthesis",
+      "None of the above"
+    ],
+    "correct_answer": "Respiration",
+    "explanation": "Respiration breaks down glucose to produce ATP, the energy currency for animal cells."
+  },
+  {
+    "id": 56162,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which wavelength of visible spectrum is the least important in the process of photosynthesis?",
+    "options": [
+      "Green Light",
+      "Red Light",
+      "Blue light",
+      "All of the above"
+    ],
+    "correct_answer": "Green Light",
+    "explanation": "Green light is reflected by chlorophyll, making it less effective for photosynthesis."
+  },
+  {
+    "id": 56163,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The light which is least absorbed by the chlorophyll is;",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "None of the above"
+    ],
+    "correct_answer": "Green",
+    "explanation": "Chlorophyll reflects green light, absorbing blue and red light for photosynthesis."
+  },
+  {
+    "id": 56164,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "How many ATP are synthesized during electron transport chain?",
+    "options": [
+      "32",
+      "36",
+      "16",
+      "2"
+    ],
+    "correct_answer": "32",
+    "explanation": "The ETC in eukaryotes produces about 32 ATP from NADH and FADH2 during respiration."
+  },
+  {
+    "id": 56165,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Calvin Cycle takes pace within;",
+    "options": [
+      "Stroma of chloroplast",
+      "Granum of chloroplast",
+      "Cytoplasm of cells",
+      "Mitochondria"
+    ],
+    "correct_answer": "Stroma of chloroplast",
+    "explanation": "The stroma provides the environment for the Calvin Cycle to fix CO2 into glucose."
+  },
+  {
+    "id": 56166,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Chlorophyll a and Chlorophyll b are important pigments of;",
+    "options": [
+      "Green plants",
+      "Animals",
+      "Bacteria",
+      "None"
+    ],
+    "correct_answer": "Green plants",
+    "explanation": "Chlorophyll a and b are key pigments in green plants, enabling light absorption for photosynthesis."
+  },
+  {
+    "id": 56167,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Vitamin B is also know as;",
+    "options": [
+      "Sun Vitamin",
+      "Riboflavin",
+      "Flavin",
+      "None of the above"
+    ],
+    "correct_answer": "Riboflavin",
+    "explanation": "Riboflavin (Vitamin B2) is a cofactor in energy metabolism, not related to sunlight."
+  },
+  {
+    "id": 56168,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Cytochromes are;",
+    "options": [
+      "Oxygen acceptor",
+      "Hydrogen acceptor",
+      "ADP acceptor",
+      "Electron acceptor"
+    ],
+    "correct_answer": "Electron acceptor",
+    "explanation": "Cytochromes facilitate electron transfer in the ETC during respiration and photosynthesis."
+  },
+  {
+    "id": 56169,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Glycolysis completes with a net gain of;",
+    "options": [
+      "2 ATP",
+      "3 ATP",
+      "4 ATP",
+      "32 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Glycolysis produces 4 ATP but uses 2, resulting in a net gain of 2 ATP per glucose."
+  },
+  {
+    "id": 56170,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "What is the main source of all the energy on earth?",
+    "options": [
+      "Green Plants",
+      "Minerals",
+      "Glucose",
+      "Sunlight"
+    ],
+    "correct_answer": "Sunlight",
+    "explanation": "Sunlight powers photosynthesis, which sustains life by providing energy to ecosystems."
+  },
+  {
+    "id": 56171,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "About how much of the total sunlight that enters our atmosphere reaches the earth surface?",
+    "options": [
+      "100%",
+      "50%",
+      "60%",
+      "40%"
+    ],
+    "correct_answer": "50%",
+    "explanation": "Around 50% of sunlight reaches the surface, with the rest scattered or absorbed by the atmosphere."
+  },
+  {
+    "id": 56172,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Carotenoids absorb which range of wavelengths of the visible light?",
+    "options": [
+      "500nm to 600nm",
+      "1000nm to 2000nm",
+      "3000nm",
+      "5000nm"
+    ],
+    "correct_answer": "500nm to 600nm",
+    "explanation": "Carotenoids absorb light in the 500-600 nm range, complementing chlorophyll absorption."
+  },
+  {
+    "id": 56173,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following type of chlorophyll is the most abundant?",
+    "options": [
+      "Chlorophyll A",
+      "Chlorophyll B",
+      "Bacteriochlorophyll",
+      "Chlorophyll C"
+    ],
+    "correct_answer": "Chlorophyll A",
+    "explanation": "Chlorophyll A is the primary pigment in photosynthesis, making it the most abundant."
+  },
+  {
+    "id": 56174,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Who proved the theory of Van Neil that Water was the source of hydrogen ions and oxygen produced in the photosynthesis?",
+    "options": [
+      "Neil Bohr",
+      "Robin Hill",
+      "Anderson",
+      "John"
+    ],
+    "correct_answer": "Robin Hill",
+    "explanation": "Robin Hill's Hill Reaction demonstrated that water splits to produce oxygen in photosynthesis."
+  },
+  {
+    "id": 56175,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The process of ATP synthesis is called?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Phosphorylation",
+      "Oxidation"
+    ],
+    "correct_answer": "Phosphorylation",
+    "explanation": "Phosphorylation is the addition of a phosphate group to ADP, forming ATP."
+  },
+  {
+    "id": 56176,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The electron deficiency of PSII during non-cyclic electron transport chain is covered by;",
+    "options": [
+      "Photolysis of Water",
+      "Photolysis of CO2",
+      "PSI",
+      "Antenna complex"
+    ],
+    "correct_answer": "Photolysis of Water",
+    "explanation": "Photolysis of water provides electrons to PSII, releasing oxygen in the process."
+  },
+  {
+    "id": 56177,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "How many ATP molecules are consumed in the Glycolysis?",
+    "options": [
+      "2 ATP",
+      "3 ATP",
+      "5 ATP",
+      "18 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Glycolysis uses 2 ATP to phosphorylate glucose, starting the energy-releasing process."
+  },
+  {
+    "id": 56178,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The dark reaction terminates on the regeneration of which molecule?",
+    "options": [
+      "PGA",
+      "CO2",
+      "Glucose",
+      "RUBP"
+    ],
+    "correct_answer": "RUBP",
+    "explanation": "RUBP is regenerated in the Calvin Cycle to continue fixing CO2 into carbohydrates."
+  },
+  {
+    "id": 56179,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Photophosphorylation is the synthesis of ATP by which energy?",
+    "options": [
+      "Nuclear Energy",
+      "Solar Energy",
+      "Chemical Energy",
+      "Electrical Energy"
+    ],
+    "correct_answer": "Solar Energy",
+    "explanation": "Photophosphorylation harnesses solar energy to produce ATP during the light reactions."
+  },
+  {
+    "id": 56180,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Carotenoids contain",
+    "options": [
+      "Chlorophyll A and Chlorophyll B",
+      "Xanthophyll and Carotenes",
+      "Bacteriochlorophyll",
+      "Lipids"
+    ],
+    "correct_answer": "Xanthophyll and Carotenes",
+    "explanation": "Carotenoids are divided into xanthophylls and carotenes, aiding in light absorption."
+  },
+  {
+    "id": 56181,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "A single NADH has energy stored equivalent to how many ATP molecules?",
+    "options": [
+      "2 ATP",
+      "5 ATP",
+      "18 ATP",
+      "3 ATP"
+    ],
+    "correct_answer": "3 ATP",
+    "explanation": "NADH yields about 3 ATP in eukaryotes through the ETC and oxidative phosphorylation."
+  },
+  {
+    "id": 56182,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Crista of the Mitochondria are the site of?",
+    "options": [
+      "Electron transport chain",
+      "Glycolysis",
+      "Krebs Cycle",
+      "Photophosphorylation"
+    ],
+    "correct_answer": "Electron transport chain",
+    "explanation": "The cristae house the ETC, increasing surface area for ATP production in respiration."
+  },
+  {
+    "id": 56183,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "How many phosphate molecules are there in an ATP molecule?",
+    "options": [
+      "three phosphate groups",
+      "four phosphate groups",
+      "one phosphate groups",
+      "none of the above"
+    ],
+    "correct_answer": "three phosphate groups",
+    "explanation": "ATP (adenosine triphosphate) has three phosphate groups, which store energy in their bonds."
+  },
+  {
+    "id": 56184,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which cells regulate the opening and closing of the stomata?",
+    "options": [
+      "Neutrophil cells",
+      "Guard cells",
+      "Mesophyll cells",
+      "Basophil cells"
+    ],
+    "correct_answer": "Guard cells",
+    "explanation": "Guard cells control stomatal openings, managing gas exchange and water loss in plants.rn"
+  },
+  {
+    "id": 56185,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Evolution of pollen tube is parallel to the evolution of which of the following?",
+    "options": [
+      "Leaf",
+      "Flower",
+      "Seed",
+      "Plan"
+    ],
+    "correct_answer": "Seed",
+    "explanation": "Pollen tubes evolved with seeds to enable fertilization in seed plants, ensuring reproduction."
+  },
+  {
+    "id": 56186,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Photosynthetic pigments are organized in form of?",
+    "options": [
+      "Clusters",
+      "Stacks",
+      "Photosystems",
+      "Both a and b"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Photosystems are clusters of pigments in the thylakoid membrane, organized for efficient light capture."
+  },
+  {
+    "id": 56187,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following is a compensation point?",
+    "options": [
+      "Leaves respire and utilize O2 and release CO",
+      "Photosynthesis and respiration occur at same rate. So there is not net exchange of gases between atmosphere and plants.",
+      "Rate of photosynthesis increases, so do the O2 production, with a net release of oxygen coupled with the uptake of CO?",
+      "Rate of respiration becomes more than rate of photosynthesis. 16 Net yield of H2O in Photosynthesis is"
+    ],
+    "correct_answer": "Photosynthesis and respiration occur at same rate. So there is not net exchange of gases between atmosphere and plants.",
+    "explanation": "The compensation point occurs when photosynthesis and respiration balance, with no net gas exchange.rn"
+  },
+  {
+    "id": 56188,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "At which times there is no net gaseous exchange between leaves and the atmosphere?",
+    "options": [
+      "Day",
+      "Night",
+      "Dawn and Dusk",
+      "Midnight"
+    ],
+    "correct_answer": "Dawn and Dusk",
+    "explanation": "At dawn and dusk, light levels often lead to a balance between photosynthesis and respiration."
+  },
+  {
+    "id": 56189,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following is the 'Energy Currency' of the cell?",
+    "options": [
+      "ATP",
+      "DNA",
+      "Chromosome",
+      "Enzyme"
+    ],
+    "correct_answer": "ATP",
+    "explanation": "ATP provides energy for cellular processes by releasing energy from its phosphate bonds."
+  },
+  {
+    "id": 56190,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "One of the most important molecules found in living organisms is ATP. What is its major function?",
+    "options": [
+      "Energy source of the cell",
+      "Coenzyme",
+      "Cofactor",
+      "Both A and B"
+    ],
+    "correct_answer": "Energy source of the cell",
+    "explanation": "ATP's primary role is to supply energy for cellular activities through its hydrolysis."
+  },
+  {
+    "id": 56191,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Primary function of ATP is:",
+    "options": [
+      "Act as catalyst",
+      "Allosteric modulation of enzymes",
+      "Energy source",
+      "To store energy"
+    ],
+    "correct_answer": "Energy source",
+    "explanation": "ATP provides energy by breaking its phosphate bonds, fueling cellular reactions."
+  },
+  {
+    "id": 56192,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Breaking of terminal phosphate of ATP releases about Kcal of energy?",
+    "options": [
+      "6.1",
+      "6.3",
+      "7.1",
+      "None of these"
+    ],
+    "correct_answer": "7.1",
+    "explanation": "Hydrolysis of ATP\\'s terminal phosphate releases approximately 7.1 kcal/mol of energy.rn"
+  },
+  {
+    "id": 56193,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "It is false about ATP:",
+    "options": [
+      "It is a RNA nucleotide",
+      "It provides energy for cellular reactions",
+      "It is produced by endoplasmic reticulum",
+      "All of these"
+    ],
+    "correct_answer": "It is produced by endoplasmic reticulum",
+    "explanation": "ATP is produced via glycolysis in the cytoplasm and oxidative phosphorylation in mitochondria.rn"
+  },
+  {
+    "id": 56194,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Excretory products of autotrophic plants:",
+    "options": [
+      "CO 2",
+      "O 2",
+      "H 2O",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Autotrophic plants release CO2, O2, and H2O as byproducts of metabolism and transpiration."
+  },
+  {
+    "id": 56195,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which pair of areas within a chloroplast will show the steepest pH gradient between them?",
+    "options": [
+      "DNA and stroma",
+      "Ribosome and stroma",
+      "Stroma and the space between the outer and inner membrane",
+      "Stroma and the thylakoid interior space"
+    ],
+    "correct_answer": "Stroma and the thylakoid interior space",
+    "explanation": "During photosynthesis, protons accumulate in the thylakoid space, creating a pH gradient with the stroma."
+  },
+  {
+    "id": 56196,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which one is not an energy releasing process?",
+    "options": [
+      "Glycolysis",
+      "Photosynthesis",
+      "Respiration",
+      "Krebs cycle"
+    ],
+    "correct_answer": "Photosynthesis",
+    "explanation": "Photosynthesis stores energy in glucose, while glycolysis, respiration, and the Krebs cycle release energy."
+  },
+  {
+    "id": 56197,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "In all plants the major sites of photosynthesis are:",
+    "options": [
+      "Leaf",
+      "Stems",
+      "Roots",
+      "Branches"
+    ],
+    "correct_answer": "Leaf",
+    "explanation": "Leaves contain chloroplasts with chlorophyll, making them the primary site of photosynthesis."
+  },
+  {
+    "id": 56199,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following is NOT a product of the TCA cycle?",
+    "options": [
+      "CO2",
+      "ATP",
+      "NADH",
+      "Acetyl-CoA"
+    ],
+    "correct_answer": "Acetyl-CoA",
+    "explanation": "Acetyl-CoA enters the TCA cycle, which produces CO2, ATP, and NADH as products."
+  },
+  {
+    "id": 56200,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'How many enzymatic steps are involved in converting glucose to pyruvate through the process of glycolysis?'",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "correct_answer": "10",
+    "explanation": "Glycolysis is a 10-step process that converts glucose into two pyruvate molecules."
+  },
+  {
+    "id": 56201,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Energy is important to all forms of life because",
+    "options": [
+      "all forms of life require a continuous supply of it.",
+      "it is required in order to do work.",
+      "it is required in order to make specific alterations in the cell.",
+      "all of the above."
+    ],
+    "correct_answer": "all of the above.",
+    "explanation": "Energy drives all life processes, from metabolic reactions to physical work."
+  },
+  {
+    "id": 56202,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'Homeostasis, the steady state that is so vital to life, is possible for cells because'",
+    "options": [
+      "the cell cannot convert energy from one form to another.",
+      "all cells are autotrophic.",
+      "the cell continually takes up energy from the environment.",
+      "all cellular reactions are anabolic."
+    ],
+    "correct_answer": "the cell continually takes up energy from the environment.",
+    "explanation": "Cells use environmental energy to maintain homeostasis through metabolic processes."
+  },
+  {
+    "id": 56203,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Of the following components of the mitochondrial electron transport system, which transfers protons in addition to electrons?",
+    "options": [
+      "Coenzyme Q",
+      "Cytochrome a",
+      "ATP synthase",
+      "Cytochrome c1"
+    ],
+    "correct_answer": "Coenzyme Q",
+    "explanation": "Coenzyme Q shuttles electrons and protons, contributing to the proton gradient in the ETC."
+  },
+  {
+    "id": 56204,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "Which of the following would NOT be used as a final electron acceptor in anaerobic respiration?",
+    "options": [
+      "Sulfur",
+      "Protons",
+      "Iron",
+      "Oxygen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Anaerobic respiration uses alternative acceptors like sulfur or iron, not oxygen."
+  },
+  {
+    "id": 56205,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'The respiration process that results in the buildup of organic waste compounds in a cell is known as'",
+    "options": [
+      "dehydration.",
+      "fermentation.",
+      "reduction.",
+      "anaerobiasis."
+    ],
+    "correct_answer": "fermentation.",
+    "explanation": "Fermentation produces organic wastes like ethanol or lactic acid in anaerobic conditions."
+  },
+  {
+    "id": 56206,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "If 6.5 g of a protein was fully oxidized, what would be the net energy released for use by a body?",
+    "options": [
+      "36 Calories",
+      "114 Calories",
+      "26 Calories",
+      "58.5 Calories"
+    ],
+    "correct_answer": "26 Calories",
+    "explanation": "Proteins yield 4 kcal/g when oxidized, so 6.5 g provides 26 kcal of energy."
+  },
+  {
+    "id": 56207,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "The origin of CO2 in the blood is",
+    "options": [
+      "the natural equilibrium conversion process from O2.",
+      "glycolysis and the Krebs cycle in tissue cells.",
+      "the product from acting as the final electron acceptor in oxidative phosphorylation.",
+      "passive diffusion from the atmosphere."
+    ],
+    "correct_answer": "glycolysis and the Krebs cycle in tissue cells.",
+    "explanation": "CO2 is produced during glycolysis and the Krebs cycle as glucose is metabolized."
+  },
+  {
+    "id": 56208,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "\\'Bacteria are capable of producing 38 net molecules of ATP from every molecule of glucose that is fully metabolized by oxidative phosphorylation. Which of the following is NOT true about this datum?\\'",
+    "options": [
+      "The majority of the ATP molecules are produced within the mitochondria.",
+      "This number is greater than that produced from a molecule of glucose within a human cell.",
+      "This total yield of ATP includes the molecules produced by substratelevel phosphorylation.",
+      "The presence of oxygen is required to produce this total yield of ATP."
+    ],
+    "correct_answer": "The majority of the ATP molecules are produced within the mitochondria.",
+    "explanation": "Bacteria lack mitochondria, so ATP synthesis occurs in the cytoplasm, not mitochondria.rn"
+  },
+  {
+    "id": 56209,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'Frequently the final compound produced by a metabolic pathway will serve as a down regulator for that pathway. This mechanism is known as'",
+    "options": [
+      "first-product inhibition.",
+      "coenzyme suppression.",
+      "noncompetitive inhibition.",
+      "feedback inhibition."
+    ],
+    "correct_answer": "feedback inhibition.",
+    "explanation": "Feedback inhibition regulates metabolism by having end products inhibit earlier steps."
+  },
+  {
+    "id": 56210,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'A chemical reaction that results in negative free energy (–DG ) is considered to be'",
+    "options": [
+      "catabolic.",
+      "anabolic.",
+      "exergonic.",
+      "both A and C."
+    ],
+    "correct_answer": "exergonic.",
+    "explanation": "Exergonic reactions release energy, indicated by a negative change in free energy."
+  },
+  {
+    "id": 56211,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "A(n) _____ bond holds the two strands of DNA within its double helix form and must be overcome for gene expression, protein production, and replication.",
+    "options": [
+      "polar",
+      "nonpolar",
+      "hydrogen",
+      "ionic"
+    ],
+    "correct_answer": "hydrogen",
+    "explanation": "Hydrogen bonds between base pairs stabilize the DNA double helix, broken during replication."
+  },
+  {
+    "id": 56212,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "For each electron released by an NADH molecule sent through the mitochondrial electron transport chain, ____ ATP is/are produced.",
+    "options": [
+      "one",
+      "three",
+      "two",
+      "eleven"
+    ],
+    "correct_answer": "three",
+    "explanation": "Each NADH in the ETC typically yields 2.5-3 ATP, often rounded to 3 for simplicity."
+  },
+  {
+    "id": 56213,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'Which of the following lipids, as a whole, has the highest burning (smoking) point?'",
+    "options": [
+      "Saturated fats",
+      "Polyunsaturated fats",
+      "Vegetable oils",
+      "Trans fats"
+    ],
+    "correct_answer": "Saturated fats",
+    "explanation": "Saturated fats have stronger intermolecular forces, leading to a higher smoking point."
+  },
+  {
+    "id": 56214,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'Any organism that requires organic compounds such as glucose as its energy source would be categorized as a(n)'",
+    "options": [
+      "heterotroph.",
+      "lithotroph.",
+      "phototroph.",
+      "chemotroph."
+    ],
+    "correct_answer": "heterotroph.",
+    "explanation": "Heterotrophs rely on organic compounds for energy, unlike autotrophs which synthesize their own."
+  },
+  {
+    "id": 56215,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "'How many molecules of CO2 are released from a fully oxidized molecule of glucose?'",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_answer": "6",
+    "explanation": "Complete oxidation of glucose via glycolysis, pyruvate oxidation, and the Krebs cycle releases 6 CO2."
+  },
+  {
+    "id": 56216,
+    "current_lesson_id": 961,
+    "category": "",
+    "question": "A(n) _____ bond is formed when monosaccharides are polymerized.",
+    "options": [
+      "glycosidic",
+      "peptide",
+      "exergonic",
+      "endergonic"
+    ],
+    "correct_answer": "glycosidic",
+    "explanation": "Glycosidic bonds link monosaccharides, forming polysaccharides like starch or cellulose."
+  },
+  {
+    "id": 56218,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Homeostasis, the steady state that is so vital to life, is possible for cells because",
+    "options": [
+      "the cell cannot convert energy from one form to another.",
+      "all cells are autotrophic.",
+      "the cell continually takes up energy from the environment.",
+      "all cellular reactions are anabolic."
+    ],
+    "correct_answer": "the cell continually takes up energy from the environment.",
+    "explanation": "Cells use environmental energy to maintain homeostasis through metabolic processes.{Environmental energy means ATP}.rn"
+  },
+  {
+    "id": 56220,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "How many enzymatic steps are involved in converting glucose to pyruvate through the process of glycolysis?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "correct_answer": "10",
+    "explanation": "Glycolysis is a 10-step process that converts glucose into two pyruvate molecules."
+  },
+  {
+    "id": 56223,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The respiration process that results in the buildup of organic waste compounds in a cell is known as",
+    "options": [
+      "dehydration.",
+      "fermentation.",
+      "reduction.",
+      "anaerobiasis."
+    ],
+    "correct_answer": "fermentation.",
+    "explanation": "Fermentation produces organic wastes like ethanol or lactic acid in anaerobic conditions."
+  },
+  {
+    "id": 56226,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Bacteria are capable of producing 38 net molecules of ATP from every molecule of glucose that is fully metabolized by oxidative phosphorylation. Which of the following is NOT true about this datum?",
+    "options": [
+      "The majority of the ATP molecules are produced within the mitochondria.",
+      "This number is greater than that produced from a molecule of glucose within a human cell.",
+      "This total yield of ATP includes the molecules produced by substrate-level phosphorylation.",
+      "The presence of oxygen is required to produce this total yield of ATP."
+    ],
+    "correct_answer": "The majority of the ATP molecules are produced within the mitochondria.",
+    "explanation": "Bacteria lack mitochondria, so ATP synthesis occurs in the cytoplasm, not mitochondria.rn"
+  },
+  {
+    "id": 56227,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Frequently the final compound produced by a metabolic pathway will serve as a down regulator for that pathway. This mechanism is known as",
+    "options": [
+      "first-product inhibition.",
+      "coenzyme suppression.",
+      "noncompetitive inhibition.",
+      "feedback inhibition."
+    ],
+    "correct_answer": "feedback inhibition.",
+    "explanation": "Feedback inhibition regulates metabolism by having end products inhibit earlier steps."
+  },
+  {
+    "id": 56228,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "A chemical reaction that results in negative free energy (–DG ) is considered to be",
+    "options": [
+      "catabolic.",
+      "anabolic.",
+      "exergonic.",
+      "both A and C."
+    ],
+    "correct_answer": "exergonic.",
+    "explanation": "Exergonic reactions release energy, indicated by a negative change in free energy."
+  },
+  {
+    "id": 56231,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following lipids, as a whole, has the highest burning (smoking) point?",
+    "options": [
+      "Saturated fats",
+      "Polyunsaturated fats",
+      "Vegetable oils",
+      "Trans fats"
+    ],
+    "correct_answer": "Saturated fats",
+    "explanation": "Saturated fats have stronger intermolecular forces, leading to a higher smoking point."
+  },
+  {
+    "id": 56232,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Any organism that requires organic compounds such as glucose as its energy source would be categorized as a(n)",
+    "options": [
+      "heterotroph.",
+      "lithotroph.",
+      "phototroph.",
+      "chemotroph."
+    ],
+    "correct_answer": "heterotroph.",
+    "explanation": "Heterotrophs rely on organic compounds for energy, unlike autotrophs which synthesize their own."
+  },
+  {
+    "id": 56233,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "How many molecules of CO2 are released from a fully oxidized molecule of glucose?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_answer": "6",
+    "explanation": "Complete oxidation of glucose via glycolysis, pyruvate oxidation, and the Krebs cycle releases 6 CO2."
+  },
+  {
+    "id": 56235,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What Le Chatelier’s principle is to chemistry, ______ is to biology.",
+    "options": [
+      "the Gram stain",
+      "homeostasis",
+      "muscle contraction",
+      "vision"
+    ],
+    "correct_answer": "homeostasis",
+    "explanation": "Homeostasis ensures biological systems maintain balance, akin to chemical equilibrium."
+  },
+  {
+    "id": 56236,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "In what way is the enzyme catalase related to the food industry?",
+    "options": [
+      "It is used in a cold pasteurization process for milk.",
+      "It is used to prevent crystal formation in ice cream.",
+      "It produces a desirable flavor in cheeses.",
+      "It enhances the color of white bread."
+    ],
+    "correct_answer": "It is used in a cold pasteurization process for milk.",
+    "explanation": "Catalase breaks down hydrogen peroxide, aiding in milk preservation during cold pasteurization."
+  },
+  {
+    "id": 56237,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The action of ATP synthase is commonly attributed to the mechanism of",
+    "options": [
+      "symport.",
+      "ligand-gated channels.",
+      "mechanical-gated channels.",
+      "chemiosmotic coupling."
+    ],
+    "correct_answer": "chemiosmotic coupling.",
+    "explanation": "Chemiosmotic coupling involves proton movement across a membrane to drive ATP synthesis."
+  },
+  {
+    "id": 56238,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Glucose and _____ are the most closely related.",
+    "options": [
+      "starch",
+      "glycogen",
+      "fructose",
+      "dextrose"
+    ],
+    "correct_answer": "fructose",
+    "explanation": "Glucose and fructose are isomers, differing in the arrangement of their functional groups."
+  },
+  {
+    "id": 56239,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The relationship between glucose and galactose is",
+    "options": [
+      "that they are pentoses.",
+      "that galactose is a disaccharide containing glucose and fructose.",
+      "that they are epimers.",
+      "that glucose is a disaccharide containing galactose and ribose."
+    ],
+    "correct_answer": "that they are epimers.",
+    "explanation": "Glucose and galactose are both hexoses and differ only at the C4 position, making them epimers."
+  },
+  {
+    "id": 56240,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What is the purpose of an equilibrium constant?",
+    "options": [
+      "To calculate the initial concentration of the reactants",
+      "To determine the specific preequilibrium components",
+      "To calculate the rate of a reaction",
+      "To determine the composition of any system at equilibrium"
+    ],
+    "correct_answer": "To determine the composition of any system at equilibrium",
+    "explanation": "The equilibrium constant quantifies the extent of a reaction at equilibrium, showing product-to-reactant ratios."
+  },
+  {
+    "id": 56241,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What is the relationship between an equilibrium constant for any reaction and the free energy of the reaction?",
+    "options": [
+      "The natural logarithm of Keq is equal to a negative DG divided by RT.",
+      "The Keq is equal to a DG divided by RT.",
+      "The Keq is equal to a negative DG multiplied by RT.",
+      "The natural logarithm of Keq is equal to a DG multiplied by RT."
+    ],
+    "correct_answer": "The natural logarithm of Keq is equal to a negative DG divided by RT.",
+    "explanation": "The equation ln(Keq) = -ΔG/RT relates the equilibrium constant to the free energy change of a reaction."
+  },
+  {
+    "id": 56242,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following are pentoses?",
+    "options": [
+      "Glucose and lactose",
+      "Ribose and deoxyribose",
+      "DNA and RNA",
+      "Lactase and lactose"
+    ],
+    "correct_answer": "Ribose and deoxyribose",
+    "explanation": "Pentoses are 5-carbon sugars; ribose and deoxyribose are key examples found in RNA and DNA."
+  },
+  {
+    "id": 56243,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What glycogen is to starch, _____ is to _____.",
+    "options": [
+      "DNA, RNA",
+      "peptidoglycan, chitin",
+      "a polysaccharide, a monosaccharide",
+      "a polypeptide, a glycoprotein."
+    ],
+    "correct_answer": "peptidoglycan, chitin",
+    "explanation": "Glycogen and starch store energy, while peptidoglycan and chitin provide structural support."
+  },
+  {
+    "id": 56244,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What is the relationship of acetyl-CoA to the TCA cycle?",
+    "options": [
+      "The former is composed of the latter.",
+      "The former is a product of the latter.",
+      "The former feeds into the latter.",
+      "The latter is a product of the former."
+    ],
+    "correct_answer": "The former feeds into the latter.",
+    "explanation": "Acetyl-CoA enters the TCA cycle by combining with oxaloacetate to form citrate."
+  },
+  {
+    "id": 56245,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following is NOT related to a cyclic process?",
+    "options": [
+      "TCA",
+      "Citric acid",
+      "Pyruvate",
+      "Krebs"
+    ],
+    "correct_answer": "Pyruvate",
+    "explanation": "Pyruvate is a precursor to the TCA cycle but is not part of the cycle itself.rn"
+  },
+  {
+    "id": 56246,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following processes is especially associated with fasting?",
+    "options": [
+      "Gluconeogenesis",
+      "Anaerobic respiration",
+      "Fermentation",
+      "Translation"
+    ],
+    "correct_answer": "Gluconeogenesis",
+    "explanation": "During fasting, gluconeogenesis in the liver produces glucose to maintain blood sugar levels."
+  },
+  {
+    "id": 56247,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "What are the end products of the hydrolysis of ATP?",
+    "options": [
+      "Water and ADP",
+      "Glucose, ADP, and inorganic phosphate",
+      "ADP, inorganic phosphate, energy, and ketone bodies",
+      "The production of ADP and inorganic phosphate, and the release of energy"
+    ],
+    "correct_answer": "The production of ADP and inorganic phosphate, and the release of energy",
+    "explanation": "ATP hydrolysis yields ADP, inorganic phosphate (Pi), and energy for cellular processes."
+  },
+  {
+    "id": 56248,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The most common catabolic reaction in the human body",
+    "options": [
+      "dehydration",
+      "hydrolysis.",
+      "condensation.",
+      "elimination"
+    ],
+    "correct_answer": "hydrolysis.",
+    "explanation": "Hydrolysis breaks down macromolecules like proteins and carbohydrates during digestion."
+  },
+  {
+    "id": 56249,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "A molecule of DNA contains all of the following EXCEPT:",
+    "options": [
+      "deoxyribose sugars",
+      "polypeptide bonds",
+      "phosphodiester bonds",
+      "nitrogenous bases"
+    ],
+    "correct_answer": "polypeptide bonds",
+    "explanation": "Polypeptide bonds link amino acids in proteins, not nucleotides in DNA."
+  },
+  {
+    "id": 56250,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following is a carbohydrate polymer that is stored in plants and digestible by animals?",
+    "options": [
+      "starch",
+      "glycogen",
+      "cellulose",
+      "glucose"
+    ],
+    "correct_answer": "starch",
+    "explanation": "Starch is the primary storage polysaccharide in plants, broken down by animals into glucose."
+  },
+  {
+    "id": 56251,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Excessive amounts of nitrogen are found in the urine of an individual who has experienced a period of extended fasting. This is most likely due to:",
+    "options": [
+      "glycogenolysis in the liver.",
+      "the breakdown of body proteins.",
+      "lipolysis in adipose tissue.",
+      "a tumor on the posterior pituitary causing excessive ADH secretion."
+    ],
+    "correct_answer": "the breakdown of body proteins.",
+    "explanation": "Fasting leads to protein catabolism, producing nitrogen waste excreted as urea."
+  },
+  {
+    "id": 56252,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Proline is not technically an α-amino acid. Due to the ring structure of proline, it cannot conform to the geometry of the α-helix and creates a bend in the polypeptide chain. This phenomenon assists in the creation of what level of protein structure?",
+    "options": [
+      "primary",
+      "secondary",
+      "tertiary",
+      "quaternary"
+    ],
+    "correct_answer": "tertiary",
+    "explanation": "Proline introduces kinks in the chain, aiding in the 3D folding of the tertiary structure."
+  },
+  {
+    "id": 56253,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Metabolism of carbohydrate and fat spares protein tissue. All of the following are true of fats EXCEPT:",
+    "options": [
+      "Fats may be used in cell structure.",
+      "Fats may be used as hormones.",
+      "Fats are a more efficient form of energy storage than proteins.",
+      "Fats are a less efficient form of energy storage than carbohydrates."
+    ],
+    "correct_answer": "Fats are a less efficient form of energy storage than carbohydrates.",
+    "explanation": "Fats store more energy per gram than carbohydrates, making them more efficient.rn"
+  },
+  {
+    "id": 56254,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Which of the following is found in the RNA but not the DNA of a living cell?",
+    "options": [
+      "thymine",
+      "a double helix",
+      "an additional hydroxyl group",
+      "hydrogen bonds."
+    ],
+    "correct_answer": "an additional hydroxyl group",
+    "explanation": "RNA’s ribose has a 2'-OH group, while DNA’s deoxyribose lacks this hydroxyl group."
+  },
+  {
+    "id": 56255,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Like cellulose, chitin is a polysaccharide that cannot be digested by animals. Chitin differs from cellulose by possessing an acetyl amino group at the second carbon. What molecule is a reactant in the breaking of the β-1,4-glycoside linkages of cellulose and chitin?",
+    "options": [
+      "water",
+      "oxygen",
+      "α-1,4-glucosidase",
+      "β-1,4-glucosidase."
+    ],
+    "correct_answer": "water",
+    "explanation": "Hydrolysis of glycosidic bonds in polysaccharides like cellulose and chitin requires water."
+  },
+  {
+    "id": 56256,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Inside the stroma of chloroplast there is a suspended:",
+    "options": [
+      "Membrane system",
+      "Set of enzymes",
+      "Membrane system and set of enzymes",
+      "Chlorophyll"
+    ],
+    "correct_answer": "Set of enzymes",
+    "explanation": "The stroma houses enzymes for the dark reactions of photosynthesis, like the Calvin cycle."
+  },
+  {
+    "id": 56257,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll molecules are found embedded in",
+    "options": [
+      "Thylakoid membranes",
+      "Outer chloroplast membrane",
+      "Lamellar membranes",
+      "Inner chloroplast membrane"
+    ],
+    "correct_answer": "Thylakoid membranes",
+    "explanation": "Thylakoid membranes contain chlorophyll for capturing light in photosynthesis."
+  },
+  {
+    "id": 56258,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Electron acceptors of photosynthetic electron transport chain are parts of:",
+    "options": [
+      "Thylakoid membranes",
+      "Outer chloroplast membrane",
+      "Lamellar membranes",
+      "Inner chloroplast membrane"
+    ],
+    "correct_answer": "Thylakoid membranes",
+    "explanation": "Thylakoid membranes host the photosynthetic ETC, including electron acceptors like cytochromes."
+  },
+  {
+    "id": 56259,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll and other pigments absorb light energy which is converted into chemical energy of:",
+    "options": [
+      "NADH and NADPH",
+      "ATP and NADPH",
+      "ATP and NADH",
+      "FADH and NADPH"
+    ],
+    "correct_answer": "ATP and NADPH",
+    "explanation": "ATP and NADPH are produced in the light reactions of photosynthesis for use in the Calvin cycle."
+  },
+  {
+    "id": 56260,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The substances that absorb visible light are called:",
+    "options": [
+      "Radioactive substances",
+      "Bioluminescent substances",
+      "Pigments",
+      "Fluorescent substances"
+    ],
+    "correct_answer": "Pigments",
+    "explanation": "Pigments like chlorophyll absorb specific wavelengths of light, giving them color."
+  },
+  {
+    "id": 56261,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Different pigments absorb light of:",
+    "options": [
+      "Same wavelength",
+      "380 – 750 nm wavelengths",
+      "Different wavelengths",
+      "280 – 750 nm wavelengths"
+    ],
+    "correct_answer": "Different wavelengths",
+    "explanation": "Pigments like chlorophyll a and b absorb specific wavelengths, such as blue and red light."
+  },
+  {
+    "id": 56262,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "An instrument used to measure the relative abilities of different pigments to absorb different wavelengths of light is called:",
+    "options": [
+      "Photometer",
+      "Light meter",
+      "Spectrometer",
+      "Spectrophotometer"
+    ],
+    "correct_answer": "Spectrophotometer",
+    "explanation": "A spectrophotometer quantifies light absorption across wavelengths, used for pigment analysis."
+  },
+  {
+    "id": 56263,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Thylakoid membranes contain:",
+    "options": [
+      "Several kinds of pigments",
+      "Only chlorophylls",
+      "Only carotenoids",
+      "Only xanthophylls"
+    ],
+    "correct_answer": "Several kinds of pigments",
+    "explanation": "Thylakoid membranes host chlorophylls, carotenoids, and xanthophylls for photosynthesis."
+  },
+  {
+    "id": 56264,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Carotenes are mostly:",
+    "options": [
+      "Red to orange",
+      "Yellow and red to orange",
+      "Yellow to orange",
+      "Orange and red to yellow"
+    ],
+    "correct_answer": "Yellow to orange",
+    "explanation": "Carotenes, like beta-carotene, give a yellow-to-orange hue to plants."
+  },
+  {
+    "id": 56265,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "These broaden the absorption and utilization of light:",
+    "options": [
+      "Yellow pigments",
+      "Orange pigments",
+      "Red pigments",
+      "Yellow and red to orange pigments"
+    ],
+    "correct_answer": "Yellow and red to orange pigments",
+    "explanation": "Carotenoids (yellow to orange-red) absorb light wavelengths that chlorophyll misses."
+  },
+  {
+    "id": 56266,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophylls found in photosynthetic bacteria are called:",
+    "options": [
+      "Chlorophyll a and b",
+      "Chlorophyll c and d",
+      "Chlorophyll b and c",
+      "Bacteriochlorophylls"
+    ],
+    "correct_answer": "Bacteriochlorophylls",
+    "explanation": "Bacteriochlorophylls enable photosynthetic bacteria to absorb different light wavelengths."
+  },
+  {
+    "id": 56267,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Green, yellow, and indigo wavelengths of light are least absorbed by:",
+    "options": [
+      "Carotenes",
+      "Xanthophylls",
+      "Chlorophylls",
+      "Carotenoids"
+    ],
+    "correct_answer": "Chlorophylls",
+    "explanation": "Chlorophylls absorb blue and red light, reflecting green, yellow, and indigo wavelengths."
+  },
+  {
+    "id": 56268,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Plants appear green because:",
+    "options": [
+      "Green wavelength is reflected",
+      "Green wavelength is transmitted",
+      "Darker green color masks over the yellow color",
+      "Green wavelength is reflected and transmitted"
+    ],
+    "correct_answer": "Green wavelength is reflected",
+    "explanation": "Chlorophyll absorbs blue and red light, reflecting green, which is why plants appear green.rn"
+  },
+  {
+    "id": 56269,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The light-absorbing hydrophilic part of chlorophyll is:",
+    "options": [
+      "Flat",
+      "Long and anchoring",
+      "Square shaped",
+      "Flat and square shaped"
+    ],
+    "correct_answer": "Flat",
+    "explanation": "The porphyrin ring, the hydrophilic head of chlorophyll, is flat and absorbs light."
+  },
+  {
+    "id": 56270,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Porphyrin ring represents the:",
+    "options": [
+      "Hydrophobic head of chlorophyll",
+      "Hydrophilic tail of chlorophyll",
+      "Hydrophobic tail of chlorophyll",
+      "Hydrophilic head of chlorophyll"
+    ],
+    "correct_answer": "Hydrophilic head of chlorophyll",
+    "explanation": "The porphyrin ring is the light-absorbing, hydrophilic head of the chlorophyll molecule."
+  },
+  {
+    "id": 56271,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll head is made up of:",
+    "options": [
+      "Four joined porphyrin rings",
+      "Four joined tetrapyrrole rings",
+      "Four joined pyrrole rings",
+      "Two joined pyrrole rings"
+    ],
+    "correct_answer": "Four joined pyrrole rings",
+    "explanation": "A porphyrin ring in chlorophyll is formed by four pyrrole rings linked together."
+  },
+  {
+    "id": 56272,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "In chlorophyll head, an atom of magnesium is coordinated with the:",
+    "options": [
+      "Carbon of each pyrrole ring",
+      "Hydrogen of each pyrrole ring",
+      "Nitrogen of each pyrrole ring",
+      "Methyl of each pyrrole ring"
+    ],
+    "correct_answer": "Nitrogen of each pyrrole ring",
+    "explanation": "Magnesium in the porphyrin ring is centrally coordinated with the nitrogen atoms of the pyrrole rings."
+  },
+  {
+    "id": 56273,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "____ of hemoglobin is also a porphyrin ring.",
+    "options": [
+      "α – chain",
+      "β – chain",
+      "Hem group",
+      "Protein"
+    ],
+    "correct_answer": "Hem group",
+    "explanation": "The hem group in hemoglobin is a porphyrin ring that binds iron, similar to chlorophyll’s structure."
+  },
+  {
+    "id": 56274,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Hemoglobin differs from porphyrin of chlorophyll in having:",
+    "options": [
+      "Iron as the central atom",
+      "Magnesium as the central atom",
+      "Four pyrrole rings",
+      "Central atom coordinated with nitrogen of each pyrrole ring"
+    ],
+    "correct_answer": "Iron as the central atom",
+    "explanation": "Hemoglobin’s hem group has iron at its center, while chlorophyll’s porphyrin has magnesium.rn"
+  },
+  {
+    "id": 56275,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The long tail of chlorophyll which is attached to one of the pyrrole is:",
+    "options": [
+      "Hydrocarbon tail",
+      "Phytol",
+      "Phytol or hydrocarbon tail",
+      "Hydrophilic tail"
+    ],
+    "correct_answer": "Phytol",
+    "explanation": "Phytol is a long, hydrophobic tail that anchors chlorophyll in the thylakoid membrane."
+  },
+  {
+    "id": 56276,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "The chlorophyll molecule is embedded in the hydrophobic core of:",
+    "options": [
+      "Thylakoid membrane by its head",
+      "Lamellar membrane by its head",
+      "Thylakoid membrane by its tail",
+      "Lamellar membrane by its tail"
+    ],
+    "correct_answer": "Thylakoid membrane by its tail",
+    "explanation": "The hydrophobic phytol tail of chlorophyll anchors it into the thylakoid membrane."
+  },
+  {
+    "id": 56277,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll a and Chlorophyll b differ from each other in only one of the:",
+    "options": [
+      "Atoms",
+      "Elements",
+      "Functional groups",
+      "Carbon atoms"
+    ],
+    "correct_answer": "Functional groups",
+    "explanation": "Chlorophyll a has a methyl group, while chlorophyll b has an aldehyde group at the same position."
+  },
+  {
+    "id": 56278,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll a and chlorophyll b differ from each other with respect to the number of:",
+    "options": [
+      "Carbon atoms",
+      "Oxygen atoms",
+      "Hydrogen atoms",
+      "Hydrogen and oxygen atoms"
+    ],
+    "correct_answer": "Hydrogen and oxygen atoms",
+    "explanation": "Chlorophyll b has an aldehyde group (one more oxygen, two fewer hydrogens) compared to chlorophyll a’s methyl group."
+  },
+  {
+    "id": 56279,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "As compared to chlorophyll a, chlorophyll b have:",
+    "options": [
+      "Two more hydrogen atoms",
+      "One less oxygen atom",
+      "Two fewer hydrogen atoms and one more oxygen atom",
+      "Two more hydrogen atoms and one less oxygen atom"
+    ],
+    "correct_answer": "Two fewer hydrogen atoms and one more oxygen atom",
+    "explanation": "Chlorophyll b’s aldehyde group (CHO) replaces chlorophyll a’s methyl group (CH3), adding oxygen and removing hydrogens."
+  },
+  {
+    "id": 56280,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "As compared to chlorophyll b, chlorophyll a have:",
+    "options": [
+      "Two more hydrogen atoms",
+      "One less oxygen atom",
+      "Two fewer hydrogen atoms",
+      "Two more hydrogen atoms and one less oxygen atom"
+    ],
+    "correct_answer": "Two more hydrogen atoms and one less oxygen atom",
+    "explanation": "Chlorophyll a’s methyl group (CH3) has two more hydrogens and one less oxygen than chlorophyll b’s aldehyde group (CHO)."
+  },
+  {
+    "id": 56281,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll a can be converted into chlorophyll b by replacing:",
+    "options": [
+      "Carbonyl group with a methyl group",
+      "Magnesium with ferrous",
+      "Methyl group with a carbonyl group",
+      "Ferrous with magnesium"
+    ],
+    "correct_answer": "Methyl group with a carbonyl group",
+    "explanation": "Chlorophyll a’s methyl group at position 3 is replaced by an aldehyde (carbonyl) group in chlorophyll b."
+  },
+  {
+    "id": 56282,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Chlorophyll b can be converted into chlorophyll a by replacing:",
+    "options": [
+      "Carbonyl group with a methyl group",
+      "Magnesium with ferrous",
+      "Methyl group with a carbonyl group",
+      "Ferrous with magnesium"
+    ],
+    "correct_answer": "Carbonyl group with a methyl group",
+    "explanation": "Chlorophyll b’s aldehyde group (carbonyl) at position 3 is replaced by a methyl group in chlorophyll a."
+  },
+  {
+    "id": 56283,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Some wavelengths _____ by chlorophyll a are ______ by chlorophyll b.",
+    "options": [
+      "Absorbed, absorbed",
+      "Not absorbed, weakly absorbed",
+      "Not absorbed, not absorbed",
+      "Not absorbed, very effectively absorbed"
+    ],
+    "correct_answer": "Not absorbed, weakly absorbed",
+    "explanation": "Chlorophyll b absorbs some wavelengths (e.g., slightly more green light) that chlorophyll a does not, but weakly."
+  },
+  {
+    "id": 56284,
+    "current_lesson_id": 962,
+    "category": "",
+    "question": "Due to a slight difference in their ___, the chlorophyll a and chlorophyll b show slightly different ___.",
+    "options": [
+      "Structure, absorption spectra",
+      "Structure, molecular formula",
+      "Absorption spectra, structure",
+      "Absorption spectra, molecular formula"
+    ],
+    "correct_answer": "Structure, absorption spectra",
+    "explanation": "The structural difference (methyl vs. aldehyde group) causes variations in light absorption patterns."
+  },
+  {
+    "id": 56285,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following correctly represents the number of ATP molecules consumed and generated during the preparatory phase of glycolysis for one molecule of glucose?",
+    "options": [
+      "2 consumed, 4 generated",
+      "2 consumed, 2 generated",
+      "4 consumed, 2 generated",
+      "2 consumed, none generated"
+    ],
+    "correct_answer": "2 consumed, none generated",
+    "explanation": "In the preparatory phase of glycolysis, 2 ATP molecules are consumed to phosphorylate glucose into fructose 1,6-bisphosphate, but no ATP is generated in this phase.rn"
+  },
+  {
+    "id": 56286,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "During non-cyclic photophosphorylation, what is the correct order of electron flow starting from water?",
+    "options": [
+      "H2O → PS I → PS II → NADP+",
+      "H2O → PS II → PS I → NADP+",
+      "PS II → H2O → PS I → NADP+",
+      "H2O → NADP+ → PS II → PS I"
+    ],
+    "correct_answer": "H2O → PS II → PS I → NADP+",
+    "explanation": "In non-cyclic photophosphorylation, electrons flow from water to PS II, then to PS I, and finally to NADP+, reducing it to NADPH."
+  },
+  {
+    "id": 56287,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which coenzyme primarily carries electrons and hydrogen atoms during the Krebs cycle?",
+    "options": [
+      "NAD+",
+      "FAD",
+      "Coenzyme A",
+      "NADP+"
+    ],
+    "correct_answer": "NAD+",
+    "explanation": "NAD+ is reduced to NADH in the Krebs cycle, carrying high-energy electrons and hydrogen atoms to the electron transport chain."
+  },
+  {
+    "id": 56288,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In a typical C3 plant, how many molecules of CO2 need to be fixed during the Calvin cycle to produce one molecule of glucose?",
+    "options": [
+      "3 CO2",
+      "6 CO2",
+      "9 CO2",
+      "12 CO2"
+    ],
+    "correct_answer": "6 CO2",
+    "explanation": "Six molecules of CO2 are required to produce one molecule of glucose (C6H12O6) in the Calvin cycle."
+  },
+  {
+    "id": 56289,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In chemiosmosis during cellular respiration, what drives the synthesis of ATP?",
+    "options": [
+      "Flow of protons down their concentration gradient",
+      "Electron transfer from NADH to oxygen",
+      "Oxidation of glucose",
+      "Phosphorylation of ADP by ATP synthase"
+    ],
+    "correct_answer": "Flow of protons down their concentration gradient",
+    "explanation": "Chemiosmosis in the mitochondria involves the flow of protons down their concentration gradient through ATP synthase, leading to the synthesis of ATP."
+  },
+  {
+    "id": 56290,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of CO2 are produced in one turn of the Krebs cycle?",
+    "options": [
+      "1 CO2",
+      "2 CO2",
+      "3 CO2",
+      "4 CO2"
+    ],
+    "correct_answer": "2 CO2",
+    "explanation": "Each turn of the Krebs cycle produces 2 CO2 molecules, which are released during the oxidative decarboxylation steps."
+  },
+  {
+    "id": 56291,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following best describes the purpose of cyclic electron flow in photosynthesis?",
+    "options": [
+      "Generation of NADPH and O2",
+      "Generation of ATP without NADPH",
+      "Production of both ATP and NADPH",
+      "Oxidation of water molecules"
+    ],
+    "correct_answer": "Generation of ATP without NADPH",
+    "explanation": "Cyclic electron flow in photosynthesis generates ATP without the production of NADPH or O2, allowing the plant to meet its energy needs."
+  },
+  {
+    "id": 56292,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The Z-scheme in photosynthesis refers to which of the following?",
+    "options": [
+      "The shape of the electron flow from PS I to PS II",
+      "The pattern of energy release during photophosphorylation",
+      "The overall shape of the electron transfer pathway in non-cyclic photophosphorylation",
+      "The conversion of light energy to chemical energy"
+    ],
+    "correct_answer": "The overall shape of the electron transfer pathway in non-cyclic photophosphorylation",
+    "explanation": "The Z-scheme represents the flow of electrons through the two photosystems, illustrating how electrons gain and lose energy as they move from PS II to PS I."
+  },
+  {
+    "id": 56293,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which enzyme catalyzes the splitting of water in the light-dependent reactions of photosynthesis?",
+    "options": [
+      "Rubisco",
+      "NADP reductase",
+      "ATP synthase",
+      "Oxygen-evolving complex"
+    ],
+    "correct_answer": "Oxygen-evolving complex",
+    "explanation": "The oxygen-evolving complex (OEC) associated with PS II is responsible for the photolysis of water, releasing oxygen, protons, and electrons."
+  },
+  {
+    "id": 56294,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The direct product of glycolysis is two molecules of which compound?",
+    "options": [
+      "Lactate",
+      "Acetyl-CoA",
+      "Pyruvate",
+      "Oxaloacetate"
+    ],
+    "correct_answer": "Pyruvate",
+    "explanation": "Glycolysis breaks down glucose into two molecules of pyruvate, which can then enter the Krebs cycle or undergo fermentation."
+  },
+  {
+    "id": 56295,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following statements best describes the function of the electron transport chain in the mitochondria?",
+    "options": [
+      "Production of ATP through substrate-level phosphorylation",
+      "Pumping of protons to create a proton gradient across the inner mitochondrial membrane",
+      "Reduction of NADP+ to NADPH",
+      "Oxidation of glucose to produce pyruvate"
+    ],
+    "correct_answer": "Pumping of protons to create a proton gradient across the inner mitochondrial membrane",
+    "explanation": "The electron transport chain uses the energy from electron transfers to pump protons across the inner mitochondrial membrane, creating a gradient that drives ATP synthesis."
+  },
+  {
+    "id": 56296,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the maximum theoretical yield of ATP per glucose molecule in eukaryotic cells during cellular respiration?",
+    "options": [
+      "24 ATP",
+      "30 ATP",
+      "32 ATP",
+      "36 ATP"
+    ],
+    "correct_answer": "36 ATP",
+    "explanation": "The complete oxidation of glucose in eukaryotic cells results in the theoretical production of 36 ATP molecules, considering the contributions from glycolysis, the Krebs cycle, and oxidative phosphorylation.rn"
+  },
+  {
+    "id": 56297,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the role of Rubisco in the Calvin cycle?",
+    "options": [
+      "Phosphorylation of ADP to ATP",
+      "Fixation of CO2 into an organic molecule",
+      "Reduction of NADP+ to NADPH",
+      "Oxidation of glucose"
+    ],
+    "correct_answer": "Fixation of CO2 into an organic molecule",
+    "explanation": "Rubisco is responsible for catalyzing the first step of the Calvin cycle, where CO2 is fixed into ribulose bisphosphate (RuBP) to form 3-phosphoglycerate."
+  },
+  {
+    "id": 56298,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is the primary pigment involved in the absorption of light energy during photosynthesis?",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls"
+    ],
+    "correct_answer": "Chlorophyll a",
+    "explanation": "Chlorophyll a is the primary pigment that absorbs light energy and initiates the light-dependent reactions of photosynthesis."
+  },
+  {
+    "id": 56299,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are required for the regeneration phase of the Calvin cycle per CO2 molecule fixed?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "1 ATP",
+    "explanation": "For each CO2 molecule fixed, 1 ATP is consumed in the regeneration phase of the Calvin cycle to regenerate RuBP."
+  },
+  {
+    "id": 56300,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which phase of glycolysis is NAD+ reduced to NADH?",
+    "options": [
+      "Preparatory phase",
+      "Oxidative phase",
+      "Citric acid cycle",
+      "Electron transport chain"
+    ],
+    "correct_answer": "Oxidative phase",
+    "explanation": "NAD+ is reduced to NADH during the oxidative phase of glycolysis, specifically in the step where glyceraldehyde-3-phosphate (G3P) is converted to 1,3-bisphosphoglycerate."
+  },
+  {
+    "id": 56301,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "During which stage of cellular respiration is the majority of CO2 produced?",
+    "options": [
+      "Glycolysis",
+      "Link reaction",
+      "Krebs cycle",
+      "Electron transport chain"
+    ],
+    "correct_answer": "Krebs cycle",
+    "explanation": "The majority of CO2 is produced during the Krebs cycle through oxidative decarboxylation of isocitrate and α-ketoglutarate."
+  },
+  {
+    "id": 56302,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the key difference between C3 and C4 photosynthesis in terms of carbon fixation?",
+    "options": [
+      "Type of pigment used",
+      "Location of Calvin cycle",
+      "Number of ATP molecules consumed",
+      "Primary enzyme used for CO2 fixation"
+    ],
+    "correct_answer": "Primary enzyme used for CO2 fixation",
+    "explanation": "C4 photosynthesis involves the enzyme PEP carboxylase for initial CO2 fixation, whereas C3 photosynthesis uses Rubisco."
+  },
+  {
+    "id": 56303,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is the terminal electron acceptor in the light-dependent reactions of photosynthesis?",
+    "options": [
+      "Oxygen",
+      "NADP+",
+      "Water",
+      "Chlorophyll"
+    ],
+    "correct_answer": "NADP+",
+    "explanation": "NADP+ serves as the final electron acceptor in the light-dependent reactions, where it is reduced to NADPH.rn"
+  },
+  {
+    "id": 56304,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following accurately describes the process of oxidative phosphorylation?",
+    "options": [
+      "ATP generation through substrate-level phosphorylation",
+      "Transfer of electrons through the electron transport chain coupled to ATP synthesis",
+      "Reduction of NAD+ during the Krebs cycle",
+      "ATP production through cyclic photophosphorylation"
+    ],
+    "correct_answer": "Transfer of electrons through the electron transport chain coupled to ATP synthesis",
+    "explanation": "Oxidative phosphorylation involves the transfer of electrons through the electron transport chain, which powers ATP synthesis via chemiosmosis."
+  },
+  {
+    "id": 56306,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In glycolysis, which enzyme is responsible for the conversion of fructose-6-phosphate to fructose-1,6-bisphosphate?",
+    "options": [
+      "Hexokinase",
+      "Aldolase",
+      "Phosphofructokinase",
+      "Enolase"
+    ],
+    "correct_answer": "Phosphofructokinase",
+    "explanation": "Phosphofructokinase catalyzes the phosphorylation of fructose-6-phosphate to fructose-1,6-bisphosphate, which is a key regulatory step in glycolysis."
+  },
+  {
+    "id": 56307,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the light-independent reactions of photosynthesis, the reduction of 3-phosphoglycerate (3-PGA) to glyceraldehyde-3-phosphate (G3P) requires which molecules?",
+    "options": [
+      "ATP and NADPH",
+      "CO2 and ATP",
+      "ADP and NADH",
+      "Oxygen and NADP+"
+    ],
+    "correct_answer": "ATP and NADPH",
+    "explanation": "The reduction of 3-PGA to G3P in the Calvin cycle requires the energy and reducing power provided by ATP and NADPH."
+  },
+  {
+    "id": 56308,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which molecule is directly involved in the regeneration of ribulose bisphosphate (RuBP) in the Calvin cycle?",
+    "options": [
+      "Glucose",
+      "Glyceraldehyde-3-phosphate (G3P)",
+      "3-phosphoglycerate (3-PGA)",
+      "Phosphoenolpyruvate (PEP)"
+    ],
+    "correct_answer": "Glyceraldehyde-3-phosphate (G3P)",
+    "explanation": "Glyceraldehyde-3-phosphate (G3P) is involved in the regeneration of RuBP during the Calvin cycle, allowing the cycle to continue fixing CO2."
+  },
+  {
+    "id": 56309,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the significance of photorespiration in C3 plants?",
+    "options": [
+      "Enhances carbon fixation",
+      "Reduces efficiency of photosynthesis by consuming ATP and oxygen",
+      "Generates more glucose molecules",
+      "Prevents excess water loss"
+    ],
+    "correct_answer": "Reduces efficiency of photosynthesis by consuming ATP and oxygen",
+    "explanation": "Photorespiration is a wasteful process in C3 plants that occurs when Rubisco fixes oxygen instead of CO2, leading to the consumption of ATP and reducing photosynthetic efficiency."
+  },
+  {
+    "id": 56310,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In C4 photosynthesis, the initial fixation of CO2 occurs in which cell type before entering the Calvin cycle?",
+    "options": [
+      "Bundle sheath cells",
+      "Mesophyll cells",
+      "Guard cells",
+      "Palisade cells"
+    ],
+    "correct_answer": "Mesophyll cells",
+    "explanation": "In C4 plants, CO2 is initially fixed in the mesophyll cells by the enzyme PEP carboxylase before being transported to the bundle sheath cells where the Calvin cycle occurs."
+  },
+  {
+    "id": 56311,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of NADPH are required to produce one molecule of glucose in the Calvin cycle?",
+    "options": [
+      "6 NADPH",
+      "12 NADPH",
+      "18 NADPH",
+      "24 NADPH"
+    ],
+    "correct_answer": "12 NADPH",
+    "explanation": "The Calvin cycle requires 12 NADPH molecules to produce one molecule of glucose, as each turn of the cycle fixes one carbon atom and requires 2 NADPH."
+  },
+  {
+    "id": 56312,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "During the Krebs cycle, which intermediate compound is formed after citrate undergoes isomerization?",
+    "options": [
+      "Malate",
+      "Isocitrate",
+      "Fumarate",
+      "Oxaloacetate"
+    ],
+    "correct_answer": "Isocitrate",
+    "explanation": "Citrate is isomerized into isocitrate during the Krebs cycle, which is then further oxidized and decarboxylated."
+  },
+  {
+    "id": 56313,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The cytochromes involved in the electron transport chain contain which prosthetic group that allows them to participate in redox reactions?",
+    "options": [
+      "Heme group",
+      "Biotin",
+      "FAD",
+      "NAD+"
+    ],
+    "correct_answer": "Heme group",
+    "explanation": "Cytochromes contain a heme group that undergoes oxidation and reduction as it transfers electrons along the electron transport chain."
+  },
+  {
+    "id": 56314,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the light-dependent reactions of photosynthesis, which enzyme is responsible for producing ATP via chemiosmosis?",
+    "options": [
+      "ATP synthase",
+      "Rubisco",
+      "NADP reductase",
+      "Phosphofructokinase"
+    ],
+    "correct_answer": "ATP synthase",
+    "explanation": "ATP synthase is the enzyme that uses the proton gradient generated across the thylakoid membrane to produce ATP from ADP and inorganic phosphate."
+  },
+  {
+    "id": 56315,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which of the following correctly describes the fate of oxygen produced during photolysis in photosystem II?",
+    "options": [
+      "It is used in the Calvin cycle",
+      "It is released as a byproduct into the atmosphere",
+      "It reduces NADP+ to NADPH",
+      "It acts as the terminal electron acceptor in the electron transport chain"
+    ],
+    "correct_answer": "It is released as a byproduct into the atmosphere",
+    "explanation": "Oxygen produced during photolysis in photosystem II is released as a byproduct and contributes to the atmospheric oxygen supply."
+  },
+  {
+    "id": 56316,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many carbon atoms are present in one molecule of pyruvate, the end product of glycolysis?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "3",
+    "explanation": "Pyruvate is a three-carbon molecule formed from the breakdown of glucose (a six-carbon molecule) during glycolysis."
+  },
+  {
+    "id": 56317,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In anaerobic conditions, what is the primary reason cells undergo lactic acid fermentation?",
+    "options": [
+      "To produce more ATP",
+      "To regenerate NAD+ from NADH",
+      "To fix CO2",
+      "To reduce pyruvate to acetyl-CoA"
+    ],
+    "correct_answer": "To regenerate NAD+ from NADH",
+    "explanation": "Lactic acid fermentation allows cells to regenerate NAD+ from NADH, ensuring that glycolysis can continue to produce ATP under anaerobic conditions."
+  },
+  {
+    "id": 56318,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following correctly explains why C4 plants are more efficient in hot, dry climates compared to C3 plants?",
+    "options": [
+      "They perform more photorespiration",
+      "They have higher transpiration rates",
+      "They minimize photorespiration by spatially separating carbon fixation from the Calvin cycle",
+      "They use cyclic electron flow exclusively"
+    ],
+    "correct_answer": "They minimize photorespiration by spatially separating carbon fixation from the Calvin cycle",
+    "explanation": "C4 plants are more efficient in hot, dry climates because they spatially separate carbon fixation from the Calvin cycle, reducing photorespiration and conserving water."
+  },
+  {
+    "id": 56319,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The Q cycle is a part of which stage in cellular respiration?",
+    "options": [
+      "Glycolysis",
+      "Krebs cycle",
+      "Electron transport chain",
+      "Calvin cycle"
+    ],
+    "correct_answer": "Electron transport chain",
+    "explanation": "The Q cycle is part of the electron transport chain, where it helps transfer electrons between complexes III and IV while contributing to the proton gradient."
+  },
+  {
+    "id": 56320,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many NADH molecules are produced per glucose molecule during glycolysis?",
+    "options": [
+      "1 NADH",
+      "2 NADH",
+      "4 NADH",
+      "6 NADH"
+    ],
+    "correct_answer": "2 NADH",
+    "explanation": "Glycolysis produces 2 NADH molecules per glucose molecule as glyceraldehyde-3-phosphate is converted to 1,3-bisphosphoglycerate."
+  },
+  {
+    "id": 56321,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The enzyme responsible for the carboxylation of phosphoenolpyruvate (PEP) in C4 plants is:",
+    "options": [
+      "Rubisco",
+      "PEP carboxylase",
+      "Malate dehydrogenase",
+      "Pyruvate kinase"
+    ],
+    "correct_answer": "PEP carboxylase",
+    "explanation": "PEP carboxylase catalyzes the carboxylation of phosphoenolpyruvate (PEP) in C4 plants, producing oxaloacetate, which is later converted into malate."
+  },
+  {
+    "id": 56322,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following reactions directly produces FADH2 in the Krebs cycle?",
+    "options": [
+      "Isocitrate to α-ketoglutarate",
+      "α-ketoglutarate to succinyl-CoA",
+      "Succinate to fumarate",
+      "Malate to oxaloacetate"
+    ],
+    "correct_answer": "Succinate to fumarate",
+    "explanation": "The conversion of succinate to fumarate in the Krebs cycle directly produces FADH2, which is later used in the electron transport chain."
+  },
+  {
+    "id": 56323,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is a key difference between cyclic and non-cyclic photophosphorylation?",
+    "options": [
+      "Only cyclic photophosphorylation produces NADPH",
+      "Only non-cyclic photophosphorylation generates ATP",
+      "Cyclic photophosphorylation does not produce oxygen",
+      "Non-cyclic photophosphorylation occurs only in C4 plants"
+    ],
+    "correct_answer": "Cyclic photophosphorylation does not produce oxygen",
+    "explanation": "Cyclic photophosphorylation does not produce oxygen, as it only involves PS I, which cycles electrons back to generate ATP without splitting water."
+  },
+  {
+    "id": 56324,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which molecule is the primary electron donor to the electron transport chain in mitochondria?",
+    "options": [
+      "FADH2",
+      "NADH",
+      "Glucose",
+      "Oxygen"
+    ],
+    "correct_answer": "NADH",
+    "explanation": "NADH is the primary electron donor in the electron transport chain, transferring electrons to complex I, initiating the electron transport process."
+  },
+  {
+    "id": 56325,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "During oxidative phosphorylation, the movement of protons across the mitochondrial membrane is driven by:",
+    "options": [
+      "The reduction of NADP+",
+      "The oxidation of glucose",
+      "The electron transport chain",
+      "The phosphorylation of ADP"
+    ],
+    "correct_answer": "The electron transport chain",
+    "explanation": "The movement of protons across the mitochondrial membrane is driven by the energy released during electron transfer through the electron transport chain."
+  },
+  {
+    "id": 56326,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are directly produced during the Krebs cycle per turn?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "4 ATP",
+      "6 ATP"
+    ],
+    "correct_answer": "1 ATP",
+    "explanation": "Each turn of the Krebs cycle produces 1 ATP molecule directly through substrate-level phosphorylation."
+  },
+  {
+    "id": 56327,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The chemiosmotic hypothesis, which explains ATP synthesis in mitochondria, was proposed by which scientist?",
+    "options": [
+      "Albert Lehninger",
+      "Peter Mitchell",
+      "Hans Krebs",
+      "Melvin Calvin"
+    ],
+    "correct_answer": "Peter Mitchell",
+    "explanation": "Peter Mitchell proposed the chemiosmotic hypothesis, which describes how a proton gradient drives ATP synthesis in mitochondria and chloroplasts."
+  },
+  {
+    "id": 56328,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are produced from one molecule of FADH2 in the electron transport chain?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "One molecule of FADH2 typically yields 2 ATP molecules as it donates electrons to complex II in the electron transport chain."
+  },
+  {
+    "id": 56329,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In CAM plants, carbon fixation occurs primarily during which time of day?",
+    "options": [
+      "Daytime",
+      "Nighttime",
+      "Dawn",
+      "Dusk"
+    ],
+    "correct_answer": "Nighttime",
+    "explanation": "In CAM plants, carbon fixation occurs at night when stomata open to minimize water loss, storing CO2 as malate in vacuoles."
+  },
+  {
+    "id": 56330,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the primary difference between substrate-level phosphorylation and oxidative phosphorylation?",
+    "options": [
+      "Substrate-level phosphorylation occurs only in photosynthesis",
+      "Oxidative phosphorylation produces more ATP per glucose molecule",
+      "Oxidative phosphorylation occurs in the cytoplasm",
+      "Substrate-level phosphorylation is driven by electron transfer"
+    ],
+    "correct_answer": "Oxidative phosphorylation produces more ATP per glucose molecule",
+    "explanation": "Oxidative phosphorylation produces more ATP per glucose molecule by utilizing the electron transport chain and proton gradient, while substrate-level phosphorylation is less efficient.rn"
+  },
+  {
+    "id": 56331,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is an example of an anaerobic process in cellular respiration?",
+    "options": [
+      "Krebs cycle",
+      "Glycolysis",
+      "Electron transport chain",
+      "Calvin cycle"
+    ],
+    "correct_answer": "Glycolysis",
+    "explanation": "Glycolysis is an anaerobic process that does not require oxygen and occurs in the cytoplasm of cells."
+  },
+  {
+    "id": 56332,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which part of the chloroplast do the light-independent reactions (Calvin cycle) take place?",
+    "options": [
+      "Thylakoid membrane",
+      "Stroma",
+      "Granum",
+      "Outer membrane"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "The Calvin cycle takes place in the stroma of the chloroplast, where enzymes necessary for carbon fixation are found."
+  },
+  {
+    "id": 56333,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the Calvin cycle, how many molecules of glyceraldehyde-3-phosphate (G3P) are required to regenerate three molecules of ribulose bisphosphate (RuBP)?",
+    "options": [
+      "1 G3P",
+      "2 G3P",
+      "3 G3P",
+      "5 G3P"
+    ],
+    "correct_answer": "3 G3P",
+    "explanation": "Three molecules of G3P are required to regenerate three molecules of RuBP in the Calvin cycle, allowing the cycle to continue."
+  },
+  {
+    "id": 56334,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In photosystem II, the electron transport chain produces a proton gradient across which membrane?",
+    "options": [
+      "Plasma membrane",
+      "Thylakoid membrane",
+      "Outer mitochondrial membrane",
+      "Stromal membrane"
+    ],
+    "correct_answer": "Thylakoid membrane",
+    "explanation": "The thylakoid membrane is where the proton gradient is established during photosystem II, driving ATP synthesis via chemiosmosis."
+  },
+  {
+    "id": 56335,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which molecule is the starting substrate for glycolysis?",
+    "options": [
+      "Fructose-1,6-bisphosphate",
+      "Acetyl-CoA",
+      "Glucose",
+      "Pyruvate"
+    ],
+    "correct_answer": "Glucose",
+    "explanation": "Glucose is the starting substrate for glycolysis, which is broken down into pyruvate during the process."
+  },
+  {
+    "id": 56336,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the Calvin cycle, what is the role of the enzyme Rubisco?",
+    "options": [
+      "Reduction of NADP+",
+      "Carboxylation of ribulose bisphosphate",
+      "Oxidation of glucose",
+      "Phosphorylation of ADP"
+    ],
+    "correct_answer": "Carboxylation of ribulose bisphosphate",
+    "explanation": "Rubisco catalyzes the carboxylation of ribulose bisphosphate, incorporating CO2 into the Calvin cycle to produce 3-phosphoglycerate."
+  },
+  {
+    "id": 56337,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of ATP are consumed during the preparatory phase of glycolysis for one molecule of glucose?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Two ATP molecules are consumed during the preparatory phase of glycolysis to phosphorylate glucose and fructose-6-phosphate."
+  },
+  {
+    "id": 56338,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The terminal electron acceptor in the mitochondrial electron transport chain is:",
+    "options": [
+      "NAD+",
+      "FAD",
+      "O2",
+      "CO2"
+    ],
+    "correct_answer": "O2",
+    "explanation": "Oxygen is the terminal electron acceptor in the mitochondrial electron transport chain, forming water when it combines with protons and electrons."
+  },
+  {
+    "id": 56339,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which compartment of the mitochondria does the Krebs cycle occur?",
+    "options": [
+      "Inner membrane",
+      "Outer membrane",
+      "Intermembrane space",
+      "Matrix"
+    ],
+    "correct_answer": "Matrix",
+    "explanation": "The Krebs cycle occurs in the mitochondrial matrix, where the enzymes necessary for this process are located."
+  },
+  {
+    "id": 56340,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many net ATP molecules are produced per molecule of glucose during glycolysis?",
+    "options": [
+      "2 ATP",
+      "4 ATP",
+      "6 ATP",
+      "8 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Glycolysis produces a net gain of 2 ATP molecules per glucose molecule (4 ATP produced minus 2 ATP consumed)."
+  },
+  {
+    "id": 56341,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the electron transport chain, which complex is responsible for transferring electrons from NADH to ubiquinone (CoQ)?",
+    "options": [
+      "Complex I",
+      "Complex II",
+      "Complex III",
+      "Complex IV"
+    ],
+    "correct_answer": "Complex I",
+    "explanation": "Complex I (NADH dehydrogenase) transfers electrons from NADH to ubiquinone (CoQ), contributing to the proton gradient."
+  },
+  {
+    "id": 56342,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The oxygen released during photosynthesis originates from which of the following molecules?",
+    "options": [
+      "CO2",
+      "H2O",
+      "O2",
+      "Glucose"
+    ],
+    "correct_answer": "H2O",
+    "explanation": "Oxygen released during photosynthesis comes from the splitting of water molecules (photolysis) in photosystem II."
+  },
+  {
+    "id": 56343,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The Calvin cycle is often referred to as the C3 pathway because:",
+    "options": [
+      "It produces a three-carbon sugar as its end product",
+      "It fixes three molecules of CO2 in each cycle",
+      "The first stable product is a three-carbon compound",
+      "It operates only in C3 plants"
+    ],
+    "correct_answer": "The first stable product is a three-carbon compound",
+    "explanation": "The Calvin cycle is called the C3 pathway because the first stable product formed is 3-phosphoglycerate, a three-carbon compound."
+  },
+  {
+    "id": 56344,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which molecule is the immediate product of the reduction phase in the Calvin cycle?",
+    "options": [
+      "Glucose",
+      "Ribulose bisphosphate",
+      "Glyceraldehyde-3-phosphate (G3P)",
+      "3-phosphoglycerate (3-PGA)"
+    ],
+    "correct_answer": "Glyceraldehyde-3-phosphate (G3P)",
+    "explanation": "Glyceraldehyde-3-phosphate (G3P) is the immediate product of the reduction phase, formed by the reduction of 3-phosphoglycerate (3-PGA)."
+  },
+  {
+    "id": 56345,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In cellular respiration, which of the following steps directly generates CO2?",
+    "options": [
+      "Glycolysis",
+      "Oxidative phosphorylation",
+      "Electron transport chain",
+      "Krebs cycle"
+    ],
+    "correct_answer": "Krebs cycle",
+    "explanation": "The Krebs cycle generates CO2 during the decarboxylation steps, specifically in the conversion of isocitrate and α-ketoglutarate."
+  },
+  {
+    "id": 56346,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of ATP are produced directly by substrate-level phosphorylation in one complete turn of the Krebs cycle?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "1 ATP",
+    "explanation": "One molecule of ATP is produced by substrate-level phosphorylation during each complete turn of the Krebs cycle."
+  },
+  {
+    "id": 56347,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In C4 plants, the Calvin cycle occurs in which specialized cell type?",
+    "options": [
+      "Epidermal cells",
+      "Mesophyll cells",
+      "Guard cells",
+      "Bundle sheath cells"
+    ],
+    "correct_answer": "Bundle sheath cells",
+    "explanation": "In C4 plants, the Calvin cycle occurs in bundle sheath cells, where CO2 is released from malate for fixation by Rubisco."
+  },
+  {
+    "id": 56348,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is the correct sequence of events in the Calvin cycle?",
+    "options": [
+      "Regeneration → Carbon fixation → Reduction",
+      "Reduction → Carbon fixation → Regeneration",
+      "Carbon fixation → Reduction → Regeneration",
+      "Reduction → Regeneration → Carbon fixation"
+    ],
+    "correct_answer": "Carbon fixation → Reduction → Regeneration",
+    "explanation": "The correct sequence in the Calvin cycle is Carbon fixation → Reduction → Regeneration."
+  },
+  {
+    "id": 56349,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In mitochondria, which of the following complexes directly interacts with molecular oxygen?",
+    "options": [
+      "Complex I",
+      "Complex II",
+      "Complex III",
+      "Complex IV"
+    ],
+    "correct_answer": "Complex IV",
+    "explanation": "Complex IV (cytochrome c oxidase) directly interacts with molecular oxygen, reducing it to water in the final step of the electron transport chain."
+  },
+  {
+    "id": 56350,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the primary function of NADPH in the Calvin cycle?",
+    "options": [
+      "To donate electrons for the reduction of 3-phosphoglycerate",
+      "To phosphorylate ADP to ATP",
+      "To fix CO2 into an organic molecule",
+      "To regenerate RuBP"
+    ],
+    "correct_answer": "To donate electrons for the reduction of 3-phosphoglycerate",
+    "explanation": "NADPH donates electrons to reduce 3-phosphoglycerate (3-PGA) into glyceraldehyde-3-phosphate (G3P) in the Calvin cycle."
+  },
+  {
+    "id": 56351,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following statements is true regarding photorespiration?",
+    "options": [
+      "It occurs in C4 plants only",
+      "It is more efficient than the Calvin cycle",
+      "It occurs when Rubisco fixes oxygen instead of carbon dioxide",
+      "It generates ATP and NADPH"
+    ],
+    "correct_answer": "It occurs when Rubisco fixes oxygen instead of carbon dioxide",
+    "explanation": "Photorespiration occurs when Rubisco fixes oxygen instead of carbon dioxide, leading to a wasteful process that reduces photosynthetic efficiency."
+  },
+  {
+    "id": 56352,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In aerobic respiration, the final product of the electron transport chain is:",
+    "options": [
+      "Oxygen",
+      "Carbon dioxide",
+      "Water",
+      "Glucose"
+    ],
+    "correct_answer": "Water",
+    "explanation": "Water is the final product of the electron transport chain, formed when electrons combine with oxygen and protons."
+  },
+  {
+    "id": 56353,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of carbon dioxide are fixed in one complete turn of the Calvin cycle?",
+    "options": [
+      "1 CO2",
+      "2 CO2",
+      "3 CO2",
+      "6 CO2"
+    ],
+    "correct_answer": "1 CO2",
+    "explanation": "Each complete turn of the Calvin cycle fixes one molecule of carbon dioxide, although multiple turns are needed to produce one molecule of glucose."
+  },
+  {
+    "id": 56354,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which enzyme catalyzes the splitting of fructose-1,6-bisphosphate in glycolysis?",
+    "options": [
+      "Aldolase",
+      "Hexokinase",
+      "Enolase",
+      "Phosphofructokinase"
+    ],
+    "correct_answer": "Aldolase",
+    "explanation": "Aldolase catalyzes the cleavage of fructose-1,6-bisphosphate into two three-carbon molecules: glyceraldehyde-3-phosphate and dihydroxyacetone phosphate."
+  },
+  {
+    "id": 56355,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the net gain of ATP from glycolysis per molecule of glucose?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "The net gain from glycolysis is 2 ATP per glucose molecule, after accounting for the ATP consumed during the preparatory phase."
+  },
+  {
+    "id": 56356,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following pigments primarily absorbs light in the blue and red regions of the spectrum?",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls"
+    ],
+    "correct_answer": "Chlorophyll a",
+    "explanation": "Chlorophyll a primarily absorbs light in the blue and red regions, which are most effective for photosynthesis."
+  },
+  {
+    "id": 56357,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "The terminal electron acceptor in the light-dependent reactions of photosynthesis is:",
+    "options": [
+      "Water",
+      "NADP+",
+      "Oxygen",
+      "CO2"
+    ],
+    "correct_answer": "NADP+",
+    "explanation": "NADP+ is the terminal electron acceptor in the light-dependent reactions, where it is reduced to NADPH."
+  },
+  {
+    "id": 56358,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In CAM plants, the stored organic acid used in the Calvin cycle is typically:",
+    "options": [
+      "Oxaloacetate",
+      "Malate",
+      "Fumarate",
+      "Citrate"
+    ],
+    "correct_answer": "Malate",
+    "explanation": "CAM plants store CO2 as malate in vacuoles, which is later released for use in the Calvin cycle during the day."
+  },
+  {
+    "id": 56359,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following statements is true about cyclic photophosphorylation?",
+    "options": [
+      "It involves both PS I and PS II",
+      "It generates NADPH",
+      "It produces only ATP",
+      "It is the main pathway in C4 plants"
+    ],
+    "correct_answer": "It produces only ATP",
+    "explanation": "Cyclic photophosphorylation involves only PS I and produces only ATP, without generating NADPH or oxygen."
+  },
+  {
+    "id": 56360,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many carbon atoms are found in the intermediate compound oxaloacetate, which plays a critical role in the Krebs cycle?",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "6"
+    ],
+    "correct_answer": "4",
+    "explanation": "Oxaloacetate is a four-carbon compound that combines with acetyl-CoA to form citrate in the first step of the Krebs cycle."
+  },
+  {
+    "id": 56361,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In glycolysis, which enzyme catalyzes the conversion of 2-phosphoglycerate to phosphoenolpyruvate (PEP)?",
+    "options": [
+      "Enolase",
+      "Phosphoglycerate kinase",
+      "Pyruvate kinase",
+      "Hexokinase"
+    ],
+    "correct_answer": "Enolase",
+    "explanation": "Enolase catalyzes the dehydration of 2-phosphoglycerate, producing phosphoenolpyruvate (PEP) in glycolysis."
+  },
+  {
+    "id": 56362,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following best explains the purpose of the electron transport chain in photosynthesis?",
+    "options": [
+      "To produce glucose",
+      "To generate a proton gradient for ATP synthesis",
+      "To fix carbon dioxide",
+      "To split water molecules"
+    ],
+    "correct_answer": "To generate a proton gradient for ATP synthesis",
+    "explanation": "The electron transport chain in photosynthesis generates a proton gradient across the thylakoid membrane, driving ATP synthesis through chemiosmosis."
+  },
+  {
+    "id": 56363,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which phase of the Calvin cycle is carbon dioxide fixed into an organic molecule?",
+    "options": [
+      "Reduction",
+      "Regeneration",
+      "Carboxylation",
+      "Glycolysis"
+    ],
+    "correct_answer": "Carboxylation",
+    "explanation": "Carbon dioxide is fixed into ribulose bisphosphate (RuBP) in the carboxylation phase of the Calvin cycle, producing 3-phosphoglycerate."
+  },
+  {
+    "id": 56364,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is a product of both cyclic and non-cyclic photophosphorylation?",
+    "options": [
+      "Oxygen",
+      "NADPH",
+      "ATP",
+      "Glucose"
+    ],
+    "correct_answer": "ATP",
+    "explanation": "ATP is produced in both cyclic and non-cyclic photophosphorylation, though oxygen and NADPH are only generated in non-cyclic photophosphorylation."
+  },
+  {
+    "id": 56365,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following best describes the role of PEP carboxylase in C4 photosynthesis?",
+    "options": [
+      "It catalyzes the carboxylation of RuBP",
+      "It splits water molecules",
+      "It fixes CO2 into a four-carbon compound",
+      "It converts pyruvate to acetyl-CoA"
+    ],
+    "correct_answer": "It fixes CO2 into a four-carbon compound",
+    "explanation": "PEP carboxylase fixes CO2 into a four-carbon compound (oxaloacetate), which is later converted to malate in C4 plants."
+  },
+  {
+    "id": 56366,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "During the light-dependent reactions, how many protons are translocated across the thylakoid membrane for each pair of electrons transferred?",
+    "options": [
+      "2 protons",
+      "4 protons",
+      "6 protons",
+      "8 protons"
+    ],
+    "correct_answer": "4 protons",
+    "explanation": "For each pair of electrons transferred through the electron transport chain, 4 protons are translocated across the thylakoid membrane, contributing to the proton gradient."
+  },
+  {
+    "id": 56367,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following compounds serves as the initial acceptor of CO2 in the Calvin cycle?",
+    "options": [
+      "3-phosphoglycerate",
+      "Glyceraldehyde-3-phosphate",
+      "Ribulose bisphosphate",
+      "Fructose-6-phosphate"
+    ],
+    "correct_answer": "Ribulose bisphosphate",
+    "explanation": "Ribulose bisphosphate (RuBP) is the initial acceptor of CO2 in the Calvin cycle, producing two molecules of 3-phosphoglycerate."
+  },
+  {
+    "id": 56368,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following pathways occurs in both aerobic and anaerobic conditions?",
+    "options": [
+      "Krebs cycle",
+      "Glycolysis",
+      "Electron transport chain",
+      "Calvin cycle"
+    ],
+    "correct_answer": "Glycolysis",
+    "explanation": "Glycolysis occurs in both aerobic and anaerobic conditions, leading to the production of pyruvate and ATP."
+  },
+  {
+    "id": 56369,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of carbon dioxide are produced in the complete oxidation of one molecule of glucose through aerobic respiration?",
+    "options": [
+      "2 CO2",
+      "4 CO2",
+      "6 CO2",
+      "8 CO2"
+    ],
+    "correct_answer": "6 CO2",
+    "explanation": "Six molecules of CO2 are produced during the complete oxidation of one glucose molecule: 2 from the link reaction and 4 from the Krebs cycle."
+  },
+  {
+    "id": 56370,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following molecules is directly involved in the reduction of 3-phosphoglycerate to glyceraldehyde-3-phosphate (G3P) in the Calvin cycle?",
+    "options": [
+      "ATP",
+      "FADH2",
+      "NADPH",
+      "Oxygen"
+    ],
+    "correct_answer": "NADPH",
+    "explanation": "NADPH provides the reducing power needed to convert 3-phosphoglycerate into glyceraldehyde-3-phosphate (G3P) in the Calvin cycle."
+  },
+  {
+    "id": 56371,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which process in photosynthesis directly produces oxygen?",
+    "options": [
+      "Photophosphorylation",
+      "Photolysis of water",
+      "Calvin cycle",
+      "Electron transport chain"
+    ],
+    "correct_answer": "Photolysis of water",
+    "explanation": "The photolysis of water in photosystem II splits water molecules, releasing oxygen as a byproduct."
+  },
+  {
+    "id": 56372,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which part of the mitochondria does oxidative phosphorylation take place?",
+    "options": [
+      "Outer membrane",
+      "Matrix",
+      "Inner membrane",
+      "Intermembrane space"
+    ],
+    "correct_answer": "Inner membrane",
+    "explanation": "Oxidative phosphorylation occurs in the inner mitochondrial membrane, where the electron transport chain is located."
+  },
+  {
+    "id": 56373,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are generated from each molecule of NADH during oxidative phosphorylation?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "3 ATP",
+    "explanation": "Each molecule of NADH generates approximately 3 ATP molecules during oxidative phosphorylation."
+  },
+  {
+    "id": 56374,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is the primary pigment responsible for light absorption in photosynthesis?",
+    "options": [
+      "Chlorophyll a",
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls"
+    ],
+    "correct_answer": "Chlorophyll a",
+    "explanation": "Chlorophyll a is the primary pigment responsible for absorbing light energy during photosynthesis, initiating the light-dependent reactions."
+  },
+  {
+    "id": 56375,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In the electron transport chain, which complex receives electrons directly from FADH2?",
+    "options": [
+      "Complex I",
+      "Complex II",
+      "Complex III",
+      "Complex IV"
+    ],
+    "correct_answer": "Complex II",
+    "explanation": "Complex II (succinate dehydrogenase) receives electrons directly from FADH2 and passes them on to ubiquinone (CoQ)."
+  },
+  {
+    "id": 56376,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In C4 plants, where does the initial fixation of carbon dioxide occur?",
+    "options": [
+      "Bundle sheath cells",
+      "Mesophyll cells",
+      "Stomata",
+      "Guard cells"
+    ],
+    "correct_answer": "Mesophyll cells",
+    "explanation": "In C4 plants, carbon dioxide is initially fixed in the mesophyll cells by PEP carboxylase before being transported to the bundle sheath cells."
+  },
+  {
+    "id": 56377,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are generated directly during the light-independent reactions of photosynthesis?",
+    "options": [
+      "0 ATP",
+      "2 ATP",
+      "3 ATP",
+      "6 ATP"
+    ],
+    "correct_answer": "0 ATP",
+    "explanation": "No ATP is generated directly during the light-independent reactions (Calvin cycle). Instead, ATP is consumed for carbon fixation and regeneration."
+  },
+  {
+    "id": 56378,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "What is the correct order of events in the non-cyclic electron flow during photosynthesis?",
+    "options": [
+      "PS I → PS II → ATP synthesis → NADP+ reduction",
+      "PS II → ATP synthesis → PS I → NADP+ reduction",
+      "PS I → ATP synthesis → PS II → NADP+ reduction",
+      "ATP synthesis → PS II → PS I → NADP+ reduction"
+    ],
+    "correct_answer": "PS II → ATP synthesis → PS I → NADP+ reduction",
+    "explanation": "In non-cyclic electron flow, electrons move from PS II to ATP synthesis, then to PS I, and finally reduce NADP+ to NADPH."
+  },
+  {
+    "id": 56379,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which molecule is the final acceptor of electrons in the electron transport chain in chloroplasts?",
+    "options": [
+      "Oxygen",
+      "NADP+",
+      "Water",
+      "Glucose"
+    ],
+    "correct_answer": "NADP+",
+    "explanation": "NADP+ is the final electron acceptor in the electron transport chain in chloroplasts, forming NADPH."
+  },
+  {
+    "id": 56380,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many ATP molecules are produced per glucose molecule during fermentation?",
+    "options": [
+      "2 ATP",
+      "4 ATP",
+      "6 ATP",
+      "8 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Fermentation produces only 2 ATP molecules per glucose molecule through glycolysis, as it does not involve oxidative phosphorylation."
+  },
+  {
+    "id": 56381,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which of the following is the key regulatory enzyme in glycolysis that determines the rate of the pathway?",
+    "options": [
+      "Hexokinase",
+      "Pyruvate kinase",
+      "Phosphofructokinase",
+      "Enolase"
+    ],
+    "correct_answer": "Phosphofructokinase",
+    "explanation": "Phosphofructokinase is the key regulatory enzyme in glycolysis that determines the pathway’s rate and is allosterically regulated by various metabolites."
+  },
+  {
+    "id": 56382,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "In which compartment of the chloroplast are ATP and NADPH used during the Calvin cycle?",
+    "options": [
+      "Thylakoid lumen",
+      "Stroma",
+      "Inner membrane",
+      "Grana"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "ATP and NADPH produced in the light-dependent reactions are used in the stroma during the Calvin cycle to fix carbon dioxide and synthesize sugars."
+  },
+  {
+    "id": 56383,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "Which enzyme catalyzes the final step of glycolysis, producing pyruvate and ATP?",
+    "options": [
+      "Phosphofructokinase",
+      "Hexokinase",
+      "Enolase",
+      "Pyruvate kinase"
+    ],
+    "correct_answer": "Pyruvate kinase",
+    "explanation": "Pyruvate kinase catalyzes the conversion of phosphoenolpyruvate (PEP) to pyruvate, generating ATP in the final step of glycolysis."
+  },
+  {
+    "id": 56384,
+    "current_lesson_id": 963,
+    "category": "",
+    "question": "How many molecules of ATP are consumed for each turn of the Calvin cycle to regenerate ribulose bisphosphate (RuBP)?",
+    "options": [
+      "1 ATP",
+      "2 ATP",
+      "3 ATP",
+      "4 ATP"
+    ],
+    "correct_answer": "3 ATP",
+    "explanation": "Three molecules of ATP are consumed to regenerate ribulose bisphosphate (RuBP) from glyceraldehyde-3-phosphate (G3P) in each turn of the Calvin cycle."
+  }
+]

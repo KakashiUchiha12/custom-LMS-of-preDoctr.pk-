@@ -1,0 +1,730 @@
+[
+  {
+    "original_question": "How many copies of proteins typically make up the head or capsid of bacteriophages?",
+    "question_text": "The T4 bacteriophage is categorized as having 'binal' symmetry. This specifically refers to which structural arrangement?",
+    "options": ["A helical capsid with an icosahedral envelope", "An icosahedral head and a helical tail", "A cubic head with a filamentous tail", "A spherical head with a complex baseplate"],
+    "correct_answer": "An icosahedral head and a helical tail",
+    "explanation": "Binal symmetry is a characteristic of complex viruses like T4 phages, where the genetic material is stored in a geometric polyhedral head while the injection machinery follows a helical pattern."
+  },
+  {
+    "original_question": "What is the primary function of integrase in HIV?",
+    "question_text": "During the integration phase of the HIV life cycle, the viral DNA is inserted into the host chromosome. What is the resulting integrated viral DNA called?",
+    "options": ["Viroid", "Prophage", "Provirus", "Episome"],
+    "correct_answer": "Provirus",
+    "explanation": "In animal viruses like HIV, the integrated DNA is called a provirus. In bacteriophages, it is called a prophage."
+  },
+  {
+    "original_question": "Which cell type releases antibodies to attack antigens in the body?",
+    "question_text": "Which immune system cells are the primary 'factories' for the mass production of soluble immunoglobulins?",
+    "options": ["Memory T-cells", "Plasma B-cells", "Natural Killer cells", "Monocytes"],
+    "correct_answer": "Plasma B-cells",
+    "explanation": "When B-cells are activated by an antigen, they differentiate into plasma cells, which have an extensive rough ER for synthesizing and secreting antibodies."
+  },
+  {
+    "original_question": "Which stage of HIV infection is characterized by the presence of unusual and severe infections, cancers, and severe weight loss?",
+    "question_text": "A patient with late-stage HIV infection develops a specific type of pneumonia caused by a fungus. This organism is known as:",
+    "options": ["Candida albicans", "Aspergillus fumigatus", "Pneumocystis carinii", "Histoplasma capsulatum"],
+    "correct_answer": "Pneumocystis carinii",
+    "explanation": "Pneumocystis carinii (now often called P. jirovecii) is a classic opportunistic pathogen that indicates the progression to AIDS."
+  },
+  {
+    "original_question": "What is the role of killer T cells in the immune response?",
+    "question_text": "Cytotoxic T-cells eliminate virally infected cells primarily by which mechanism?",
+    "options": ["Opsonization of the viral envelope", "Direct lysis through the release of perforins", "Phagocytosis of the entire cell", "Neutralization of viral receptors"],
+    "correct_answer": "Direct lysis through the release of perforins",
+    "explanation": "Killer T-cells release proteins called perforins that create holes in the target cell membrane, leading to its destruction."
+  },
+  {
+    "original_question": "What structure in bacteriophages protects their genetic material?",
+    "question_text": "The protein shell of a virus is constructed from numerous repeating subunits. These individual subunits are termed:",
+    "options": ["Capsomeres", "Nucleosomes", "Capsids", "Protomers"],
+    "correct_answer": "Capsomeres",
+    "explanation": "Capsomeres are the structural building blocks of the viral capsid. The number of capsomeres is often used to identify different virus families."
+  },
+  {
+    "original_question": "What enzyme converts HIV RNA into DNA during the viral replication process?",
+    "question_text": "Reverse transcriptase is characterized as a 'dual-function' enzyme because it acts as both an RNA-dependent and a:",
+    "options": ["DNA-dependent RNA polymerase", "DNA-dependent DNA polymerase", "RNA-dependent RNA polymerase", "Protein kinase"],
+    "correct_answer": "DNA-dependent DNA polymerase",
+    "explanation": "Reverse transcriptase first makes DNA from RNA, and then synthesizes a complementary DNA strand to form a double helix."
+  },
+  {
+    "original_question": "What does AIDS stand for?",
+    "question_text": "The 'Acquired' portion of the term AIDS distinguishes this condition from:",
+    "options": ["Viral diseases", "Congenital or hereditary immunodeficiencies", "Autoimmune disorders", "Bacterial infections"],
+    "correct_answer": "Congenital or hereditary immunodeficiencies",
+    "explanation": "Unlike SCID, which is genetic (born with it), AIDS is acquired later in life through infection with HIV."
+  },
+  {
+    "original_question": "What structure in bacteriophages assists in the injection of genetic material?",
+    "question_text": "In the T4 bacteriophage, which component is responsible for providing the mechanical force required to penetrate the bacterial cell wall?",
+    "options": ["Tail fibers", "The baseplate", "The contractile tail sheath", "The collar"],
+    "correct_answer": "The contractile tail sheath",
+    "explanation": "The tail sheath contracts to drive the hollow core through the cell wall, similar to the action of a needle."
+  },
+  {
+    "original_question": "Which scientist demonstrated that viruses can be crystallized?",
+    "question_text": "The discovery that viruses could be crystallized like inorganic chemicals was first reported by:",
+    "options": ["Louis Pasteur", "Robert Koch", "Wendell Stanley", "Dmitri Iwanowsky"],
+    "correct_answer": "Wendell Stanley",
+    "explanation": "Stanley's 1935 crystallization of TMV showed that viruses have a regular, molecular nature and are not simple cellular organisms."
+  },
+  {
+    "original_question": "Which of the following is a retrovirus?",
+    "question_text": "The lipid envelope of HIV contains viral glycoproteins but is fundamentally composed of:",
+    "options": ["Viral-coded lipids", "Host cell plasma membrane", "Bacterial peptidoglycan", "Mitochondrial phospholipids"],
+    "correct_answer": "Host cell plasma membrane",
+    "explanation": "Enveloped viruses 'bud' out of the host cell, taking a portion of the host's lipid bilayer with them."
+  },
+  {
+    "original_question": "Approximately how many times can some viruses replicate themselves within ten minutes?",
+    "question_text": "The period of time between the initial infection of a host cell and the first appearance of mature progeny virions is the:",
+    "options": ["Incubation period", "Latent period", "Eclipse period", "Log phase"],
+    "correct_answer": "Eclipse period",
+    "explanation": "During the eclipse period, the virus has uncoated and is replicating; no intact, infectious particles can be found inside the cell yet."
+  },
+  {
+    "original_question": "How many enzymes required for HIV replication are held within the viral core?",
+    "question_text": "Which of the following enzymes is critical for the maturation of HIV particles after they bud from the host cell?",
+    "options": ["Integrase", "Protease", "Amylase", "DNA Ligase"],
+    "correct_answer": "Protease",
+    "explanation": "HIV protease cleaves long polyprotein chains into functional structural proteins and enzymes, making the new virus infectious."
+  },
+  {
+    "original_question": "Which protein forms the matrix layer below the viral envelope in HIV?",
+    "question_text": "The HIV matrix protein (p17) is found in which specific location within the virion?",
+    "options": ["Inside the RNA core", "Between the envelope and the capsid", "On the surface of the spikes", "Integrated into the host DNA"],
+    "correct_answer": "Between the envelope and the capsid",
+    "explanation": "The matrix provides structural support and helps organize the assembly of the virus just beneath the lipid envelope."
+  },
+  {
+    "original_question": "How many separate pieces of RNA make up the influenza virus genome?",
+    "question_text": "The genetic diversity of the Influenza virus, leading to seasonal epidemics, is primarily caused by:",
+    "options": ["Binary fission", "Antigenic drift (point mutations)", "Spore formation", "Reverse transcription"],
+    "correct_answer": "Antigenic drift (point mutations)",
+    "explanation": "Drift involves small mutations in the H and N proteins that accumulate over time, allowing the virus to evade the immune system."
+  },
+  {
+    "original_question": "What is the estimated replication time for some viruses in seconds?",
+    "question_text": "A standard T4 bacteriophage infection typically results in the burst of the host cell and the release of how many virions?",
+    "options": ["5-10", "100-200", "1,000-5,000", "Exactly 12"],
+    "correct_answer": "100-200",
+    "explanation": "Most textbook data indicates a burst size of approximately 200 phages for T-even phages infecting E. coli."
+  },
+  {
+    "original_question": "What year was it demonstrated that viruses from blisters could transmit foot and mouth disease in cattle?",
+    "question_text": "Loeffler and Frosch provided the first evidence of an animal-infecting virus by studying which disease?",
+    "options": ["Smallpox", "Rabies", "Foot and Mouth Disease", "Influenza"],
+    "correct_answer": "Foot and Mouth Disease",
+    "explanation": "In 1898, they showed that the agent causing Foot and Mouth disease in cattle could pass through filters that held back bacteria."
+  },
+  {
+    "original_question": "What type of genetic material can viruses possess?",
+    "question_text": "Viruses are classified as 'obligate intracellular parasites.' This means they:",
+    "options": ["Can only reproduce in the presence of sunlight", "Can only replicate inside a living host cell", "Must consume other bacteria to survive", "Are only found inside the human bloodstream"],
+    "correct_answer": "Can only replicate inside a living host cell",
+    "explanation": "Viruses lack their own metabolic machinery and ribosomes, so they must hijack a host cell to produce new particles."
+  },
+  {
+    "original_question": "What is the primary mode of transmission for HIV?",
+    "question_text": "Which of the following modes is NOT a pathway for the transmission of HIV?",
+    "options": ["Vertical transmission (Mother to child)", "Sharing of needles", "Mosquito or insect bites", "Blood transfusions"],
+    "correct_answer": "Mosquito or insect bites",
+    "explanation": "HIV does not replicate in insects and is not transmitted by mosquitoes, unlike Malaria or Dengue."
+  },
+  {
+    "original_question": "Which scientist is credited with first demonstrating that bacteria cause many diseases?",
+    "question_text": "Robert Koch’s postulates are used to prove a specific microbe causes a disease. Why are these difficult to apply to viruses?",
+    "options": ["Viruses cannot be seen", "Viruses cannot be grown on artificial, non-living media", "Viruses do not have DNA", "Viruses are too large to filter"],
+    "correct_answer": "Viruses cannot be grown on artificial, non-living media",
+    "explanation": "Postulate #2 requires growing the agent in a pure culture (like agar), which is impossible for viruses as they require living cells."
+  },
+  {
+    "original_question": "What type of virus is the bacteriophage?",
+    "question_text": "In the lysogenic cycle, the viral DNA integrates into the host genome. This integrated state is known as a:",
+    "options": ["Viroid", "Prophage", "Virion", "Capsid"],
+    "correct_answer": "Prophage",
+    "explanation": "A prophage is the 'dormant' form of a phage's DNA within the bacterial chromosome."
+  },
+  {
+    "original_question": "How many classes of viruses are there based on morphology?",
+    "question_text": "A virus with icosahedral symmetry, such as the Adenovirus, possesses a capsid with how many triangular faces?",
+    "options": ["4", "12", "20", "60"],
+    "correct_answer": "20",
+    "explanation": "An icosahedron is a regular polyhedron with 20 equilateral triangular faces."
+  },
+  {
+    "original_question": "What type of virus is specifically known to parasitize bacteria?",
+    "question_text": "The transfer of bacterial DNA from one cell to another via a bacteriophage is a process called:",
+    "options": ["Transformation", "Conjugation", "Transduction", "Translation"],
+    "correct_answer": "Transduction",
+    "explanation": "Transduction is a form of horizontal gene transfer where phages act as the vector for bacterial genes."
+  },
+  {
+    "original_question": "Which protein in the influenza virus facilitates the entry of the virus into host cells?",
+    "question_text": "The Hemagglutinin (HA) spikes on the Influenza virus are essential for:",
+    "options": ["RNA synthesis", "Attachment to sialic acid receptors", "Cleaving the viral envelope", "Providing energy to the virus"],
+    "correct_answer": "Attachment to sialic acid receptors",
+    "explanation": "HA spikes recognize and bind to the specific receptors on the surface of respiratory epithelial cells."
+  },
+  {
+    "original_question": "Which bacteriologist first demonstrated that bacteria cause many diseases of man and other organisms?",
+    "question_text": "Louis Pasteur, while unable to see the pathogen, successfully developed a vaccine for which viral disease by using spinal cord extracts?",
+    "options": ["Smallpox", "Polio", "Rabies", "Tuberculosis"],
+    "correct_answer": "Rabies",
+    "explanation": "Pasteur used dried spinal cords from infected rabbits to create the first Rabies vaccine."
+  },
+  {
+    "original_question": "What did the isolated, purified extracts of tobacco mosaic virus reveal about its nature?",
+    "question_text": "The Tobacco Mosaic Virus (TMV) is structurally described as:",
+    "options": ["Icosahedral", "Helical or rod-shaped", "Spherical", "Tadpole-shaped"],
+    "correct_answer": "Helical or rod-shaped",
+    "explanation": "TMV consists of a spiral of protein subunits surrounding a single strand of RNA, forming a rigid rod."
+  },
+  {
+    "original_question": "Which scientist is known for the discovery of viruses through his work on tobacco mosaic disease?",
+    "question_text": "Dmitri Iwanowsky's 1892 experiment with tobacco sap proved that the infectious agent was:",
+    "options": ["Larger than bacteria", "A chemical toxin only", "Filterable through porcelain", "Spread only by wind"],
+    "correct_answer": "Filterable through porcelain",
+    "explanation": "The agent passed through Chamberland filters, which were designed to remove all known bacteria."
+  },
+  {
+    "original_question": "Which enzyme in the HIV virus is responsible for converting RNA into DNA?",
+    "question_text": "In Retroviruses, the genome consists of two identical strands of:",
+    "options": ["Double-stranded DNA", "Single-stranded RNA", "Single-stranded DNA", "Messenger RNA"],
+    "correct_answer": "Single-stranded RNA",
+    "explanation": "HIV and other retroviruses carry two copies of positive-sense single-stranded RNA (+ssRNA)."
+  },
+  {
+    "original_question": "Which viral enzyme is responsible for integrating HIV DNA into the host cell's DNA?",
+    "question_text": "The enzyme Integrase performs its function by:",
+    "options": ["Converting RNA to DNA", "Cutting the host DNA and joining the viral DNA to it", "Breaking down the viral capsid", "Synthesizing the viral envelope"],
+    "correct_answer": "Cutting the host DNA and joining the viral DNA to it",
+    "explanation": "Integrase is responsible for the covalent insertion of the viral DNA into the host cell's genome."
+  },
+  {
+    "original_question": "What is the approximate diameter of an influenza virus particle?",
+    "question_text": "The standard unit used to express the size of most viruses is the:",
+    "options": ["Micrometer (μm)", "Millimeter (mm)", "Nanometer (nm)", "Angstrom (Å)"],
+    "correct_answer": "Nanometer (nm)",
+    "explanation": "Most viruses range from 20 to 300 nanometers in diameter."
+  },
+  {
+    "original_question": "How many genes are typically found in the HIV genome?",
+    "question_text": "The HIV genome is organized into three major structural genes. Which gene encodes the enzymes RT, Integrase, and Protease?",
+    "options": ["Gag", "Env", "Pol", "Tat"],
+    "correct_answer": "Pol",
+    "explanation": "The 'Pol' (polymerase) gene encodes the essential enzymes for the viral life cycle."
+  },
+  {
+    "original_question": "Which structure in a bacteriophage is used to inject its genetic material into a host cell?",
+    "question_text": "The tail fibers of a bacteriophage are primarily involved in which stage of the infection cycle?",
+    "options": ["Penetration", "Adsorption/Attachment", "Uncoating", "Assembly"],
+    "correct_answer": "Adsorption/Attachment",
+    "explanation": "Tail fibers recognize and bind to specific receptor sites on the bacterial cell wall."
+  },
+  {
+    "original_question": "What type of genetic material is found in the influenza virus?",
+    "question_text": "Influenza is a unique RNA virus because it performs which part of its replication cycle inside the host nucleus?",
+    "options": ["Attachment", "RNA transcription", "Protein synthesis", "Lysis"],
+    "correct_answer": "RNA transcription",
+    "explanation": "While most RNA viruses stay in the cytoplasm, Influenza requires the host's nuclear machinery for its RNA synthesis."
+  },
+  {
+    "original_question": "Which of the following is NOT a class of virus based on morphology?",
+    "question_text": "Which of the following viruses is a 'naked' (non-enveloped) virus?",
+    "options": ["HIV", "Influenza", "Poliovirus", "Herpes virus"],
+    "correct_answer": "Poliovirus",
+    "explanation": "Poliovirus consists only of a nucleocapsid and lacks a lipid envelope, making it more resistant to environmental conditions."
+  },
+  {
+    "original_question": "How many proteins make up the core of the HIV virus?",
+    "question_text": "The p24 antigen in HIV is a structural protein that makes up the:",
+    "options": ["Viral envelope", "Conical capsid core", "Matrix layer", "Reverse transcriptase enzyme"],
+    "correct_answer": "Conical capsid core",
+    "explanation": "p24 is the major capsid protein; its detection in blood is a standard test for early HIV infection."
+  },
+  {
+    "original_question": "In what year was the tobacco mosaic virus first crystallized?",
+    "question_text": "The 1946 Nobel Prize in Chemistry was awarded to Wendell Stanley for proving that viruses:",
+    "options": ["Cause cancer", "Can be crystallized and remain infectious", "Are made of DNA", "Are smaller than atoms"],
+    "correct_answer": "Can be crystallized and remain infectious",
+    "explanation": "Stanley's work emphasized the biochemical/molecular nature of viruses."
+  },
+  {
+    "original_question": "Which of the following is NOT a common symptom of early HIV infection?",
+    "question_text": "The 'Window Period' in HIV testing refers to the time during which:",
+    "options": ["The patient is not infectious", "Antibodies are not yet detectable despite infection", "The virus is dormant in the brain", "The CD4 count is extremely high"],
+    "correct_answer": "Antibodies are not yet detectable despite infection",
+    "explanation": "This period occurs early in infection before seroconversion (antibody production) has happened."
+  },
+  {
+    "original_question": "Which virus is known to cause severe acute respiratory syndrome (SARS)?",
+    "question_text": "Coronaviruses like SARS-CoV-1 are characterized by a genome made of:",
+    "options": ["dsDNA", "ssRNA (+ sense)", "ssDNA", "dsRNA"],
+    "correct_answer": "ssRNA (+ sense)",
+    "explanation": "Positive-sense RNA can be directly translated into proteins by host ribosomes."
+  },
+  {
+    "original_question": "Which part of the influenza virus helps it to attach to host cells?",
+    "question_text": "The viral enzyme Neuraminidase (NA) is critical for which phase of the Influenza life cycle?",
+    "options": ["Attachment to the host cell", "Release of new virions from the host cell", "Synthesis of the viral capsule", "Integration into host DNA"],
+    "correct_answer": "Release of new virions from the host cell",
+    "explanation": "Neuraminidase cleaves the 'tether' between the new virus and the host cell membrane, allowing it to spread."
+  },
+  {
+    "original_question": "On what basis are viruses classified into animal, plant, and bacteriophage categories?",
+    "question_text": "What is the primary basis for classifying viruses into 'Dermotropic' or 'Neurotropic' groups?",
+    "options": ["The type of nucleic acid they contain", "The specific host tissue or organ they affect", "The size of the virion", "The country where they were discovered"],
+    "correct_answer": "The specific host tissue or organ they affect",
+    "explanation": "This is a clinical classification based on the target tissue (e.g., skin vs. nervous system)."
+  },
+  {
+    "original_question": "Which of the following viruses is rod-shaped?",
+    "question_text": "The term 'Pleomorphic' when applied to the Influenza virus means that the virus:",
+    "options": ["Has many different shapes", "Infects many different species", "Uses many different enzymes", "Has multiple layers of capsids"],
+    "correct_answer": "Has many different shapes",
+    "explanation": "Influenza can appear as spherical or filamentous particles; it does not have a single fixed shape."
+  },
+  {
+    "original_question": "What is the primary function of the protein gp120 in HIV?",
+    "question_text": "The gp120 glycoprotein of HIV specifically recognizes and binds to which host cell surface marker?",
+    "options": ["CD8", "CD4", "ACE2", "MHC-II"],
+    "correct_answer": "CD4",
+    "explanation": "CD4 is a receptor found primarily on Helper T-lymphocytes, which is why HIV destroys the immune system."
+  },
+  {
+    "original_question": "What name was given to viruses that could pass through a filter which bacteria could not?",
+    "question_text": "The term 'Virus' was derived from a Latin word meaning:",
+    "options": ["Small", "Poison", "Living", "Invisible"],
+    "correct_answer": "Poison",
+    "explanation": "In ancient Latin, virus meant venom or poison."
+  },
+  {
+    "original_question": "What did W.M. Stanley's preparation of tobacco mosaic virus demonstrate under the compound microscope?",
+    "question_text": "Which instrument is required to visualize a virus particle due to its extremely small size?",
+    "options": ["Compound microscope", "Electron microscope", "Hand lens", "Stethoscope"],
+    "correct_answer": "Electron microscope",
+    "explanation": "Because viruses are smaller than the wavelength of light, they can only be seen using an electron microscope."
+  },
+  {
+    "original_question": "What is the estimated diameter of an HIV particle?",
+    "question_text": "If HIV is roughly 100 nm, how does its size compare to a typical bacterium like E. coli?",
+    "options": ["HIV is larger.", "HIV is about 10-100 times smaller.", "They are exactly the same size.", "HIV can be seen with the naked eye."],
+    "correct_answer": "HIV is about 10-100 times smaller.",
+    "explanation": "Bacteria are measured in micrometers (1-10μm), while viruses are measured in nanometers (20-300nm)."
+  },
+  {
+    "original_question": "How many spikes are present on the surface of an HIV particle?",
+    "question_text": "The spikes on the HIV envelope are technically:",
+    "options": ["Pure carbohydrates", "Glycoproteins", "Lipoproteins", "Phospholipids"],
+    "correct_answer": "Glycoproteins",
+    "explanation": "The spikes (gp120 and gp41) are proteins with attached sugar chains (glyco-)."
+  },
+  {
+    "original_question": "What is the average replication time for the fastest bacterial replicators?",
+    "question_text": "Bacteria reproduce by binary fission. In contrast, viruses replicate by:",
+    "options": ["Mitosis", "Meiosis", "Assembly of components", "Spore formation"],
+    "correct_answer": "Assembly of components",
+    "explanation": "Viruses don't divide; they force the host cell to make parts, which then 'assemble' into whole viruses."
+  },
+  {
+    "original_question": "What year did Iwanowsky demonstrate the transmissibility of the tobacco mosaic disease agent?",
+    "question_text": "The filters used by early virologists were made of:",
+    "options": ["Paper", "Unglazed porcelain", "Cotton", "Plastic"],
+    "correct_answer": "Unglazed porcelain",
+    "explanation": "Chamberland filters were made of unglazed porcelain with pores small enough to trap bacteria but allow viruses through."
+  },
+  {
+    "original_question": "Which feature is NOT a basis for virus classification?",
+    "question_text": "Viruses are NOT classified into kingdoms like other organisms because:",
+    "options": ["They are too many in number.", "They are acellular and lack a standard metabolism.", "They all have the same DNA.", "They are only found in water."],
+    "correct_answer": "They are acellular and lack a standard metabolism.",
+    "explanation": "Traditional taxonomy is based on cellular organization and metabolic pathways, both of which viruses lack."
+  },
+  {
+    "original_question": "What is the primary function of reverse transcriptase in HIV?",
+    "question_text": "Reverse transcriptase is also found in which of the following?",
+    "options": ["Bacteria", "Human Hepatitis B virus", "T4 Bacteriophage", "Tobacco Mosaic Virus"],
+    "correct_answer": "Human Hepatitis B virus",
+    "explanation": "Although Hepatitis B is a DNA virus, it uses reverse transcription as part of its replication strategy (Pararetrovirus)."
+  },
+  {
+    "original_question": "Who demonstrated that the agent of tobacco mosaic disease could be transmitted from an infected organism to a healthy one?",
+    "question_text": "Adolf Mayer (1886) noticed TMV could be transferred by rubbing sap. This proved the disease was:",
+    "options": ["Nutritional", "Infectious (Contagious)", "Genetic", "Environmental"],
+    "correct_answer": "Infectious (Contagious)",
+    "explanation": "Before Mayer, it wasn't clear if TMV was caused by soil conditions or toxins; he proved it was a transmissible infection."
+  },
+  {
+    "original_question": "How many strands of RNA are present in HIV's genetic material?",
+    "question_text": "The genome of HIV consists of two identical strands of which type of genetic material?",
+    "options": ["Double-stranded DNA", "Single-stranded RNA (+ sense)", "Double-stranded RNA", "Single-stranded DNA"],
+    "correct_answer": "Single-stranded RNA (+ sense)",
+    "explanation": "HIV is a retrovirus carrying two copies of positive-sense ssRNA."
+  },
+  {
+    "original_question": "Which virus is an example of a tadpole-shaped virus?",
+    "question_text": "The 'Tadpole' morphology observed in T-series bacteriophages is a result of:",
+    "options": ["A helical head and helical tail", "An icosahedral head and helical tail", "A spherical capsid and cubic tail", "A simple linear strand of RNA"],
+    "correct_answer": "An icosahedral head and helical tail",
+    "explanation": "This complex 'binal' symmetry is characteristic of viruses that infect bacteria."
+  },
+  {
+    "original_question": "In what year did W.M. Stanley prepare an extract of tobacco mosaic virus?",
+    "question_text": "Stanley’s 1935 preparation was unique because it remained infectious even after:",
+    "options": ["Being boiled for 10 hours", "Being crystallized and stored", "Being treated with heavy doses of pepsin", "Being dissolved in strong acid"],
+    "correct_answer": "Being crystallized and stored",
+    "explanation": "The fact that a 'crystal' could be stored and later infect a plant was a groundbreaking discovery."
+  },
+  {
+    "original_question": "What is the shape of the Polio virus?",
+    "question_text": "Which of the following is a classic example of a small, icosahedral (often appearing spherical) virus?",
+    "options": ["TMV", "Poliovirus", "T4 Phage", "Mumps virus"],
+    "correct_answer": "Poliovirus",
+    "explanation": "Poliovirus is a simple, non-enveloped, icosahedral virus."
+  },
+  {
+    "original_question": "What is the primary genetic material found in the influenza virus?",
+    "question_text": "The genome of the Influenza virus consists of which specific material?",
+    "options": ["A single molecule of dsDNA", "Segmented single-stranded RNA", "A continuous loop of ssDNA", "Double-stranded RNA"],
+    "correct_answer": "Segmented single-stranded RNA",
+    "explanation": "Influenza A and B have 8 separate pieces of RNA."
+  },
+  {
+    "original_question": "How many pieces of ribonucleic acid (RNA) make up the influenza virus genome?",
+    "question_text": "In the Influenza A virus, how many distinct segments of RNA make up the total genome?",
+    "options": ["1", "2", "8", "12"],
+    "correct_answer": "8",
+    "explanation": "The genome consists of 8 separate pieces of negative-sense single-stranded RNA."
+  },
+  {
+    "original_question": "What is the function of the viral envelope in HIV?",
+    "question_text": "The viral envelope is generally sensitive to treatment with:",
+    "options": ["Antibiotics", "Organic solvents like ether", "Distilled water", "Sunlight only"],
+    "correct_answer": "Organic solvents like ether",
+    "explanation": "Solvents dissolve the lipid bilayer of the envelope, making the virus non-infectious."
+  },
+  {
+    "original_question": "The average size of Bacteriophages is",
+    "question_text": "The typical size range of a bacteriophage head is approximately:",
+    "options": ["10-20 nm", "50-100 nm", "1-2 μm", "10-20 μm"],
+    "correct_answer": "50-100 nm",
+    "explanation": "Bacteriophages are medium-sized viruses within the nanometer range."
+  },
+  {
+    "original_question": "The transmission of HIV takes place through;",
+    "question_text": "Which of the following scenarios poses the highest risk for the transmission of HIV?",
+    "options": ["Sharing a meal with an infected person", "Needle-stick injury with contaminated blood", "Shaking hands", "Using the same toilet facilities"],
+    "correct_answer": "Needle-stick injury with contaminated blood",
+    "explanation": "Direct blood-to-blood contact is a primary and high-risk route of transmission."
+  },
+  {
+    "original_question": "Viruses do not have:",
+    "question_text": "Viruses lack which of the following cellular components?",
+    "options": ["Ribosomes", "Cytoplasm", "Plasma membrane (as a living boundary)", "All of the above"],
+    "correct_answer": "All of the above",
+    "explanation": "Viruses are acellular and do not possess any of the components required for independent life."
+  },
+  {
+    "original_question": "What is the function of the tail in some bacteriophages?",
+    "question_text": "In a T4 phage, the tail fibers specifically bind to:",
+    "options": ["Bacterial DNA", "Lipopolysaccharide receptors on the cell wall", "Bacterial ribosomes", "Host flagella"],
+    "correct_answer": "Lipopolysaccharide receptors on the cell wall",
+    "explanation": "Specificity of infection is determined by the binding of fibers to these cell wall markers."
+  },
+  {
+    "original_question": "Which of the following is an example of a Spherical Virus;",
+    "question_text": "Which of the following is a classic example of a spherical virus?",
+    "options": ["TMV", "Poliovirus", "T4 Phage", "Mumps virus"],
+    "correct_answer": "Poliovirus",
+    "explanation": "Poliovirus is a small, icosahedral (often appearing spherical) virus."
+  },
+  {
+    "original_question": "Which protein forms the viral core (capsid) of HIV?",
+    "question_text": "During the HIV diagnostic process, which test is usually performed first to screen for antibodies?",
+    "options": ["Western Blot", "PCR", "ELISA", "Gram Stain"],
+    "correct_answer": "ELISA",
+    "explanation": "ELISA is the rapid screening test, which is then confirmed by the more specific Western Blot or PCR."
+  },
+  {
+    "original_question": "Virus transmission is affected by:",
+    "question_text": "A virus that infects a cell and immediately causes lysis is known as a:",
+    "options": ["Temperate phage", "Virulent phage", "Latent virus", "Retrovirus"],
+    "correct_answer": "Virulent phage",
+    "explanation": "Virulent phages only undergo the lytic cycle, leading to the rapid destruction of the host."
+  },
+  {
+    "original_question": "What is the primary mode of transmission for the hepatitis B virus?",
+    "question_text": "Hepatitis B is primarily transmitted via which route?",
+    "options": ["Fecal-oral", "Parenteral (blood-to-blood)", "Contaminated food", "Airborne droplets"],
+    "correct_answer": "Parenteral (blood-to-blood)",
+    "explanation": "Like HIV, Hep B is spread through blood, needles, and sexual contact."
+  },
+  {
+    "original_question": "The genome of Flu Virus consists of how many genes;",
+    "question_text": "The Influenza A virus segments can undergo 'reassortment.' This phenomenon is termed:",
+    "options": ["Antigenic drift", "Antigenic shift", "Mutation", "Transformation"],
+    "correct_answer": "Antigenic shift",
+    "explanation": "Shift involves major changes due to swapping segments between different strains, often causing pandemics."
+  },
+  {
+    "original_question": "Cell theory does not explain:",
+    "question_text": "Viruses do not obey the Cell Theory because:",
+    "options": ["They do not have DNA", "They are not composed of cells", "They cannot evolve", "They are too small to see"],
+    "correct_answer": "They are not composed of cells",
+    "explanation": "Cell theory states that all living things are made of cells; viruses are acellular."
+  },
+  {
+    "original_question": "Which virus causes the common cold?",
+    "question_text": "The virus responsible for the 'Common Cold' most frequently belongs to which group?",
+    "options": ["Rhinoviruses", "Poxviruses", "Bacteriophages", "Retroviruses"],
+    "correct_answer": "Rhinoviruses",
+    "explanation": "Rhinoviruses are the primary cause of upper respiratory tract infections (colds)."
+  },
+  {
+    "original_question": "The envelope of the HIV is made up of which of the following;",
+    "question_text": "Organic solvents like chloroform destroy the infectivity of which types of viruses?",
+    "options": ["Naked viruses", "Enveloped viruses", "All viruses", "Plant viruses only"],
+    "correct_answer": "Enveloped viruses",
+    "explanation": "The solvent dissolves the lipid envelope, removing the proteins needed for host entry."
+  },
+  {
+    "original_question": "What type of virus is the tobacco mosaic virus?",
+    "question_text": "Tobacco Mosaic Virus (TMV) specifically affects the leaves by causing:",
+    "options": ["Complete death of the root", "Mottling and discoloration (mosaic pattern)", "Fruit rot", "Stem tumors"],
+    "correct_answer": "Mottling and discoloration (mosaic pattern)",
+    "explanation": "The virus destroys chlorophyll, leading to the light and dark green mosaic pattern on the leaves."
+  },
+  {
+    "original_question": "Viruses are classified into many groups on the basis of:",
+    "question_text": "Which of the following is NOT used for the classification of viruses?",
+    "options": ["Type of nucleic acid", "Host range", "Staining with Gram stain", "Capsid symmetry"],
+    "correct_answer": "Staining with Gram stain",
+    "explanation": "Gram staining is for bacteria; viruses are too small and have a different chemical makeup."
+  },
+  {
+    "original_question": "What structure acts as the protective covering for the nucleic acid in bacteriophages?",
+    "question_text": "The individual protein units that make up the capsid are:",
+    "options": ["Capsomeres", "Amino acids", "Nucleotides", "Histones"],
+    "correct_answer": "Capsomeres",
+    "explanation": "Capsomeres assemble to form the protective shell around the genome."
+  },
+  {
+    "original_question": "These are largest animal viruses:",
+    "question_text": "The Poxviruses (like Smallpox) are known as the largest animal viruses. What is their general shape?",
+    "options": ["Spherical", "Brick-shaped", "Rod-shaped", "Tadpole-shaped"],
+    "correct_answer": "Brick-shaped",
+    "explanation": "Poxviruses have a complex, large, brick-like structure."
+  },
+  {
+    "original_question": "Which structure in influenza virus is associated with its RNA genome?",
+    "question_text": "The RNA of the Influenza virus is combined with protein to form:",
+    "options": ["Ribonucleoprotein (RNP)", "Ribosome", "Nucleosome", "Enzyme"],
+    "correct_answer": "Ribonucleoprotein (RNP)",
+    "explanation": "The genome exists as a set of RNPs, which are functional units for replication."
+  },
+  {
+    "original_question": "Reverse Transcriptase enzyme in the HIV catalyzes the conversion of ____ into _____;",
+    "question_text": "Reverse transcription is the process of synthesizing:",
+    "options": ["RNA from DNA", "DNA from RNA", "Protein from RNA", "RNA from Protein"],
+    "correct_answer": "DNA from RNA",
+    "explanation": "This is the reverse of the typical transcription process."
+  },
+  {
+    "original_question": "Which virus is associated with foot-and-mouth disease in cattle?",
+    "question_text": "Foot and Mouth disease primarily affects which group of animals?",
+    "options": ["Birds", "Cloven-hoofed mammals (cattle, sheep)", "Rodents", "Humans only"],
+    "correct_answer": "Cloven-hoofed mammals (cattle, sheep)",
+    "explanation": "It is a highly contagious disease of cattle, pigs, and sheep."
+  },
+  {
+    "original_question": "Poliomyelitis affects which of the following;",
+    "question_text": "Poliomyelitis is a disease that primarily attacks which system?",
+    "options": ["Circulatory system", "Central Nervous System (motor neurons)", "Digestive system only", "Respiratory system"],
+    "correct_answer": "Central Nervous System (motor neurons)",
+    "explanation": "Polio targets the motor neurons in the spinal cord, leading to paralysis."
+  },
+  {
+    "original_question": "It is a biological weapon:",
+    "question_text": "The concept that viruses could be used as 'biological weapons' is based on their:",
+    "options": ["Color", "High infectivity and mortality", "Ability to live in soil", "Large size"],
+    "correct_answer": "High infectivity and mortality",
+    "explanation": "Viruses like Smallpox are feared because they spread quickly and kill a high percentage of those infected."
+  },
+  {
+    "original_question": "What year did Wendell Stanley crystallize the tobacco mosaic virus?",
+    "question_text": "Wendell Stanley's crystallization of TMV occurred in which year?",
+    "options": ["1892", "1935", "1953", "1984"],
+    "correct_answer": "1935",
+    "explanation": "This was a major milestone in 20th-century biology."
+  },
+  {
+    "original_question": "During an AIDS infection the HIV attacks which of the following cells;",
+    "question_text": "In HIV infection, the depletion of CD4+ cells leads to:",
+    "options": ["Increased antibody production", "Immunodeficiency", "Better memory", "Faster digestion"],
+    "correct_answer": "Immunodeficiency",
+    "explanation": "Without Helper T-cells, the body cannot coordinate an immune response."
+  },
+  {
+    "original_question": "What is the function of the protein p24 in HIV?",
+    "question_text": "The Gag gene of HIV produces proteins that form the:",
+    "options": ["Viral enzymes", "Core and matrix structure", "Surface spikes", "RNA genome"],
+    "correct_answer": "Core and matrix structure",
+    "explanation": "Gag stands for Group-specific Antigen, providing the structural 'skeleton'."
+  },
+  {
+    "original_question": "The viruses which infect the plants have which of the following as the genetic material;",
+    "question_text": "Plant viruses most commonly have which type of genetic material?",
+    "options": ["Double-stranded DNA", "Single-stranded RNA", "Single-stranded DNA", "Proteins only"],
+    "correct_answer": "Single-stranded RNA",
+    "explanation": "The vast majority of known plant viruses, including TMV, are ssRNA viruses."
+  },
+  {
+    "original_question": "The genome of the most higher plants and animals is ?",
+    "question_text": "DNA is considered a more stable genetic material than RNA because DNA:",
+    "options": ["Is single-stranded", "Lacks a 2'-OH group on its sugar", "Is found in the cytoplasm", "Is smaller"],
+    "correct_answer": "Lacks a 2'-OH group on its sugar",
+    "explanation": "Deoxyribose is less reactive than ribose, making DNA more durable for long-term storage."
+  },
+  {
+    "original_question": "Which enzyme integrates the viral DNA into the host cell's genome in HIV?",
+    "question_text": "Which HIV drug class specifically prevents the virus from inserting its DNA into the host genome?",
+    "options": ["Protease inhibitors", "Integrase inhibitors", "Fusion inhibitors", "Reverse transcriptase inhibitors"],
+    "correct_answer": "Integrase inhibitors",
+    "explanation": "These drugs block the enzyme integrase."
+  },
+  {
+    "original_question": "What is the function of neuraminidase in the influenza virus?",
+    "question_text": "The drug Oseltamivir (Tamiflu) targets which part of the Influenza virus?",
+    "options": ["The RNA genome", "Hemagglutinin", "Neuraminidase", "The capsid"],
+    "correct_answer": "Neuraminidase",
+    "explanation": "By blocking NA, the drug prevents new viruses from leaving the host cell."
+  },
+  {
+    "original_question": "What is the typical size range of bacteriophages?",
+    "question_text": "Which of the following viruses is significantly LARGER than a bacteriophage?",
+    "options": ["Poliovirus", "Hepatitis B", "Vaccinia (Poxvirus)", "Yellow fever virus"],
+    "correct_answer": "Vaccinia (Poxvirus)",
+    "explanation": "Poxviruses are large enough to be seen under a high-quality light microscope."
+  },
+  {
+    "original_question": "What is the shape of the viral core (capsid) in HIV?",
+    "question_text": "The core of the HIV virus is described as having a 'conical' shape. This shape is primarily formed by which protein?",
+    "options": ["p17", "p24", "gp120", "gp41"],
+    "correct_answer": "p24",
+    "explanation": "p24 molecules assemble to form the cone-shaped capsid."
+  },
+  {
+    "original_question": "How does the HIV virus primarily spread within the human body?",
+    "question_text": "HIV can spread directly from an infected cell to a healthy cell through the formation of a:",
+    "options": ["Biofilm", "Virological synapse", "Flagellum", "Pilus"],
+    "correct_answer": "Virological synapse",
+    "explanation": "This allows the virus to spread without entering the extracellular space, evading antibodies."
+  },
+  {
+    "original_question": "How many little spikes project from the surface of an HIV particle?",
+    "question_text": "Each HIV particle has approximately how many surface spikes?",
+    "options": ["10-70", "500-1000", "Exactly 5", "Millions"],
+    "correct_answer": "10-70",
+    "explanation": "HIV has a relatively low density of spikes compared to viruses like Influenza."
+  },
+  {
+    "original_question": "What is the function of the viral core in HIV?",
+    "question_text": "The 'Uncoating' step in the viral life cycle involves:",
+    "options": ["Making the envelope", "Removing the capsid to release the nucleic acid", "Attachment to the receptor", "Budding from the membrane"],
+    "correct_answer": "Removing the capsid to release the nucleic acid",
+    "explanation": "The genome must be released from the protein shell to be replicated."
+  },
+  {
+    "original_question": "Which virus is known to infect only bacteria?",
+    "question_text": "Bacteriophages are used as 'scavengers' in which medical treatment approach?",
+    "options": ["Chemotherapy", "Phage therapy for bacterial infections", "Gene therapy for cancer", "Vaccination for Measles"],
+    "correct_answer": "Phage therapy for bacterial infections",
+    "explanation": "Phages can be used to kill specific bacteria that are resistant to antibiotics."
+  },
+  {
+    "original_question": "Which of the following is used to treat the HIV?",
+    "question_text": "The 'cocktail' therapy for HIV (HAART) is used primarily to:",
+    "options": ["Kill the host cell", "Prevent the development of drug resistance", "Make the patient immune to flu", "Increase the size of the virus"],
+    "correct_answer": "Prevent the development of drug resistance",
+    "explanation": "Using multiple drugs at once makes it nearly impossible for the virus to mutate around all of them simultaneously."
+  },
+  {
+    "original_question": "Which protein forms the matrix layer just below the viral envelope of HIV?",
+    "question_text": "The matrix protein (p17) of HIV is 'myristoylated.' This modification helps the protein to:",
+    "options": ["Bind to RNA", "Stick to the host cell membrane during assembly", "Dissolve in water", "Kill bacteria"],
+    "correct_answer": "Stick to the host cell membrane during assembly",
+    "explanation": "The fatty acid tail (myristate) anchors the protein to the lipid bilayer."
+  },
+  {
+    "original_question": "Which part of the bacteriophage attaches to the bacterial cell?",
+    "question_text": "In a T4 phage, the baseplate serves as the site for:",
+    "options": ["DNA storage", "Attachment of tail fibers and spikes", "RNA synthesis", "ATP production"],
+    "correct_answer": "Attachment of tail fibers and spikes",
+    "explanation": "The baseplate is the structural hub at the bottom of the tail."
+  },
+  {
+    "original_question": "Which of the following organisms are uses as vectors in recombinant biotechnology to introduce genes into a DNA sequence;",
+    "question_text": "Which property makes Retroviruses useful in gene therapy?",
+    "options": ["They are very large", "They can integrate genetic material into the host DNA", "They only infect plants", "They lack an envelope"],
+    "correct_answer": "They can integrate genetic material into the host DNA",
+    "explanation": "This allows scientists to permanently 'fix' a genetic defect by inserting a healthy gene."
+  },
+  {
+    "original_question": "Which of the following enzyme is present in a Bacteriophage;",
+    "question_text": "Endolysin is an enzyme used by bacteriophages during which phase?",
+    "options": ["Attachment", "Lysis (Release)", "Integration", "Transcription"],
+    "correct_answer": "Lysis (Release)",
+    "explanation": "The enzyme breaks down the bacterial cell wall from the inside to let the new phages out."
+  },
+  {
+    "original_question": "How does HIV primarily attach to host cells?",
+    "question_text": "The initial binding of gp120 to CD4 causes a 'conformational change.' What is the result of this change?",
+    "options": ["The virus dies", "The RNA is destroyed", "gp120 can now bind to a co-receptor (CCR5 or CXCR4)", "The host cell explodes"],
+    "correct_answer": "gp120 can now bind to a co-receptor (CCR5 or CXCR4)",
+    "explanation": "This second binding is required for the virus to fuse with the cell membrane."
+  },
+  {
+    "original_question": "The incubation period for Hepatitis A Virus is;",
+    "question_text": "Hepatitis A is often called 'Infectious Hepatitis.' It is primarily spread by:",
+    "options": ["Contaminated food and water (Fecal-oral route)", "Blood transfusions", "Mosquitoes", "Airborne coughing"],
+    "correct_answer": "Contaminated food and water (Fecal-oral route)",
+    "explanation": "Hep A is associated with poor sanitation and hygiene."
+  },
+  {
+    "original_question": "The incubation period of Leaf Curl Virus is;",
+    "question_text": "Cotton Leaf Curl Virus is a major agricultural problem in Pakistan. It is transmitted by which insect?",
+    "options": ["Honeybee", "Whitefly", "Locust", "Grasshopper"],
+    "correct_answer": "Whitefly",
+    "explanation": "The whitefly (Bemisia tabaci) is the vector for this virus."
+  },
+  {
+    "original_question": "Viruses are ______ entity between living and non-living;",
+    "question_text": "Viruses are considered to be on the 'borderline' of life because they:",
+    "options": ["Have cells but no DNA", "Have genetic material and can evolve, but lack metabolism", "Can eat bacteria", "Are larger than human cells"],
+    "correct_answer": "Have genetic material and can evolve, but lack metabolism",
+    "explanation": "This combination of biological and non-biological traits makes their classification unique."
+  },
+  {
+    "original_question": "What class of viruses does HIV belong to?",
+    "question_text": "The term 'Lentivirus' (the genus for HIV) comes from a word meaning:",
+    "options": ["Small", "Fast", "Slow", "Round"],
+    "correct_answer": "Slow",
+    "explanation": "Lentiviruses cause diseases that progress very slowly over many years."
+  },
+  {
+    "original_question": "Prions are infective proteins considered to be responsible for causing;",
+    "question_text": "Prions are unique infectious agents because they consist entirely of:",
+    "options": ["RNA", "DNA", "Protein", "Lipid"],
+    "correct_answer": "Protein",
+    "explanation": "Prions are misfolded proteins that contain no nucleic acid."
+  },
+  {
+    "original_question": "Some virus' main target is the immune system of its host. They reproduce very slowly and have extremely long incubation periods which range from a few years to even decades. What are such viruses called?",
+    "question_text": "The 'latent' form of HIV (the provirus) is dangerous because it is:",
+    "options": ["Larger than the active virus", "Invisible to the immune system and drugs", "Found only in the blood", "Made of bacteria"],
+    "correct_answer": "Invisible to the immune system and drugs",
+    "explanation": "Since the provirus is part of the host DNA and is not currently producing viruses, drugs and immune cells cannot find it."
+  }
+]

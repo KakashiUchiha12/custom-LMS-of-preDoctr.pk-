@@ -1,103 +1,150 @@
-import React, { useState, useEffect, useMemo, useRef } from 'react';
+import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { Clock, ChevronLeft, ChevronRight, Send, Flag, CheckCircle2, HelpCircle, Bookmark, FolderPlus, X, Map, Menu, Maximize, Minimize } from 'lucide-react';
-import { SUBJECT_TOPICS } from '../data/courseData';
+import { Clock, ChevronLeft, ChevronRight, Send, Flag, CheckCircle2, HelpCircle, Bookmark, FolderPlus, X, Map, Menu, Maximize, Minimize, Loader2 } from 'lucide-react';
 import { CourseAccordion } from '../components/CourseAccordion';
+import { useSubject } from '../hooks/useSubject';
+import { useChapterMcqs, useCollectionMcqs } from '../hooks/useChapterMcqs';
+import { api } from '../utils/api';
 import './TestInterface.css';
+import katex from 'katex';
+import 'katex/dist/katex.min.css';
 
-const PLACEHOLDER_QUESTIONS = [
-  {
-    id: 1,
-    text: "Which of the following is the primary site of photosynthesis in plants?",
-    options: ["Mitochondria", "Chloroplast", "Ribosomes", "Golgi Apparatus"],
-    correct: 1,
-    explanation: "Photosynthesis occurs in the chloroplasts, which contain chlorophyll."
-  },
-  {
-    id: 2,
-    text: "The 'Fluid Mosaic Model' was proposed to explain the structure of:",
-    options: ["Cell Wall", "Plasma Membrane", "Nucleus", "Endoplasmic Reticulum"],
-    correct: 1,
-    explanation: "Singer and Nicolson proposed the Fluid Mosaic Model for the cell membrane in 1972."
-  },
-  {
-    id: 3,
-    text: "Which molecule serves as the 'energy currency' of the cell?",
-    options: ["DNA", "RNA", "ATP", "Glucose"],
-    correct: 2,
-    explanation: "ATP (Adenosine Triphosphate) provides energy for most cellular processes."
-  },
-  {
-    id: 4,
-    text: "The breakdown of glucose in the absence of oxygen is known as:",
-    options: ["Aerobic Respiration", "Fermentation", "Glycolysis", "Krebs Cycle"],
-    correct: 1,
-    explanation: "Fermentation is the anaerobic breakdown of organic substances by microorganisms."
-  },
-  {
-    id: 5,
-    text: "Which organelle is known as the 'Powerhouse of the Cell'?",
-    options: ["Nucleus", "Ribosome", "Mitochondria", "Lysosome"],
-    correct: 2,
-    explanation: "Mitochondria generate most of the chemical energy needed to power the cell's biochemical reactions."
-  }
-];
+const renderTextWithMath = (text) => {
+  if (!text) return null;
+  const parts = text.split('$');
+  return parts.map((part, index) => {
+    if (index % 2 === 1) {
+      return (
+        <span
+          key={index}
+          dangerouslySetInnerHTML={{
+            __html: katex.renderToString(part, { throwOnError: false })
+          }}
+        />
+      );
+    }
+    return <span key={index}>{part}</span>;
+  });
+};
 
 const TestInterface = () => {
   const { subjectId, folderName } = useParams();
   const navigate = useNavigate();
 
-  // Derive questions synchronously - no async needed since localStorage is sync
-  const questions = useMemo(() => {
-    if (folderName) {
-      const savedMcqs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-      const actualFolder = folderName.replace(/-/g, ' ');
-      return savedMcqs.filter(m => m.folder === actualFolder);
-    }
-    return PLACEHOLDER_QUESTIONS;
-  }, [folderName]);
-
-  const cleanSubject = folderName
-    ? folderName.replace(/-/g, ' ')
-    : (subjectId ? subjectId.replace('-mcqs', '').replace(/-/g, ' ') : 'Practice');
-
   const location = useLocation();
   const searchParams = new URLSearchParams(location.search);
-  const currentTopic = searchParams.get('topic');
+  const currentTopic   = searchParams.get('topic');
   const currentSubtest = searchParams.get('subtest');
+  const chapterId      = searchParams.get('chapterId'); // numeric DB chapter ID
+  const lessonId       = searchParams.get('lessonId');  // numeric DB lesson ID
 
   const rawSubjectId = subjectId ? subjectId.replace('-mcqs', '').replace('-lectures', '') : '';
-  const topics = SUBJECT_TOPICS[rawSubjectId] || [];
-  
-  const [openAccordionIndex, setOpenAccordionIndex] = useState(() => {
-    if (currentTopic) {
-      const idx = topics.findIndex(t => t.name === currentTopic);
-      return idx >= 0 ? idx : 0;
-    }
-    return 0;
-  });
+  const subjectSlug  = rawSubjectId ? `${rawSubjectId}-mcqs` : '';
+  const { chapters: topics, subject } = useSubject(subjectSlug);
 
-  // All state hooks - MUST be before any early returns
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const [selectedAnswers, setSelectedAnswers] = useState({});
-  const [flaggedQuestions, setFlaggedQuestions] = useState({});
-  const [timeLeft, setTimeLeft] = useState(3600);
-  const [isFinished, setIsFinished] = useState(false);
-  const [isSaveModalOpen, setIsSaveModalOpen] = useState(false);
-  const [isSubmitModalOpen, setIsSubmitModalOpen] = useState(false);
-  const [isCleanupSuccessModalOpen, setIsCleanupSuccessModalOpen] = useState(false);
-  const [reviewFilter, setReviewFilter] = useState('all'); // 'all', 'correct', 'wrong'
-  const [savedCollections, setSavedCollections] = useState(() => {
-    const saved = localStorage.getItem('predoctr-collections');
-    return saved ? JSON.parse(saved) : ['Difficult Biology', 'Organic Chemistry Revision'];
-  });
-  const [newFolderName, setNewFolderName] = useState('');
-  const [selectedFolder, setSelectedFolder] = useState('');
-  const [saveSuccess, setSaveSuccess] = useState(false);
-  const [isQuestionMapOpen, setIsQuestionMapOpen] = useState(false);
-  const [isCourseSidebarOpen, setIsCourseSidebarOpen] = useState(true);
-  const [isFullscreen, setIsFullscreen] = useState(false);
+  // ── Source of truth: is this a saved-folder practice or a chapter test? ──
+  const actualFolderName = folderName ? folderName.replace(/-/g, ' ') : null;
+
+  // For folder-based practice (Mistakes, custom collections)
+  const {
+    questions: folderQuestions,
+    loading:   folderLoading,
+    collectionId: mistakesCollectionId,
+  } = useCollectionMcqs(actualFolderName);
+
+  // For chapter-based tests
+  const {
+    questions: chapterQuestions,
+    loading:   chapterLoading,
+    total:     chapterTotal,
+  } = useChapterMcqs(actualFolderName ? null : chapterId, actualFolderName ? null : lessonId);
+
+  // Final questions array
+  const questions = actualFolderName ? folderQuestions : chapterQuestions;
+  const isLoadingQuestions = actualFolderName ? folderLoading : chapterLoading;
+
+  const cleanSubject = actualFolderName
+    ? actualFolderName
+    : (subjectId ? subjectId.replace('-mcqs', '').replace(/-/g, ' ') : 'Practice');
+
+  const [openAccordionIndex, setOpenAccordionIndex] = useState(0);
+
+  // Open the chapter matching the URL ?topic= param once chapters load
+  useEffect(() => {
+    if (!currentTopic || !topics.length) return;
+    const idx = topics.findIndex(t => t.name === currentTopic);
+    if (idx >= 0) setOpenAccordionIndex(idx);
+  }, [currentTopic, topics]);
+
+  // ── All state hooks - MUST be before any early returns ──
+  const [currentQuestion,          setCurrentQuestion]          = useState(0);
+  const [selectedAnswers,          setSelectedAnswers]          = useState({});
+  const [flaggedQuestions,         setFlaggedQuestions]         = useState({});
+  const [timeLeft,                 setTimeLeft]                 = useState(3600);
+  const [isFinished,               setIsFinished]               = useState(false);
+  const [isSaveModalOpen,          setIsSaveModalOpen]          = useState(false);
+  const [isSubmitModalOpen,        setIsSubmitModalOpen]        = useState(false);
+  const [isCleanupSuccessModalOpen,setIsCleanupSuccessModalOpen]= useState(false);
+  const [reviewFilter,             setReviewFilter]             = useState('all');
+  const [savedCollections,         setSavedCollections]         = useState([]);
+  const [newFolderName,            setNewFolderName]            = useState('');
+  const [selectedFolder,           setSelectedFolder]           = useState('');
+  const [selectedFolderId,         setSelectedFolderId]         = useState(null);
+  const [saveSuccess,              setSaveSuccess]              = useState(false);
+  const [isQuestionMapOpen,        setIsQuestionMapOpen]        = useState(false);
+  const [isCourseSidebarOpen,      setIsCourseSidebarOpen]      = useState(true);
+  const [isFullscreen,             setIsFullscreen]             = useState(false);
+  const [isSaving,                 setIsSaving]                 = useState(false);
+  const [subjectMcqProgress,       setSubjectMcqProgress]       = useState({ solved: 0, total: 0 });
   const viewerRef = useRef(null);
+
+  const [isLeavingModalOpen, setIsLeavingModalOpen] = useState(false);
+  const [pendingNavigateTo, setPendingNavigateTo] = useState(null);
+
+  // Reset state when moving to a different test/folder
+  useEffect(() => {
+    setCurrentQuestion(0);
+    setSelectedAnswers({});
+    setFlaggedQuestions({});
+    setTimeLeft(3600);
+    setIsFinished(false);
+    setIsSubmitModalOpen(false);
+    setIsSaveModalOpen(false);
+    setReviewFilter('all');
+  }, [lessonId, chapterId, folderName, currentSubtest]);
+
+  const handleInterceptNavigate = (to) => {
+    if (!isFinished && Object.keys(selectedAnswers).length > 0) {
+      setPendingNavigateTo(to);
+      setIsLeavingModalOpen(true);
+    } else {
+      navigate(to);
+    }
+  };
+
+  // Load collections from DB for the Save MCQ modal
+  useEffect(() => {
+    api.get('/api/collections')
+      .then(cols => setSavedCollections(cols))
+      .catch(() => {});
+  }, []);
+
+  // Load subject MCQ progress (how many tests done for this subject)
+  useEffect(() => {
+    if (!rawSubjectId) return;
+    api.get('/api/tests/stats')
+      .then(stats => {
+        // total_mcqs_attempted across all tests for this subject
+        const subjectTests = (stats.recent_subjects || []).filter(
+          s => s.subject?.toLowerCase() === cleanSubject.toLowerCase()
+        );
+        const solved = subjectTests.reduce((a, s) => a + (s.score || 0), 0);
+        // total = chapter MCQ count from useSubject
+        const total = topics.reduce((a, c) => a + (c.mcq_count || 0), 0);
+        setSubjectMcqProgress({ solved, total: total || chapterTotal });
+      })
+      .catch(() => {});
+  }, [rawSubjectId, cleanSubject, topics, chapterTotal]);
 
   useEffect(() => {
     const handleFullscreenChange = () => {
@@ -150,8 +197,8 @@ const TestInterface = () => {
       
       if (isCorrect) {
         osc.type = 'sine';
-        osc.frequency.setValueAtTime(523.25, ctx.currentTime); // C5
-        osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.1); // E5
+        osc.frequency.setValueAtTime(523.25, ctx.currentTime);
+        osc.frequency.setValueAtTime(659.25, ctx.currentTime + 0.1);
         gainNode.gain.setValueAtTime(0.1, ctx.currentTime);
         gainNode.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + 0.3);
         osc.start();
@@ -183,84 +230,135 @@ const TestInterface = () => {
     setFlaggedQuestions(prev => ({ ...prev, [currentQuestion]: !prev[currentQuestion] }));
   };
 
-  const handleSaveConfirm = () => {
-    const finalFolderName = newFolderName || selectedFolder;
+  // ── Save MCQ to DB collection ─────────────────────────────────────────────
+  const handleSaveConfirm = useCallback(async () => {
+    const finalFolderName = newFolderName.trim() || (selectedFolder ? selectedFolder.name : '');
     if (!finalFolderName) return;
 
-    if (newFolderName && !savedCollections.includes(newFolderName)) {
-      const updated = [...savedCollections, newFolderName];
-      setSavedCollections(updated);
-      localStorage.setItem('predoctr-collections', JSON.stringify(updated));
+    setIsSaving(true);
+    try {
+      // Find or create the collection
+      let colId = selectedFolderId;
+      if (newFolderName.trim()) {
+        const col = await api.post('/api/collections/by-name', { name: newFolderName.trim() });
+        colId = col.id;
+      }
+      if (!colId) return;
+
+      // Save the MCQ as JSONB
+      const q = questions[currentQuestion];
+      await api.post(`/api/collections/${colId}/mcqs`, {
+        mcq_data: {
+          id:          q.id || q.dbId,
+          dbId:        q.dbId || q.id,
+          text:        q.text,
+          options:     q.options,
+          correct:     q.correct,
+          explanation: q.explanation || '',
+          imageUrl:    q.imageUrl    || null,
+        },
+      });
+
+      // Refresh collections list
+      const cols = await api.get('/api/collections');
+      setSavedCollections(cols);
+      setSaveSuccess(true);
+    } catch (err) {
+      console.error('Failed to save MCQ:', err);
+    } finally {
+      setIsSaving(false);
+      setNewFolderName('');
+      setSelectedFolder('');
+      setSelectedFolderId(null);
     }
-
-    const savedMCQs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-    savedMCQs.push({ ...questions[currentQuestion], folder: finalFolderName });
-    localStorage.setItem('predoctr-saved-mcqs', JSON.stringify(savedMCQs));
-
-    setSaveSuccess(true);
-    setNewFolderName('');
-    setSelectedFolder('');
 
     setTimeout(() => {
       setIsSaveModalOpen(false);
       setSaveSuccess(false);
     }, 2000);
-  };
+  }, [newFolderName, selectedFolder, selectedFolderId, currentQuestion, questions]);
 
-  const handleFinish = () => {
+  // ── Finish test: show modal, save result + mistakes to DB ─────────────────
+  const handleFinish = useCallback(() => {
     setIsSubmitModalOpen(true);
-    
-    // Auto-save mistakes logic
-    const wrongIndices = questions.map((_, i) => i).filter(i => selectedAnswers[i] !== questions[i].correct);
-    if (wrongIndices.length > 0) {
-      const savedMcqs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-      const mistakesFolder = 'Mistakes';
-      
-      wrongIndices.forEach(idx => {
-        const q = questions[idx];
-        // Check if already in mistakes
-        const exists = savedMcqs.some(m => m.id === q.id && m.folder === mistakesFolder);
-        if (!exists) {
-          savedMcqs.push({ ...q, folder: mistakesFolder });
-        }
-      });
-      
-      localStorage.setItem('predoctr-saved-mcqs', JSON.stringify(savedMcqs));
-      
-      // Ensure 'Mistakes' is in collections
-      const collections = JSON.parse(localStorage.getItem('predoctr-collections') || '[]');
-      if (!collections.includes(mistakesFolder)) {
-        collections.push(mistakesFolder);
-        localStorage.setItem('predoctr-collections', JSON.stringify(collections));
-      }
-    }
-  };
+  }, []);
 
-  const confirmSubmit = () => {
+  const confirmSubmit = useCallback(async () => {
     setIsSubmitModalOpen(false);
     setIsFinished(true);
-  };
 
-  const handleRemoveMastered = () => {
-    const savedMcqs = JSON.parse(localStorage.getItem('predoctr-saved-mcqs') || '[]');
-    const correctIds = questions
+    const timeTaken = 3600 - timeLeft;
+    const correctCount = questions.reduce((acc, q, idx) =>
+      acc + (selectedAnswers[idx] === q.correct ? 1 : 0), 0);
+    const wrongIndices = questions.map((_, i) => i)
+      .filter(i => selectedAnswers[i] !== undefined && selectedAnswers[i] !== questions[i].correct);
+
+    // 1. Save test result to DB
+    try {
+      await api.post('/api/tests/results', {
+        subject:             cleanSubject,
+        topic:               currentTopic || cleanSubject,
+        score:               correctCount,
+        total:               questions.length,
+        time_taken_seconds:  timeTaken,
+        chapter_id:          chapterId ? parseInt(chapterId, 10) : null,
+      });
+    } catch (err) {
+      console.error('Failed to save test result:', err);
+    }
+
+    // 2. Auto-save mistakes to 'Mistakes' DB collection (skip for folder practice)
+    if (!actualFolderName && wrongIndices.length > 0) {
+      try {
+        const mistakesCol = await api.post('/api/collections/by-name', { name: 'Mistakes' });
+        // Fetch existing mistake question IDs to avoid duplicates
+        const existing = await api.get(`/api/collections/${mistakesCol.id}/mcqs`);
+        const existingIds = new Set(existing.map(m => m.dbId || m.id));
+
+        for (const idx of wrongIndices) {
+          const q = questions[idx];
+          if (existingIds.has(q.dbId || q.id)) continue;
+          await api.post(`/api/collections/${mistakesCol.id}/mcqs`, {
+            mcq_data: {
+              id:          q.id || q.dbId,
+              dbId:        q.dbId || q.id,
+              text:        q.text,
+              options:     q.options,
+              correct:     q.correct,
+              explanation: q.explanation || '',
+              imageUrl:    q.imageUrl    || null,
+            },
+          });
+        }
+      } catch (err) {
+        console.error('Failed to save mistakes:', err);
+      }
+    }
+  }, [timeLeft, questions, selectedAnswers, cleanSubject, currentTopic, chapterId, actualFolderName]);
+
+  // ── Remove mastered questions from Mistakes folder ────────────────────────
+  const handleRemoveMastered = useCallback(async () => {
+    const correctlySolvedIds = questions
       .filter((q, idx) => selectedAnswers[idx] === q.correct)
-      .map(q => q.id);
-      
-    const updated = savedMcqs.filter(m => {
-      if (m.folder === 'Mistakes' && correctIds.includes(m.id)) return false;
-      return true;
-    });
-    
-    localStorage.setItem('predoctr-saved-mcqs', JSON.stringify(updated));
+      .map(q => q._savedId)
+      .filter(Boolean);
+
+    if (correctlySolvedIds.length > 0 && mistakesCollectionId) {
+      try {
+        await api.delete(`/api/collections/${mistakesCollectionId}/mcqs/bulk`, {
+          saved_ids: correctlySolvedIds,
+        });
+      } catch (err) {
+        console.error('Failed to remove mastered questions:', err);
+      }
+    }
+
     setIsCleanupSuccessModalOpen(true);
-    
-    // Auto-close and navigate after 2.5 seconds
     setTimeout(() => {
       setIsCleanupSuccessModalOpen(false);
       navigate('/student-dashboard');
     }, 2500);
-  };
+  }, [questions, selectedAnswers, mistakesCollectionId, navigate]);
 
   // --- Early returns AFTER all hooks ---
 
@@ -269,28 +367,44 @@ const TestInterface = () => {
     <div ref={viewerRef} className={`lesson-viewer-layout ${!isCourseSidebarOpen ? 'course-sidebar-closed' : ''} ${isFullscreen ? 'fullscreen-mode' : ''}`}>
       {/* Sidebar Navigation */}
       {isCourseSidebarOpen && (
-        <aside className="lesson-sidebar hide-mobile fade-in-left">
-          <div className="sidebar-header">
-            <h2>Course Content</h2>
+        <aside className="lesson-sidebar mobile-open fade-in-left">
+          {/* Mobile Top Bar inside Sidebar */}
+          <div className="sidebar-mobile-topbar hide-desktop" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem', borderBottom: '1px solid #e2e8f0' }}>
+            <div>
+              <span style={{ fontWeight: 800, fontSize: '1.2rem', color: '#4096EE' }}>preDoctr.pk</span>
+              <span style={{ color: '#94a3b8', marginLeft: '4px', fontSize: '0.9rem' }}>LMS</span>
+            </div>
+            <button onClick={() => setIsCourseSidebarOpen(false)} style={{ background: 'none', border: 'none', color: '#475569' }}>
+              <Menu size={20} />
+            </button>
+          </div>
+
+          <div className="sidebar-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '1rem' }}>
+            <h2 style={{ margin: 0, fontSize: '1.1rem', fontWeight: 700 }}>Course Content</h2>
+            <button onClick={() => setIsCourseSidebarOpen(false)} style={{ background: 'none', border: 'none', color: '#94a3b8' }}>
+              <X size={20} />
+            </button>
           </div>
           <div className="sidebar-accordion-container">
             {topics.length > 0 ? (
               topics.map((chapter, index) => (
                 <CourseAccordion
-                  key={index}
+                  key={chapter.id || index}
                   chapter={chapter}
                   index={index}
+                  subjectSlug={subjectSlug}
                   subjectId={rawSubjectId}
-                  navigate={navigate}
+                  navigate={handleInterceptNavigate}
                   isOpen={openAccordionIndex === index}
                   onToggle={() => setOpenAccordionIndex(openAccordionIndex === index ? null : index)}
                   currentTopic={currentTopic}
                   currentSubtest={currentSubtest}
                   isSidebar={true}
+                  isFreeChapter={true}
                 />
               ))
             ) : (
-              <div className="empty-sidebar-msg">No chapters found.</div>
+              <div className="empty-sidebar-msg">Loading chapters...</div>
             )}
           </div>
         </aside>
@@ -303,16 +417,18 @@ const TestInterface = () => {
             <button className="sidebar-toggle-btn" onClick={() => setIsCourseSidebarOpen(!isCourseSidebarOpen)}>
               <Menu size={20} />
             </button>
-            <button className="back-to-course" onClick={() => navigate(`/courses/${rawSubjectId}-mcqs`)}>
+            <button className="back-to-course" onClick={() => handleInterceptNavigate(`/courses/${rawSubjectId}-mcqs`)}>
               <ChevronLeft size={18} /> {cleanSubject} MCQs
             </button>
           </div>
           <div className="topbar-right">
-            <span className="lesson-progress">Your Progress: 0 of 242 (0%)</span>
+            <span className="lesson-progress">
+              Your Progress: {subjectMcqProgress.solved} of {subjectMcqProgress.total} ({subjectMcqProgress.total > 0 ? Math.round((subjectMcqProgress.solved / subjectMcqProgress.total) * 100) : 0}%)
+            </span>
             <button className="mark-complete-btn">
               <CheckCircle2 size={16} /> Mark as Complete
             </button>
-            <button className="close-lesson-btn" onClick={() => navigate(`/courses/${rawSubjectId}-mcqs`)}>
+            <button className="close-lesson-btn" onClick={() => handleInterceptNavigate(`/courses/${rawSubjectId}-mcqs`)}>
               <X size={20} />
             </button>
           </div>
@@ -325,13 +441,41 @@ const TestInterface = () => {
     </div>
   );
 
+  const isNotesOrShortlisting = currentSubtest?.toLowerCase().includes('notes') || currentSubtest?.toLowerCase().includes('shortlisting');
+
+  if (isNotesOrShortlisting) {
+    return renderLayout(
+      <div className="test-interface-v2 empty-state">
+        <div className="container empty-container">
+          <h2>{currentSubtest}</h2>
+          <p>This content is text-based and currently under development. Please check back later!</p>
+          <button className="primary-btn" onClick={() => navigate(`/courses/${rawSubjectId}-mcqs`)}>
+            Back to Course
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  if (isLoadingQuestions) {
+    return renderLayout(
+      <div className="test-interface-v2 empty-state">
+        <div className="container empty-container">
+          <Loader2 size={64} className="animate-spin" color="#4096EE" />
+          <h2>Loading Questions...</h2>
+          <p>Please wait while we fetch your MCQs.</p>
+        </div>
+      </div>
+    );
+  }
+
   if (questions.length === 0) {
     return renderLayout(
       <div className="test-interface-v2 empty-state">
         <div className="container empty-container">
           <Bookmark size={64} color="#e2e8f0" />
           <h2>No Questions Found</h2>
-          <p>This folder is currently empty. Bookmark tough questions during practice tests to see them here!</p>
+          <p>This folder is currently empty. [Debug: chapterId={chapterId}, lessonId={lessonId}]</p>
           <button className="primary-btn" onClick={() => navigate('/student-dashboard')}>
             Back to Dashboard
           </button>
@@ -508,6 +652,9 @@ const TestInterface = () => {
       <header className="mobile-test-header hide-desktop">
         <div className="mobile-header-top">
           <div className="m-header-left">
+            <button className="m-sidebar-toggle" onClick={() => setIsCourseSidebarOpen(!isCourseSidebarOpen)} style={{ marginRight: '10px', background: 'none', border: 'none', color: '#475569', display: 'flex', alignItems: 'center' }}>
+              <Menu size={20} />
+            </button>
             <button className="m-back-btn" onClick={() => navigate(`/courses/${rawSubjectId}-mcqs${currentTopic ? `?topic=${encodeURIComponent(currentTopic)}${currentSubtest ? `&subtest=${encodeURIComponent(currentSubtest)}` : ''}` : ''}`)}>
               <ChevronLeft size={20} />
             </button>
@@ -612,7 +759,7 @@ const TestInterface = () => {
               </div>
             </div>
 
-            <h2 className="question-text">{q.text}</h2>
+            <h2 className="question-text">{renderTextWithMath(q.text)}</h2>
 
             {q.imageUrl && (
               <div className="question-image">
@@ -641,7 +788,7 @@ const TestInterface = () => {
                     disabled={isAnswered}
                   >
                     <div className="option-letter">{String.fromCharCode(65 + index)}</div>
-                    <div className="option-content">{option}</div>
+                    <div className="option-content">{renderTextWithMath(option)}</div>
                     {isAnswered && isCorrectOption && <CheckCircle2 size={18} className="indicator-icon" />}
                     {isAnswered && isSelected && !isCorrectOption && <X size={18} className="indicator-icon" />}
                   </button>
@@ -654,7 +801,7 @@ const TestInterface = () => {
                 <div className="exp-label">
                   <HelpCircle size={16} /> Explanation
                 </div>
-                <p>{q.explanation}</p>
+                <p>{renderTextWithMath(q.explanation)}</p>
               </div>
             )}
           </div>
@@ -730,12 +877,12 @@ const TestInterface = () => {
                   <div className="existing-folders-list">
                     {savedCollections.map(folder => (
                       <div
-                        key={folder}
-                        className={`folder-item ${selectedFolder === folder ? 'selected' : ''}`}
-                        onClick={() => { setSelectedFolder(folder); setNewFolderName(''); }}
+                        key={folder.id}
+                        className={`folder-item ${selectedFolder?.id === folder.id ? 'selected' : ''}`}
+                        onClick={() => { setSelectedFolder(folder); setSelectedFolderId(folder.id); setNewFolderName(''); }}
                       >
-                        <span>{folder}</span>
-                        {selectedFolder === folder && <CheckCircle2 size={16} />}
+                        <span>{folder.name}</span>
+                        {selectedFolder?.id === folder.id && <CheckCircle2 size={16} />}
                       </div>
                     ))}
                   </div>
@@ -748,13 +895,51 @@ const TestInterface = () => {
                 <button className="modal-cancel-btn" onClick={() => setIsSaveModalOpen(false)}>Cancel</button>
                 <button
                   className="modal-save-btn"
-                  disabled={!newFolderName && !selectedFolder}
+                  disabled={(!newFolderName && !selectedFolder) || isSaving}
                   onClick={handleSaveConfirm}
                 >
-                  Save Question
+                  {isSaving ? <><Loader2 size={16} className="animate-spin" style={{ display: 'inline', marginRight: '8px' }} /> Saving...</> : 'Save Question'}
                 </button>
               </div>
             )}
+          </div>
+        </div>
+      )}
+      {/* Leaving Test Confirmation Modal */}
+      {isLeavingModalOpen && (
+        <div className="modal-overlay">
+          <div className="save-mcq-modal fade-in-up">
+            <div className="modal-header">
+              <div className="modal-title-group">
+                <Send size={24} color="#4096EE" />
+                <h3>Leaving Test?</h3>
+              </div>
+            </div>
+            
+            <div className="modal-body">
+              <p style={{ textAlign: 'center' }}>
+                Do you want to save your quiz progress by finishing, or quit and lose all progress?
+              </p>
+            </div>
+
+            <div className="modal-footer">
+              <button className="modal-cancel-btn" onClick={() => setIsLeavingModalOpen(false)}>
+                Cancel
+              </button>
+              <button className="modal-save-btn" style={{ backgroundColor: '#ef4444' }} onClick={() => {
+                setIsLeavingModalOpen(false);
+                navigate(pendingNavigateTo);
+              }}>
+                Quit & Lose Progress
+              </button>
+              <button className="modal-save-btn" onClick={async () => {
+                await confirmSubmit();
+                setIsLeavingModalOpen(false);
+                navigate(pendingNavigateTo);
+              }}>
+                Finish & Save
+              </button>
+            </div>
           </div>
         </div>
       )}

@@ -1,0 +1,912 @@
+[
+  {
+    "id": 55665,
+    "question_text": "Which of the following is the end product of lactic acid fermentation?",
+    "option_a": "Ethanol",
+    "option_b": "Lactic acid",
+    "option_c": "Acetyl-CoA",
+    "option_d": "Pyruvate",
+    "correct_opt": "b",
+    "explanation": "Lactic acid is the end product of lactic acid fermentation.rn"
+  },
+  {
+    "id": 55666,
+    "question_text": "In which type of organism does alcoholic fermentation typically occur?",
+    "option_a": "Mammals",
+    "option_b": "Yeast",
+    "option_c": "Plants",
+    "option_d": "Bacteria",
+    "correct_opt": "b",
+    "explanation": "Alcoholic fermentation typically occurs in yeast."
+  },
+  {
+    "id": 55667,
+    "question_text": "Which of the following is a common intermediate in both lactic acid and alcoholic fermentation?",
+    "option_a": "Glucose",
+    "option_b": "Pyruvate",
+    "option_c": "Acetaldehyde",
+    "option_d": "NADH",
+    "correct_opt": "b",
+    "explanation": "Pyruvate is a common intermediate in both lactic acid and alcoholic fermentation."
+  },
+  {
+    "id": 55668,
+    "question_text": "What happens to NADH during anaerobic respiration?",
+    "option_a": "It is oxidized to NAD+>",
+    "option_b": "It is reduced to NAD+>",
+    "option_c": "It remains unchanged>",
+    "option_d": "It becomes ATP>",
+    "correct_opt": "a",
+    "explanation": "NADH is oxidized to NAD+ during anaerobic respiration to regenerate NAD+ for glycolysis.rn"
+  },
+  {
+    "id": 55669,
+    "question_text": "During strenuous exercise, muscles undergo anaerobic respiration due to a lack of which molecule?",
+    "option_a": "Glucose",
+    "option_b": "Oxygen",
+    "option_c": "Carbon dioxide",
+    "option_d": "ATP",
+    "correct_opt": "b",
+    "explanation": "During strenuous exercise, muscles undergo anaerobic respiration due to a lack of oxygen."
+  },
+  {
+    "id": 55670,
+    "question_text": "Where in the cell does the electron transport chain occur?",
+    "option_a": "Cytoplasm",
+    "option_b": "Nucleus",
+    "option_c": "Mitochondrial inner membrane",
+    "option_d": "Chloroplast stroma",
+    "correct_opt": "c",
+    "explanation": "The electron transport chain occurs in the mitochondrial inner membrane."
+  },
+  {
+    "id": 55672,
+    "question_text": "Which component of the electron transport chain acts as a proton pump?",
+    "option_a": "ATP synthase",
+    "option_b": "Cytochrome c",
+    "option_c": "Coenzyme Q",
+    "option_d": "NADH dehydrogenase",
+    "correct_opt": "d",
+    "explanation": "NADH dehydrogenase acts as a proton pump in the electron transport chain."
+  },
+  {
+    "id": 55673,
+    "question_text": "What is the role of cytochrome c in the electron transport chain?",
+    "option_a": "Proton pump",
+    "option_b": "Electron carrier",
+    "option_c": "ATP synthesis",
+    "option_d": "Carbon fixation",
+    "correct_opt": "b",
+    "explanation": "Cytochrome c acts as an electron carrier in the electron transport chain."
+  },
+  {
+    "id": 55674,
+    "question_text": "How many ATP molecules are produced by the oxidation of one NADH molecule in the electron transport chain?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "3",
+    "option_d": "4",
+    "correct_opt": "c",
+    "explanation": "The oxidation of one NADH molecule in the electron transport chain typically produces 3 ATP molecules."
+  },
+  {
+    "id": 55675,
+    "question_text": "Where does glycolysis take place in the cell?",
+    "option_a": "Mitochondria",
+    "option_b": "Cytoplasm",
+    "option_c": "Nucleus",
+    "option_d": "Chloroplast",
+    "correct_opt": "b",
+    "explanation": "Glycolysis takes place in the cytoplasm."
+  },
+  {
+    "id": 55676,
+    "question_text": "Which molecule is the initial substrate for glycolysis?",
+    "option_a": "Pyruvate",
+    "option_b": "Glucose",
+    "option_c": "Acetyl-CoA",
+    "option_d": "Lactate",
+    "correct_opt": "b",
+    "explanation": "Glucose is the initial substrate for glycolysis."
+  },
+  {
+    "id": 55677,
+    "question_text": "What is the net gain of ATP molecules from one molecule of glucose during glycolysis?",
+    "option_a": "1",
+    "option_b": "2",
+    "option_c": "4",
+    "option_d": "6",
+    "correct_opt": "b",
+    "explanation": "The net gain of ATP molecules from one molecule of glucose during glycolysis is 2."
+  },
+  {
+    "id": 55679,
+    "question_text": "What are the end products of glycolysis?",
+    "option_a": "2 Pyruvate, 2 NADH, 2 ATP",
+    "option_b": "2 Acetyl-CoA, 2 NADH, 2 ATP",
+    "option_c": "2 Pyruvate, 4 NADH, 4 ATP",
+    "option_d": "2 Acetyl-CoA, 4 NADH, 4 ATP",
+    "correct_opt": "a",
+    "explanation": "The end products of glycolysis are 2 pyruvate, 2 NADH, and 2 ATP."
+  },
+  {
+    "id": 55680,
+    "question_text": "Where do the light-dependent reactions of photosynthesis occur?",
+    "option_a": "Stroma",
+    "option_b": "Thylakoid membrane",
+    "option_c": "Cytoplasm",
+    "option_d": "Mitochondria",
+    "correct_opt": "b",
+    "explanation": "The light-dependent reactions of photosynthesis occur in the thylakoid membrane."
+  },
+  {
+    "id": 55683,
+    "question_text": "What are the products of the light-dependent reactions that are used in the Calvin cycle?",
+    "option_a": "O2 and ATP",
+    "option_b": "NADPH and ATP",
+    "option_c": "CO2 and NADPH",
+    "option_d": "Glucose and O2",
+    "correct_opt": "b",
+    "explanation": "The products of the light-dependent reactions that are used in the Calvin cycle are NADPH and ATP."
+  },
+  {
+    "id": 55684,
+    "question_text": "Which molecule acts as the carbon dioxide acceptor in the Calvin cycle?",
+    "option_a": "Glucose",
+    "option_b": "RuBP (Ribulose bisphosphate)",
+    "option_c": "G3P (Glyceraldehyde-3-phosphate)",
+    "option_d": "ATP",
+    "correct_opt": "b",
+    "explanation": "RuBP (Ribulose bisphosphate) acts as the carbon dioxide acceptor in the Calvin cycle."
+  },
+  {
+    "id": 55685,
+    "question_text": "Which of the following is the main purpose of cyclic photophosphorylation?",
+    "option_a": "Produce NADPH",
+    "option_b": "Produce ATP",
+    "option_c": "Produce oxygen",
+    "option_d": "Fix carbon dioxide",
+    "correct_opt": "b",
+    "explanation": "The main purpose of cyclic photophosphorylation is to produce ATP."
+  },
+  {
+    "id": 55686,
+    "question_text": "In non-cyclic photophosphorylation, what is the ultimate source of electrons?",
+    "option_a": "NADPH",
+    "option_b": "FADH2",
+    "option_c": "Water",
+    "option_d": "Oxygen",
+    "correct_opt": "c",
+    "explanation": "In non-cyclic photophosphorylation, the ultimate source of electrons is water."
+  },
+  {
+    "id": 55687,
+    "question_text": "Which enzyme is responsible for ATP synthesis during oxidative phosphorylation?",
+    "option_a": "Hexokinase",
+    "option_b": "ATP synthase",
+    "option_c": "Cytochrome c oxidase",
+    "option_d": "Rubisco",
+    "correct_opt": "b",
+    "explanation": "ATP synthase is responsible for ATP synthesis during oxidative phosphorylation."
+  },
+  {
+    "id": 55688,
+    "question_text": "What is the role of NADP+ in non-cyclic photophosphorylation?",
+    "option_a": "Electron donor",
+    "option_b": "Electron acceptor",
+    "option_c": "ATP producer",
+    "option_d": "Proton pump",
+    "correct_opt": "b",
+    "explanation": "NADP+ acts as an electron acceptor in non-cyclic photophosphorylation."
+  },
+  {
+    "id": 55689,
+    "question_text": "Which molecule is produced in both cyclic and non-cyclic photophosphorylation?",
+    "option_a": "NADPH",
+    "option_b": "ATP",
+    "option_c": "Oxygen",
+    "option_d": "Water",
+    "correct_opt": "b",
+    "explanation": "ATP is produced in both cyclic and non-cyclic photophosphorylation."
+  },
+  {
+    "id": 55690,
+    "question_text": "What is the main function of photosynthesis?",
+    "option_a": "Produce ATP",
+    "option_b": "Produce oxygen",
+    "option_c": "Convert light energy into chemical energy",
+    "option_d": "Fix nitrogen",
+    "correct_opt": "c",
+    "explanation": "The main function of photosynthesis is to convert light energy into chemical energy."
+  },
+  {
+    "id": 55691,
+    "question_text": "Which of the following is the primary photosynthetic pigment?",
+    "option_a": "Carotenoids",
+    "option_b": "Chlorophyll a",
+    "option_c": "Chlorophyll b",
+    "option_d": "Xanthophyll",
+    "correct_opt": "b",
+    "explanation": "Chlorophyll a is the primary photosynthetic pigment."
+  },
+  {
+    "id": 55693,
+    "question_text": "What is the byproduct of photosynthesis that is released into the atmosphere?",
+    "option_a": "Carbon dioxide",
+    "option_b": "Water",
+    "option_c": "Oxygen",
+    "option_d": "Glucose",
+    "correct_opt": "c",
+    "explanation": "Oxygen is the byproduct of photosynthesis that is released into the atmosphere."
+  },
+  {
+    "id": 55694,
+    "question_text": "Which molecule provides the electrons for the light reactions of photosynthesis?",
+    "option_a": "NADPH",
+    "option_b": "Water",
+    "option_c": "ATP",
+    "option_d": "Carbon dioxide",
+    "correct_opt": "b",
+    "explanation": "Water provides the electrons for the light reactions of photosynthesis."
+  },
+  {
+    "id": 55695,
+    "question_text": "Which process directly produces the most ATP per molecule of glucose?",
+    "option_a": "Glycolysis",
+    "option_b": "Krebs cycle",
+    "option_c": "Oxidative phosphorylation",
+    "option_d": "Fermentation",
+    "correct_opt": "c",
+    "explanation": "Oxidative phosphorylation directly produces the most ATP per molecule of glucose."
+  },
+  {
+    "id": 55696,
+    "question_text": "In which part of the mitochondria does ATP synthesis occur during oxidative phosphorylation?",
+    "option_a": "Outer membrane",
+    "option_b": "Inner membrane",
+    "option_c": "Matrix",
+    "option_d": "Intermembrane space",
+    "correct_opt": "b",
+    "explanation": "ATP synthesis during oxidative phosphorylation occurs in the inner membrane of the mitochondria."
+  },
+  {
+    "id": 55697,
+    "question_text": "How many ATP molecules are typically produced from one molecule of glucose during aerobic respiration?",
+    "option_a": "2",
+    "option_b": "18",
+    "option_c": "36-38",
+    "option_d": "38-40",
+    "correct_opt": "c",
+    "explanation": "Typically, 36-38 ATP molecules are produced from one molecule of glucose during aerobic respiration.rn"
+  },
+  {
+    "id": 55698,
+    "question_text": "Which enzyme is crucial for ATP production in the electron transport chain?",
+    "option_a": "Pyruvate kinase",
+    "option_b": "Hexokinase",
+    "option_c": "ATP synthase",
+    "option_d": "Phosphofructokinase",
+    "correct_opt": "c",
+    "explanation": "ATP synthase is crucial for ATP production in the electron transport chain."
+  },
+  {
+    "id": 55699,
+    "question_text": "What is the main purpose of substrate-level phosphorylation?",
+    "option_a": "Generate heat",
+    "option_b": "Produce ATP",
+    "option_c": "Split glucose",
+    "option_d": "Create NADPH",
+    "correct_opt": "b",
+    "explanation": "The main purpose of substrate-level phosphorylation is to produce ATP."
+  },
+  {
+    "id": 55700,
+    "question_text": "What is the primary source of carbon for the Calvin cycle?",
+    "option_a": "Glucose",
+    "option_b": "Water",
+    "option_c": "Carbon dioxide",
+    "option_d": "Oxygen",
+    "correct_opt": "c",
+    "explanation": "The primary source of carbon for the Calvin cycle is carbon dioxide."
+  },
+  {
+    "id": 55701,
+    "question_text": "How does water contribute to the process of photosynthesis?",
+    "option_a": "Provides electrons",
+    "option_b": "Provides oxygen",
+    "option_c": "Provides hydrogen ions",
+    "option_d": "All of the above",
+    "correct_opt": "d",
+    "explanation": "Water provides electrons, oxygen, and hydrogen ions to the process of photosynthesis."
+  },
+  {
+    "id": 55702,
+    "question_text": "Which factor can directly affect the rate of photosynthesis?",
+    "option_a": "Light intensity",
+    "option_b": "Temperature",
+    "option_c": "CO2 concentration",
+    "option_d": "All of the above",
+    "correct_opt": "d",
+    "explanation": "Light intensity, temperature, and CO2 concentration can all directly affect the rate of photosynthesis."
+  },
+  {
+    "id": 55703,
+    "question_text": "What happens to the rate of photosynthesis when light intensity increases?",
+    "option_a": "It decreases",
+    "option_b": "It remains the same",
+    "option_c": "It increases to a point then plateaus",
+    "option_d": "It stops completely",
+    "correct_opt": "c",
+    "explanation": "The rate of photosynthesis increases to a point then plateaus when light intensity increases."
+  },
+  {
+    "id": 55704,
+    "question_text": "What is the role of carbon dioxide in photosynthesis?",
+    "option_a": "Source of electrons",
+    "option_b": "Source of carbon",
+    "option_c": "Source of energy",
+    "option_d": "Source of oxygen",
+    "correct_opt": "b",
+    "explanation": "Carbon dioxide serves as the source of carbon in photosynthesis."
+  },
+  {
+    "id": 55705,
+    "question_text": "Photosynthesis can be described as which type of reaction?",
+    "option_a": "Exergonic",
+    "option_b": "Endergonic",
+    "option_c": "Catabolic",
+    "option_d": "Decomposition",
+    "correct_opt": "b",
+    "explanation": "Photosynthesis is an endergonic reaction because it requires energy input from light."
+  },
+  {
+    "id": 55706,
+    "question_text": "Which of the following accurately summarizes the overall reaction of photosynthesis?",
+    "option_a": "6CO2 + 6H2O + light energy -> C6H12O6 + 6O2",
+    "option_b": "C6H12O6 + 6O2 -> 6CO2 + 6H2O",
+    "option_c": "2H2O -> 2H2 + O2",
+    "option_d": "C6H12O6 + 6H2O -> 6CO2 + 6O2 + ATP",
+    "correct_opt": "a",
+    "explanation": "The correct summary of the photosynthesis reaction is 6CO2 + 6H2O + light energy -> C6H12O6 + 6O2."
+  },
+  {
+    "id": 55707,
+    "question_text": "What is the first step in the process of photosynthesis?",
+    "option_a": "Carbon fixation",
+    "option_b": "Light absorption by chlorophyll",
+    "option_c": "Water splitting",
+    "option_d": "ATP synthesis",
+    "correct_opt": "b",
+    "explanation": "The first step in photosynthesis is the light absorption by chlorophyll."
+  },
+  {
+    "id": 55708,
+    "question_text": "What is the main product of the Calvin cycle?",
+    "option_a": "ATP",
+    "option_b": "NADPH",
+    "option_c": "Glucose",
+    "option_d": "G3P (Glyceraldehyde-3-phosphate)",
+    "correct_opt": "d",
+    "explanation": "The main product of the Calvin cycle is G3P (Glyceraldehyde-3-phosphate), which is later used to form glucose."
+  },
+  {
+    "id": 55709,
+    "question_text": "In which cell organelle does photosynthesis occur?",
+    "option_a": "Mitochondria",
+    "option_b": "Chloroplast",
+    "option_c": "Nucleus",
+    "option_d": "Cytoplasm",
+    "correct_opt": "b",
+    "explanation": "Photosynthesis occurs in the chloroplast."
+  },
+  {
+    "id": 55710,
+    "question_text": "Which wavelength of light is most effective for photosynthesis?",
+    "option_a": "Green",
+    "option_b": "Blue",
+    "option_c": "Yellow",
+    "option_d": "Red",
+    "correct_opt": "b",
+    "explanation": "Blue and red wavelengths of light are most effective for photosynthesis."
+  },
+  {
+    "id": 55712,
+    "question_text": "How does an increase in CO2 concentration affect the rate of photosynthesis?",
+    "option_a": "It decreases",
+    "option_b": "It remains the same",
+    "option_c": "It increases",
+    "option_d": "It stops completely",
+    "correct_opt": "c",
+    "explanation": "An increase in CO2 concentration generally increases the rate of photosynthesis until a certain point."
+  },
+  {
+    "id": 55714,
+    "question_text": "Which process is directly driven by light energy?",
+    "option_a": "Calvin cycle",
+    "option_b": "Glycolysis",
+    "option_c": "Electron transport chain",
+    "option_d": "Light-dependent reactions",
+    "correct_opt": "d",
+    "explanation": "The light-dependent reactions are directly driven by light energy."
+  },
+  {
+    "id": 55715,
+    "question_text": "What is produced during the light-dependent reactions and used in the Calvin cycle?",
+    "option_a": "NADPH and ATP",
+    "option_b": "CO2 and H2O",
+    "option_c": "O2 and glucose",
+    "option_d": "ADP and NADP+",
+    "correct_opt": "a",
+    "explanation": "NADPH and ATP are produced during the light-dependent reactions and used in the Calvin cycle."
+  },
+  {
+    "id": 55717,
+    "question_text": "Where do the light-independent reactions (Calvin cycle) occur?",
+    "option_a": "Thylakoid membrane",
+    "option_b": "Stroma",
+    "option_c": "Mitochondrial matrix",
+    "option_d": "Cytoplasm",
+    "correct_opt": "b",
+    "explanation": "The light-independent reactions (Calvin cycle) occur in the stroma."
+  },
+  {
+    "id": 55718,
+    "question_text": "Which enzyme is crucial for carbon fixation in the Calvin cycle?",
+    "option_a": "Hexokinase",
+    "option_b": "ATP synthase",
+    "option_c": "Rubisco",
+    "option_d": "NADP reductase",
+    "correct_opt": "c",
+    "explanation": "Rubisco is crucial for carbon fixation in the Calvin cycle."
+  },
+  {
+    "id": 55719,
+    "question_text": "Which molecule is regenerated at the end of the Calvin cycle to accept more CO2?",
+    "option_a": "ATP",
+    "option_b": "NADPH",
+    "option_c": "G3P",
+    "option_d": "RuBP",
+    "correct_opt": "d",
+    "explanation": "RuBP is regenerated at the end of the Calvin cycle to accept more CO2."
+  },
+  {
+    "id": 55720,
+    "question_text": "What is the primary difference between aerobic and anaerobic respiration?",
+    "option_a": "Presence of glucose",
+    "option_b": "Presence of oxygen",
+    "option_c": "Production of ATP",
+    "option_d": "Production of CO2",
+    "correct_opt": "b",
+    "explanation": "The primary difference between aerobic and anaerobic respiration is the presence of oxygen."
+  },
+  {
+    "id": 55722,
+    "question_text": "What is the final electron acceptor in aerobic respiration?",
+    "option_a": "NAD+",
+    "option_b": "FAD",
+    "option_c": "Oxygen",
+    "option_d": "Carbon dioxide",
+    "correct_opt": "c",
+    "explanation": "The final electron acceptor in aerobic respiration is oxygen."
+  },
+  {
+    "id": 55723,
+    "question_text": "How many molecules of ATP are produced per molecule of glucose in anaerobic respiration?",
+    "option_a": "2",
+    "option_b": "4",
+    "option_c": "18",
+    "option_d": "38",
+    "correct_opt": "a",
+    "explanation": "In anaerobic respiration, 2 molecules of ATP are produced per molecule of glucose."
+  },
+  {
+    "id": 55724,
+    "question_text": "Which process is involved in both cyclic and non-cyclic photophosphorylation?",
+    "option_a": "ATP production",
+    "option_b": "NADPH production",
+    "option_c": "Water splitting",
+    "option_d": "Oxygen release",
+    "correct_opt": "a",
+    "explanation": "ATP production is involved in both cyclic and non-cyclic photophosphorylation.rn"
+  },
+  {
+    "id": 55725,
+    "question_text": "How is the Calvin cycle connected to the light-dependent reactions?",
+    "option_a": "Uses ATP and NADPH produced in light-dependent reactions",
+    "option_b": "Provides ATP and NADPH to light-dependent reactions",
+    "option_c": "Requires oxygen produced in light-dependent reactions",
+    "option_d": "Produces glucose used in light-dependent reactions",
+    "correct_opt": "a",
+    "explanation": "The Calvin cycle uses ATP and NADPH produced in light-dependent reactions."
+  },
+  {
+    "id": 55726,
+    "question_text": "What molecule is a common intermediate in both photosynthesis and cellular respiration?",
+    "option_a": "ATP",
+    "option_b": "Glucose",
+    "option_c": "G3P",
+    "option_d": "CO2",
+    "correct_opt": "c",
+    "explanation": "G3P is a common intermediate in both photosynthesis and cellular respiration."
+  },
+  {
+    "id": 55727,
+    "question_text": "Which cellular organelle is involved in both photosynthesis and respiration?",
+    "option_a": "Nucleus",
+    "option_b": "Mitochondria",
+    "option_c": "Chloroplast",
+    "option_d": "Ribosome",
+    "correct_opt": "b",
+    "explanation": "Mitochondriarn👉 Main site of cellular respirationrn👉 Also involved in some steps linked with photorespiration (connected to photosynthesis)"
+  },
+  {
+    "id": 55728,
+    "question_text": "What is the fate of the oxygen produced during photosynthesis?",
+    "option_a": "Used in the Calvin cycle",
+    "option_b": "Released into the atmosphere",
+    "option_c": "Used in glycolysis",
+    "option_d": "Combined with glucose",
+    "correct_opt": "b",
+    "explanation": "The oxygen produced during photosynthesis is released into the atmosphere."
+  },
+  {
+    "id": 55729,
+    "question_text": "How do CAM plants minimize photorespiration?",
+    "option_a": "Fix CO2 during the night",
+    "option_b": "Use only C3 pathway",
+    "option_c": "Close stomata during the day",
+    "option_d": "Both A and C",
+    "correct_opt": "d",
+    "explanation": "CAM plants minimize photorespiration by fixing CO2 during the night and closing stomata during the day."
+  },
+  {
+    "id": 55730,
+    "question_text": "What is the role of NADP+ in photosynthesis?",
+    "option_a": "Energy carrier",
+    "option_b": "Carbon acceptor",
+    "option_c": "Electron carrier",
+    "option_d": "Proton donor",
+    "correct_opt": "c",
+    "explanation": "NADP+ acts as an electron carrier in photosynthesis."
+  },
+  {
+    "id": 55731,
+    "question_text": "How is oxidative phosphorylation different from substrate-level phosphorylation?",
+    "option_a": "Uses oxygen directly",
+    "option_b": "Occurs in the cytoplasm",
+    "option_c": "Involves electron transport chain",
+    "option_d": "Produces more ATP",
+    "correct_opt": "c",
+    "explanation": "Oxidative phosphorylation involves the electron transport chain and produces more ATP."
+  },
+  {
+    "id": 55732,
+    "question_text": "Why is the Krebs cycle also called the citric acid cycle?",
+    "option_a": "It produces citric acid",
+    "option_b": "It begins with citric acid",
+    "option_c": "It converts citric acid to ATP",
+    "option_d": "It ends with citric acid",
+    "correct_opt": "b",
+    "explanation": "The Krebs cycle is called the citric acid cycle because it begins with the formation of citric acid."
+  },
+  {
+    "id": 55733,
+    "question_text": "What is a primary function of the electron transport chain in mitochondria?",
+    "option_a": "Produce glucose",
+    "option_b": "Pump protons",
+    "option_c": "Split water",
+    "option_d": "Fix carbon dioxide",
+    "correct_opt": "b",
+    "explanation": "A primary function of the electron transport chain in mitochondria is to pump protons."
+  },
+  {
+    "id": 55734,
+    "question_text": "Which process generates the most ATP in cellular respiration?",
+    "option_a": "Glycolysis",
+    "option_b": "Krebs cycle",
+    "option_c": "Electron transport chain",
+    "option_d": "Fermentation",
+    "correct_opt": "c",
+    "explanation": "The electron transport chain generates the most ATP in cellular respiration."
+  },
+  {
+    "id": 55735,
+    "question_text": "In the context of cellular respiration, what does oxidative phosphorylation refer to?",
+    "option_a": "ATP production linked to oxygen",
+    "option_b": "ATP production linked to glucose breakdown",
+    "option_c": "ATP production linked to carbon fixation",
+    "option_d": "ATP production linked to water formation",
+    "correct_opt": "a",
+    "explanation": "Oxidative phosphorylation refers to ATP production linked to oxygen."
+  },
+  {
+    "id": 55736,
+    "question_text": "Why do C4 plants have an advantage in hot, dry climates?",
+    "option_a": "They perform photosynthesis faster",
+    "option_b": "They minimize photorespiration",
+    "option_c": "They use more water efficiently",
+    "option_d": "Both B and C",
+    "correct_opt": "d",
+    "explanation": "C4 plants have an advantage in hot, dry climates because they minimize photorespiration and use water more efficiently.rn"
+  },
+  {
+    "id": 55737,
+    "question_text": "What happens to electrons in non-cyclic photophosphorylation after they leave PS II?",
+    "option_a": "They are used to produce NADPH",
+    "option_b": "They return to PS II",
+    "option_c": "They are transferred to PS I",
+    "option_d": "They reduce oxygen",
+    "correct_opt": "c",
+    "explanation": "In non-cyclic photophosphorylation, electrons after leaving PS II are transferred to PS I."
+  },
+  {
+    "id": 55738,
+    "question_text": "What is the significance of chemiosmosis in the electron transport chain?",
+    "option_a": "It generates glucose",
+    "option_b": "It generates a proton gradient",
+    "option_c": "It breaks down pyruvate",
+    "option_d": "It fixes carbon dioxide",
+    "correct_opt": "b",
+    "explanation": "Chemiosmosis generates a proton gradient in the electron transport chain, which is used to produce ATP."
+  },
+  {
+    "id": 55739,
+    "question_text": "In which part of the chloroplast does the Calvin cycle take place?",
+    "option_a": "Thylakoid membrane",
+    "option_b": "Stroma",
+    "option_c": "Inner membrane",
+    "option_d": "Outer membrane",
+    "correct_opt": "b",
+    "explanation": "The Calvin cycle takes place in the stroma of the chloroplast."
+  },
+  {
+    "id": 55740,
+    "question_text": "What is the primary purpose of the Z-scheme in photosynthesis?",
+    "option_a": "Generate glucose",
+    "option_b": "Produce ATP and NADPH",
+    "option_c": "Split water",
+    "option_d": "Fix carbon dioxide",
+    "correct_opt": "b",
+    "explanation": "The primary purpose of the Z-scheme in photosynthesis is to produce ATP and NADPH."
+  },
+  {
+    "id": 55741,
+    "question_text": "Which process in cellular respiration directly uses oxygen?",
+    "option_a": "Glycolysis",
+    "option_b": "Krebs cycle",
+    "option_c": "Electron transport chain",
+    "option_d": "Fermentation",
+    "correct_opt": "c",
+    "explanation": "The electron transport chain directly uses oxygen in cellular respiration."
+  },
+  {
+    "id": 55742,
+    "question_text": "How does temperature affect the activity of RuBisCO?",
+    "option_a": "Increases activity at low temperatures",
+    "option_b": "Decreases activity at high temperatures",
+    "option_c": "Increases activity at high temperatures",
+    "option_d": "Has no effect",
+    "correct_opt": "b",
+    "explanation": "High temperatures decrease the activity of RuBisCO."
+  },
+  {
+    "id": 55743,
+    "question_text": "What is the main advantage of CAM photosynthesis over C3 photosynthesis in arid environments?",
+    "option_a": "Faster glucose production",
+    "option_b": "Reduced water loss",
+    "option_c": "Increased oxygen production",
+    "option_d": "Higher ATP yield",
+    "correct_opt": "b",
+    "explanation": "The main advantage of CAM photosynthesis over C3 photosynthesis in arid environments is reduced water loss."
+  },
+  {
+    "id": 55744,
+    "question_text": "Which of the following best explains the purpose of photorespiration?",
+    "option_a": "Generate ATP",
+    "option_b": "Generate NADPH",
+    "option_c": "Protect against oxygen toxicity",
+    "option_d": "Fix carbon dioxide",
+    "correct_opt": "c",
+    "explanation": "Photorespiration is thought to protect against oxygen toxicity."
+  },
+  {
+    "id": 55745,
+    "question_text": "What would be the effect on the Calvin cycle if the light-dependent reactions were inhibited?",
+    "option_a": "Increased ATP production",
+    "option_b": "Increased CO2 fixation",
+    "option_c": "Decreased NADPH and ATP availability",
+    "option_d": "No effect",
+    "correct_opt": "c",
+    "explanation": "If the light-dependent reactions were inhibited, there would be decreased NADPH and ATP availability for the Calvin cycle."
+  },
+  {
+    "id": 55746,
+    "question_text": "Why is oxygen necessary for aerobic respiration?",
+    "option_a": "It provides electrons",
+    "option_b": "It is the final electron acceptor",
+    "option_c": "It produces ATP directly",
+    "option_d": "It is a substrate for glycolysis",
+    "correct_opt": "b",
+    "explanation": "Oxygen is necessary for aerobic respiration because it is the final electron acceptor in the electron transport chain."
+  },
+  {
+    "id": 55747,
+    "question_text": "Which molecule acts as an intermediary in transferring energy from the light-dependent to the light-independent reactions?",
+    "option_a": "NADPH",
+    "option_b": "ATP",
+    "option_c": "Both A and B",
+    "option_d": "FADH2",
+    "correct_opt": "c",
+    "explanation": "During photosynthesis:rnrnLight-dependent reactions produce ATP and NADPHrnThese molecules carry energy to the Calvin cycle (light-independent reactions)rnrn👉 ATP → provides energyrn👉 NADPH → provides reducing power (electrons + H⁺)"
+  },
+  {
+    "id": 55748,
+    "question_text": "What is the primary reason for the evolution of C4 photosynthesis?",
+    "option_a": "Increase oxygen production",
+    "option_b": "Reduce photorespiration",
+    "option_c": "Enhance water absorption",
+    "option_d": "Increase glucose synthesis",
+    "correct_opt": "b",
+    "explanation": "The primary reason for the evolution of C4 photosynthesis is to reduce photorespiration."
+  },
+  {
+    "id": 55749,
+    "question_text": "In the context of photosynthesis, what does the term 'photophosphorylation' refer to?",
+    "option_a": "ATP synthesis using light energy",
+    "option_b": "NADPH production",
+    "option_c": "Carbon fixation",
+    "option_d": "Water splitting",
+    "correct_opt": "a",
+    "explanation": "Photophosphorylation refers to ATP synthesis using light energy."
+  },
+  {
+    "id": 55750,
+    "question_text": "How does the electron transport chain contribute to the formation of the proton gradient?",
+    "option_a": "By producing ATP",
+    "option_b": "By transferring electrons directly to oxygen",
+    "option_c": "By pumping protons across the membrane",
+    "option_d": "By breaking down glucose",
+    "correct_opt": "c",
+    "explanation": "The electron transport chain contributes to the formation of the proton gradient by pumping protons across the membrane."
+  },
+  {
+    "id": 55751,
+    "question_text": "What would happen if a plant lacked Rubisco?",
+    "option_a": "Photosynthesis would proceed normally",
+    "option_b": "Carbon fixation in the Calvin cycle would not occur",
+    "option_c": "Only cyclic photophosphorylation would occur",
+    "option_d": "Oxygen production would increase",
+    "correct_opt": "b",
+    "explanation": "If a plant lacked Rubisco, carbon fixation in the Calvin cycle would not occur."
+  },
+  {
+    "id": 55752,
+    "question_text": "Why is the Calvin cycle also referred to as the C3 pathway?",
+    "option_a": "It produces three ATP molecules",
+    "option_b": "The first stable product is a three-carbon compound",
+    "option_c": "It involves three main steps",
+    "option_d": "It occurs in three types of plants",
+    "correct_opt": "b",
+    "explanation": "The Calvin cycle is referred to as the C3 pathway because the first stable product is a three-carbon compound."
+  },
+  {
+    "id": 55753,
+    "question_text": "How does cyclic photophosphorylation differ from non-cyclic photophosphorylation in terms of electron flow?",
+    "option_a": "Electrons return to the same photosystem in cyclic photophosphorylation",
+    "option_b": "Electrons produce NADPH in cyclic photophosphorylation",
+    "option_c": "Electrons split water molecules in cyclic photophosphorylation",
+    "option_d": "Electrons reduce oxygen in cyclic photophosphorylation",
+    "correct_opt": "a",
+    "explanation": "In cyclic photophosphorylation, electrons return to the same photosystem, unlike in non-cyclic photophosphorylation."
+  },
+  {
+    "id": 55754,
+    "question_text": "What is the role of the proton gradient in the electron transport chain?",
+    "option_a": "Synthesize glucose",
+    "option_b": "Split water molecules",
+    "option_c": "Generate ATP via ATP synthase",
+    "option_d": "Produce oxygen",
+    "correct_opt": "c",
+    "explanation": "The proton gradient in the electron transport chain is used to generate ATP via ATP synthase."
+  },
+  {
+    "id": 55755,
+    "question_text": "What is the significance of having both photosystem I and II in photosynthesis?",
+    "option_a": "Allows for water splitting and NADPH production",
+    "option_b": "Increases glucose production",
+    "option_c": "Facilitates ATP synthesis directly",
+    "option_d": "Enhances light absorption efficiency",
+    "correct_opt": "a",
+    "explanation": "Having both photosystem I and II allows for water splitting and NADPH production."
+  },
+  {
+    "id": 55756,
+    "question_text": "How does the presence of oxygen affect the enzyme Rubisco?",
+    "option_a": "Inhibits its activity",
+    "option_b": "Causes photorespiration",
+    "option_c": "Promotes carbon fixation",
+    "option_d": "Enhances ATP production",
+    "correct_opt": "b",
+    "explanation": "The presence of oxygen can cause Rubisco to act in photorespiration, reducing its efficiency in carbon fixation."
+  },
+  {
+    "id": 55757,
+    "question_text": "Why is ATP called the energy currency of the cell?",
+    "option_a": "It stores energy in its phosphate bonds",
+    "option_b": "It can be easily converted to glucose",
+    "option_c": "It is produced in large quantities",
+    "option_d": "It is used only in respiration",
+    "correct_opt": "a",
+    "explanation": "ATP is called the energy currency of the cell because it stores energy in its phosphate bonds, which can be readily used for various cellular processes."
+  },
+  {
+    "id": 55758,
+    "question_text": "What is the advantage of having a separate location for the Calvin cycle and light-dependent reactions in chloroplasts?",
+    "option_a": "Prevents the buildup of oxygen",
+    "option_b": "Facilitates efficient energy transfer",
+    "option_c": "Separates ATP and NADPH production",
+    "option_d": "Avoids competition for light",
+    "correct_opt": "b",
+    "explanation": "Having separate locations for the Calvin cycle and light-dependent reactions in chloroplasts facilitates efficient energy transfer and use of resources."
+  },
+  {
+    "id": 55759,
+    "question_text": "How does NADPH differ from NADH in cellular processes?",
+    "option_a": "NADPH is used in anabolic reactions, while NADH is used in catabolic reactions",
+    "option_b": "NADPH is produced in the Krebs cycle, while NADH is produced in glycolysis",
+    "option_c": "NADPH donates electrons to the electron transport chain, while NADH donates electrons to the Calvin cycle",
+    "option_d": "NADPH and NADH are identical in function",
+    "correct_opt": "a",
+    "explanation": "NADPH is used in anabolic reactions (such as in photosynthesis), while NADH is used in catabolic reactions (such as in respiration)."
+  },
+  {
+    "id": 55760,
+    "question_text": "What is the effect of light intensity on the rate of photosynthesis in plants?",
+    "option_a": "No effect",
+    "option_b": "Increases linearly without limit",
+    "option_c": "Increases to a point then plateaus",
+    "option_d": "Decreases as intensity increases",
+    "correct_opt": "c",
+    "explanation": "The rate of photosynthesis increases to a point then plateaus as light intensity increases."
+  },
+  {
+    "id": 55761,
+    "question_text": "Why is the inner mitochondrial membrane crucial for ATP production?",
+    "option_a": "Contains the enzymes for glycolysis",
+    "option_b": "Contains the electron transport chain and ATP synthase",
+    "option_c": "Stores glucose for respiration",
+    "option_d": "Is impermeable to all molecules",
+    "correct_opt": "b",
+    "explanation": "The inner mitochondrial membrane is crucial for ATP production because it contains the electron transport chain and ATP synthase."
+  },
+  {
+    "id": 55762,
+    "question_text": "How does the Calvin cycle utilize ATP and NADPH?",
+    "option_a": "To split water molecules",
+    "option_b": "To fix carbon dioxide into organic molecules",
+    "option_c": "To release oxygen",
+    "option_d": "To produce light energy",
+    "correct_opt": "b",
+    "explanation": "The Calvin cycle utilizes ATP and NADPH to fix carbon dioxide into organic molecules."
+  },
+  {
+    "id": 55763,
+    "question_text": "What is the relationship between photosynthesis and cellular respiration?",
+    "option_a": "They are identical processes",
+    "option_b": "Photosynthesis produces oxygen and glucose used in respiration",
+    "option_c": "Respiration produces oxygen used in photosynthesis",
+    "option_d": "Both processes consume glucose",
+    "correct_opt": "b",
+    "explanation": "Photosynthesis produces oxygen and glucose, which are used in cellular respiration to produce energy."
+  },
+  {
+    "id": 55764,
+    "question_text": "Which process in photosynthesis directly involves the enzyme Rubisco?",
+    "option_a": "Light-dependent reactions",
+    "option_b": "Calvin cycle",
+    "option_c": "Glycolysis",
+    "option_d": "Electron transport chain",
+    "correct_opt": "b",
+    "explanation": "The enzyme Rubisco is directly involved in the Calvin cycle, where it catalyzes the fixation of carbon dioxide."
+  }
+]

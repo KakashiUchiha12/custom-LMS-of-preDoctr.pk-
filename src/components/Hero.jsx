@@ -13,9 +13,7 @@ const Hero = () => {
             <span className="hero-lms">LMS</span>
           </div>
         </div>
-        <h1 className="hero-title">
-          Master Concepts with <span className="highlight">Video Lectures</span>
-        </h1>
+        <h2 className="predoctr-section-title">Master Concepts with <span> Video Lectures </span></h2>
       </div>
     </section>
   );

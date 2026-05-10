@@ -1,0 +1,769 @@
+[
+  {
+    "id": 56218,
+    "category": "",
+    "question": "Homeostasis, the steady state that is so vital to life, is possible for cells because",
+    "options": [
+      "the cell cannot convert energy from one form to another.",
+      "all cells are autotrophic.",
+      "the cell continually takes up energy from the environment.",
+      "all cellular reactions are anabolic."
+    ],
+    "correct_answer": "the cell continually takes up energy from the environment.",
+    "explanation": "Cells use environmental energy to maintain homeostasis through metabolic processes.{Environmental energy means ATP}.rn"
+  },
+  {
+    "id": 56220,
+    "category": "",
+    "question": "How many enzymatic steps are involved in converting glucose to pyruvate through the process of glycolysis?",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "correct_answer": "10",
+    "explanation": "Glycolysis is a 10-step process that converts glucose into two pyruvate molecules."
+  },
+  {
+    "id": 56223,
+    "category": "",
+    "question": "The respiration process that results in the buildup of organic waste compounds in a cell is known as",
+    "options": [
+      "dehydration.",
+      "fermentation.",
+      "reduction.",
+      "anaerobiasis."
+    ],
+    "correct_answer": "fermentation.",
+    "explanation": "Fermentation produces organic wastes like ethanol or lactic acid in anaerobic conditions."
+  },
+  {
+    "id": 56226,
+    "category": "",
+    "question": "Bacteria are capable of producing 38 net molecules of ATP from every molecule of glucose that is fully metabolized by oxidative phosphorylation. Which of the following is NOT true about this datum?",
+    "options": [
+      "The majority of the ATP molecules are produced within the mitochondria.",
+      "This number is greater than that produced from a molecule of glucose within a human cell.",
+      "This total yield of ATP includes the molecules produced by substrate-level phosphorylation.",
+      "The presence of oxygen is required to produce this total yield of ATP."
+    ],
+    "correct_answer": "The majority of the ATP molecules are produced within the mitochondria.",
+    "explanation": "Bacteria lack mitochondria, so ATP synthesis occurs in the cytoplasm, not mitochondria.rn"
+  },
+  {
+    "id": 56227,
+    "category": "",
+    "question": "Frequently the final compound produced by a metabolic pathway will serve as a down regulator for that pathway. This mechanism is known as",
+    "options": [
+      "first-product inhibition.",
+      "coenzyme suppression.",
+      "noncompetitive inhibition.",
+      "feedback inhibition."
+    ],
+    "correct_answer": "feedback inhibition.",
+    "explanation": "Feedback inhibition regulates metabolism by having end products inhibit earlier steps."
+  },
+  {
+    "id": 56228,
+    "category": "",
+    "question": "A chemical reaction that results in negative free energy (–DG ) is considered to be",
+    "options": [
+      "catabolic.",
+      "anabolic.",
+      "exergonic.",
+      "both A and C."
+    ],
+    "correct_answer": "exergonic.",
+    "explanation": "Exergonic reactions release energy, indicated by a negative change in free energy."
+  },
+  {
+    "id": 56231,
+    "category": "",
+    "question": "Which of the following lipids, as a whole, has the highest burning (smoking) point?",
+    "options": [
+      "Saturated fats",
+      "Polyunsaturated fats",
+      "Vegetable oils",
+      "Trans fats"
+    ],
+    "correct_answer": "Saturated fats",
+    "explanation": "Saturated fats have stronger intermolecular forces, leading to a higher smoking point."
+  },
+  {
+    "id": 56232,
+    "category": "",
+    "question": "Any organism that requires organic compounds such as glucose as its energy source would be categorized as a(n)",
+    "options": [
+      "heterotroph.",
+      "lithotroph.",
+      "phototroph.",
+      "chemotroph."
+    ],
+    "correct_answer": "heterotroph.",
+    "explanation": "Heterotrophs rely on organic compounds for energy, unlike autotrophs which synthesize their own."
+  },
+  {
+    "id": 56233,
+    "category": "",
+    "question": "How many molecules of CO2 are released from a fully oxidized molecule of glucose?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_answer": "6",
+    "explanation": "Complete oxidation of glucose via glycolysis, pyruvate oxidation, and the Krebs cycle releases 6 CO2."
+  },
+  {
+    "id": 56235,
+    "category": "",
+    "question": "What Le Chatelier’s principle is to chemistry, ______ is to biology.",
+    "options": [
+      "the Gram stain",
+      "homeostasis",
+      "muscle contraction",
+      "vision"
+    ],
+    "correct_answer": "homeostasis",
+    "explanation": "Homeostasis ensures biological systems maintain balance, akin to chemical equilibrium."
+  },
+  {
+    "id": 56236,
+    "category": "",
+    "question": "In what way is the enzyme catalase related to the food industry?",
+    "options": [
+      "It is used in a cold pasteurization process for milk.",
+      "It is used to prevent crystal formation in ice cream.",
+      "It produces a desirable flavor in cheeses.",
+      "It enhances the color of white bread."
+    ],
+    "correct_answer": "It is used in a cold pasteurization process for milk.",
+    "explanation": "Catalase breaks down hydrogen peroxide, aiding in milk preservation during cold pasteurization."
+  },
+  {
+    "id": 56237,
+    "category": "",
+    "question": "The action of ATP synthase is commonly attributed to the mechanism of",
+    "options": [
+      "symport.",
+      "ligand-gated channels.",
+      "mechanical-gated channels.",
+      "chemiosmotic coupling."
+    ],
+    "correct_answer": "chemiosmotic coupling.",
+    "explanation": "Chemiosmotic coupling involves proton movement across a membrane to drive ATP synthesis."
+  },
+  {
+    "id": 56238,
+    "category": "",
+    "question": "Glucose and _____ are the most closely related.",
+    "options": [
+      "starch",
+      "glycogen",
+      "fructose",
+      "dextrose"
+    ],
+    "correct_answer": "fructose",
+    "explanation": "Glucose and fructose are isomers, differing in the arrangement of their functional groups."
+  },
+  {
+    "id": 56239,
+    "category": "",
+    "question": "The relationship between glucose and galactose is",
+    "options": [
+      "that they are pentoses.",
+      "that galactose is a disaccharide containing glucose and fructose.",
+      "that they are epimers.",
+      "that glucose is a disaccharide containing galactose and ribose."
+    ],
+    "correct_answer": "that they are epimers.",
+    "explanation": "Glucose and galactose are both hexoses and differ only at the C4 position, making them epimers."
+  },
+  {
+    "id": 56240,
+    "category": "",
+    "question": "What is the purpose of an equilibrium constant?",
+    "options": [
+      "To calculate the initial concentration of the reactants",
+      "To determine the specific preequilibrium components",
+      "To calculate the rate of a reaction",
+      "To determine the composition of any system at equilibrium"
+    ],
+    "correct_answer": "To determine the composition of any system at equilibrium",
+    "explanation": "The equilibrium constant quantifies the extent of a reaction at equilibrium, showing product-to-reactant ratios."
+  },
+  {
+    "id": 56241,
+    "category": "",
+    "question": "What is the relationship between an equilibrium constant for any reaction and the free energy of the reaction?",
+    "options": [
+      "The natural logarithm of Keq is equal to a negative DG divided by RT.",
+      "The Keq is equal to a DG divided by RT.",
+      "The Keq is equal to a negative DG multiplied by RT.",
+      "The natural logarithm of Keq is equal to a DG multiplied by RT."
+    ],
+    "correct_answer": "The natural logarithm of Keq is equal to a negative DG divided by RT.",
+    "explanation": "The equation ln(Keq) = -ΔG/RT relates the equilibrium constant to the free energy change of a reaction."
+  },
+  {
+    "id": 56242,
+    "category": "",
+    "question": "Which of the following are pentoses?",
+    "options": [
+      "Glucose and lactose",
+      "Ribose and deoxyribose",
+      "DNA and RNA",
+      "Lactase and lactose"
+    ],
+    "correct_answer": "Ribose and deoxyribose",
+    "explanation": "Pentoses are 5-carbon sugars; ribose and deoxyribose are key examples found in RNA and DNA."
+  },
+  {
+    "id": 56243,
+    "category": "",
+    "question": "What glycogen is to starch, _____ is to _____.",
+    "options": [
+      "DNA, RNA",
+      "peptidoglycan, chitin",
+      "a polysaccharide, a monosaccharide",
+      "a polypeptide, a glycoprotein."
+    ],
+    "correct_answer": "peptidoglycan, chitin",
+    "explanation": "Glycogen and starch store energy, while peptidoglycan and chitin provide structural support."
+  },
+  {
+    "id": 56244,
+    "category": "",
+    "question": "What is the relationship of acetyl-CoA to the TCA cycle?",
+    "options": [
+      "The former is composed of the latter.",
+      "The former is a product of the latter.",
+      "The former feeds into the latter.",
+      "The latter is a product of the former."
+    ],
+    "correct_answer": "The former feeds into the latter.",
+    "explanation": "Acetyl-CoA enters the TCA cycle by combining with oxaloacetate to form citrate."
+  },
+  {
+    "id": 56245,
+    "category": "",
+    "question": "Which of the following is NOT related to a cyclic process?",
+    "options": [
+      "TCA",
+      "Citric acid",
+      "Pyruvate",
+      "Krebs"
+    ],
+    "correct_answer": "Pyruvate",
+    "explanation": "Pyruvate is a precursor to the TCA cycle but is not part of the cycle itself.rn"
+  },
+  {
+    "id": 56246,
+    "category": "",
+    "question": "Which of the following processes is especially associated with fasting?",
+    "options": [
+      "Gluconeogenesis",
+      "Anaerobic respiration",
+      "Fermentation",
+      "Translation"
+    ],
+    "correct_answer": "Gluconeogenesis",
+    "explanation": "During fasting, gluconeogenesis in the liver produces glucose to maintain blood sugar levels."
+  },
+  {
+    "id": 56247,
+    "category": "",
+    "question": "What are the end products of the hydrolysis of ATP?",
+    "options": [
+      "Water and ADP",
+      "Glucose, ADP, and inorganic phosphate",
+      "ADP, inorganic phosphate, energy, and ketone bodies",
+      "The production of ADP and inorganic phosphate, and the release of energy"
+    ],
+    "correct_answer": "The production of ADP and inorganic phosphate, and the release of energy",
+    "explanation": "ATP hydrolysis yields ADP, inorganic phosphate (Pi), and energy for cellular processes."
+  },
+  {
+    "id": 56248,
+    "category": "",
+    "question": "The most common catabolic reaction in the human body",
+    "options": [
+      "dehydration",
+      "hydrolysis.",
+      "condensation.",
+      "elimination"
+    ],
+    "correct_answer": "hydrolysis.",
+    "explanation": "Hydrolysis breaks down macromolecules like proteins and carbohydrates during digestion."
+  },
+  {
+    "id": 56249,
+    "category": "",
+    "question": "A molecule of DNA contains all of the following EXCEPT:",
+    "options": [
+      "deoxyribose sugars",
+      "polypeptide bonds",
+      "phosphodiester bonds",
+      "nitrogenous bases"
+    ],
+    "correct_answer": "polypeptide bonds",
+    "explanation": "Polypeptide bonds link amino acids in proteins, not nucleotides in DNA."
+  },
+  {
+    "id": 56250,
+    "category": "",
+    "question": "Which of the following is a carbohydrate polymer that is stored in plants and digestible by animals?",
+    "options": [
+      "starch",
+      "glycogen",
+      "cellulose",
+      "glucose"
+    ],
+    "correct_answer": "starch",
+    "explanation": "Starch is the primary storage polysaccharide in plants, broken down by animals into glucose."
+  },
+  {
+    "id": 56251,
+    "category": "",
+    "question": "Excessive amounts of nitrogen are found in the urine of an individual who has experienced a period of extended fasting. This is most likely due to:",
+    "options": [
+      "glycogenolysis in the liver.",
+      "the breakdown of body proteins.",
+      "lipolysis in adipose tissue.",
+      "a tumor on the posterior pituitary causing excessive ADH secretion."
+    ],
+    "correct_answer": "the breakdown of body proteins.",
+    "explanation": "Fasting leads to protein catabolism, producing nitrogen waste excreted as urea."
+  },
+  {
+    "id": 56252,
+    "category": "",
+    "question": "Proline is not technically an α-amino acid. Due to the ring structure of proline, it cannot conform to the geometry of the α-helix and creates a bend in the polypeptide chain. This phenomenon assists in the creation of what level of protein structure?",
+    "options": [
+      "primary",
+      "secondary",
+      "tertiary",
+      "quaternary"
+    ],
+    "correct_answer": "tertiary",
+    "explanation": "Proline introduces kinks in the chain, aiding in the 3D folding of the tertiary structure."
+  },
+  {
+    "id": 56253,
+    "category": "",
+    "question": "Metabolism of carbohydrate and fat spares protein tissue. All of the following are true of fats EXCEPT:",
+    "options": [
+      "Fats may be used in cell structure.",
+      "Fats may be used as hormones.",
+      "Fats are a more efficient form of energy storage than proteins.",
+      "Fats are a less efficient form of energy storage than carbohydrates."
+    ],
+    "correct_answer": "Fats are a less efficient form of energy storage than carbohydrates.",
+    "explanation": "Fats store more energy per gram than carbohydrates, making them more efficient.rn"
+  },
+  {
+    "id": 56254,
+    "category": "",
+    "question": "Which of the following is found in the RNA but not the DNA of a living cell?",
+    "options": [
+      "thymine",
+      "a double helix",
+      "an additional hydroxyl group",
+      "hydrogen bonds."
+    ],
+    "correct_answer": "an additional hydroxyl group",
+    "explanation": "RNA’s ribose has a 2'-OH group, while DNA’s deoxyribose lacks this hydroxyl group."
+  },
+  {
+    "id": 56255,
+    "category": "",
+    "question": "Like cellulose, chitin is a polysaccharide that cannot be digested by animals. Chitin differs from cellulose by possessing an acetyl amino group at the second carbon. What molecule is a reactant in the breaking of the β-1,4-glycoside linkages of cellulose and chitin?",
+    "options": [
+      "water",
+      "oxygen",
+      "α-1,4-glucosidase",
+      "β-1,4-glucosidase."
+    ],
+    "correct_answer": "water",
+    "explanation": "Hydrolysis of glycosidic bonds in polysaccharides like cellulose and chitin requires water."
+  },
+  {
+    "id": 56256,
+    "category": "",
+    "question": "Inside the stroma of chloroplast there is a suspended:",
+    "options": [
+      "Membrane system",
+      "Set of enzymes",
+      "Membrane system and set of enzymes",
+      "Chlorophyll"
+    ],
+    "correct_answer": "Set of enzymes",
+    "explanation": "The stroma houses enzymes for the dark reactions of photosynthesis, like the Calvin cycle."
+  },
+  {
+    "id": 56257,
+    "category": "",
+    "question": "Chlorophyll molecules are found embedded in",
+    "options": [
+      "Thylakoid membranes",
+      "Outer chloroplast membrane",
+      "Lamellar membranes",
+      "Inner chloroplast membrane"
+    ],
+    "correct_answer": "Thylakoid membranes",
+    "explanation": "Thylakoid membranes contain chlorophyll for capturing light in photosynthesis."
+  },
+  {
+    "id": 56258,
+    "category": "",
+    "question": "Electron acceptors of photosynthetic electron transport chain are parts of:",
+    "options": [
+      "Thylakoid membranes",
+      "Outer chloroplast membrane",
+      "Lamellar membranes",
+      "Inner chloroplast membrane"
+    ],
+    "correct_answer": "Thylakoid membranes",
+    "explanation": "Thylakoid membranes host the photosynthetic ETC, including electron acceptors like cytochromes."
+  },
+  {
+    "id": 56259,
+    "category": "",
+    "question": "Chlorophyll and other pigments absorb light energy which is converted into chemical energy of:",
+    "options": [
+      "NADH and NADPH",
+      "ATP and NADPH",
+      "ATP and NADH",
+      "FADH and NADPH"
+    ],
+    "correct_answer": "ATP and NADPH",
+    "explanation": "ATP and NADPH are produced in the light reactions of photosynthesis for use in the Calvin cycle."
+  },
+  {
+    "id": 56260,
+    "category": "",
+    "question": "The substances that absorb visible light are called:",
+    "options": [
+      "Radioactive substances",
+      "Bioluminescent substances",
+      "Pigments",
+      "Fluorescent substances"
+    ],
+    "correct_answer": "Pigments",
+    "explanation": "Pigments like chlorophyll absorb specific wavelengths of light, giving them color."
+  },
+  {
+    "id": 56261,
+    "category": "",
+    "question": "Different pigments absorb light of:",
+    "options": [
+      "Same wavelength",
+      "380 – 750 nm wavelengths",
+      "Different wavelengths",
+      "280 – 750 nm wavelengths"
+    ],
+    "correct_answer": "Different wavelengths",
+    "explanation": "Pigments like chlorophyll a and b absorb specific wavelengths, such as blue and red light."
+  },
+  {
+    "id": 56262,
+    "category": "",
+    "question": "An instrument used to measure the relative abilities of different pigments to absorb different wavelengths of light is called:",
+    "options": [
+      "Photometer",
+      "Light meter",
+      "Spectrometer",
+      "Spectrophotometer"
+    ],
+    "correct_answer": "Spectrophotometer",
+    "explanation": "A spectrophotometer quantifies light absorption across wavelengths, used for pigment analysis."
+  },
+  {
+    "id": 56263,
+    "category": "",
+    "question": "Thylakoid membranes contain:",
+    "options": [
+      "Several kinds of pigments",
+      "Only chlorophylls",
+      "Only carotenoids",
+      "Only xanthophylls"
+    ],
+    "correct_answer": "Several kinds of pigments",
+    "explanation": "Thylakoid membranes host chlorophylls, carotenoids, and xanthophylls for photosynthesis."
+  },
+  {
+    "id": 56264,
+    "category": "",
+    "question": "Carotenes are mostly:",
+    "options": [
+      "Red to orange",
+      "Yellow and red to orange",
+      "Yellow to orange",
+      "Orange and red to yellow"
+    ],
+    "correct_answer": "Yellow to orange",
+    "explanation": "Carotenes, like beta-carotene, give a yellow-to-orange hue to plants."
+  },
+  {
+    "id": 56265,
+    "category": "",
+    "question": "These broaden the absorption and utilization of light:",
+    "options": [
+      "Yellow pigments",
+      "Orange pigments",
+      "Red pigments",
+      "Yellow and red to orange pigments"
+    ],
+    "correct_answer": "Yellow and red to orange pigments",
+    "explanation": "Carotenoids (yellow to orange-red) absorb light wavelengths that chlorophyll misses."
+  },
+  {
+    "id": 56266,
+    "category": "",
+    "question": "Chlorophylls found in photosynthetic bacteria are called:",
+    "options": [
+      "Chlorophyll a and b",
+      "Chlorophyll c and d",
+      "Chlorophyll b and c",
+      "Bacteriochlorophylls"
+    ],
+    "correct_answer": "Bacteriochlorophylls",
+    "explanation": "Bacteriochlorophylls enable photosynthetic bacteria to absorb different light wavelengths."
+  },
+  {
+    "id": 56267,
+    "category": "",
+    "question": "Green, yellow, and indigo wavelengths of light are least absorbed by:",
+    "options": [
+      "Carotenes",
+      "Xanthophylls",
+      "Chlorophylls",
+      "Carotenoids"
+    ],
+    "correct_answer": "Chlorophylls",
+    "explanation": "Chlorophylls absorb blue and red light, reflecting green, yellow, and indigo wavelengths."
+  },
+  {
+    "id": 56268,
+    "category": "",
+    "question": "Plants appear green because:",
+    "options": [
+      "Green wavelength is reflected",
+      "Green wavelength is transmitted",
+      "Darker green color masks over the yellow color",
+      "Green wavelength is reflected and transmitted"
+    ],
+    "correct_answer": "Green wavelength is reflected",
+    "explanation": "Chlorophyll absorbs blue and red light, reflecting green, which is why plants appear green.rn"
+  },
+  {
+    "id": 56269,
+    "category": "",
+    "question": "The light-absorbing hydrophilic part of chlorophyll is:",
+    "options": [
+      "Flat",
+      "Long and anchoring",
+      "Square shaped",
+      "Flat and square shaped"
+    ],
+    "correct_answer": "Flat",
+    "explanation": "The porphyrin ring, the hydrophilic head of chlorophyll, is flat and absorbs light."
+  },
+  {
+    "id": 56270,
+    "category": "",
+    "question": "Porphyrin ring represents the:",
+    "options": [
+      "Hydrophobic head of chlorophyll",
+      "Hydrophilic tail of chlorophyll",
+      "Hydrophobic tail of chlorophyll",
+      "Hydrophilic head of chlorophyll"
+    ],
+    "correct_answer": "Hydrophilic head of chlorophyll",
+    "explanation": "The porphyrin ring is the light-absorbing, hydrophilic head of the chlorophyll molecule."
+  },
+  {
+    "id": 56271,
+    "category": "",
+    "question": "Chlorophyll head is made up of:",
+    "options": [
+      "Four joined porphyrin rings",
+      "Four joined tetrapyrrole rings",
+      "Four joined pyrrole rings",
+      "Two joined pyrrole rings"
+    ],
+    "correct_answer": "Four joined pyrrole rings",
+    "explanation": "A porphyrin ring in chlorophyll is formed by four pyrrole rings linked together."
+  },
+  {
+    "id": 56272,
+    "category": "",
+    "question": "In chlorophyll head, an atom of magnesium is coordinated with the:",
+    "options": [
+      "Carbon of each pyrrole ring",
+      "Hydrogen of each pyrrole ring",
+      "Nitrogen of each pyrrole ring",
+      "Methyl of each pyrrole ring"
+    ],
+    "correct_answer": "Nitrogen of each pyrrole ring",
+    "explanation": "Magnesium in the porphyrin ring is centrally coordinated with the nitrogen atoms of the pyrrole rings."
+  },
+  {
+    "id": 56273,
+    "category": "",
+    "question": "____ of hemoglobin is also a porphyrin ring.",
+    "options": [
+      "α – chain",
+      "β – chain",
+      "Hem group",
+      "Protein"
+    ],
+    "correct_answer": "Hem group",
+    "explanation": "The hem group in hemoglobin is a porphyrin ring that binds iron, similar to chlorophyll’s structure."
+  },
+  {
+    "id": 56274,
+    "category": "",
+    "question": "Hemoglobin differs from porphyrin of chlorophyll in having:",
+    "options": [
+      "Iron as the central atom",
+      "Magnesium as the central atom",
+      "Four pyrrole rings",
+      "Central atom coordinated with nitrogen of each pyrrole ring"
+    ],
+    "correct_answer": "Iron as the central atom",
+    "explanation": "Hemoglobin’s hem group has iron at its center, while chlorophyll’s porphyrin has magnesium.rn"
+  },
+  {
+    "id": 56275,
+    "category": "",
+    "question": "The long tail of chlorophyll which is attached to one of the pyrrole is:",
+    "options": [
+      "Hydrocarbon tail",
+      "Phytol",
+      "Phytol or hydrocarbon tail",
+      "Hydrophilic tail"
+    ],
+    "correct_answer": "Phytol",
+    "explanation": "Phytol is a long, hydrophobic tail that anchors chlorophyll in the thylakoid membrane."
+  },
+  {
+    "id": 56276,
+    "category": "",
+    "question": "The chlorophyll molecule is embedded in the hydrophobic core of:",
+    "options": [
+      "Thylakoid membrane by its head",
+      "Lamellar membrane by its head",
+      "Thylakoid membrane by its tail",
+      "Lamellar membrane by its tail"
+    ],
+    "correct_answer": "Thylakoid membrane by its tail",
+    "explanation": "The hydrophobic phytol tail of chlorophyll anchors it into the thylakoid membrane."
+  },
+  {
+    "id": 56277,
+    "category": "",
+    "question": "Chlorophyll a and Chlorophyll b differ from each other in only one of the:",
+    "options": [
+      "Atoms",
+      "Elements",
+      "Functional groups",
+      "Carbon atoms"
+    ],
+    "correct_answer": "Functional groups",
+    "explanation": "Chlorophyll a has a methyl group, while chlorophyll b has an aldehyde group at the same position."
+  },
+  {
+    "id": 56278,
+    "category": "",
+    "question": "Chlorophyll a and chlorophyll b differ from each other with respect to the number of:",
+    "options": [
+      "Carbon atoms",
+      "Oxygen atoms",
+      "Hydrogen atoms",
+      "Hydrogen and oxygen atoms"
+    ],
+    "correct_answer": "Hydrogen and oxygen atoms",
+    "explanation": "Chlorophyll b has an aldehyde group (one more oxygen, two fewer hydrogens) compared to chlorophyll a’s methyl group."
+  },
+  {
+    "id": 56279,
+    "category": "",
+    "question": "As compared to chlorophyll a, chlorophyll b have:",
+    "options": [
+      "Two more hydrogen atoms",
+      "One less oxygen atom",
+      "Two fewer hydrogen atoms and one more oxygen atom",
+      "Two more hydrogen atoms and one less oxygen atom"
+    ],
+    "correct_answer": "Two fewer hydrogen atoms and one more oxygen atom",
+    "explanation": "Chlorophyll b’s aldehyde group (CHO) replaces chlorophyll a’s methyl group (CH3), adding oxygen and removing hydrogens."
+  },
+  {
+    "id": 56280,
+    "category": "",
+    "question": "As compared to chlorophyll b, chlorophyll a have:",
+    "options": [
+      "Two more hydrogen atoms",
+      "One less oxygen atom",
+      "Two fewer hydrogen atoms",
+      "Two more hydrogen atoms and one less oxygen atom"
+    ],
+    "correct_answer": "Two more hydrogen atoms and one less oxygen atom",
+    "explanation": "Chlorophyll a’s methyl group (CH3) has two more hydrogens and one less oxygen than chlorophyll b’s aldehyde group (CHO)."
+  },
+  {
+    "id": 56281,
+    "category": "",
+    "question": "Chlorophyll a can be converted into chlorophyll b by replacing:",
+    "options": [
+      "Carbonyl group with a methyl group",
+      "Magnesium with ferrous",
+      "Methyl group with a carbonyl group",
+      "Ferrous with magnesium"
+    ],
+    "correct_answer": "Methyl group with a carbonyl group",
+    "explanation": "Chlorophyll a’s methyl group at position 3 is replaced by an aldehyde (carbonyl) group in chlorophyll b."
+  },
+  {
+    "id": 56282,
+    "category": "",
+    "question": "Chlorophyll b can be converted into chlorophyll a by replacing:",
+    "options": [
+      "Carbonyl group with a methyl group",
+      "Magnesium with ferrous",
+      "Methyl group with a carbonyl group",
+      "Ferrous with magnesium"
+    ],
+    "correct_answer": "Carbonyl group with a methyl group",
+    "explanation": "Chlorophyll b’s aldehyde group (carbonyl) at position 3 is replaced by a methyl group in chlorophyll a."
+  },
+  {
+    "id": 56283,
+    "category": "",
+    "question": "Some wavelengths _____ by chlorophyll a are ______ by chlorophyll b.",
+    "options": [
+      "Absorbed, absorbed",
+      "Not absorbed, weakly absorbed",
+      "Not absorbed, not absorbed",
+      "Not absorbed, very effectively absorbed"
+    ],
+    "correct_answer": "Not absorbed, weakly absorbed",
+    "explanation": "Chlorophyll b absorbs some wavelengths (e.g., slightly more green light) that chlorophyll a does not, but weakly."
+  },
+  {
+    "id": 56284,
+    "category": "",
+    "question": "Due to a slight difference in their ___, the chlorophyll a and chlorophyll b show slightly different ___.",
+    "options": [
+      "Structure, absorption spectra",
+      "Structure, molecular formula",
+      "Absorption spectra, structure",
+      "Absorption spectra, molecular formula"
+    ],
+    "correct_answer": "Structure, absorption spectra",
+    "explanation": "The structural difference (methyl vs. aldehyde group) causes variations in light absorption patterns."
+  }
+]

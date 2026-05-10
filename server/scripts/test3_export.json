@@ -1,0 +1,808 @@
+[
+  {
+    "id": 56154,
+    "category": "",
+    "question": "Plant cells synthesize the glucose sugar in;",
+    "options": [
+      "Thylakoid",
+      "Grana",
+      "Stroma",
+      "Cristae"
+    ],
+    "correct_answer": "Stroma",
+    "explanation": "The stroma of the chloroplast is where the Calvin Cycle occurs, producing glucose."
+  },
+  {
+    "id": 56155,
+    "category": "",
+    "question": "In 'Chlorophyll a' the group attached to the porphyrin ring is;",
+    "options": [
+      "Hydroxyl group",
+      "Methyl group",
+      "Carboxyl group",
+      "Aldehyde group"
+    ],
+    "correct_answer": "Methyl group",
+    "explanation": "Chlorophyll a has a methyl group at the third position of its porphyrin ring, distinguishing it from Chlorophyll b."
+  },
+  {
+    "id": 56156,
+    "category": "",
+    "question": "In 'Chlorophyll b' the group attached to the porphyrin ring is;",
+    "options": [
+      "Hydroxyl group",
+      "Methyl group",
+      "Carboxyl group",
+      "Aldehyde group"
+    ],
+    "correct_answer": "Aldehyde group",
+    "explanation": "Chlorophyll b has an aldehyde group at the third position of its porphyrin ring, unlike Chlorophyll a."
+  },
+  {
+    "id": 56157,
+    "category": "",
+    "question": "Chlorophyll is protected from intense light by;",
+    "options": [
+      "Plant hormones",
+      "Carotenoids",
+      "Plant enzymes",
+      "Water"
+    ],
+    "correct_answer": "Carotenoids",
+    "explanation": "Carotenoids act as accessory pigments, dissipating excess light energy to protect chlorophyll."
+  },
+  {
+    "id": 56158,
+    "category": "",
+    "question": "Which of the following in Glycolysis is the carrier of hydrogen?",
+    "options": [
+      "ADP",
+      "PGAL",
+      "DPGA",
+      "NAD"
+    ],
+    "correct_answer": "NAD",
+    "explanation": "NAD accepts hydrogen atoms during glycolysis, forming NADH for energy production."
+  },
+  {
+    "id": 56159,
+    "category": "",
+    "question": "Which of the following type of Cytochromes is common in both photosynthesis and respiration?",
+    "options": [
+      "Cyt a",
+      "Cyt b",
+      "Cyt a3",
+      "Cyt C"
+    ],
+    "correct_answer": "Cyt C",
+    "explanation": "Cytochrome c transfers electrons in the ETC of both photosynthesis and respiration."
+  },
+  {
+    "id": 56160,
+    "category": "",
+    "question": "What happens to oxygen in electron transport chain?",
+    "options": [
+      "Reduced to water",
+      "Released as gas",
+      "Used as electron carrier",
+      "Supplies energy to produce ATP"
+    ],
+    "correct_answer": "Reduced to water",
+    "explanation": "Oxygen accepts electrons at the end of the ETC, combining with protons to form water."
+  },
+  {
+    "id": 56161,
+    "category": "",
+    "question": "The process responsible for energy production in animals is;",
+    "options": [
+      "Respiration",
+      "Digestion",
+      "Photosynthesis",
+      "None of the above"
+    ],
+    "correct_answer": "Respiration",
+    "explanation": "Respiration breaks down glucose to produce ATP, the energy currency for animal cells."
+  },
+  {
+    "id": 56162,
+    "category": "",
+    "question": "Which wavelength of visible spectrum is the least important in the process of photosynthesis?",
+    "options": [
+      "Green Light",
+      "Red Light",
+      "Blue light",
+      "All of the above"
+    ],
+    "correct_answer": "Green Light",
+    "explanation": "Green light is reflected by chlorophyll, making it less effective for photosynthesis."
+  },
+  {
+    "id": 56163,
+    "category": "",
+    "question": "The light which is least absorbed by the chlorophyll is;",
+    "options": [
+      "Green",
+      "Yellow",
+      "Blue",
+      "None of the above"
+    ],
+    "correct_answer": "Green",
+    "explanation": "Chlorophyll reflects green light, absorbing blue and red light for photosynthesis."
+  },
+  {
+    "id": 56164,
+    "category": "",
+    "question": "How many ATP are synthesized during electron transport chain?",
+    "options": [
+      "32",
+      "36",
+      "16",
+      "2"
+    ],
+    "correct_answer": "32",
+    "explanation": "The ETC in eukaryotes produces about 32 ATP from NADH and FADH2 during respiration."
+  },
+  {
+    "id": 56165,
+    "category": "",
+    "question": "Calvin Cycle takes pace within;",
+    "options": [
+      "Stroma of chloroplast",
+      "Granum of chloroplast",
+      "Cytoplasm of cells",
+      "Mitochondria"
+    ],
+    "correct_answer": "Stroma of chloroplast",
+    "explanation": "The stroma provides the environment for the Calvin Cycle to fix CO2 into glucose."
+  },
+  {
+    "id": 56166,
+    "category": "",
+    "question": "Chlorophyll a and Chlorophyll b are important pigments of;",
+    "options": [
+      "Green plants",
+      "Animals",
+      "Bacteria",
+      "None"
+    ],
+    "correct_answer": "Green plants",
+    "explanation": "Chlorophyll a and b are key pigments in green plants, enabling light absorption for photosynthesis."
+  },
+  {
+    "id": 56167,
+    "category": "",
+    "question": "Vitamin B is also know as;",
+    "options": [
+      "Sun Vitamin",
+      "Riboflavin",
+      "Flavin",
+      "None of the above"
+    ],
+    "correct_answer": "Riboflavin",
+    "explanation": "Riboflavin (Vitamin B2) is a cofactor in energy metabolism, not related to sunlight."
+  },
+  {
+    "id": 56168,
+    "category": "",
+    "question": "Cytochromes are;",
+    "options": [
+      "Oxygen acceptor",
+      "Hydrogen acceptor",
+      "ADP acceptor",
+      "Electron acceptor"
+    ],
+    "correct_answer": "Electron acceptor",
+    "explanation": "Cytochromes facilitate electron transfer in the ETC during respiration and photosynthesis."
+  },
+  {
+    "id": 56169,
+    "category": "",
+    "question": "Glycolysis completes with a net gain of;",
+    "options": [
+      "2 ATP",
+      "3 ATP",
+      "4 ATP",
+      "32 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Glycolysis produces 4 ATP but uses 2, resulting in a net gain of 2 ATP per glucose."
+  },
+  {
+    "id": 56170,
+    "category": "",
+    "question": "What is the main source of all the energy on earth?",
+    "options": [
+      "Green Plants",
+      "Minerals",
+      "Glucose",
+      "Sunlight"
+    ],
+    "correct_answer": "Sunlight",
+    "explanation": "Sunlight powers photosynthesis, which sustains life by providing energy to ecosystems."
+  },
+  {
+    "id": 56171,
+    "category": "",
+    "question": "About how much of the total sunlight that enters our atmosphere reaches the earth surface?",
+    "options": [
+      "100%",
+      "50%",
+      "60%",
+      "40%"
+    ],
+    "correct_answer": "50%",
+    "explanation": "Around 50% of sunlight reaches the surface, with the rest scattered or absorbed by the atmosphere."
+  },
+  {
+    "id": 56172,
+    "category": "",
+    "question": "Carotenoids absorb which range of wavelengths of the visible light?",
+    "options": [
+      "500nm to 600nm",
+      "1000nm to 2000nm",
+      "3000nm",
+      "5000nm"
+    ],
+    "correct_answer": "500nm to 600nm",
+    "explanation": "Carotenoids absorb light in the 500-600 nm range, complementing chlorophyll absorption."
+  },
+  {
+    "id": 56173,
+    "category": "",
+    "question": "Which of the following type of chlorophyll is the most abundant?",
+    "options": [
+      "Chlorophyll A",
+      "Chlorophyll B",
+      "Bacteriochlorophyll",
+      "Chlorophyll C"
+    ],
+    "correct_answer": "Chlorophyll A",
+    "explanation": "Chlorophyll A is the primary pigment in photosynthesis, making it the most abundant."
+  },
+  {
+    "id": 56174,
+    "category": "",
+    "question": "Who proved the theory of Van Neil that Water was the source of hydrogen ions and oxygen produced in the photosynthesis?",
+    "options": [
+      "Neil Bohr",
+      "Robin Hill",
+      "Anderson",
+      "John"
+    ],
+    "correct_answer": "Robin Hill",
+    "explanation": "Robin Hill's Hill Reaction demonstrated that water splits to produce oxygen in photosynthesis."
+  },
+  {
+    "id": 56175,
+    "category": "",
+    "question": "The process of ATP synthesis is called?",
+    "options": [
+      "Photosynthesis",
+      "Respiration",
+      "Phosphorylation",
+      "Oxidation"
+    ],
+    "correct_answer": "Phosphorylation",
+    "explanation": "Phosphorylation is the addition of a phosphate group to ADP, forming ATP."
+  },
+  {
+    "id": 56176,
+    "category": "",
+    "question": "The electron deficiency of PSII during non-cyclic electron transport chain is covered by;",
+    "options": [
+      "Photolysis of Water",
+      "Photolysis of CO2",
+      "PSI",
+      "Antenna complex"
+    ],
+    "correct_answer": "Photolysis of Water",
+    "explanation": "Photolysis of water provides electrons to PSII, releasing oxygen in the process."
+  },
+  {
+    "id": 56177,
+    "category": "",
+    "question": "How many ATP molecules are consumed in the Glycolysis?",
+    "options": [
+      "2 ATP",
+      "3 ATP",
+      "5 ATP",
+      "18 ATP"
+    ],
+    "correct_answer": "2 ATP",
+    "explanation": "Glycolysis uses 2 ATP to phosphorylate glucose, starting the energy-releasing process."
+  },
+  {
+    "id": 56178,
+    "category": "",
+    "question": "The dark reaction terminates on the regeneration of which molecule?",
+    "options": [
+      "PGA",
+      "CO2",
+      "Glucose",
+      "RUBP"
+    ],
+    "correct_answer": "RUBP",
+    "explanation": "RUBP is regenerated in the Calvin Cycle to continue fixing CO2 into carbohydrates."
+  },
+  {
+    "id": 56179,
+    "category": "",
+    "question": "Photophosphorylation is the synthesis of ATP by which energy?",
+    "options": [
+      "Nuclear Energy",
+      "Solar Energy",
+      "Chemical Energy",
+      "Electrical Energy"
+    ],
+    "correct_answer": "Solar Energy",
+    "explanation": "Photophosphorylation harnesses solar energy to produce ATP during the light reactions."
+  },
+  {
+    "id": 56180,
+    "category": "",
+    "question": "Carotenoids contain",
+    "options": [
+      "Chlorophyll A and Chlorophyll B",
+      "Xanthophyll and Carotenes",
+      "Bacteriochlorophyll",
+      "Lipids"
+    ],
+    "correct_answer": "Xanthophyll and Carotenes",
+    "explanation": "Carotenoids are divided into xanthophylls and carotenes, aiding in light absorption."
+  },
+  {
+    "id": 56181,
+    "category": "",
+    "question": "A single NADH has energy stored equivalent to how many ATP molecules?",
+    "options": [
+      "2 ATP",
+      "5 ATP",
+      "18 ATP",
+      "3 ATP"
+    ],
+    "correct_answer": "3 ATP",
+    "explanation": "NADH yields about 3 ATP in eukaryotes through the ETC and oxidative phosphorylation."
+  },
+  {
+    "id": 56182,
+    "category": "",
+    "question": "Crista of the Mitochondria are the site of?",
+    "options": [
+      "Electron transport chain",
+      "Glycolysis",
+      "Krebs Cycle",
+      "Photophosphorylation"
+    ],
+    "correct_answer": "Electron transport chain",
+    "explanation": "The cristae house the ETC, increasing surface area for ATP production in respiration."
+  },
+  {
+    "id": 56183,
+    "category": "",
+    "question": "How many phosphate molecules are there in an ATP molecule?",
+    "options": [
+      "three phosphate groups",
+      "four phosphate groups",
+      "one phosphate groups",
+      "none of the above"
+    ],
+    "correct_answer": "three phosphate groups",
+    "explanation": "ATP (adenosine triphosphate) has three phosphate groups, which store energy in their bonds."
+  },
+  {
+    "id": 56184,
+    "category": "",
+    "question": "Which cells regulate the opening and closing of the stomata?",
+    "options": [
+      "Neutrophil cells",
+      "Guard cells",
+      "Mesophyll cells",
+      "Basophil cells"
+    ],
+    "correct_answer": "Guard cells",
+    "explanation": "Guard cells control stomatal openings, managing gas exchange and water loss in plants.rn"
+  },
+  {
+    "id": 56185,
+    "category": "",
+    "question": "Evolution of pollen tube is parallel to the evolution of which of the following?",
+    "options": [
+      "Leaf",
+      "Flower",
+      "Seed",
+      "Plan"
+    ],
+    "correct_answer": "Seed",
+    "explanation": "Pollen tubes evolved with seeds to enable fertilization in seed plants, ensuring reproduction."
+  },
+  {
+    "id": 56186,
+    "category": "",
+    "question": "Photosynthetic pigments are organized in form of?",
+    "options": [
+      "Clusters",
+      "Stacks",
+      "Photosystems",
+      "Both a and b"
+    ],
+    "correct_answer": "Both a and b",
+    "explanation": "Photosystems are clusters of pigments in the thylakoid membrane, organized for efficient light capture."
+  },
+  {
+    "id": 56187,
+    "category": "",
+    "question": "Which of the following is a compensation point?",
+    "options": [
+      "Leaves respire and utilize O2 and release CO",
+      "Photosynthesis and respiration occur at same rate. So there is not net exchange of gases between atmosphere and plants.",
+      "Rate of photosynthesis increases, so do the O2 production, with a net release of oxygen coupled with the uptake of CO?",
+      "Rate of respiration becomes more than rate of photosynthesis. 16 Net yield of H2O in Photosynthesis is"
+    ],
+    "correct_answer": "Photosynthesis and respiration occur at same rate. So there is not net exchange of gases between atmosphere and plants.",
+    "explanation": "The compensation point occurs when photosynthesis and respiration balance, with no net gas exchange.rn"
+  },
+  {
+    "id": 56188,
+    "category": "",
+    "question": "At which times there is no net gaseous exchange between leaves and the atmosphere?",
+    "options": [
+      "Day",
+      "Night",
+      "Dawn and Dusk",
+      "Midnight"
+    ],
+    "correct_answer": "Dawn and Dusk",
+    "explanation": "At dawn and dusk, light levels often lead to a balance between photosynthesis and respiration."
+  },
+  {
+    "id": 56189,
+    "category": "",
+    "question": "Which of the following is the 'Energy Currency' of the cell?",
+    "options": [
+      "ATP",
+      "DNA",
+      "Chromosome",
+      "Enzyme"
+    ],
+    "correct_answer": "ATP",
+    "explanation": "ATP provides energy for cellular processes by releasing energy from its phosphate bonds."
+  },
+  {
+    "id": 56190,
+    "category": "",
+    "question": "One of the most important molecules found in living organisms is ATP. What is its major function?",
+    "options": [
+      "Energy source of the cell",
+      "Coenzyme",
+      "Cofactor",
+      "Both A and B"
+    ],
+    "correct_answer": "Energy source of the cell",
+    "explanation": "ATP's primary role is to supply energy for cellular activities through its hydrolysis."
+  },
+  {
+    "id": 56191,
+    "category": "",
+    "question": "Primary function of ATP is:",
+    "options": [
+      "Act as catalyst",
+      "Allosteric modulation of enzymes",
+      "Energy source",
+      "To store energy"
+    ],
+    "correct_answer": "Energy source",
+    "explanation": "ATP provides energy by breaking its phosphate bonds, fueling cellular reactions."
+  },
+  {
+    "id": 56192,
+    "category": "",
+    "question": "Breaking of terminal phosphate of ATP releases about Kcal of energy?",
+    "options": [
+      "6.1",
+      "6.3",
+      "7.1",
+      "None of these"
+    ],
+    "correct_answer": "7.1",
+    "explanation": "Hydrolysis of ATP\\'s terminal phosphate releases approximately 7.1 kcal/mol of energy.rn"
+  },
+  {
+    "id": 56193,
+    "category": "",
+    "question": "It is false about ATP:",
+    "options": [
+      "It is a RNA nucleotide",
+      "It provides energy for cellular reactions",
+      "It is produced by endoplasmic reticulum",
+      "All of these"
+    ],
+    "correct_answer": "It is produced by endoplasmic reticulum",
+    "explanation": "ATP is produced via glycolysis in the cytoplasm and oxidative phosphorylation in mitochondria.rn"
+  },
+  {
+    "id": 56194,
+    "category": "",
+    "question": "Excretory products of autotrophic plants:",
+    "options": [
+      "CO 2",
+      "O 2",
+      "H 2O",
+      "All of these"
+    ],
+    "correct_answer": "All of these",
+    "explanation": "Autotrophic plants release CO2, O2, and H2O as byproducts of metabolism and transpiration."
+  },
+  {
+    "id": 56195,
+    "category": "",
+    "question": "Which pair of areas within a chloroplast will show the steepest pH gradient between them?",
+    "options": [
+      "DNA and stroma",
+      "Ribosome and stroma",
+      "Stroma and the space between the outer and inner membrane",
+      "Stroma and the thylakoid interior space"
+    ],
+    "correct_answer": "Stroma and the thylakoid interior space",
+    "explanation": "During photosynthesis, protons accumulate in the thylakoid space, creating a pH gradient with the stroma."
+  },
+  {
+    "id": 56196,
+    "category": "",
+    "question": "Which one is not an energy releasing process?",
+    "options": [
+      "Glycolysis",
+      "Photosynthesis",
+      "Respiration",
+      "Krebs cycle"
+    ],
+    "correct_answer": "Photosynthesis",
+    "explanation": "Photosynthesis stores energy in glucose, while glycolysis, respiration, and the Krebs cycle release energy."
+  },
+  {
+    "id": 56197,
+    "category": "",
+    "question": "In all plants the major sites of photosynthesis are:",
+    "options": [
+      "Leaf",
+      "Stems",
+      "Roots",
+      "Branches"
+    ],
+    "correct_answer": "Leaf",
+    "explanation": "Leaves contain chloroplasts with chlorophyll, making them the primary site of photosynthesis."
+  },
+  {
+    "id": 56199,
+    "category": "",
+    "question": "Which of the following is NOT a product of the TCA cycle?",
+    "options": [
+      "CO2",
+      "ATP",
+      "NADH",
+      "Acetyl-CoA"
+    ],
+    "correct_answer": "Acetyl-CoA",
+    "explanation": "Acetyl-CoA enters the TCA cycle, which produces CO2, ATP, and NADH as products."
+  },
+  {
+    "id": 56200,
+    "category": "",
+    "question": "'How many enzymatic steps are involved in converting glucose to pyruvate through the process of glycolysis?'",
+    "options": [
+      "3",
+      "5",
+      "8",
+      "10"
+    ],
+    "correct_answer": "10",
+    "explanation": "Glycolysis is a 10-step process that converts glucose into two pyruvate molecules."
+  },
+  {
+    "id": 56201,
+    "category": "",
+    "question": "Energy is important to all forms of life because",
+    "options": [
+      "all forms of life require a continuous supply of it.",
+      "it is required in order to do work.",
+      "it is required in order to make specific alterations in the cell.",
+      "all of the above."
+    ],
+    "correct_answer": "all of the above.",
+    "explanation": "Energy drives all life processes, from metabolic reactions to physical work."
+  },
+  {
+    "id": 56202,
+    "category": "",
+    "question": "'Homeostasis, the steady state that is so vital to life, is possible for cells because'",
+    "options": [
+      "the cell cannot convert energy from one form to another.",
+      "all cells are autotrophic.",
+      "the cell continually takes up energy from the environment.",
+      "all cellular reactions are anabolic."
+    ],
+    "correct_answer": "the cell continually takes up energy from the environment.",
+    "explanation": "Cells use environmental energy to maintain homeostasis through metabolic processes."
+  },
+  {
+    "id": 56203,
+    "category": "",
+    "question": "Of the following components of the mitochondrial electron transport system, which transfers protons in addition to electrons?",
+    "options": [
+      "Coenzyme Q",
+      "Cytochrome a",
+      "ATP synthase",
+      "Cytochrome c1"
+    ],
+    "correct_answer": "Coenzyme Q",
+    "explanation": "Coenzyme Q shuttles electrons and protons, contributing to the proton gradient in the ETC."
+  },
+  {
+    "id": 56204,
+    "category": "",
+    "question": "Which of the following would NOT be used as a final electron acceptor in anaerobic respiration?",
+    "options": [
+      "Sulfur",
+      "Protons",
+      "Iron",
+      "Oxygen"
+    ],
+    "correct_answer": "Oxygen",
+    "explanation": "Anaerobic respiration uses alternative acceptors like sulfur or iron, not oxygen."
+  },
+  {
+    "id": 56205,
+    "category": "",
+    "question": "'The respiration process that results in the buildup of organic waste compounds in a cell is known as'",
+    "options": [
+      "dehydration.",
+      "fermentation.",
+      "reduction.",
+      "anaerobiasis."
+    ],
+    "correct_answer": "fermentation.",
+    "explanation": "Fermentation produces organic wastes like ethanol or lactic acid in anaerobic conditions."
+  },
+  {
+    "id": 56206,
+    "category": "",
+    "question": "If 6.5 g of a protein was fully oxidized, what would be the net energy released for use by a body?",
+    "options": [
+      "36 Calories",
+      "114 Calories",
+      "26 Calories",
+      "58.5 Calories"
+    ],
+    "correct_answer": "26 Calories",
+    "explanation": "Proteins yield 4 kcal/g when oxidized, so 6.5 g provides 26 kcal of energy."
+  },
+  {
+    "id": 56207,
+    "category": "",
+    "question": "The origin of CO2 in the blood is",
+    "options": [
+      "the natural equilibrium conversion process from O2.",
+      "glycolysis and the Krebs cycle in tissue cells.",
+      "the product from acting as the final electron acceptor in oxidative phosphorylation.",
+      "passive diffusion from the atmosphere."
+    ],
+    "correct_answer": "glycolysis and the Krebs cycle in tissue cells.",
+    "explanation": "CO2 is produced during glycolysis and the Krebs cycle as glucose is metabolized."
+  },
+  {
+    "id": 56208,
+    "category": "",
+    "question": "\\'Bacteria are capable of producing 38 net molecules of ATP from every molecule of glucose that is fully metabolized by oxidative phosphorylation. Which of the following is NOT true about this datum?\\'",
+    "options": [
+      "The majority of the ATP molecules are produced within the mitochondria.",
+      "This number is greater than that produced from a molecule of glucose within a human cell.",
+      "This total yield of ATP includes the molecules produced by substratelevel phosphorylation.",
+      "The presence of oxygen is required to produce this total yield of ATP."
+    ],
+    "correct_answer": "The majority of the ATP molecules are produced within the mitochondria.",
+    "explanation": "Bacteria lack mitochondria, so ATP synthesis occurs in the cytoplasm, not mitochondria.rn"
+  },
+  {
+    "id": 56209,
+    "category": "",
+    "question": "'Frequently the final compound produced by a metabolic pathway will serve as a down regulator for that pathway. This mechanism is known as'",
+    "options": [
+      "first-product inhibition.",
+      "coenzyme suppression.",
+      "noncompetitive inhibition.",
+      "feedback inhibition."
+    ],
+    "correct_answer": "feedback inhibition.",
+    "explanation": "Feedback inhibition regulates metabolism by having end products inhibit earlier steps."
+  },
+  {
+    "id": 56210,
+    "category": "",
+    "question": "'A chemical reaction that results in negative free energy (–DG ) is considered to be'",
+    "options": [
+      "catabolic.",
+      "anabolic.",
+      "exergonic.",
+      "both A and C."
+    ],
+    "correct_answer": "exergonic.",
+    "explanation": "Exergonic reactions release energy, indicated by a negative change in free energy."
+  },
+  {
+    "id": 56211,
+    "category": "",
+    "question": "A(n) _____ bond holds the two strands of DNA within its double helix form and must be overcome for gene expression, protein production, and replication.",
+    "options": [
+      "polar",
+      "nonpolar",
+      "hydrogen",
+      "ionic"
+    ],
+    "correct_answer": "hydrogen",
+    "explanation": "Hydrogen bonds between base pairs stabilize the DNA double helix, broken during replication."
+  },
+  {
+    "id": 56212,
+    "category": "",
+    "question": "For each electron released by an NADH molecule sent through the mitochondrial electron transport chain, ____ ATP is/are produced.",
+    "options": [
+      "one",
+      "three",
+      "two",
+      "eleven"
+    ],
+    "correct_answer": "three",
+    "explanation": "Each NADH in the ETC typically yields 2.5-3 ATP, often rounded to 3 for simplicity."
+  },
+  {
+    "id": 56213,
+    "category": "",
+    "question": "'Which of the following lipids, as a whole, has the highest burning (smoking) point?'",
+    "options": [
+      "Saturated fats",
+      "Polyunsaturated fats",
+      "Vegetable oils",
+      "Trans fats"
+    ],
+    "correct_answer": "Saturated fats",
+    "explanation": "Saturated fats have stronger intermolecular forces, leading to a higher smoking point."
+  },
+  {
+    "id": 56214,
+    "category": "",
+    "question": "'Any organism that requires organic compounds such as glucose as its energy source would be categorized as a(n)'",
+    "options": [
+      "heterotroph.",
+      "lithotroph.",
+      "phototroph.",
+      "chemotroph."
+    ],
+    "correct_answer": "heterotroph.",
+    "explanation": "Heterotrophs rely on organic compounds for energy, unlike autotrophs which synthesize their own."
+  },
+  {
+    "id": 56215,
+    "category": "",
+    "question": "'How many molecules of CO2 are released from a fully oxidized molecule of glucose?'",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "12"
+    ],
+    "correct_answer": "6",
+    "explanation": "Complete oxidation of glucose via glycolysis, pyruvate oxidation, and the Krebs cycle releases 6 CO2."
+  },
+  {
+    "id": 56216,
+    "category": "",
+    "question": "A(n) _____ bond is formed when monosaccharides are polymerized.",
+    "options": [
+      "glycosidic",
+      "peptide",
+      "exergonic",
+      "endergonic"
+    ],
+    "correct_answer": "glycosidic",
+    "explanation": "Glycosidic bonds link monosaccharides, forming polysaccharides like starch or cellulose."
+  }
+]

@@ -1,13 +1,5 @@
 import React from 'react';
 import LectureCard from './LectureCard';
-import bioImg from '../assets/biology.png';
-import chemImg from '../assets/chemistry.png';
-import physImg from '../assets/physics.png';
-import engImg from '../assets/english.png';
-import logicImg from '../assets/logic.png';
-import pastImg from '../assets/past_papers.png';
-import risenImg from '../assets/risen_academy.png';
-import logoImg from '../assets/logo.png';
 import './Section.css';
 
 const PracticeSection = () => {
@@ -15,37 +7,38 @@ const PracticeSection = () => {
     {
       title: 'Biology MCQs',
       features: ['Notes', 'Short Listings', '6 Conceptual Tests', 'KMU/ETEA Past Papers', 'Board Book Based MCQs'],
-      image: bioImg,
-      link: '/courses/biology-mcqs'
+      image: '/Biology-MCQs.png',
+      link: '/courses/biology-mcqs',
+      hasFreePreview: true
     },
     {
       title: 'Chemistry MCQs',
       features: ['Notes', 'Short Listings', '6 Conceptual Tests', 'KMU/ETEA Past Papers', 'Board Book Based MCQs'],
-      image: chemImg,
+      image: '/Chemistry-MCQs-1024x576-1.png',
       link: '/courses/chemistry-mcqs'
     },
     {
       title: 'Physics MCQs',
       features: ['Notes', 'Short Listings', '6 Conceptual Tests', 'KMU/ETEA Past Papers', 'Board Book Based MCQs'],
-      image: physImg,
+      image: '/Physics-mcqS.png',
       link: '/courses/physics'
     },
     {
       title: 'English MCQs',
       features: ['Notes', 'Short Listings', '6 Conceptual Tests', 'KMU/ETEA Past Papers', 'Board Book Based MCQs'],
-      image: engImg,
+      image: '/English-MCQs.png',
       link: '/courses/english-mcqs'
     },
     {
       title: 'Logical Reasoning MCQs',
       features: ['Notes', 'Short Listings', '6 Conceptual Tests', 'KMU/ETEA Past Papers', 'Board Book Based MCQs'],
-      image: logicImg,
+      image: '/Logical-Reasoning-MCQs.png',
       link: '/courses/logical-reasoning-mcqs'
     },
     {
       title: 'preDoctr.pk Test Series',
       features: ['13 Tests', 'PMDC Syllabus', 'Full Syllabus Coverage', '3 Full Length 180 MCQs Tests'],
-      image: logoImg,
+      image: '/preDoctr.pk-Test-Series.png',
       link: '/courses/predoctr-test-series/'
     },
     {
@@ -58,7 +51,7 @@ const PracticeSection = () => {
         'Sindh MDCAT Past Papers',
         'NUMS Past Papers'
       ],
-      image: pastImg,
+      image: '/Full-Length-Past-Papers.png',
       link: '/courses/past-papers-full-length/'
     },
     {
@@ -68,7 +61,7 @@ const PracticeSection = () => {
         '200 MCQs Test',
         '2024 PMDC Syllabus'
       ],
-      image: risenImg,
+      image: '/Full-Length-Test-Series-by-Risen-Academy.png',
       link: '/courses/full-length-test-series/'
     }
   ];
@@ -78,7 +71,7 @@ const PracticeSection = () => {
       <h2 className="predoctr-section-title">Test your Concepts with <span> Practice Tests </span></h2>
       <div className="predoctr-courses-grid">
         {practiceTests.map((test, index) => (
-          <LectureCard key={index} {...test} buttonText="View Course" />
+          <LectureCard key={index} {...test} hasFreePreview={test.hasFreePreview} buttonText="View Course" />
         ))}
       </div>
     </div>

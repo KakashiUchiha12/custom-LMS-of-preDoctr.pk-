@@ -1,0 +1,882 @@
+[
+  {
+    "id": 89861,
+    "question_text": "Which of the following best explains the concept of bioenergetics in living systems?",
+    "option_a": "The study of how energy flows and is converted through cellular processes, governed by thermodynamic principles",
+    "option_b": "The measurement of energy efficiency during metabolism in humans",
+    "option_c": "The relationship between kinetic energy and the motion of cells",
+    "option_d": "The mechanism by which cells convert potential energy into work using enzymes",
+    "correct_opt": "a",
+    "explanation": "A is correct as it broadly defines bioenergetics. B, C, and D are incorrect due to their limited or inaccurate scopes."
+  },
+  {
+    "id": 89862,
+    "question_text": "During photosynthesis, the energy stored in NADPH and ATP is primarily used to:",
+    "option_a": "Generate glucose directly through carbon fixation",
+    "option_b": "Reduce carbon dioxide into organic molecules through the Calvin cycle",
+    "option_c": "Convert light energy into chemical energy stored in glucose",
+    "option_d": "Split water molecules to release oxygen",
+    "correct_opt": "b",
+    "explanation": "B is correct as NADPH and ATP power the Calvin cycle’s reduction phase. A, C, and D are incorrect due to inaccurate roles."
+  },
+  {
+    "id": 89863,
+    "question_text": "Which of the following best describes the primary role of photophosphorylation in photosynthesis?",
+    "option_a": "It uses sunlight to convert NADP+ into NADPH",
+    "option_b": "It synthesizes glucose through the reduction of carbon dioxide",
+    "option_c": "It generates ATP by transferring protons across the thylakoid membrane",
+    "option_d": "It uses ATP and NADPH to fix carbon dioxide into organic molecules",
+    "correct_opt": "c",
+    "explanation": "C is correct as it defines ATP synthesis in photophosphorylation. A, B, and D are incorrect due to wrong processes."
+  },
+  {
+    "id": 89864,
+    "question_text": "Which of the following best explains the energetic advantage of cyclic photophosphorylation compared to non-cyclic photophosphorylation?",
+    "option_a": "It generates both ATP and NADPH simultaneously, creating an energy surplus",
+    "option_b": "It produces ATP without the generation of NADPH, optimizing the ATP/NADPH ratio for the Calvin cycle",
+    "option_c": "It results in higher oxygen production by splitting more water molecules",
+    "option_d": "It ensures the full utilization of absorbed light energy in generating glucose",
+    "correct_opt": "b",
+    "explanation": "B is correct as it optimizes ATP/NADPH ratio. A, C, and D are incorrect due to inaccurate benefits."
+  },
+  {
+    "id": 89865,
+    "question_text": "In the light-dependent reactions, how does the cytochrome b/f complex contribute to the production of ATP?",
+    "option_a": "By directly using light energy to synthesize ATP",
+    "option_b": "By pumping protons into the thylakoid lumen, creating a proton gradient for ATP synthase",
+    "option_c": "By reducing NADP+ to NADPH",
+    "option_d": "By splitting water molecules, releasing oxygen",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes proton pumping for ATP synthesis. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89866,
+    "question_text": "How does the structural difference between chlorophyll a and chlorophyll b affect the efficiency of photosynthesis in plants?",
+    "option_a": "Chlorophyll a absorbs light from a broader spectrum, increasing light-harvesting efficiency",
+    "option_b": "Chlorophyll b helps capture light energy in wavelengths that chlorophyll a cannot absorb, thereby enhancing overall light absorption",
+    "option_c": "Chlorophyll a can directly participate in the Calvin cycle, while chlorophyll b cannot",
+    "option_d": "Chlorophyll b is more efficient in photophosphorylation, generating more ATP than chlorophyll a",
+    "correct_opt": "b",
+    "explanation": "B is correct as chlorophyll b broadens absorption spectrum. A, C, and D are incorrect due to inaccurate functions."
+  },
+  {
+    "id": 89867,
+    "question_text": "The enzyme RuBisCO is essential in the Calvin cycle because it:",
+    "option_a": "Directly catalyzes the reduction of 3-PGA to G3P",
+    "option_b": "Fixes carbon dioxide by adding it to RuBP, initiating the cycle",
+    "option_c": "Synthesizes ATP from ADP and Pi in the stroma",
+    "option_d": "Regenerates RuBP using G3P molecules during the cycle’s regeneration phase",
+    "correct_opt": "b",
+    "explanation": "B is correct as RuBisCO initiates carbon fixation. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89868,
+    "question_text": "The Calvin cycle operates in a way that is most accurately described as:",
+    "option_a": "A series of spontaneous reactions where glucose is synthesized directly from CO₂ and H₂O",
+    "option_b": "A process that consumes oxygen, using the energy stored in glucose to fix carbon dioxide",
+    "option_c": "A cyclic pathway that fixes carbon dioxide, reduces it, and regenerates its starting material, RuBP",
+    "option_d": "A one-way flow of energy that generates ATP and NADPH for glucose synthesis",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes the cyclic nature of the Calvin cycle. A, B, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89869,
+    "question_text": "What is the primary reason for the inefficiency of photorespiration in plants?",
+    "option_a": "RuBisCO fixes oxygen instead of carbon dioxide, leading to the waste of energy and carbon resources",
+    "option_b": "The Calvin cycle becomes saturated with ATP, slowing down the fixation of CO₂",
+    "option_c": "Oxygen is used to form glucose, diverting carbon to an unusable form",
+    "option_d": "NADPH levels are depleted during photorespiration, inhibiting the reduction of 3-PGA",
+    "correct_opt": "a",
+    "explanation": "A is correct as photorespiration reduces efficiency via oxygen fixation. B, C, and D are incorrect due to wrong mechanisms."
+  },
+  {
+    "id": 89870,
+    "question_text": "What role do accessory pigments like carotenoids play in photosynthesis?",
+    "option_a": "They directly transfer electrons to the electron transport chain",
+    "option_b": "They absorb light energy and pass it to chlorophyll molecules, broadening the absorption spectrum",
+    "option_c": "They reduce carbon dioxide to glucose through the Calvin cycle",
+    "option_d": "They fix carbon into organic molecules using light energy",
+    "correct_opt": "b",
+    "explanation": "B is correct as carotenoids broaden light absorption. A, C, and D are incorrect due to incorrect roles."
+  },
+  {
+    "id": 89871,
+    "question_text": "Which of the following is a result of the non-cyclic electron flow during photosynthesis?",
+    "option_a": "ATP is generated without NADPH production, optimizing the energy balance for the Calvin cycle",
+    "option_b": "Oxygen is released as a byproduct of water splitting in photosystem II",
+    "option_c": "Only NADPH is produced, with no ATP synthesized",
+    "option_d": "Electrons are recycled back to photosystem II",
+    "correct_opt": "b",
+    "explanation": "B is correct as oxygen is a byproduct of water splitting. A, C, and D are incorrect due to wrong outcomes."
+  },
+  {
+    "id": 89872,
+    "question_text": "The proton gradient created across the thylakoid membrane during photosynthesis is crucial because it:",
+    "option_a": "Drives the reduction of carbon dioxide in the Calvin cycle",
+    "option_b": "Powers the ATP synthase enzyme, which generates ATP from ADP and Pi",
+    "option_c": "Helps transport NADPH to the Calvin cycle",
+    "option_d": "Facilitates the movement of electrons through the electron transport chain",
+    "correct_opt": "b",
+    "explanation": "B is correct as the gradient drives ATP synthesis. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89873,
+    "question_text": "The primary reason that cyclic photophosphorylation occurs is to:",
+    "option_a": "Synthesize glucose directly from carbon dioxide",
+    "option_b": "Increase the ATP-to-NADPH ratio needed by the Calvin cycle",
+    "option_c": "Decrease the consumption of water molecules",
+    "option_d": "Reduce oxygen production to minimize photorespiration",
+    "correct_opt": "b",
+    "explanation": "B is correct as it balances ATP/NADPH ratio. A, C, and D are incorrect due to inaccurate purposes."
+  },
+  {
+    "id": 89874,
+    "question_text": "Which of the following best explains why plants use the C4 pathway for carbon fixation?",
+    "option_a": "It is more energy-efficient in cool climates, where oxygen consumption is minimal",
+    "option_b": "It allows plants to fix carbon even when the stomata are partially closed, reducing water loss",
+    "option_c": "It maximizes NADPH production for the Calvin cycle, leading to faster glucose synthesis",
+    "option_d": "It utilizes the energy stored in glucose to fix carbon dioxide more efficiently",
+    "correct_opt": "b",
+    "explanation": "B is correct as it minimizes water loss in hot climates. A, C, and D are incorrect due to wrong advantages."
+  },
+  {
+    "id": 89875,
+    "question_text": "Which of the following is true about the role of NADPH in the Calvin cycle?",
+    "option_a": "NADPH is used to power ATP production by acting as an electron donor in the electron transport chain",
+    "option_b": "NADPH provides the reducing power necessary to convert 3-PGA into G3P, a sugar precursor",
+    "option_c": "NADPH helps in fixing oxygen, leading to the production of glucose",
+    "option_d": "NADPH is consumed to regenerate RuBP after the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as NADPH provides reducing power. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89876,
+    "question_text": "How does the regulation of RuBisCO activity impact photosynthesis in plants under varying environmental conditions?",
+    "option_a": "Increased RuBisCO activity decreases the efficiency of carbon fixation, causing excessive production of NADPH",
+    "option_b": "RuBisCO’s ability to fix oxygen, rather than carbon dioxide, during high temperatures leads to photorespiration, reducing efficiency",
+    "option_c": "The enzyme is regulated solely by ATP concentrations, which ensures the correct balance of ATP and NADPH during the Calvin cycle",
+    "option_d": "RuBisCO’s reduced activity during the night ensures carbon fixation continues during dark periods, preventing energy loss",
+    "correct_opt": "b",
+    "explanation": "B is correct as it explains photorespiration’s inefficiency. A, C, and D are incorrect due to wrong impacts."
+  },
+  {
+    "id": 89877,
+    "question_text": "Which of the following statements about the reaction center of photosystem I is true?",
+    "option_a": "It absorbs light at a wavelength of 680 nm, transferring electrons to NADP+ to form NADPH",
+    "option_b": "It is located in the stroma of the chloroplast and is responsible for carbon fixation",
+    "option_c": "It is composed of a special chlorophyll molecule (P700), which absorbs light at 700 nm, and initiates electron transport to NADP+",
+    "option_d": "It generates ATP without the involvement of electron transport chains",
+    "correct_opt": "c",
+    "explanation": "C is correct as it accurately describes P700’s role. A, B, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89878,
+    "question_text": "Which of the following is a limitation of photorespiration in plants?",
+    "option_a": "RuBisCO catalyzes the fixation of carbon dioxide at a faster rate",
+    "option_b": "Oxygen is utilized, preventing the loss of carbon dioxide and conserving energy",
+    "option_c": "It leads to the production of toxic byproducts that waste energy and carbon resources",
+    "option_d": "It results in the overproduction of glucose, which is detrimental to cellular function",
+    "correct_opt": "c",
+    "explanation": "C is correct as it highlights photorespiration’s wastefulness. A, B, and D are incorrect due to wrong effects."
+  },
+  {
+    "id": 89879,
+    "question_text": "The process by which chloroplasts capture light energy and use it to generate ATP and NADPH is most accurately described as:",
+    "option_a": "Cellular respiration",
+    "option_b": "Photophosphorylation",
+    "option_c": "Oxidative phosphorylation",
+    "option_d": "Fermentation",
+    "correct_opt": "b",
+    "explanation": "B is correct as it defines photophosphorylation. A, C, and D are incorrect due to wrong processes."
+  },
+  {
+    "id": 89880,
+    "question_text": "In plants, the light-dependent reactions are linked to the Calvin cycle through the products of:",
+    "option_a": "Oxygen and glucose",
+    "option_b": "ATP and NADPH",
+    "option_c": "CO₂ and water",
+    "option_d": "ATP and RuBP",
+    "correct_opt": "b",
+    "explanation": "B is correct as ATP and NADPH link the reactions. A, C, and D are incorrect due to wrong molecules."
+  },
+  {
+    "id": 89881,
+    "question_text": "In plants, the energy required for ATP formation during the light-dependent reactions primarily comes from:",
+    "option_a": "The breakdown of glucose in the stroma",
+    "option_b": "The movement of electrons through the electron transport chain",
+    "option_c": "The splitting of water molecules in photosystem II",
+    "option_d": "The proton gradient created by NADP+ reduction",
+    "correct_opt": "b",
+    "explanation": "B is correct as electron flow drives ATP synthesis. A, C, and D are incorrect due to wrong energy sources."
+  },
+  {
+    "id": 89882,
+    "question_text": "Which of the following best explains why C4 plants are more efficient in hot, dry environments than C3 plants?",
+    "option_a": "C4 plants only need carbon dioxide during the night to prevent water loss",
+    "option_b": "C4 plants use a higher concentration of RuBisCO in their chloroplasts, reducing photorespiration",
+    "option_c": "C4 plants have an initial CO2 fixation step that occurs in the mesophyll, preventing photorespiration in the bundle sheath cells",
+    "option_d": "C4 plants rely on an alternative enzyme, PEP carboxylase, which is more efficient in water-limited conditions",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes C4’s spatial separation. A, B, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89883,
+    "question_text": "Which of the following is true regarding the structure of chlorophyll?",
+    "option_a": "The phytol tail is hydrophobic and embeds the molecule in the thylakoid membrane, while the porphyrin ring absorbs light energy",
+    "option_b": "Chlorophyll has a hydrophilic tail that anchors it to the stroma",
+    "option_c": "Chlorophyll absorbs light in the red and green spectrum, which allows plants to absorb more energy",
+    "option_d": "Chlorophyll's role in photosynthesis is to absorb oxygen from water molecules and transfer it to the electron transport chain",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes chlorophyll’s structure. B, C, and D are incorrect due to wrong descriptions."
+  },
+  {
+    "id": 89884,
+    "question_text": "The proton gradient across the thylakoid membrane is crucial for ATP synthesis because it:",
+    "option_a": "Drives the reduction of NADP+ to NADPH by providing electrons to NADP+",
+    "option_b": "Powers ATP synthase, which uses the energy of protons flowing down their gradient to synthesize ATP",
+    "option_c": "Facilitates the splitting of water molecules into oxygen and hydrogen ions",
+    "option_d": "Activates RuBisCO for carbon fixation during the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as protons drive ATP synthesis. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89885,
+    "question_text": "In the context of photosynthesis, the term 'chemiosmosis' refers to:",
+    "option_a": "The conversion of glucose into carbon dioxide in the stroma",
+    "option_b": "The movement of protons across the thylakoid membrane, which drives ATP synthesis",
+    "option_c": "The process by which light energy is absorbed and converted into glucose",
+    "option_d": "The reduction of NADP+ to NADPH during the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as it defines chemiosmosis. A, C, and D are incorrect due to wrong processes."
+  },
+  {
+    "id": 89886,
+    "question_text": "How does RuBisCO contribute to the inefficiency of photosynthesis during high oxygen concentrations?",
+    "option_a": "It uses oxygen instead of carbon dioxide for carbon fixation, leading to the formation of a wasteful byproduct",
+    "option_b": "It speeds up the carbon fixation process, resulting in the accumulation of toxic intermediates",
+    "option_c": "It reduces carbon dioxide to form glucose, but cannot process high amounts of oxygen efficiently",
+    "option_d": "It catalyzes the breakdown of glucose to carbon dioxide in the mitochondria, reducing energy efficiency",
+    "correct_opt": "a",
+    "explanation": "A is correct as it explains photorespiration’s inefficiency. B, C, and D are incorrect due to wrong mechanisms."
+  },
+  {
+    "id": 89887,
+    "question_text": "The primary purpose of the light-independent reactions (Calvin cycle) in photosynthesis is to:",
+    "option_a": "Generate oxygen and NADPH",
+    "option_b": "Convert light energy into ATP",
+    "option_c": "Use ATP and NADPH to convert carbon dioxide into organic molecules",
+    "option_d": "Release carbon dioxide as a byproduct",
+    "correct_opt": "c",
+    "explanation": "C is correct as it defines the Calvin cycle’s role. A, B, and D are incorrect due to wrong purposes."
+  },
+  {
+    "id": 89888,
+    "question_text": "Which of the following processes is directly dependent on the proton gradient across the thylakoid membrane?",
+    "option_a": "The formation of RuBP during the Calvin cycle",
+    "option_b": "The synthesis of ATP via ATP synthase",
+    "option_c": "The absorption of light by chlorophyll molecules",
+    "option_d": "The splitting of water molecules to release oxygen",
+    "correct_opt": "b",
+    "explanation": "B is correct as the gradient drives ATP synthase. A, C, and D are incorrect due to wrong dependencies."
+  },
+  {
+    "id": 89889,
+    "question_text": "Which molecule acts as the primary electron donor during the light-dependent reactions of photosynthesis?",
+    "option_a": "NADP+",
+    "option_b": "Water",
+    "option_c": "Glucose",
+    "option_d": "NADPH",
+    "correct_opt": "b",
+    "explanation": "B is correct as water splits to provide electrons. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89890,
+    "question_text": "In the electron transport chain, which of the following events occurs in the thylakoid membrane?",
+    "option_a": "Water molecules are split to release oxygen and protons",
+    "option_b": "ATP is used to power the Calvin cycle",
+    "option_c": "Electrons are transferred from NADH to the electron transport chain",
+    "option_d": "Carbon dioxide is fixed into glucose molecules",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes photolysis. B, C, and D are incorrect due to wrong events."
+  },
+  {
+    "id": 89891,
+    "question_text": "The reduction of 3-PGA to G3P in the Calvin cycle is powered by:",
+    "option_a": "The NADPH produced during the light reactions",
+    "option_b": "The electrons supplied by chlorophyll in the reaction center",
+    "option_c": "The ATP generated during oxidative phosphorylation",
+    "option_d": "The NADH generated during glycolysis",
+    "correct_opt": "a",
+    "explanation": "A is correct as NADPH provides reducing power. B, C, and D are incorrect due to wrong energy sources."
+  },
+  {
+    "id": 89892,
+    "question_text": "In C4 plants, the enzyme PEP carboxylase is used to:",
+    "option_a": "Fix carbon dioxide into a 3-carbon molecule",
+    "option_b": "Capture carbon dioxide in the mesophyll cells before it enters the Calvin cycle",
+    "option_c": "Synthesize glucose directly from carbon dioxide",
+    "option_d": "Recycle oxygen in the light reactions to prevent photorespiration",
+    "correct_opt": "b",
+    "explanation": "B is correct as it captures CO₂ for C4 pathway. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89893,
+    "question_text": "Which of the following best describes the role of plastocyanin in photosystem I?",
+    "option_a": "It transfers electrons from photosystem II to the electron transport chain",
+    "option_b": "It carries excited electrons to NADP+ to form NADPH",
+    "option_c": "It transports electrons from the cytochrome b/f complex to photosystem I",
+    "option_d": "It catalyzes the splitting of water to release oxygen",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes plastocyanin’s role. A, B, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89894,
+    "question_text": "How do carotenoids contribute to the process of photosynthesis?",
+    "option_a": "They assist in carbon fixation by converting light energy into glucose",
+    "option_b": "They transfer light energy to chlorophyll, broadening the absorption spectrum",
+    "option_c": "They regenerate RuBP in the Calvin cycle",
+    "option_d": "They act as electron carriers in the electron transport chain",
+    "correct_opt": "b",
+    "explanation": "B is correct as carotenoids broaden absorption spectrum. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89895,
+    "question_text": "The light-dependent reactions are critical for the Calvin cycle because they produce which of the following molecules?",
+    "option_a": "Glucose",
+    "option_b": "ATP and NADPH",
+    "option_c": "RuBP",
+    "option_d": "Oxygen",
+    "correct_opt": "b",
+    "explanation": "B is correct as ATP and NADPH power the Calvin cycle. A, C, and D are incorrect due to wrong molecules."
+  },
+  {
+    "id": 89896,
+    "question_text": "How does the structure of chlorophyll relate to its function in photosynthesis?",
+    "option_a": "The hydrophilic head of chlorophyll allows it to absorb water, which is essential for glucose synthesis",
+    "option_b": "The porphyrin ring structure allows chlorophyll to absorb light energy, while the phytol tail anchors it in the thylakoid membrane",
+    "option_c": "Chlorophyll's hydrophobic structure helps it attract carbon dioxide for carbon fixation",
+    "option_d": "Chlorophyll's ring structure catalyzes the breakdown of glucose into carbon dioxide and water",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes chlorophyll’s structure-function. A, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89897,
+    "question_text": "Why is the proton gradient across the thylakoid membrane essential for ATP synthesis during photosynthesis?",
+    "option_a": "It facilitates the movement of NADP+ to NADPH",
+    "option_b": "It powers ATP synthase by driving the flow of protons back into the stroma",
+    "option_c": "It provides the energy to reduce carbon dioxide to glucose",
+    "option_d": "It ensures that oxygen is split efficiently during water photolysis",
+    "correct_opt": "b",
+    "explanation": "B is correct as protons power ATP synthesis. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89898,
+    "question_text": "The rate of carbon fixation in C3 plants is most significantly influenced by:",
+    "option_a": "The temperature and oxygen concentration, which regulate the activity of RuBisCO",
+    "option_b": "The amount of glucose available in the cell",
+    "option_c": "The availability of NADPH in the stroma",
+    "option_d": "The efficiency of the proton gradient in the thylakoid membrane",
+    "correct_opt": "a",
+    "explanation": "A is correct as it identifies RuBisCO regulators. B, C, and D are incorrect due to wrong factors."
+  },
+  {
+    "id": 89899,
+    "question_text": "Which of the following best describes the role of the ATP synthase enzyme in photosynthesis?",
+    "option_a": "It uses the energy from electrons to fix carbon dioxide into organic molecules",
+    "option_b": "It synthesizes glucose directly from 3-PGA molecules",
+    "option_c": "It produces ATP by allowing protons to flow back across the thylakoid membrane",
+    "option_d": "It absorbs light energy and passes it to chlorophyll molecules",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes ATP synthase’s role. A, B, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89900,
+    "question_text": "In the context of photosynthesis, what does 'carbon fixation' refer to?",
+    "option_a": "The incorporation of carbon dioxide into organic molecules to form glucose",
+    "option_b": "The reduction of carbon dioxide using ATP and NADPH in the Calvin cycle",
+    "option_c": "The splitting of water molecules to release carbon dioxide",
+    "option_d": "The attachment of carbon dioxide to oxygen during the light reactions",
+    "correct_opt": "a",
+    "explanation": "A is correct as it defines carbon fixation. B, C, and D are incorrect due to wrong descriptions."
+  },
+  {
+    "id": 89901,
+    "question_text": "How does the light intensity affect the rate of photosynthesis in C3 plants?",
+    "option_a": "As light intensity increases, the rate of photosynthesis increases until saturation, after which it levels off due to RuBisCO saturation",
+    "option_b": "The rate of photosynthesis continues to increase with light intensity, as RuBisCO can always fix more CO2",
+    "option_c": "Light intensity does not affect the rate of photosynthesis in C3 plants",
+    "option_d": "High light intensity decreases the rate of photosynthesis by causing photorespiration",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes light intensity’s effect. B, C, and D are incorrect due to inaccuracies.rn"
+  },
+  {
+    "id": 89902,
+    "question_text": "Why do C4 plants have an advantage over C3 plants in hot, arid conditions?",
+    "option_a": "C4 plants use a specialized enzyme, PEP carboxylase, that has a higher affinity for CO2, minimizing the effects of photorespiration",
+    "option_b": "C4 plants have a faster rate of RuBisCO activity, reducing the time required for carbon fixation",
+    "option_c": "C4 plants do not rely on light-dependent reactions for ATP production",
+    "option_d": "C4 plants have reduced chlorophyll levels, minimizing the absorption of light and reducing water loss",
+    "correct_opt": "a",
+    "explanation": "A is correct as it explains C4 efficiency. B, C, and D are incorrect due to wrong advantages."
+  },
+  {
+    "id": 89903,
+    "question_text": "In the electron transport chain of photosystem II, what is the role of plastoquinone (PQ)?",
+    "option_a": "It absorbs light and converts it to chemical energy",
+    "option_b": "It transfers electrons from photosystem II to the cytochrome b/f complex",
+    "option_c": "It reduces NADP+ to NADPH",
+    "option_d": "It facilitates the movement of protons into the thylakoid lumen to create the proton gradient",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes plastoquinone’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89904,
+    "question_text": "Which of the following best describes the effect of a high oxygen concentration on RuBisCO activity in C3 plants?",
+    "option_a": "High oxygen levels promote the activity of RuBisCO, speeding up the Calvin cycle",
+    "option_b": "High oxygen levels decrease the efficiency of RuBisCO, leading to photorespiration",
+    "option_c": "RuBisCO becomes more active under high oxygen levels, preventing the formation of glucose",
+    "option_d": "Oxygen levels have no effect on RuBisCO in C3 plants",
+    "correct_opt": "b",
+    "explanation": "B is correct as oxygen triggers photorespiration. A, C, and D are incorrect due to wrong effects."
+  },
+  {
+    "id": 89905,
+    "question_text": "What is the significance of the Calvin cycle's regeneration phase?",
+    "option_a": "It produces glucose by fixing carbon dioxide into a three-carbon molecule",
+    "option_b": "It regenerates RuBP, allowing the cycle to continue",
+    "option_c": "It reduces NADP+ to NADPH, which is required for the light-dependent reactions",
+    "option_d": "It consumes ATP and NADPH to split water molecules",
+    "correct_opt": "b",
+    "explanation": "B is correct as it ensures RuBP regeneration. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89906,
+    "question_text": "In C4 plants, where does the initial fixation of CO2 occur?",
+    "option_a": "In the bundle sheath cells",
+    "option_b": "In the cytoplasm of the mesophyll cells",
+    "option_c": "In the stroma of the chloroplasts",
+    "option_d": "In the thylakoid membrane of the chloroplasts",
+    "correct_opt": "b",
+    "explanation": "B is correct as it identifies mesophyll fixation. A, C, and D are incorrect due to wrong locations."
+  },
+  {
+    "id": 89907,
+    "question_text": "Which of the following is the role of ferredoxin in the light-dependent reactions of photosynthesis?",
+    "option_a": "To reduce NADP+ to NADPH",
+    "option_b": "To carry electrons from photosystem I to NADP+",
+    "option_c": "To absorb light energy and pass it to chlorophyll",
+    "option_d": "To transfer protons across the thylakoid membrane",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes ferredoxin’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89908,
+    "question_text": "Which of the following best describes the role of water molecules in photosynthesis?",
+    "option_a": "Water is split into hydrogen and oxygen during the light-dependent reactions, releasing electrons for the electron transport chain",
+    "option_b": "Water is used in the Calvin cycle to reduce carbon dioxide into glucose",
+    "option_c": "Water serves as the primary electron donor in the electron transport chain in photosystem I",
+    "option_d": "Water molecules are absorbed by the plant to form ATP in the Calvin cycle",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes photolysis. B, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89909,
+    "question_text": "In C3 plants, photorespiration occurs when:",
+    "option_a": "The enzyme PEP carboxylase fixes carbon dioxide in the mesophyll cells",
+    "option_b": "RuBisCO binds with oxygen instead of carbon dioxide, leading to the formation of a wasteful byproduct",
+    "option_c": "Oxygen is absorbed and used to produce glucose",
+    "option_d": "NADPH and ATP are produced during the light-dependent reactions",
+    "correct_opt": "b",
+    "explanation": "B is correct as it explains photorespiration’s mechanism. A, C, and D are incorrect due to wrong causes."
+  },
+  {
+    "id": 89910,
+    "question_text": "The primary function of photosystem I is to:",
+    "option_a": "Absorb light energy and pass it to chlorophyll in photosystem II",
+    "option_b": "Excite electrons and pass them to NADP+ to form NADPH",
+    "option_c": "Split water molecules to release oxygen",
+    "option_d": "Transfer protons into the thylakoid lumen to generate a proton gradient",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes photosystem I’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89911,
+    "question_text": "How do C4 plants minimize photorespiration compared to C3 plants?",
+    "option_a": "They separate the Calvin cycle and the light reactions in time, performing carbon fixation at night",
+    "option_b": "They use a different enzyme, PEP carboxylase, to initially fix CO2 in the mesophyll cells",
+    "option_c": "They eliminate the use of RuBisCO, preventing its inefficient fixation of oxygen",
+    "option_d": "They reduce the amount of glucose stored, limiting oxygen buildup in the cell",
+    "correct_opt": "b",
+    "explanation": "B is correct as it reduces photorespiration via PEP carboxylase. A, C, and D are incorrect due to wrong mechanisms."
+  },
+  {
+    "id": 89912,
+    "question_text": "What is the function of the cytochrome b/f complex in the light-dependent reactions of photosynthesis?",
+    "option_a": "To absorb light energy and pass it to the reaction center",
+    "option_b": "To facilitate the movement of protons into the thylakoid lumen",
+    "option_c": "To transfer electrons from plastoquinone to plastocyanin",
+    "option_d": "To regenerate RuBP during the Calvin cycle",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes electron transfer. A, B, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89913,
+    "question_text": "Which of the following is true about the proton gradient generated during the light-dependent reactions?",
+    "option_a": "It is used to transport NADP+ from the stroma to the thylakoid membrane",
+    "option_b": "It facilitates the formation of glucose by providing energy to the Calvin cycle",
+    "option_c": "It is used to drive ATP synthesis by chemiosmosis through ATP synthase",
+    "option_d": "It is utilized by RuBisCO to fix carbon dioxide in the Calvin cycle",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes chemiosmosis. A, B, and D are incorrect due to wrong uses."
+  },
+  {
+    "id": 89914,
+    "question_text": "Which of the following is the most significant difference between the light-dependent reactions and the Calvin cycle?",
+    "option_a": "The light-dependent reactions fix carbon dioxide, while the Calvin cycle produces ATP",
+    "option_b": "The light-dependent reactions require light to proceed, whereas the Calvin cycle can proceed in the dark",
+    "option_c": "The Calvin cycle generates oxygen, while the light-dependent reactions do not",
+    "option_d": "The light-dependent reactions occur in the stroma, while the Calvin cycle occurs in the thylakoid membrane",
+    "correct_opt": "b",
+    "explanation": "B is correct as it highlights light dependency. A, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89915,
+    "question_text": "The role of NADP+ in photosynthesis is to:",
+    "option_a": "Transport electrons to the Calvin cycle",
+    "option_b": "Accept electrons and protons to form NADPH, which is used in the Calvin cycle",
+    "option_c": "Split water molecules to release oxygen",
+    "option_d": "Regenerate RuBP during the light-independent reactions",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes NADP+’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89916,
+    "question_text": "The enzyme RuBisCO's activity is regulated by:",
+    "option_a": "The amount of glucose available in the chloroplasts",
+    "option_b": "The concentration of CO2 and O2 in the surrounding environment",
+    "option_c": "The levels of NADPH and ATP in the stroma",
+    "option_d": "The rate of proton movement across the thylakoid membrane",
+    "correct_opt": "b",
+    "explanation": "B is correct as it identifies regulatory factors. A, C, and D are incorrect due to wrong regulators."
+  },
+  {
+    "id": 89917,
+    "question_text": "How does the cyclic electron flow help in the light-dependent reactions of photosynthesis?",
+    "option_a": "It generates both ATP and NADPH for the Calvin cycle",
+    "option_b": "It produces ATP without the production of NADPH, balancing the energy needs for the Calvin cycle",
+    "option_c": "It reduces NADP+ to NADPH, which is used in the light-independent reactions",
+    "option_d": "It splits water molecules, releasing oxygen",
+    "correct_opt": "b",
+    "explanation": "B is correct as it balances ATP/NADPH ratio. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89918,
+    "question_text": "Which of the following best describes the role of accessory pigments in photosynthesis?",
+    "option_a": "They assist in the reduction of carbon dioxide to glucose",
+    "option_b": "They absorb light energy outside the absorption range of chlorophyll, increasing overall light absorption",
+    "option_c": "They transport electrons to NADP+ to form NADPH",
+    "option_d": "They catalyze the formation of ATP from ADP and Pi",
+    "correct_opt": "b",
+    "explanation": "B is correct as it broadens light absorption. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89919,
+    "question_text": "The energy released from electrons as they move through the electron transport chain is used to:",
+    "option_a": "Reduce NADP+ to NADPH",
+    "option_b": "Pump protons into the thylakoid lumen, creating a proton gradient",
+    "option_c": "Synthesize glucose directly from CO2",
+    "option_d": "Regenerate RuBP in the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as it creates a proton gradient. A, C, and D are incorrect due to wrong uses."
+  },
+  {
+    "id": 89920,
+    "question_text": "In non-cyclic photophosphorylation, the final electron acceptor is:",
+    "option_a": "NADP+",
+    "option_b": "Oxygen",
+    "option_c": "Water",
+    "option_d": "Carbon dioxide",
+    "correct_opt": "a",
+    "explanation": "A is correct as NADP+ is the final acceptor. B, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89921,
+    "question_text": "The main reason that the C4 pathway is beneficial for plants in hot environments is that it:",
+    "option_a": "Allows for the efficient regeneration of RuBP in the mesophyll cells",
+    "option_b": "Enables carbon fixation to occur with minimal water loss by separating initial CO2 fixation from the Calvin cycle",
+    "option_c": "Helps to produce more glucose directly from CO2",
+    "option_d": "Reduces the need for ATP production during the light reactions",
+    "correct_opt": "b",
+    "explanation": "B is correct as it reduces water loss. A, C, and D are incorrect due to wrong benefits."
+  },
+  {
+    "id": 89922,
+    "question_text": "How do the structural features of the thylakoid membrane contribute to its function in photosynthesis?",
+    "option_a": "The thylakoid membrane contains the enzyme RuBisCO, which is involved in carbon fixation",
+    "option_b": "It has a large surface area for the absorption of light energy through embedded chlorophyll and other pigments",
+    "option_c": "The membrane regulates the movement of carbon dioxide into the stroma for the Calvin cycle",
+    "option_d": "The thylakoid membrane stores the energy produced during cellular respiration for later use",
+    "correct_opt": "b",
+    "explanation": "B is correct as it supports light absorption and transport. A, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89923,
+    "question_text": "In the process of cyclic photophosphorylation, what happens to the electrons after they pass through Photosystem I?",
+    "option_a": "They are passed to NADP+ to form NADPH",
+    "option_b": "They are transferred to the electron transport chain to Photosystem II",
+    "option_c": "They return to the reaction center of Photosystem I to complete the cycle",
+    "option_d": "They are used to split water molecules and release oxygen",
+    "correct_opt": "c",
+    "explanation": "C is correct as it describes cyclic flow. A, B, and D are incorrect due to wrong electron paths."
+  },
+  {
+    "id": 89924,
+    "question_text": "Which of the following statements best describes the relationship between the light-dependent and light-independent reactions of photosynthesis?",
+    "option_a": "The light-dependent reactions provide ATP and NADPH, which are consumed in the Calvin cycle to fix CO2",
+    "option_b": "The light-dependent reactions produce glucose, which is used in the Calvin cycle to regenerate RuBP",
+    "option_c": "The light-independent reactions produce oxygen, which is used in the light-dependent reactions",
+    "option_d": "The light-independent reactions generate ATP, which is used in the Calvin cycle to produce glucose",
+    "correct_opt": "a",
+    "explanation": "A is correct as it links the reactions. B, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89925,
+    "question_text": "Which of the following statements about RuBisCO is accurate?",
+    "option_a": "RuBisCO catalyzes the fixation of oxygen into glucose during the light-dependent reactions",
+    "option_b": "RuBisCO is involved in both the Calvin cycle and glycolysis",
+    "option_c": "RuBisCO is the enzyme that catalyzes the fixation of CO2 during the Calvin cycle",
+    "option_d": "RuBisCO can only fix carbon dioxide in the absence of oxygen",
+    "correct_opt": "c",
+    "explanation": "C is correct as it defines RuBisCO’s role. A, B, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89926,
+    "question_text": "In C4 plants, the initial fixation of CO2 is facilitated by the enzyme:",
+    "option_a": "RuBisCO",
+    "option_b": "PEP carboxylase",
+    "option_c": "NADP+ reductase",
+    "option_d": "Cytochrome b/f",
+    "correct_opt": "b",
+    "explanation": "B is correct as it identifies PEP carboxylase. A, C, and D are incorrect due to wrong enzymes."
+  },
+  {
+    "id": 89927,
+    "question_text": "What is the purpose of the light-harvesting complex in photosynthesis?",
+    "option_a": "To convert light energy into chemical energy",
+    "option_b": "To capture light energy and pass it to the reaction center of photosystem I",
+    "option_c": "To store glucose until it is needed in the Calvin cycle",
+    "option_d": "To regenerate RuBP in the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as it describes light capture. A, C, and D are incorrect due to wrong purposes."
+  },
+  {
+    "id": 89928,
+    "question_text": "What is the significance of the proton gradient created during the light-dependent reactions?",
+    "option_a": "It powers ATP synthase to produce ATP by chemiosmosis",
+    "option_b": "It increases the absorption of light in the chloroplasts",
+    "option_c": "It directly reduces NADP+ to NADPH",
+    "option_d": "It facilitates the breakdown of glucose during cellular respiration",
+    "correct_opt": "a",
+    "explanation": "A is correct as it drives ATP synthesis. B, C, and D are incorrect due to wrong significances."
+  },
+  {
+    "id": 89929,
+    "question_text": "The enzyme that catalyzes the formation of 3-PGA from RuBP and CO2 in the Calvin cycle is:",
+    "option_a": "RuBisCO",
+    "option_b": "PEP carboxylase",
+    "option_c": "NADP+ reductase",
+    "option_d": "ATP synthase",
+    "correct_opt": "a",
+    "explanation": "A is correct as it identifies RuBisCO. B, C, and D are incorrect due to wrong enzymes."
+  },
+  {
+    "id": 89930,
+    "question_text": "The primary role of NADP+ in photosynthesis is to:",
+    "option_a": "Accept electrons and hydrogen ions to form NADPH",
+    "option_b": "Donate electrons to the electron transport chain",
+    "option_c": "Store light energy for later use",
+    "option_d": "Break down glucose to release energy for ATP production",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes NADP+’s role. B, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89931,
+    "question_text": "In photosystem II, the reaction center contains a specialized chlorophyll molecule known as P680. What is its primary role?",
+    "option_a": "To absorb light energy and pass it to the electron transport chain",
+    "option_b": "To donate electrons to plastocyanin",
+    "option_c": "To reduce NADP+ to NADPH",
+    "option_d": "To split water molecules and release oxygen",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes P680’s role. B, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89932,
+    "question_text": "What is the role of the ATP synthase complex during the light-dependent reactions of photosynthesis?",
+    "option_a": "It uses the energy from the proton gradient to synthesize ATP from ADP and Pi",
+    "option_b": "It splits water molecules to release oxygen",
+    "option_c": "It captures light energy to reduce NADP+ to NADPH",
+    "option_d": "It generates glucose from carbon dioxide and water",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes ATP synthase’s role. B, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89933,
+    "question_text": "Which of the following is true regarding the C3 cycle in plants?",
+    "option_a": "The C3 cycle is less efficient than the C4 cycle in hot and dry environments because it leads to photorespiration",
+    "option_b": "The C3 cycle requires light to fix carbon dioxide directly into glucose",
+    "option_c": "The C3 cycle uses ATP and NADPH to produce oxygen and glucose",
+    "option_d": "The C3 cycle does not require RuBisCO to fix carbon dioxide",
+    "correct_opt": "a",
+    "explanation": "A is correct as it highlights C3 inefficiency. B, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89934,
+    "question_text": "The primary function of the Calvin cycle is to:",
+    "option_a": "Convert light energy into ATP and NADPH",
+    "option_b": "Fix carbon dioxide into organic molecules like glucose",
+    "option_c": "Split water molecules to release oxygen",
+    "option_d": "Synthesize ATP through oxidative phosphorylation",
+    "correct_opt": "b",
+    "explanation": "B is correct as it defines the Calvin cycle’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89935,
+    "question_text": "What is the main advantage of having multiple photosystems (I and II) in the photosynthetic electron transport chain?",
+    "option_a": "It increases the overall efficiency by allowing light to be absorbed over a wider range of wavelengths",
+    "option_b": "It ensures that the electrons are recycled more efficiently during cyclic photophosphorylation",
+    "option_c": "It allows the Calvin cycle to occur during the light reactions",
+    "option_d": "It prevents photorespiration by using two different electron carriers",
+    "correct_opt": "a",
+    "explanation": "A is correct as it enhances efficiency. B, C, and D are incorrect due to wrong advantages."
+  },
+  {
+    "id": 89936,
+    "question_text": "Which of the following is the key difference between cyclic and non-cyclic photophosphorylation?",
+    "option_a": "Cyclic photophosphorylation generates only ATP, while non-cyclic photophosphorylation generates both ATP and NADPH",
+    "option_b": "Non-cyclic photophosphorylation occurs only in the stroma, while cyclic photophosphorylation occurs in the thylakoid membrane",
+    "option_c": "Cyclic photophosphorylation does not require light, while non-cyclic photophosphorylation does",
+    "option_d": "Cyclic photophosphorylation produces oxygen as a byproduct, while non-cyclic does not",
+    "correct_opt": "a",
+    "explanation": "A is correct as it highlights product difference. B, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89937,
+    "question_text": "Which of the following statements is true about photorespiration?",
+    "option_a": "Photorespiration enhances the efficiency of carbon fixation in C3 plants by using oxygen to release carbon dioxide",
+    "option_b": "Photorespiration occurs when oxygen binds to RuBisCO instead of carbon dioxide, leading to the production of toxic byproducts",
+    "option_c": "Photorespiration is a desirable process in plants as it increases glucose production",
+    "option_d": "Photorespiration occurs only in C4 plants under low light conditions",
+    "correct_opt": "b",
+    "explanation": "B is correct as it explains photorespiration’s mechanism. A, C, and D are incorrect due to wrong descriptions."
+  },
+  {
+    "id": 89938,
+    "question_text": "In the context of photosynthesis, what is the purpose of the enzyme PEP carboxylase in C4 plants?",
+    "option_a": "It fixes carbon dioxide directly into glucose in the mesophyll cells",
+    "option_b": "It facilitates the attachment of CO2 to RuBP in the Calvin cycle",
+    "option_c": "It helps fix CO2 into a four-carbon molecule, reducing photorespiration",
+    "option_d": "It regenerates RuBP from G3P during the Calvin cycle",
+    "correct_opt": "c",
+    "explanation": "C is correct as it reduces photorespiration. A, B, and D are incorrect due to wrong purposes."
+  },
+  {
+    "id": 89939,
+    "question_text": "The primary role of chlorophyll in photosynthesis is to:",
+    "option_a": "Fix carbon dioxide into organic molecules",
+    "option_b": "Absorb light energy and initiate the electron transport chain",
+    "option_c": "Synthesize glucose from carbon dioxide and water",
+    "option_d": "Regenerate RuBP for the Calvin cycle",
+    "correct_opt": "b",
+    "explanation": "B is correct as it defines chlorophyll’s role. A, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89940,
+    "question_text": "Which of the following best explains the role of water in the light-dependent reactions of photosynthesis?",
+    "option_a": "Water is split into oxygen, protons, and electrons, providing electrons to photosystem II",
+    "option_b": "Water is used to synthesize glucose in the stroma",
+    "option_c": "Water molecules are used to form ATP during the Calvin cycle",
+    "option_d": "Water absorbs light energy to reduce NADP+ to NADPH",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes photolysis. B, C, and D are incorrect due to wrong roles."
+  },
+  {
+    "id": 89941,
+    "question_text": "During the Calvin cycle, the conversion of 3-PGA into G3P is powered by:",
+    "option_a": "Light energy absorbed by chlorophyll",
+    "option_b": "The reduction of NADP+ to NADPH",
+    "option_c": "The ATP produced in the light-dependent reactions",
+    "option_d": "The splitting of water molecules to release oxygen",
+    "correct_opt": "c",
+    "explanation": "C is correct as ATP drives the conversion. A, B, and D are incorrect due to wrong energy sources."
+  },
+  {
+    "id": 89943,
+    "question_text": "Which of the following is a characteristic feature of C4 plants that distinguishes them from C3 plants?",
+    "option_a": "They use RuBisCO for the initial fixation of CO2, which leads to photorespiration",
+    "option_b": "They fix CO2 in two different cell types: mesophyll and bundle sheath cells",
+    "option_c": "They exclusively use NADPH as the electron carrier for the Calvin cycle",
+    "option_d": "They do not produce glucose during photosynthesis",
+    "correct_opt": "b",
+    "explanation": "B is correct as it highlights spatial separation. A, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89944,
+    "question_text": "The enzyme PEP carboxylase plays a critical role in the C4 pathway by:",
+    "option_a": "Fixing CO2 in the mesophyll cells, preventing photorespiration",
+    "option_b": "Regenerating RuBP in the bundle sheath cells",
+    "option_c": "Reducing NADP+ to NADPH in the Calvin cycle",
+    "option_d": "Splitting water molecules to release oxygen",
+    "correct_opt": "a",
+    "explanation": "A is correct as it describes PEP carboxylase’s role. B, C, and D are incorrect due to wrong functions."
+  },
+  {
+    "id": 89945,
+    "question_text": "What would happen if a plant’s photosystem II was inhibited or damaged?",
+    "option_a": "The plant would be unable to split water molecules, thus preventing oxygen production and electron transport",
+    "option_b": "The plant would continue to produce NADPH but would be unable to generate ATP",
+    "option_c": "The plant would fix carbon in the Calvin cycle without the need for light",
+    "option_d": "The plant would not be able to reduce NADP+ to NADPH during the light reactions",
+    "correct_opt": "a",
+    "explanation": "A is correct as it halts photolysis and electron flow. B, C, and D are incorrect due to wrong outcomes."
+  },
+  {
+    "id": 89946,
+    "question_text": "In which of the following plants would photorespiration most likely occur?",
+    "option_a": "C3 plants in hot and dry climates",
+    "option_b": "C4 plants in cold climates",
+    "option_c": "CAM plants during the daytime",
+    "option_d": "Plants in low-light conditions",
+    "correct_opt": "a",
+    "explanation": "A is correct as C3 plants suffer photorespiration in such conditions. B, C, and D are incorrect due to wrong contexts."
+  },
+  {
+    "id": 89947,
+    "question_text": "What is the relationship between the absorption spectra and the action spectrum of photosynthesis?",
+    "option_a": "The absorption spectrum indicates the efficiency of light absorption by pigments, while the action spectrum reflects the wavelengths of light that drive photosynthesis",
+    "option_b": "The absorption spectrum and action spectrum are the same, as they both measure light absorption by chlorophyll",
+    "option_c": "The absorption spectrum is only concerned with light energy used for the Calvin cycle, while the action spectrum deals with the light reactions",
+    "option_d": "The absorption spectrum only applies to green wavelengths of light, while the action spectrum measures all visible wavelengths",
+    "correct_opt": "a",
+    "explanation": "A is correct as it differentiates spectra roles. B, C, and D are incorrect due to inaccuracies."
+  },
+  {
+    "id": 89948,
+    "question_text": "Which of the following is the direct result of the light-dependent reactions of photosynthesis?",
+    "option_a": "Glucose is synthesized from carbon dioxide and water",
+    "option_b": "Oxygen is produced as a byproduct, and ATP and NADPH are generated",
+    "option_c": "NADP+ is reduced to NADH, which is used in cellular respiration",
+    "option_d": "ATP is synthesized, but no NADPH is produced",
+    "correct_opt": "b",
+    "explanation": "B is correct as it lists direct products. A, C, and D are incorrect due to wrong outcomes."
+  },
+  {
+    "id": 89949,
+    "question_text": "The enzyme RuBisCO is often considered inefficient because it:",
+    "option_a": "Fixes carbon dioxide at a faster rate than other enzymes in the Calvin cycle",
+    "option_b": "Occasionally binds with oxygen instead of carbon dioxide, leading to photorespiration",
+    "option_c": "-",
+    "option_d": "-",
+    "correct_opt": "b",
+    "explanation": "B is correct as it explains inefficiency. A, C, and D are incorrect due to wrong reasons.rn"
+  }
+]

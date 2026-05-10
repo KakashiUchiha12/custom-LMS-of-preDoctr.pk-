@@ -1,20 +1,31 @@
 import { Link } from 'react-router-dom';
 import './LectureCard.css';
 
-const LectureCard = ({ title, features, image, link, buttonText = "View Lectures" }) => {
-  // Determine if link is internal or external
+const LectureCard = ({ title, features, image, link, buttonText = "View Lectures", hasFreePreview = false }) => {
   const isInternal = link.startsWith('/') || link.includes(window.location.host);
   const routePath = link.startsWith('http') ? new URL(link).pathname : link;
+
+  const ImageContent = () => (
+    <div className="predoctr-image-wrapper">
+      <img src={image} alt={title} className="predoctr-card-image" />
+      {hasFreePreview && (
+        <div className="free-ribbon">
+          <span className="free-ribbon-dot" />
+          Free Chapter Inside
+        </div>
+      )}
+    </div>
+  );
 
   return (
     <div className="predoctr-course-card">
       {isInternal ? (
         <Link to={routePath} className="predoctr-image-link">
-          <img src={image} alt={title} className="predoctr-card-image" />
+          <ImageContent />
         </Link>
       ) : (
         <a href={link} className="predoctr-image-link">
-          <img src={image} alt={title} className="predoctr-card-image" />
+          <ImageContent />
         </a>
       )}
       <div className="predoctr-card-body">

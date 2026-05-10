@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Environment secrets — never commit
+.env
+
+# Server node_modules
+server/node_modules
+
+# Large SQL files
+*.sql

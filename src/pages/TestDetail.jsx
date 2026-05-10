@@ -1,37 +1,52 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { ClipboardList, Clock, BookOpen, HelpCircle } from 'lucide-react';
-import { SUBJECT_TOPICS } from '../data/courseData';
+import { ClipboardList, Clock, BookOpen, HelpCircle, Gift, Loader2, AlertCircle } from 'lucide-react';
 import { CourseAccordion } from '../components/CourseAccordion';
+import UpgradeModal from '../components/UpgradeModal';
+import { useSubject } from '../hooks/useSubject';
 import './TestDetail.css';
 
-const TestDetail = ({ subjectId: propSubjectId }) => {
-  const { subjectId: paramSubjectId } = useParams();
-  const subjectId = (paramSubjectId || propSubjectId || '').replace('-mcqs', '').replace('-lectures', '');
-  const navigate = useNavigate();
-  const location = useLocation();
-  
-  const topics = SUBJECT_TOPICS[subjectId] || [];
-  
-  const [openIndex, setOpenIndex] = useState(() => {
-    const searchParams = new URLSearchParams(location.search);
-    const topicParam = searchParams.get('topic');
-    if (topicParam && topics.length > 0) {
-      const idx = topics.findIndex(t => t.name === topicParam);
-      if (idx !== -1) return idx;
-    }
-    return 0; // Default to first open
-  });
+const TestDetail = ({ subjectSlug: propSlug }) => {
+  const { subjectId: paramSlug } = useParams();
+  const navigate  = useNavigate();
+  const location  = useLocation();
 
-  const subjectName = subjectId
-    .split('-')
-    .map(word => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(' ');
+  // Accept full slug (e.g. 'biology-mcqs') or legacy short form
+  const slug = propSlug || paramSlug || '';
+  // Short-form subjectId for navigation params (e.g. 'biology')
+  const subjectId = slug.replace('-mcqs', '').replace('-lectures', '');
+
+  const { subject, chapters, loading, error } = useSubject(slug);
+
+  const [openIndex, setOpenIndex] = useState(0);
+
+  // Open chapter from URL query param on first load
+  useEffect(() => {
+    if (!chapters.length) return;
+    const topicParam = new URLSearchParams(location.search).get('topic');
+    if (topicParam) {
+      const idx = chapters.findIndex(c => c.name === topicParam);
+      if (idx !== -1) setOpenIndex(idx);
+    }
+  }, [chapters, location.search]);
+
+  const [showUpgradeModal, setShowUpgradeModal] = useState(false);
+  const [lockedChapterName, setLockedChapterName] = useState('');
+
+  const handleLockedItemClick = (chapterName) => {
+    setLockedChapterName(chapterName);
+    setShowUpgradeModal(true);
+  };
+
+  const subjectName = subject?.name || subjectId
+    .split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
+  const isBiology = subjectId === 'biology' || slug === 'biology-mcqs';
 
   const stats = [
-    { label: 'Total MCQs', value: subjectId === 'biology' ? '2,400+' : '1,250+', icon: <HelpCircle size={20} /> },
-    { label: 'Chapters', value: topics.length, icon: <BookOpen size={20} /> },
-    { label: 'Avg. Time', value: '45s / MCQ', icon: <Clock size={20} /> },
+    { label: 'Total MCQs',  value: subject ? `${(chapters.reduce((s, c) => s + (c.mcq_count || 0), 0)).toLocaleString()}+` : '—', icon: <HelpCircle size={20} /> },
+    { label: 'Chapters',    value: chapters.length || '—',                                                                      icon: <BookOpen size={20} />  },
+    { label: 'Avg. Time',   value: '45s / MCQ',                                                                                 icon: <Clock size={20} />     },
   ];
 
   return (
@@ -47,9 +62,28 @@ const TestDetail = ({ subjectId: propSubjectId }) => {
           </div>
         </div>
 
+        {isBiology && (
+          <div className="free-preview-banner">
+            <div className="free-banner-left">
+              <span className="free-banner-dot" />
+              <Gift size={18} />
+              <div>
+                <strong>Chapter 1 MCQs are FREE — no payment needed!</strong>
+                <span>Practice Biodiversity questions right now to test the platform.</span>
+              </div>
+            </div>
+            <button
+              className="free-banner-cta"
+              onClick={() => { setOpenIndex(0); document.querySelector('.accordion-list')?.scrollIntoView({ behavior: 'smooth', block: 'start' }); }}
+            >
+              Try Free Chapter →
+            </button>
+          </div>
+        )}
+
         <div className="test-stats-grid">
-          {stats.map((stat, index) => (
-            <div key={index} className="stat-card">
+          {stats.map((stat, i) => (
+            <div key={i} className="stat-card">
               <div className="stat-icon">{stat.icon}</div>
               <div className="stat-content">
                 <span className="stat-label">{stat.label}</span>
@@ -61,39 +95,58 @@ const TestDetail = ({ subjectId: propSubjectId }) => {
 
         <div className="course-content-section">
           <h2 className="course-content-title">Course Content</h2>
-          <div className="accordion-list">
-            {topics.length > 0 ? (
-              topics.map((chapter, index) => {
-                const searchParams = new URLSearchParams(location.search);
-                const currentTopic = searchParams.get('topic');
+
+          {loading ? (
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '12px', padding: '60px', color: '#64748b' }}>
+              <Loader2 size={28} style={{ animation: 'spin 1s linear infinite' }} />
+              <span>Loading chapters...</span>
+            </div>
+          ) : error ? (
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '40px', color: '#ef4444', justifyContent: 'center' }}>
+              <AlertCircle size={24} />
+              <span>Failed to load chapters. Please try again.</span>
+            </div>
+          ) : (
+            <div className="accordion-list">
+              {chapters.length > 0 ? chapters.map((chapter, index) => {
+                const searchParams   = new URLSearchParams(location.search);
+                const currentTopic   = searchParams.get('topic');
                 const currentSubtest = searchParams.get('subtest');
-                
+                const isFreeChapter  = true;
+
                 return (
                   <CourseAccordion
-                    key={index}
+                    key={chapter.id}
                     chapter={chapter}
                     index={index}
+                    subjectSlug={slug}
                     subjectId={subjectId}
                     navigate={navigate}
                     isOpen={openIndex === index}
                     onToggle={() => {
                       setOpenIndex(openIndex === index ? null : index);
-                      // Clear URL parameters when user manually interacts to remove highlighting
-                      if (location.search) {
-                        navigate(location.pathname, { replace: true });
-                      }
+                      if (location.search) navigate(location.pathname, { replace: true });
                     }}
                     currentTopic={currentTopic}
                     currentSubtest={currentSubtest}
+                    isFreeChapter={isFreeChapter}
+                    onLockedItemClick={handleLockedItemClick}
+                    type="mcqs"
                   />
                 );
-              })
-            ) : (
-              <div className="empty-topics">No chapters available for this subject yet.</div>
-            )}
-          </div>
+              }) : (
+                <div className="empty-topics">No chapters available for this subject yet.</div>
+              )}
+            </div>
+          )}
         </div>
       </div>
+
+      <UpgradeModal
+        isOpen={showUpgradeModal}
+        onClose={() => setShowUpgradeModal(false)}
+        chapterName={lockedChapterName}
+      />
     </div>
   );
 };

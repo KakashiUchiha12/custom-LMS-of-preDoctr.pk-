@@ -485,8 +485,8 @@
 .option-btn {
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  padding: 1.25rem 1.5rem;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
   border: 1.5px solid #e2e8f0;
   border-radius: 16px;
   text-align: left;
@@ -1554,8 +1554,9 @@
 .test-content-layout {
   display: flex;
   gap: 2rem;
-  margin-top: 2rem;
-  padding-bottom: 5rem;
+  margin-top: 4rem !important;
+  padding-top: 0;
+  padding-bottom: 6rem;
 }
 
 .question-map-sidebar {
@@ -1675,24 +1676,29 @@
   border-color: #fde68a;
 }
 
-.question-text {
+.question-text, .q-text {
   font-size: 1.85rem;
   font-weight: 800;
   line-height: 1.4;
   color: #0f172a;
   margin-bottom: 2.5rem;
+  display: block !important;
+  max-height: none !important;
+  overflow: visible !important;
+  white-space: normal !important;
 }
 
 .options-list {
   display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
 .option-row {
   display: flex;
   align-items: center;
-  gap: 1.25rem;
-  padding: 1.25rem 1.5rem;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
   background: white;
   border: 2px solid #f1f5f9;
   border-radius: 18px;
@@ -1759,20 +1765,25 @@
   margin-bottom: 0.5rem;
 }
 
-/* Navigation */
+/* Navigation - Sticky and aligned to the right bottom of the question box */
 .test-navigation {
+  position: sticky;
+  bottom: 0;
+  background: #f8fafc; /* Match the content area background */
+  padding: 1.5rem 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end; /* Group buttons on the right */
+  gap: 1rem;
   align-items: center;
-  margin-top: 1rem;
+  z-index: 10;
 }
 
 .nav-btn {
   display: flex;
   align-items: center;
   gap: 10px;
-  padding: 1rem 2rem;
-  border-radius: 16px;
+  padding: 0.85rem 1.75rem;
+  border-radius: 12px;
   font-weight: 700;
   background: white;
   border: 1px solid #e2e8f0;
@@ -1937,6 +1948,8 @@
     top: auto;
     padding: 2rem 1.5rem;
     animation: slideUp 0.3s ease-out;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   @keyframes slideUp {
@@ -1992,6 +2005,10 @@
   }
 
   /* Options */
+  .options-list {
+    grid-template-columns: 1fr !important;
+  }
+
   .option-row {
     padding: 1.15rem 1rem; /* Taller touch targets */
     min-height: 48px;
@@ -2104,7 +2121,16 @@
   }
   
   .lesson-sidebar.mobile-open {
-    display: flex;
+    display: flex !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 100vh !important;
+    z-index: 1500 !important;
+    background: white !important;
+    flex-direction: column !important;
+    overflow-y: auto !important;
   }
 
   .lesson-topbar {
@@ -2233,3 +2259,27 @@
     display: none;
   }
 }
+
+/* Styles for MCQs with Images */
+.question-text {
+  font-size: 1.3rem !important;
+  font-weight: 600 !important;
+}
+
+.option-content {
+  font-size: 0.95rem !important;
+}
+
+.question-image {
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.question-image img {
+  max-height: 200px !important;
+  width: auto !important;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+

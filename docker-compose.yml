@@ -1,0 +1,39 @@
+
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: predoctr_db
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: predoctr_lms
+      POSTGRES_USER: predoctr
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-predoctr_dev_pass}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U predoctr -d predoctr_lms"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  api:
+    build:
+      context: ./server
+    container_name: predoctr_api
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      PORT: 3001
+      DATABASE_URL: postgresql://predoctr:${DB_PASSWORD:-predoctr_dev_pass}@db:5432/predoctr_lms
+      NODE_ENV: ${NODE_ENV:-development}
+      CORS_ORIGIN: ${CORS_ORIGIN:-http://localhost:5173}
+    ports:
+      - "3001:3001"
+    depends_on:
+      db:
+        condition: service_healthy
+
+volumes:
+  postgres_data:

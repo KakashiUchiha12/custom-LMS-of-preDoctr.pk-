@@ -1,0 +1,70 @@
+PhotosynthesisThese questions focus on the synthesis of organic compounds using light energy, pigment structures, and the Calvin and C4 cycles.
+56017 (Melvin Calvin): Carbon fixation. He mapped the path of carbon in photosynthesis (the Calvin Cycle). Shutterstock
+56018 (Composition): Willstatter and Stahi. They were the pioneering chemists who determined the empirical formulas for chlorophyll.
+56019 (Non-polar part): Phytol. This is a long hydrophobic hydrocarbon tail that anchors the chlorophyll molecule into the thylakoid membrane.
+56020 (Porphyrin size): 15 Ångstrom square. This is the approximate size of the hydrophilic "head" of the chlorophyll molecule.
+56021 (Activity): Sunlight. While specific wavelengths like red and blue are effective, full spectrum sunlight provides the maximum energy for all pigments.
+56022 (Intensity): Increase till feedback inhibition. Rate rises with light until the plant's metabolic enzymes are saturated or limited by CO2.
+56023 (Available light): 50%. Roughly half of total solar radiation is Photosynthetically Active Radiation (PAR) that reaches the Earth's surface.
+56024 (Energy): 90; 10. Blue light has shorter wavelengths and higher energy (kcal) per photon compared to red light.
+56025 (Converter): Sugar cane. It is a C4 plant with a highly efficient mechanism for capturing CO2 and converting it into biomass.
+56026 (Cyclic): Photosystem I. This process involves only PS I to produce ATP without generating NADPH or O2. Shutterstock Explore 
+56027 (CO2 consumption): 1/4 of the CO2 of air. This refers to the efficiency and concentration gradients land plants maintain for hexose synthesis.
+56028 (ATP Requirement): 18 for C3; 30 for C4. C4 plants require extra ATP to pump CO2 into bundle sheath cells to avoid photorespiration.
+56029 (O2/CO2 Ratio): 1. According to the balanced equation of photosynthesis, one molecule of O2 is released for every molecule of CO2 fixed.
+56030 (Warburg’s effect): C3 plants. High oxygen levels inhibit photosynthesis in C3 plants because Rubisco starts fixing O2 instead of CO2.
+56031 (C4 Plant): Maize. Corn (Maize) utilizes the C4 pathway to stay productive in hot, dry conditions.
+56032 (Water plant): O2 bubbles. Submerged plants like Hydrilla release visible oxygen bubbles in water, making the rate easy to measure.
+56033 (Formation): Fe²⁺ and Mg²⁺. Magnesium is the central atom of the chlorophyll ring, while Iron is a vital catalyst for its synthesis.
+56034 (Translocation): Sucrose. Sugars are moved through the phloem as sucrose because it is chemically stable and highly soluble.
+56035 (Q10): Temperature coefficient. It represents the factor by which the rate of a reaction increases with a 10°C rise in temperature.
+56036 (Photorespiration): High O2 and low CO2. This environment forces Rubisco to act as an oxygenase, wasting energy.
+56037 (Quinones): Mobile electron carriers. Small molecules like Plastoquinone move electrons between protein complexes in the thylakoid membrane.
+56038 (PGA derivation): RuBP + CO2. The 3-carbon PGA is formed when the 5-carbon RuBP combines with 1-carbon CO2 and splits.
+56039 (3 CO2 Fixation): 9 ATP and 6 NADPH2. For every CO2 fixed, 3 ATP and 2 NADPH are consumed in the Calvin Cycle.
+56040 (Stroma enzyme): RuBP carboxylase (Rubisco). This is the most abundant protein on Earth, found in the chloroplast stroma.
+56041 (Thylakoids only): CO2 assimilating enzymes absent. While thylakoids do the light reactions, the enzymes for sugar synthesis (dark reactions) are in the stroma.
+56042 (Solar converter): Sugarcane. It has one of the highest known rates of solar energy conversion into chemical energy.
+56043 (Requirement): Quantum requirement. The specific number of photons (usually 8-10) needed to evolve one molecule of oxygen.
+56044 (Calvin Cycle): Reductive carboxylation. CO2 is fixed (carboxylation) and then reduced using electrons from NADPH.
+56045 (Hill reaction): None. The Hill reaction specifically demonstrates that O2 can be released from water in the absence of CO2 fixation.
+56046 (Max Photosynthesis): Red. Chlorophyll absorbs red light very efficiently for the photosynthetic process.
+56047 (Kranz anatomy): Bundle sheath agranal. In C4 plants, mesophyll cells have grana for light reactions; bundle sheath cells lack grana to focus on the Calvin Cycle.
+56048 (Limiting factors): CO2, light, temperature. The rate of photosynthesis is governed by whichever of these factors is at its minimum.
+56049/56056 (Formula): C55H72O5N4Mg. This is the specific molecular formula for Chlorophyll a.
+56050 (Absent in): Bacteria. Photosynthetic bacteria use bacteriochlorophyll rather than the Chlorophyll a found in plants and algae.
+56051 (Start point): Phosphoglycolate. When Rubisco fixes oxygen, the first product is a 2-carbon molecule called phosphoglycolate.
+56052 (C4 Error): Characteristic of C4. C4 plants have evolved to almost entirely eliminate photorespiration, unlike C3 plants.
+56053 (Enzyme): PEP carboxylase. This enzyme has a much higher affinity for CO2 than Rubisco and is the first fixer in sugarcane.
+56054 (Plants in rooms): CO2 release. At night, photosynthesis stops, but respiration continues, meaning plants release CO2 and consume O2.
+56055 (Scientist): Blackman. He proposed that when a process depends on multiple factors, the rate is limited by the slowest factor.
+56057 (Electrons): 24. Splitting water to produce 6 O2 molecules and 1 glucose requires the transfer of 24 electrons.
+56059 (Decarboxylation): Mesophyll cells. In C4 plants, C4 acids are made in mesophyll cells and then moved to bundle sheath cells for decarboxylation.
+56060 (Gas exchange): Release O2, absorb CO2. This is the fundamental gas exchange of the photosynthetic process.
+56061 (85% activity): Phytoplanktons. The vast majority of the Earth's oxygen production and carbon fixation occurs in the oceans.
+RespirationThese questions focus on the breakdown of glucose, energy release (ATP), and metabolic pathways like Glycolysis and the Krebs Cycle.
+56058 (Compensation point): Rate of photo = rate of resp. At this specific light intensity, the CO2 absorbed equals the CO2 released.
+56062 (Process): Catabolic. Respiration breaks down complex molecules into simpler ones to release energy.
+56063 (Metabolism): Anabolic and Catabolic. Metabolism is the sum of all building-up (anabolic) and breaking-down (catabolic) reactions.
+56064 (Energy source): Respiration. This is the cellular process that converts biochemical energy from nutrients into ATP.
+56065 (Reaction type): Exergonic. Energy is released during the breakdown of glucose, which is then captured in ATP bonds.
+56066 (Food state): Oxidized. During respiration, glucose loses electrons (and hydrogens) to become CO2.
+56067 (Main substrate): Glucose. It is the primary fuel that cells prefer to oxidize for immediate energy.
+56068 (ATP formation): Water. The condensation reaction between ADP and Pi releases a water molecule (dehydration synthesis).
+56069 (Occurrence): All of these. Every living cell, whether prokaryotic or eukaryotic, must respire to survive.
+56070 (Complete oxidation): Aerobic. Only in the presence of oxygen is glucose fully broken down into CO2 and H2O.
+56071 (Energy yield): Aerobic. Aerobic respiration produces much more ATP (approx. 36-38) compared to anaerobic (2 ATP).
+56072 (Fermentation): Absence of oxygen. This is an anaerobic pathway used to regenerate NAD+ so glycolysis can continue.
+56073 (First stage): Glycolysis. This is the universal first step of glucose breakdown, occurring in all types of respiration. gstraub
+56074 (Conversion): Glycolysis. One glucose molecule is split into two molecules of pyruvic acid.
+56075 (Pyruvic count): 2. The 6-carbon glucose is halved into two 3-carbon pyruvate molecules.
+56076 (Carbon count): 3. Pyruvic acid ($C_3H_4O_3$) is a three-carbon organic acid.
+56077 (Location): Cytoplasm. Glycolysis does not require organelles and happens in the fluid part of the cell.
+56078 (Oxygen used): 0. Glycolysis is an anaerobic process; oxygen is only needed later in the mitochondria.
+56079 (CO2 produced): 0. CO2 is only released during the Link Reaction and the Krebs Cycle, not during glycolysis.
+56080 (Final acceptor): Oxygen. In the electron transport chain, oxygen picks up protons and electrons to form water.
+56081 (Not in anaerobic): Acetyl CoA. Pyruvate only converts to Acetyl CoA if it is entering the mitochondria for aerobic respiration.
+56082 (Product): ATP. Adenosine Diphosphate plus a phosphate group yields Adenosine Triphosphate.
+56083 (DHAP): 3 C compound. This is one of the two 3-carbon sugars formed when Fructose-1,6-bisphosphate is split.
+56084 (ATP consumed): 2. Two ATP molecules are "invested" at the start of glycolysis to activate the glucose molecule.
+56085 (NADH to NAD): Oxidation. The loss of hydrogen/electrons from NADH to become NAD+ is an oxidation reaction.

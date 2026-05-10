@@ -1,103 +1,179 @@
+/* ─── Onboarding Page ─────────────────────────────────── */
 .onboarding-page {
   min-height: 100vh;
-  background-color: #f8fafc;
+  background: linear-gradient(135deg, #f0f7ff 0%, #fafafa 50%, #f0fdf4 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 2rem;
+  padding: 2rem 1rem;
+  overflow: hidden;
+  position: relative;
 }
 
 .onboarding-container {
   width: 100%;
-  max-width: 550px;
+  max-width: 540px;
 }
 
-/* Progress Bar */
+/* ─── Brand ─────────────────────────────────────────────── */
+.onboarding-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 2rem;
+}
+
+/* ─── Progress Bar ──────────────────────────────────────── */
 .onboarding-progress {
   display: flex;
   justify-content: space-between;
+  align-items: flex-start;
   position: relative;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  padding: 0 8px;
+}
+
+.progress-track {
+  position: absolute;
+  top: 18px;
+  left: 32px;
+  right: 32px;
+  height: 3px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.progress-track-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #4096EE, #60b3ff);
+  border-radius: 99px;
+  transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.progress-step-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  z-index: 1;
 }
 
 .progress-step {
   width: 36px;
   height: 36px;
   background: white;
-  border: 2px solid #e2e8f0;
+  border: 2.5px solid #e2e8f0;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 700;
+  font-size: 0.85rem;
   color: #94a3b8;
-  z-index: 2;
-  transition: all 0.3s;
+  transition: all 0.35s ease;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
 }
 
 .progress-step.active {
   border-color: #4096EE;
   color: #4096EE;
+  background: #eff6ff;
 }
 
 .progress-step.completed {
   background: #4096EE;
   border-color: #4096EE;
   color: white;
+  box-shadow: 0 4px 12px rgba(64,150,238,0.35);
 }
 
-.progress-line {
-  position: absolute;
-  top: 18px;
-  left: 0;
-  right: 0;
-  height: 2px;
-  background: #e2e8f0;
-  z-index: 1;
+.progress-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  transition: color 0.3s ease;
 }
 
-.line-fill {
-  height: 100%;
-  background: #4096EE;
-  transition: width 0.3s ease;
+.progress-label.active {
+  color: #4096EE;
 }
 
-/* Card */
+/* ─── Card ───────────────────────────────────────────────── */
 .onboarding-card {
   background: white;
-  padding: 3rem;
-  border-radius: 32px;
-  box-shadow: 0 20px 25px -5px rgba(0,0,0,0.05);
+  padding: 2.5rem 2.5rem;
+  border-radius: 28px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.07), 0 4px 12px rgba(0,0,0,0.04);
+  overflow: hidden;
+}
+
+/* ─── Step Animations ────────────────────────────────────── */
+.step-content {
+  animation-fill-mode: both;
+  animation-duration: 0.35s;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.step-anim-forward {
+  animation-name: slideInRight;
+}
+
+.step-anim-backward {
+  animation-name: slideInLeft;
+}
+
+@keyframes slideInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes slideInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+/* ─── Step Content ───────────────────────────────────────── */
+.step-content {
   text-align: center;
 }
 
 .step-icon {
-  width: 64px;
-  height: 64px;
-  background: #eff6ff;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #eff6ff, #dbeafe);
   color: #4096EE;
-  border-radius: 16px;
+  border-radius: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0 auto 1.5rem;
+  margin: 0 auto 1.25rem;
+  box-shadow: 0 4px 12px rgba(64,150,238,0.15);
 }
 
 .step-content h1 {
-  font-size: 2rem;
-  margin-bottom: 0.75rem;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
   color: #0f172a;
+  font-weight: 700;
 }
 
 .step-content p {
   color: #64748b;
-  margin-bottom: 2.5rem;
-  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
+/* ─── Form Elements ──────────────────────────────────────── */
 .input-group {
   text-align: left;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
 }
 
 .input-group.centered label {
@@ -106,87 +182,116 @@
 
 .input-group label {
   display: block;
-  font-size: 0.85rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  color: #94a3b8;
+  color: #64748b;
   text-transform: uppercase;
+  letter-spacing: 0.06em;
   margin-bottom: 0.5rem;
 }
 
-.input-group input, 
+.optional-label {
+  font-size: 0.75rem;
+  color: #94a3b8;
+  text-transform: none;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+.input-group input,
 .input-group select {
   width: 100%;
   padding: 0.8rem 1rem;
-  border: 1px solid #e2e8f0;
+  border: 1.5px solid #e2e8f0;
   border-radius: 12px;
-  font-size: 1rem;
+  font-size: 0.97rem;
   font-weight: 500;
   outline: none;
   background: #f8fafc;
+  color: #0f172a;
+  transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+  font-family: inherit;
 }
 
 .input-group input:focus,
 .input-group select:focus {
   border-color: #4096EE;
-  box-shadow: 0 0 0 4px rgba(64, 150, 238, 0.1);
+  box-shadow: 0 0 0 4px rgba(64, 150, 238, 0.12);
+  background: white;
 }
 
-.onboarding-btn {
-  width: 100%;
-  background: #4096EE;
-  color: white;
-  padding: 1rem;
-  border-radius: 14px;
-  font-weight: 700;
-  font-size: 1.1rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 1rem;
-}
-
-.onboarding-btn:disabled {
-  background: #cbd5e1;
-  cursor: not-allowed;
-}
-
-.onboarding-btn.finish {
-  background: #1e293b;
-}
-
-.onboarding-btn-outline {
-  width: 100px;
-  padding: 1rem;
-  border: 1px solid #e2e8f0;
-  border-radius: 14px;
-  font-weight: 600;
-  color: #64748b;
-}
-
-.btn-row {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.btn-row .onboarding-btn {
-  flex-grow: 1;
+.valid-input {
+  border-color: #10b981 !important;
+  background: #f0fdf4 !important;
 }
 
 .invalid-input {
   border-color: #ef4444 !important;
 }
 
-.input-hint.error {
+/* ─── WhatsApp Input with Status Icon ────────────────────── */
+.input-with-status {
+  position: relative;
+}
+
+.input-with-status input {
+  width: 100%;
+  padding-right: 2.8rem;
+}
+
+.input-status-icon {
+  position: absolute;
+  right: 0.8rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.85rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+}
+
+.input-status-icon.valid {
+  color: #10b981;
+}
+
+.input-status-icon.invalid {
+  color: #ef4444;
+}
+
+.input-hint {
   display: block;
   font-size: 0.75rem;
-  color: #ef4444;
-  margin-top: 0.4rem;
+  margin-top: 0.35rem;
   font-weight: 500;
 }
 
-/* Gender Selection */
+.input-hint.error { color: #ef4444; }
+.input-hint.success { color: #10b981; }
+
+/* ─── City Dropdown ──────────────────────────────────────── */
+.city-type-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.city-back-btn {
+  background: none;
+  border: none;
+  color: #4096EE;
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0;
+  text-align: left;
+  font-family: inherit;
+}
+
+.city-back-btn:hover {
+  text-decoration: underline;
+}
+
+/* ─── Gender Selection ───────────────────────────────────── */
 .gender-selection {
   display: flex;
   gap: 1rem;
@@ -195,55 +300,46 @@
 }
 
 .gender-option {
-  flex: 0 1 110px;
+  flex: 0 1 120px;
   background: #f8fafc;
   border: 2px solid #e2e8f0;
   border-radius: 16px;
-  padding: 0.75rem;
+  padding: 1rem 0.75rem 0.75rem;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 0.4rem;
   cursor: pointer;
-  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
 }
 
 .gender-option:hover {
-  border-color: #cbd5e1;
+  border-color: #93c5fd;
   transform: translateY(-2px);
 }
 
 .gender-option.active {
   border-color: #4096EE;
   background: white;
-  box-shadow: 0 10px 15px -3px rgba(64, 150, 238, 0.1);
+  box-shadow: 0 8px 20px -4px rgba(64, 150, 238, 0.2);
+  transform: translateY(-2px);
 }
 
 .gender-icon {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 10px;
-  transition: all 0.3s;
+  transition: all 0.25s;
 }
 
-.gender-icon svg {
-  width: 100%;
-  height: 100%;
-}
-
-.gender-icon.male {
-  background: #eff6ff;
-  color: #4096EE;
-}
-
-.gender-icon.female {
-  background: #fdf4ff;
-  color: #d946ef;
-}
+.gender-icon svg { width: 100%; height: 100%; }
+.gender-icon.male   { background: #eff6ff; color: #4096EE; }
+.gender-icon.female { background: #fdf4ff; color: #d946ef; }
 
 .gender-option span {
   font-weight: 700;
@@ -251,44 +347,247 @@
   font-size: 0.9rem;
 }
 
-.gender-option.active span {
+.gender-option.active span { color: #0f172a; }
+
+.gender-check {
+  color: #4096EE;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+/* ─── Buttons ────────────────────────────────────────────── */
+.onboarding-btn {
+  width: 100%;
+  background: linear-gradient(135deg, #4096EE, #3b82f6);
+  color: white;
+  padding: 0.9rem;
+  border-radius: 14px;
+  font-weight: 700;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 1.25rem;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(64,150,238,0.3);
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.onboarding-btn:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(64,150,238,0.4);
+}
+
+.onboarding-btn:disabled {
+  background: #e2e8f0;
+  color: #94a3b8;
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+.onboarding-btn.finish {
+  background: linear-gradient(135deg, #0f172a, #1e3a5f);
+  box-shadow: 0 4px 14px rgba(15,23,42,0.25);
+}
+
+.onboarding-btn.finish:hover {
+  box-shadow: 0 8px 20px rgba(15,23,42,0.35);
+}
+
+.onboarding-btn-outline {
+  width: 100px;
+  padding: 0.9rem;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  font-weight: 600;
+  color: #64748b;
+  background: white;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.onboarding-btn-outline:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+
+.btn-row {
+  display: flex;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+}
+
+.btn-row .onboarding-btn {
+  flex-grow: 1;
+  margin-top: 0;
+}
+
+/* ─── Unlock Preview ─────────────────────────────────────── */
+.unlock-preview {
+  background: linear-gradient(135deg, #f0f7ff, #f0fdf4);
+  border: 1.5px solid #dbeafe;
+  border-radius: 16px;
+  padding: 1.1rem 1.25rem;
+  margin-top: 1.25rem;
+  text-align: left;
+}
+
+.unlock-title {
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: #4096EE;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.85rem;
+}
+
+.unlock-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.unlock-card {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.unlock-icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.unlock-icon.video  { background: #eff6ff; color: #4096EE; }
+.unlock-icon.brain  { background: #f5f3ff; color: #8b5cf6; }
+.unlock-icon.trophy { background: #fffbeb; color: #f59e0b; }
+
+.unlock-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.unlock-card strong {
+  font-size: 0.88rem;
+  font-weight: 700;
   color: #0f172a;
 }
 
-/* Mobile Responsiveness */
-@media (max-width: 640px) {
-  .onboarding-page {
-    padding: 1rem;
-  }
-  
+.unlock-card span {
+  font-size: 0.78rem;
+  color: #64748b;
+}
+
+/* ─── Success Screen ─────────────────────────────────────── */
+.success-screen {
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.success-checkmark {
+  color: #10b981;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+  animation: checkPulse 0.6s ease forwards;
+}
+
+@keyframes checkPulse {
+  0%   { transform: scale(0) rotate(-15deg); opacity: 0; }
+  60%  { transform: scale(1.2) rotate(5deg); opacity: 1; }
+  100% { transform: scale(1) rotate(0deg); opacity: 1; }
+}
+
+.success-screen h1 {
+  font-size: 1.75rem;
+  color: #0f172a;
+  margin-bottom: 0.75rem;
+}
+
+.success-screen p {
+  color: #64748b;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.success-loader {
+  height: 5px;
+  background: #e2e8f0;
+  border-radius: 99px;
+  overflow: hidden;
+  margin-bottom: 0.75rem;
+}
+
+.success-loader-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #10b981, #4096EE);
+  border-radius: 99px;
+  animation: loadBar 2.8s ease forwards;
+}
+
+@keyframes loadBar {
+  from { width: 0%; }
+  to   { width: 100%; }
+}
+
+.success-redirect-text {
+  font-size: 0.82rem;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+/* ─── Confetti ───────────────────────────────────────────── */
+.confetti-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 9999;
+  overflow: hidden;
+}
+
+.confetti-piece {
+  position: absolute;
+  top: -20px;
+  animation: confettiFall linear forwards;
+}
+
+@keyframes confettiFall {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 1; }
+  80%  { opacity: 1; }
+  100% { transform: translateY(110vh) rotate(720deg); opacity: 0; }
+}
+
+/* ─── Mobile ─────────────────────────────────────────────── */
+@media (max-width: 600px) {
   .onboarding-card {
     padding: 2rem 1.5rem;
-    border-radius: 24px;
+    border-radius: 22px;
   }
-  
+
   .step-content h1 {
     font-size: 1.5rem;
   }
-  
-  .step-content p {
-    font-size: 1rem;
-    margin-bottom: 2rem;
+
+  .progress-label {
+    display: none;
   }
-  
-  .gender-selection {
-    gap: 1rem;
-  }
-  
+
   .gender-option {
-    padding: 1rem;
-  }
-  
-  .gender-icon {
-    width: 50px;
-    height: 50px;
-  }
-  
-  .onboarding-progress {
-    margin-bottom: 2rem;
+    flex: 1;
   }
 }

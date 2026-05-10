@@ -1,0 +1,482 @@
+[
+  {
+    "question": "What is the literal translation of the Latin word 'venom' from which 'virus' is derived?",
+    "options": ["Living liquid", "Small particle", "Poison", "Infectious agent"],
+    "answer": "Poison",
+    "explanation": "The word virus is derived from the Latin word 'venom' which means 'poison'."
+  },
+  {
+    "question": "Who demonstrated in 1884 that rabies causative agents could pass through porcelain filters?",
+    "options": ["Louis Pasteur", "Charles Chamberland", "Iwanowsky", "W.M. Stanley"],
+    "answer": "Charles Chamberland",
+    "explanation": "Charles Chamberland, who worked with Louis Pasteur, found that rabies agents could pass through porcelain filters with pore sizes of 100-1000 nm."
+  },
+  {
+    "question": "Which of the following is considered a living characteristic of viruses?",
+    "options": ["Lack of metabolic activity", "Ability to be crystallized", "Presence of DNA or RNA that can mutate", "Absence of respiration"],
+    "answer": "Presence of DNA or RNA that can mutate",
+    "explanation": "Viruses possess their own genetic material in the form of DNA or RNA that can undergo mutation, which is a characteristic of living things."
+  },
+  {
+    "question": "What is a complete viral particle called?",
+    "options": ["Capsid", "Virion", "Capsomere", "Nucleoid"],
+    "answer": "Virion",
+    "explanation": "A complete viral particle is called a virion and consists of two parts: a core and a coat."
+  },
+  {
+    "question": "The viral capsid is composed of repeating protein subunits known as:",
+    "options": ["Capsomeres", "Genomes", "Envelopes", "Spikes"],
+    "answer": "Capsomeres",
+    "explanation": "The capsid is a protective protein coat composed of identical repeating subunits called capsomeres."
+  },
+  {
+    "question": "How many capsomeres are present in the capsid of the Herpes virus?",
+    "options": ["252", "162", "20", "100"],
+    "answer": "162",
+    "explanation": "Herpes virus has 162 capsomeres in its capsid."
+  },
+  {
+    "question": "Which virus symmetry is defined by capsomeres arranged in 20 triangles?",
+    "options": ["Helical", "Complex", "Icosahedral", "Rod-shaped"],
+    "answer": "Icosahedral",
+    "explanation": "When capsomeres are arranged in 20 triangles, the symmetry is called icosahedral (polyhedral or spherical)."
+  },
+  {
+    "question": "What is the function of reverse transcriptase in Retroviruses?",
+    "options": ["To digest the host cell wall", "To convert single-stranded RNA into double-stranded DNA", "To integrate viral DNA into host DNA", "To assemble viral proteins"],
+    "answer": "To convert single-stranded RNA into double-stranded DNA",
+    "explanation": "Retroviruses contain reverse transcriptase to convert their single-stranded RNA genome into a double-stranded DNA genome."
+  },
+  {
+    "question": "Viruses that infect bacteria are known as:",
+    "options": ["Plant viruses", "Animal viruses", "Bacteriophages", "Mycophages"],
+    "answer": "Bacteriophages",
+    "explanation": "Bacteriophage viruses are those that attack bacteria."
+  },
+  {
+    "question": "Which scientist devised a classification system based on genome type and mode of replication?",
+    "options": ["W.M. Stanley", "Iwanowsky", "David Baltimore", "Charles Chamberland"],
+    "answer": "David Baltimore",
+    "explanation": "David Baltimore devised the Baltimore classification system, which places viruses into seven groups based on replication mode and genome type."
+  },
+  {
+    "question": "Which of the following is an example of a virus with a helical capsid?",
+    "options": ["Adenovirus", "Tobacco Mosaic Virus", "Bacteriophage", "Influenza virus"],
+    "answer": "Tobacco Mosaic Virus",
+    "explanation": "Tobacco mosaic virus is an example of a virus with a helical capsid."
+  },
+  {
+    "question": "A virus with a double-stranded DNA (dsDNA) genome is:",
+    "options": ["Mild rash virus", "Diarrhoea virus", "Smallpox virus", "HIV"],
+    "answer": "Smallpox virus",
+    "explanation": "Smallpox virus is classified as having a double-stranded DNA (dsDNA) genome."
+  },
+  {
+    "question": "Why are viruses considered obligate intracellular parasites?",
+    "options": ["They lack metabolic enzymes and ribosomes for protein synthesis", "They are too small to be seen by light microscopes", "They can be crystallized", "They have a lipoprotein envelope"],
+    "answer": "They lack metabolic enzymes and ribosomes for protein synthesis",
+    "explanation": "Viruses lack metabolic enzymes and ribosomes for making proteins; therefore, they need a host cell to complete their life cycles."
+  },
+  {
+    "question": "Which enzyme found in all cells is responsible for breaking down viral DNA or RNA?",
+    "options": ["Integrase", "Protease", "Nuclease", "Lysozyme"],
+    "answer": "Nuclease",
+    "explanation": "Nucleases are enzymes found in all cells that break down DNA or RNA."
+  },
+  {
+    "question": "Which type of virus is generally more sensitive to degradation by sunlight and cleaning procedures?",
+    "options": ["Non-enveloped viruses", "Enveloped viruses", "Bacteriophages", "DNA viruses"],
+    "answer": "Enveloped viruses",
+    "explanation": "The envelope of a virus is generally sensitive to degradation by sunlight and normal cleaning procedures."
+  },
+  {
+    "question": "The 'head' of a bacteriophage typically exhibits which symmetry?",
+    "options": ["Helical", "Icosahedral", "Cylindrical", "Asymmetrical"],
+    "answer": "Icosahedral",
+    "explanation": "The head of a bacteriophage is icosahedral in shape."
+  },
+  {
+    "question": "What is the function of the tail fibers in a bacteriophage?",
+    "options": ["Injecting the genome", "Digesting the cell wall", "Binding the phage to the bacterial cell", "Synthesizing viral proteins"],
+    "answer": "Binding the phage to the bacterial cell",
+    "explanation": "The tail fibers and tail pins are involved in the binding of the phage to the bacterial cell."
+  },
+  {
+    "question": "Which enzyme is released by the bacteriophage to digest the bacterial cell wall?",
+    "options": ["Reverse transcriptase", "Lysozyme", "Integrase", "RNAase"],
+    "answer": "Lysozyme",
+    "explanation": "At the bottom of the core tube of the tail, the enzyme lysozyme is present, which is released to digest the host cell wall."
+  },
+  {
+    "question": "In the lytic cycle, what is the 'Master-Slave relationship'?",
+    "options": ["The host cell destroying the virus", "The virus and host DNA coexisting", "Viral DNA taking over the host's metabolic machinery", "The host cell providing nutrients to the virus"],
+    "answer": "Viral DNA taking over the host's metabolic machinery",
+    "explanation": "In the lytic cycle, the virus develops a Master-Slave relationship where the viral DNA takes over the control of the whole metabolic machinery of its host."
+  },
+  {
+    "question": "Approximately how many phage particles are produced in the lytic cycle within 20 to 25 minutes?",
+    "options": ["50", "100", "200", "500"],
+    "answer": "200",
+    "explanation": "Within 20 to 25 minutes, approximately 200 phage particles are produced in the lytic cycle."
+  },
+  {
+    "question": "The integrated state of phage DNA in the host chromosome is termed:",
+    "options": ["Virion", "Provirus", "Prophage", "Capsid"],
+    "answer": "Prophage",
+    "explanation": "In the lysogenic cycle, the integrated state of phage DNA into the host chromosome is termed a prophage."
+  },
+  {
+    "question": "What process triggers the termination of the lysogenic state and initiates the lytic cycle?",
+    "options": ["Adsorption", "Induction", "Penetration", "Maturation"],
+    "answer": "Induction",
+    "explanation": "The termination of the lysogenic state is called induction, often triggered by adverse conditions like UV exposure."
+  },
+  {
+    "question": "Which of the following is an application of bacteriophages in medicine?",
+    "options": ["Producing antibiotics", "Phage therapy", "Developing vaccines for common cold", "Treating fungal infections"],
+    "answer": "Phage therapy",
+    "explanation": "Phage therapy is the application of genetically engineered phages that can kill pathogenic bacteria."
+  },
+  {
+    "question": "HIV was officially named 'Human Immunodeficiency Virus' in which year?",
+    "options": ["1981", "1984", "1986", "1990"],
+    "answer": "1986",
+    "explanation": "The virus was identified in 1984 and named HIV in 1986."
+  },
+  {
+    "question": "Which specific glycoprotein on the HIV envelope is needed to attach to the host cell?",
+    "options": ["gp41", "gp120", "p24", "Reverse transcriptase"],
+    "answer": "gp120",
+    "explanation": "gp120 is needed for HIV to attach to the host cell."
+  },
+  {
+    "question": "The HIV capsid contains how many strands of RNA?",
+    "options": ["One single strand", "Two single strands", "One double strand", "Two double strands"],
+    "answer": "Two single strands",
+    "explanation": "The viral core of HIV contains two single strands of HIV RNA."
+  },
+  {
+    "question": "Which HIV enzyme is responsible for incorporating viral DNA into host DNA?",
+    "options": ["Reverse transcriptase", "Protease", "Integrase", "Ribonuclease"],
+    "answer": "Integrase",
+    "explanation": "The integrase enzyme is used to incorporate viral DNA into host DNA."
+  },
+  {
+    "question": "HIV primarily attacks cells with which type of receptor?",
+    "options": ["CD8", "CD4", "ACE2", "CCR5"],
+    "answer": "CD4",
+    "explanation": "HIV attacks specific cells of the host called CD4 cells, such as Helper T cells."
+  },
+  {
+    "question": "The DNA synthesized from viral RNA by reverse transcriptase is called:",
+    "options": ["mRNA", "rRNA", "cDNA", "tRNA"],
+    "answer": "cDNA",
+    "explanation": "The enzyme reverse transcriptase synthesizes a single-stranded DNA complementary to virus RNA, called complementary DNA (cDNA)."
+  },
+  {
+    "question": "How are mature HIV virions released from the host cell?",
+    "options": ["Lysis", "Budding off", "Apoptosis", "Passive diffusion"],
+    "answer": "Budding off",
+    "explanation": "Finally, the mature virions are gradually released by budding off from the host cell."
+  },
+  {
+    "question": "Which stage of HIV infection is characterized by swollen lymph glands and persistent diarrhea but no full-blown AIDS yet?",
+    "options": ["Asymptomatic carrier", "AIDS Related Complex (ARC)", "Full Blown AIDS", "Incubation period"],
+    "answer": "AIDS Related Complex (ARC)",
+    "explanation": "Symptoms of AIDS Related Complex (ARC) include swollen lymph glands, night sweats, persistent cough, and diarrhea."
+  },
+  {
+    "question": "What are 'opportunistic diseases' in the context of AIDS?",
+    "options": ["Diseases that are easily cured", "Diseases that attack when the immune system is weak", "Genetic diseases", "Nutritional deficiency diseases"],
+    "answer": "Diseases that attack when the immune system is weak",
+    "explanation": "Due to a weak defense system, an AIDS patient is attacked by opportunistic diseases like skin cancer, fungal infections, and respiratory diseases."
+  },
+  {
+    "question": "What does ART stand for in HIV treatment?",
+    "options": ["Advanced Retro Treatment", "Antiretroviral Therapy", "Antibody Replacement Therapy", "Active Resistance Training"],
+    "answer": "Antiretroviral Therapy",
+    "explanation": "HIV is treated using a combination of medicines called antiretroviral therapy (ART)."
+  },
+  {
+    "question": "What is the function of the HIV protein gp41?",
+    "options": ["Binding to CD4", "Cell fusion process", "RNA synthesis", "Protein cleavage"],
+    "answer": "Cell fusion process",
+    "explanation": "gp41 is critical for the cell fusion process during HIV infection."
+  },
+  {
+    "question": "Which enzyme disintegrates the viral genomic RNA after reverse transcription in HIV?",
+    "options": ["Integrase", "Protease", "Ribonuclease (RNAase)", "DNAase"],
+    "answer": "Ribonuclease (RNAase)",
+    "explanation": "After reverse transcription, the viral genomic RNA is disintegrated by the ribonuclease (RNAase) enzyme."
+  },
+  {
+    "question": "What is the integrated viral DNA in a human host cell called?",
+    "options": ["Prophage", "Provirus", "Virion", "Capsid"],
+    "answer": "Provirus",
+    "explanation": "The integrated DNA in a host cell is called a provirus."
+  },
+  {
+    "question": "Which of the following is a symptom of the 'Asymptomatic carrier' stage of HIV?",
+    "options": ["Severe weight loss", "Kaposi's sarcoma", "Fever and chills", "Persistent diarrhea"],
+    "answer": "Fever and chills",
+    "explanation": "Symptoms of the asymptomatic carrier stage may include fever, chills, aches, and swollen lymph glands."
+  },
+  {
+    "question": "Which virus causes warts in animals?",
+    "options": ["Poxivirus", "Paramyxovirus", "Papovirus", "Picornovirus"],
+    "answer": "Papovirus",
+    "explanation": "Papovirus causes warts."
+  },
+  {
+    "question": "Which of these is a non-living characteristic of viruses?",
+    "options": ["Reproduction using host machinery", "Occurring in different strains", "Absence of coenzyme and enzyme systems", "Ability to undergo mutation"],
+    "answer": "Absence of coenzyme and enzyme systems",
+    "explanation": "Non-living characteristics include lacking cellular structure, coenzyme, and enzyme systems."
+  },
+  {
+    "question": "Iwanowsky extracted juice from leaves of which plant to study mosaic disease?",
+    "options": ["Potato", "Tobacco", "Cotton", "Tomato"],
+    "answer": "Tobacco",
+    "explanation": "Iwanowsky extracted juice from the leaves of tobacco having tobacco mosaic disease."
+  },
+  {
+    "question": "The term 'Filterable viruses' was coined because viruses could:",
+    "options": ["Be filtered out by cloth", "Pass through porcelain filters that trap bacteria", "Only live in filtered water", "Filter toxins from the blood"],
+    "answer": "Pass through porcelain filters that trap bacteria",
+    "explanation": "Viruses were called filterable viruses because they could pass through porcelain filters that completely removed all known bacteria."
+  },
+  {
+    "question": "W.M. Stanley crystallized which virus in 1935?",
+    "options": ["Rabies virus", "HIV", "Tobacco Mosaic Virus", "Bacteriophage"],
+    "answer": "Tobacco Mosaic Virus",
+    "explanation": "W.M. Stanley crystallized the infectious particle now known as tobacco mosaic virus (TMV) in 1935."
+  },
+  {
+    "question": "Which microscope is necessary to see viruses?",
+    "options": ["Light microscope", "Simple microscope", "Electron microscope", "Compound microscope"],
+    "answer": "Electron microscope",
+    "explanation": "Viruses are too small to be seen under the light microscope and require an electron microscope."
+  },
+  {
+    "question": "What is the primary role of the matrix proteins in HIV structure?",
+    "options": ["They serve as genetic material", "They are located between the envelope and capsid", "They convert RNA to DNA", "They attach to the host cell"],
+    "answer": "They are located between the envelope and capsid",
+    "explanation": "Beneath the envelope, matrix proteins lie between the envelope and capsid."
+  },
+  {
+    "question": "Which virus has 252 capsomeres in its capsid?",
+    "options": ["Herpes virus", "Adenovirus", "Retrovirus", "Poxvirus"],
+    "answer": "Adenovirus",
+    "explanation": "Adenovirus, which causes the common cold, contains 252 capsomeres in its capsid."
+  },
+  {
+    "question": "Plant viruses like TMV typically have which type of genome?",
+    "options": ["dsDNA", "ssDNA", "RNA", "dsRNA"],
+    "answer": "RNA",
+    "explanation": "Most plant viruses discovered to date, including TMV, have an RNA genome."
+  },
+  {
+    "question": "Which virus causes foot and mouth disease in livestock?",
+    "options": ["Rous sarcoma virus", "Animal viruses", "Picornovirus", "Poxivirus"],
+    "answer": "Animal viruses",
+    "explanation": "Animal viruses cause foot and mouth disease in livestock."
+  },
+  {
+    "question": "The specificity of viral attachment is determined by:",
+    "options": ["The size of the virus", "Host range", "Protein spikes on the viral surface", "The type of nucleic acid"],
+    "answer": "Protein spikes on the viral surface",
+    "explanation": "Protein spikes on viral surfaces help them attach to specific receptors on host cells, determining specificity."
+  },
+  {
+    "question": "Which virus infects only the cells lining the upper respiratory tract?",
+    "options": ["Hepatitis virus", "Poliovirus", "Human cold virus", "Rabies virus"],
+    "answer": "Human cold virus",
+    "explanation": "Human cold viruses infect only the cells lining the upper respiratory tract."
+  },
+  {
+    "question": "Why does the host immune system fail to find the virus inside a host cell initially?",
+    "options": ["The virus is too large", "The virus hides and rapidly changes its genetic constitution", "The virus destroys the immune cells immediately", "The virus has no protein"],
+    "answer": "The virus hides and rapidly changes its genetic constitution",
+    "explanation": "The virus hides from the immune system and rapidly changes its genetic constitution, making vaccines or antibodies ineffective."
+  },
+  {
+    "question": "Which factors can denature viral proteins outside the host?",
+    "options": ["pH and temperature", "Water and oxygen", "Light and sound", "Gravity and pressure"],
+    "answer": "pH and temperature",
+    "explanation": "The virulence of a virus outside the host depends on pH and temperature, as these can denature proteins."
+  },
+  {
+    "question": "What is the shape of a bacteriophage often compared to?",
+    "options": ["Spherical", "Rod-shaped", "Tadpole-shaped", "Brick-shaped"],
+    "answer": "Tadpole-shaped",
+    "explanation": "The bacteriophage is generally a tadpole-shaped virus."
+  },
+  {
+    "question": "The 'contractile sheath' of a bacteriophage is located in the:",
+    "options": ["Head", "Neck", "Tail", "Base plate"],
+    "answer": "Tail",
+    "explanation": "The tail of a bacteriophage is surrounded by a contractile sheath which contracts during infection."
+  },
+  {
+    "question": "How many tail fibers are typically present on the base plate of a bacteriophage?",
+    "options": ["Four", "Six", "Eight", "Twelve"],
+    "answer": "Six",
+    "explanation": "A base plate is present which possesses about six tail fibers around it."
+  },
+  {
+    "question": "What is 'phage conversion' or 'lysogenic conversion'?",
+    "options": ["A phage becoming a bacterium", "A bacterium gaining new properties from prophage genes", "The lysis of a bacterial colony", "The mutation of viral DNA"],
+    "answer": "A bacterium gaining new properties from prophage genes",
+    "explanation": "Lysogenic conversion is when prophage genes confer new properties to the bacteria, such as toxin production in Clostridium botulinum."
+  },
+  {
+    "question": "In the bacteriophage infection process, what follows 'Adsorption'?",
+    "options": ["Lysis", "Penetration", "Maturation", "Assembly"],
+    "answer": "Penetration",
+    "explanation": "The common steps of infection are adsorption, then penetration."
+  },
+  {
+    "question": "The 'hollow core tube' of a phage is pushed through the bacterial envelope during:",
+    "options": ["Adsorption", "Penetration", "Genome injection", "Release"],
+    "answer": "Penetration",
+    "explanation": "The insertion of the core tube through the bacterial envelope is called penetration."
+  },
+  {
+    "question": "What happens to the host genomic DNA immediately after a lytic phage infects it?",
+    "options": ["It is replicated", "It is integrated with viral DNA", "It is disintegrated by DNAase", "It is repaired"],
+    "answer": "It is disintegrated by DNAase",
+    "explanation": "In the lytic cycle, host genomic DNA is immediately disintegrated by the virally encoded DNA digesting enzyme (DNAase)."
+  },
+  {
+    "question": "The stage where nucleic acid is packaged inside the head and the tail is added is known as:",
+    "options": ["Synthesis", "Maturation", "Lysis", "Penetration"],
+    "answer": "Maturation",
+    "explanation": "Packaging nucleic acid inside the head and adding the tail is known as maturation."
+  },
+  {
+    "question": "Temperate phages are associated with which life cycle?",
+    "options": ["Lytic cycle", "Lysogenic cycle", "Both lytic and lysogenic", "Neither"],
+    "answer": "Lysogenic cycle",
+    "explanation": "Bacteriophages that perform the lysogenic cycle are called lysogenic or temperate phages."
+  },
+  {
+    "question": "In the lysogenic cycle, the relationship between phage and host is described as:",
+    "options": ["Master-Slave", "Host-Guest", "Parasitic-Only", "Competitive"],
+    "answer": "Host-Guest",
+    "explanation": "Lysogenic phages develop a Host-Guest relationship with the cell."
+  },
+  {
+    "question": "Which of the following is a condition that favors 'induction'?",
+    "options": ["Abundance of nutrients", "Exposure to UV or ionizing radiation", "Low temperature", "High humidity"],
+    "answer": "Exposure to UV or ionizing radiation",
+    "explanation": "Conditions favoring induction include desiccation, exposure to UV, or ionizing radiation."
+  },
+  {
+    "question": "A 'genomic library' is a collection of:",
+    "options": ["Books about genetics", "Bacteria or bacteriophage clones containing an individual's genome", "Pure viral proteins", "Host cell organelles"],
+    "answer": "Bacteria or bacteriophage clones containing an individual's genome",
+    "explanation": "A genomic library is a collection of bacteria or bacteriophage clones containing multiple copies of all genes of an individual's genome."
+  },
+  {
+    "question": "What is a major advantage of phage therapy over conventional antibiotics?",
+    "options": ["It kills all bacteria in the body", "It has a narrow spectrum of activity and spares normal flora", "It is cheaper to produce", "It works against viruses too"],
+    "answer": "It has a narrow spectrum of activity and spares normal flora",
+    "explanation": "Phage therapy is narrow in spectrum, meaning it can kill pathogens while avoiding harm to normal bacterial flora."
+  },
+  {
+    "question": "The term 'Nano medicines' has been recently applied to the use of:",
+    "options": ["Small bacteria", "Bacteriophages as targeted drug-delivery vehicles", "Individual atoms", "Microscopic plants"],
+    "answer": "Bacteriophages as targeted drug-delivery vehicles",
+    "explanation": "Bacteriophages can be formulated as targeted drug-delivery vehicles, an application in Nano medicines."
+  },
+  {
+    "question": "The reverse transcriptase enzyme in HIV converts:",
+    "options": ["DNA to RNA", "RNA to DNA", "Proteins to RNA", "DNA to Proteins"],
+    "answer": "RNA to DNA",
+    "explanation": "The reverse transcriptase enzyme is used to convert the viral RNA genome into a viral DNA genome."
+  },
+  {
+    "question": "Which HIV enzyme breaks large structural proteins into smaller units?",
+    "options": ["Integrase", "Protease", "Reverse transcriptase", "RNAase"],
+    "answer": "Protease",
+    "explanation": "The protease enzyme is used to break large structural proteins into smaller units."
+  },
+  {
+    "question": "HIV enters the host cell through which process?",
+    "options": ["Exocytosis", "Endocytosis", "Active transport", "Simple diffusion"],
+    "answer": "Endocytosis",
+    "explanation": "After fusion, the virion enters the cell by endocytosis."
+  },
+  {
+    "question": "What happens during the 'uncoating' step of the HIV life cycle?",
+    "options": ["The virus loses its envelope", "The particle sheds its protective protein coat", "The DNA is integrated", "The cell membrane dissolves"],
+    "answer": "The particle sheds its protective protein coat",
+    "explanation": "Once inside the host cell, the HIV particle sheds its protective coat, a process called uncoating."
+  },
+  {
+    "question": "Helper T-cells are crucial to the immune system because they:",
+    "options": ["Directly kill all bacteria", "Activate B cells to secrete antibodies", "Transport oxygen", "Clot the blood"],
+    "answer": "Activate B cells to secrete antibodies",
+    "explanation": "Helper T cells help and activate other cells of the immune system, including B cells to secrete antibodies."
+  },
+  {
+    "question": "Which stage of HIV infection is known as the final stage?",
+    "options": ["Asymptomatic carrier", "ARC", "Full blown AIDS", "Window period"],
+    "answer": "Full blown AIDS",
+    "explanation": "The full blown AIDS is the final stage."
+  },
+  {
+    "question": "Why does HIV decrease host cell size?",
+    "options": ["Due to nutrient depletion", "Because mature virions bud off and take portions of the cell membrane", "Because the virus eats the cytoplasm", "Due to dehydration"],
+    "answer": "Because mature virions bud off and take portions of the cell membrane",
+    "explanation": "Mature virions bud off and enclose a portion of host cell membrane around them, decreasing host cell size until it becomes non-functional."
+  },
+  {
+    "question": "What is the primary cause of death in AIDS patients?",
+    "options": ["The HIV virus itself", "Opportunistic infections", "Starvation", "Old age"],
+    "answer": "Opportunistic infections",
+    "explanation": "HIV does not cause any disease nor kills any person; it destroys the immune system, leading to death from opportunistic infections."
+  },
+  {
+    "question": "Which of the following is an example of an opportunistic disease mentioned in the text?",
+    "options": ["Diabetes", "Skin cancer", "Asthma", "Hypertension"],
+    "answer": "Skin cancer",
+    "explanation": "Skin cancer is listed as an opportunistic disease that attacks AIDS victims."
+  },
+  {
+    "question": "Does ART provide a complete cure for HIV?",
+    "options": ["Yes, it removes all virus from the body", "No, but it can control the virus for a longer, healthier life", "Only if taken for one week", "Only in children"],
+    "answer": "No, but it can control the virus for a longer, healthier life",
+    "explanation": "ART is not a cure, but it can control the virus so that an HIV positive person can live a longer, healthier life."
+  },
+  {
+    "question": "Which enzyme is responsible for synthesizing mRNA from proviral DNA in a host cell?",
+    "options": ["Reverse transcriptase", "Host cell RNA polymerase", "Integrase", "Protease"],
+    "answer": "Host cell RNA polymerase",
+    "explanation": "Viral mRNA is transcribed from the proviral DNA by the host cell RNA polymerase."
+  },
+  {
+    "question": "What is the typical lifespan of HIV-positive people who have early access to ART?",
+    "options": ["5 years", "10 years", "Very close to that of comparable HIV-negative people", "Significantly shorter than average"],
+    "answer": "Very close to that of comparable HIV-negative people",
+    "explanation": "When ART is started early, the lifespan of HIV-positive people is typically very close to that of comparable HIV-negative people."
+  },
+  {
+    "question": "Which of the following describes the genome of Rubella virus?",
+    "options": ["dsDNA", "ssDNA", "ssRNA serving as mRNA", "ssRNA as template for mRNA synthesis"],
+    "answer": "ssRNA serving as mRNA",
+    "explanation": "Rubella virus has a single-stranded RNA (ssRNA) genome that serves as mRNA."
+  },
+  {
+    "question": "The Rabies virus has a host range that includes:",
+    "options": ["Only humans", "Only bacteria", "All mammalian cells", "Only plants"],
+    "answer": "All mammalian cells",
+    "explanation": "Rabies virus can enter all mammalian cells, showing a broad host range."
+  },
+  {
+    "question": "In the lytic cycle, synthesis includes the production of which phage components?",
+    "options": ["Host DNA", "Phage specified mRNAs and proteins", "Cell wall lipids", "Host ribosomes"],
+    "answer": "Phage specified mRNAs and proteins",
+    "explanation": "Soon after disintegration of host DNA, phage specified mRNAs and proteins begin to be produced."
+  }
+]

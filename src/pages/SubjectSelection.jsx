@@ -4,18 +4,12 @@ import { BookOpen, HelpCircle, ChevronRight } from 'lucide-react';
 import './SubjectSelection.css';
 
 // Import subject images
-import bioImg from '../assets/biology.png';
-import chemImg from '../assets/chemistry.png';
-import physImg from '../assets/physics.png';
-import engImg from '../assets/english.png';
-import logicImg from '../assets/logic.png';
-
 const SUBJECTS = [
-  { id: 'biology', name: 'Biology', image: bioImg, color: '#10b981', chapters: 24, questions: '2,400+' },
-  { id: 'chemistry', name: 'Chemistry', image: chemImg, color: '#f59e0b', chapters: 18, questions: '1,800+' },
-  { id: 'physics', name: 'Physics', image: physImg, color: '#3b82f6', chapters: 20, questions: '2,000+' },
-  { id: 'english', name: 'English', image: engImg, color: '#8b5cf6', chapters: 12, questions: '800+' },
-  { id: 'logical-reasoning', name: 'Logical Reasoning', image: logicImg, color: '#ec4899', chapters: 8, questions: '500+' },
+  { id: 'biology', name: 'Biology', mcqImage: '/Biology-MCQs.png', lectureImage: '/BIOLOGY-LECTURES.png', color: '#10b981', chapters: 24, questions: '2,400+' },
+  { id: 'chemistry', name: 'Chemistry', mcqImage: '/Chemistry-MCQs-1024x576-1.png', lectureImage: '/CHEMISTRY-LECTURES.png', color: '#f59e0b', chapters: 18, questions: '1,800+' },
+  { id: 'physics', name: 'Physics', mcqImage: '/Physics-mcqS.png', lectureImage: '/PHYSICS-LECTURES.png', color: '#3b82f6', chapters: 20, questions: '2,000+' },
+  { id: 'english', name: 'English', mcqImage: '/English-MCQs.png', lectureImage: '/ENGLISH-LECTURES.png', color: '#8b5cf6', chapters: 12, questions: '800+' },
+  { id: 'logical-reasoning', name: 'Logical Reasoning', mcqImage: '/Logical-Reasoning-MCQs.png', lectureImage: '/LOGICAL-REASONING-LECTURES.png', color: '#ec4899', chapters: 8, questions: '500+' },
 ];
 
 const SubjectSelection = ({ type }) => {
@@ -44,7 +38,7 @@ const SubjectSelection = ({ type }) => {
               style={{ '--subject-color': subject.color }}
             >
               <div className="p-card-image-wrap">
-                <img src={subject.image} alt={subject.name} className="p-card-img" />
+                <img src={isLectures ? subject.lectureImage : subject.mcqImage} alt={subject.name} className="p-card-img" />
                 <div className="p-card-overlay"></div>
                 <div className="p-card-tag">{subject.name}</div>
               </div>

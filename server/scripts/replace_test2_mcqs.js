@@ -1,0 +1,1066 @@
+const { Pool } = require('pg');
+const path = require('path');
+require('dotenv').config({ path: path.join(__dirname, '..', '..', '.env') });
+
+const pool = new Pool({
+  connectionString: process.env.DATABASE_URL,
+});
+
+const mcqs = [
+  {
+    "id": 69622,
+    "question": "What is the percentage of lipids in a bacterial cell?",
+    "options": [
+      "20%",
+      "10%",
+      "5%",
+      "15%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "Lipids, including membrane phospholipids, constitute ~5% of a bacterial cell’s dry weight, varying by species."
+  },
+  {
+    "id": 69623,
+    "question": "Which among the following is the most abundant carbohydrate in nature?",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Glycogen",
+      "Starch"
+    ],
+    "correct_answer": "Cellulose",
+    "explanation": "Cellulose, a structural polysaccharide in plant cell walls, is the most abundant carbohydrate due to plant prevalence."
+  },
+  {
+    "id": 69624,
+    "question": "Which of the following is a pure form of cellulose?",
+    "options": [
+      "Flax",
+      "Xylem",
+      "Cotton",
+      "Hemp"
+    ],
+    "correct_answer": "Cotton",
+    "explanation": "Cotton fibers are ~90–95% cellulose, a β-1,4-linked glucose polymer, making it a pure form."
+  },
+  {
+    "id": 69625,
+    "question": "Linkage in maltose is?",
+    "options": [
+      "1,2 Glycosidic linkage",
+      "1,3 Glycosidic linkage",
+      "1,6 Glycosidic linkage",
+      "1,4 Glycosidic linkage"
+    ],
+    "correct_answer": "1,4 Glycosidic linkage",
+    "explanation": "Maltose, a disaccharide of two glucose units, is linked by an α-1,4 glycosidic bond between C1 and C4."
+  },
+  {
+    "id": 69626,
+    "question": "The 'Sensual beauty' of nature is due to:",
+    "options": [
+      "Minerals",
+      "Terpenoid",
+      "Vitamins",
+      "Flavonoids"
+    ],
+    "correct_answer": "Terpenoid",
+    "explanation": "Terpenoids, like carotenoids and essential oils, provide vibrant colors and fragrances in plants."
+  },
+  {
+    "id": 69627,
+    "question": "A form of sugar in which H atom at the asymmetric carbon is projected to the left side and the OH group to the right side is known as:",
+    "options": [
+      "Levorotatory",
+      "D-form",
+      "L-form",
+      "Racemic form"
+    ],
+    "correct_answer": "L-form",
+    "explanation": "L-form sugars have the hydroxyl group on the right at the chiral carbon farthest from the carbonyl in Fischer projection."
+  },
+  {
+    "id": 69628,
+    "question": "Which monosaccharide is a key component of RNA?",
+    "options": [
+      "Ribose",
+      "Deoxyribose",
+      "Glucose",
+      "Galactose"
+    ],
+    "correct_answer": "Ribose",
+    "explanation": "Ribose, a 5-carbon sugar, forms the sugar-phosphate backbone of RNA nucleotides."
+  },
+  {
+    "id": 69629,
+    "question": "Which of the following is a monosaccharide which plays a unique role in the chemistry of life:",
+    "options": [
+      "Fructose",
+      "Galactose",
+      "Mannose",
+      "Glucose"
+    ],
+    "correct_answer": "Glucose",
+    "explanation": "Glucose, a 6-carbon monosaccharide, is the primary energy source and metabolic intermediate."
+  },
+  {
+    "id": 69630,
+    "question": "Keratin proteins are found in which of the following?",
+    "options": [
+      "Hairs",
+      "Muscles",
+      "Egg White",
+      "Cartilage"
+    ],
+    "correct_answer": "Hairs",
+    "explanation": "Keratin, a fibrous protein, provides structural strength in hair, nails, and skin."
+  },
+  {
+    "id": 69631,
+    "question": "What is the total number of tRNA?",
+    "options": [
+      "One",
+      "Ten",
+      "Twenty",
+      "Sixty"
+    ],
+    "correct_answer": "Sixty",
+    "explanation": "Eukaryotic cells have ~60 tRNA genes, each carrying a specific amino acid for protein synthesis."
+  },
+  {
+    "id": 69632,
+    "question": "Palmitic acid is:",
+    "options": [
+      "Saturated fatty acid",
+      "Unsaturated fatty acid",
+      "Not fatty acid",
+      "Phospholipid"
+    ],
+    "correct_answer": "Saturated fatty acid",
+    "explanation": "Palmitic acid (C16:0) is a saturated fatty acid with no double bonds, solid at room temperature."
+  },
+  {
+    "id": 69633,
+    "question": "Which of the following group in an amino acid molecule causes its acidic nature?",
+    "options": [
+      "Carboxyl",
+      "Hydroxyl",
+      "Carbonyl",
+      "Amino"
+    ],
+    "correct_answer": "Carboxyl",
+    "explanation": "The carboxyl group (-COOH) donates a proton, contributing to amino acids’ acidic properties."
+  },
+  {
+    "id": 69634,
+    "question": "What percentage of the total RNA in a cell is made up of messenger RNA [mRNA]?",
+    "options": [
+      "80%",
+      "60%",
+      "15%",
+      "5%"
+    ],
+    "correct_answer": "5%",
+    "explanation": "In eukaryotic cells, mRNA constitutes ~5% of total RNA, with rRNA (~80%) and tRNA (~15%) more abundant."
+  },
+  {
+    "id": 69635,
+    "question": "Which of the following is NOT a protein?",
+    "options": [
+      "Chitin",
+      "Silk",
+      "Haemoglobin",
+      "Albumin"
+    ],
+    "correct_answer": "Chitin",
+    "explanation": "Chitin is a polysaccharide in fungal cell walls, unlike silk, hemoglobin, and nails (keratin)."
+  },
+  {
+    "id": 69636,
+    "question": "Which of the following scientists determined the amino acid sequence in a protein molecule for the first time?",
+    "options": [
+      "Robertson",
+      "Miescher",
+      "Watson",
+      "Sanger"
+    ],
+    "correct_answer": "Sanger",
+    "explanation": "Frederick Sanger determined the amino acid sequence of insulin in the 1950s, earning a Nobel Prize."
+  },
+  {
+    "id": 69637,
+    "question": "All of the following are disaccharides except?",
+    "options": [
+      "Maltose",
+      "Galactose",
+      "Lactose",
+      "Sucrose"
+    ],
+    "correct_answer": "Galactose",
+    "explanation": "Galactose is a monosaccharide, while maltose, lactose, and sucrose are disaccharides."
+  },
+  {
+    "id": 69638,
+    "question": "All of the following are made up of isoprenoid units except:",
+    "options": [
+      "Rubber",
+      "Chlorophyll",
+      "Terpenes",
+      "Paper"
+    ],
+    "correct_answer": "Paper",
+    "explanation": "Paper is made of cellulose (glucose units), unlike rubber, chlorophyll, and carotenoids (isoprenoids)."
+  },
+  {
+    "id": 69639,
+    "question": "Which of the following lipids protects the plants from dehydration and damage from scratching?",
+    "options": [
+      "Phospholipids",
+      "Waxes",
+      "Acyl glycerol",
+      "Steroids"
+    ],
+    "correct_answer": "Waxes",
+    "explanation": "Waxes, esters of long-chain alcohols and fatty acids, form a waterproof coating on plant surfaces."
+  },
+  {
+    "id": 69640,
+    "question": "Which nitrogenous base is found only in DNA?",
+    "options": [
+      "Uracil",
+      "Thymine",
+      "Cytosine",
+      "Adenine"
+    ],
+    "correct_answer": "Thymine",
+    "explanation": "Thymine is found in DNA, pairing with adenine, while uracil replaces thymine in RNA."
+  },
+  {
+    "id": 69641,
+    "question": "Which of the following scientists studied the life cycle of Bacteriophages and proposed that DNA is the hereditary material?",
+    "options": [
+      "Sanger",
+      "Griffith",
+      "Meselson and Stahl",
+      "Hershey and Chase"
+    ],
+    "correct_answer": "Hershey and Chase",
+    "explanation": "Hershey and Chase (1952) showed DNA, not protein, is the hereditary material in bacteriophages."
+  },
+  {
+    "id": 69642,
+    "question": "The bond linkages between the complementary bases of the DNA are made up of:",
+    "options": [
+      "Hydrogen bonds",
+      "Ester bonds",
+      "Peptide bonds",
+      "Phosphodiester bonds"
+    ],
+    "correct_answer": "Hydrogen bonds",
+    "explanation": "Hydrogen bonds (2 between A-T, 3 between G-C) link complementary bases in DNA’s double helix."
+  },
+  {
+    "id": 69643,
+    "question": "The bond present in the sucrose molecule between the monomers i.e. Glucose and Fructose is called:",
+    "options": [
+      "Peptide bond",
+      "Glycosidic bond",
+      "Ester bond",
+      "Hydrogen bond"
+    ],
+    "correct_answer": "Glycosidic bond",
+    "explanation": "Sucrose has an α-1,2 glycosidic bond between glucose and fructose, linking their anomeric carbons."
+  },
+  {
+    "id": 69644,
+    "question": "The type of RNA which functions to transport the genetic information from the DNA to the ribosomes for translation is called:",
+    "options": [
+      "tRNA",
+      "rRNA",
+      "snRNA",
+      "mRNA"
+    ],
+    "correct_answer": "mRNA",
+    "explanation": "mRNA (messenger RNA) carries the genetic code from DNA to ribosomes for protein synthesis."
+  },
+  {
+    "id": 69645,
+    "question": "Which of the following conjugated molecules play an important role in the proper functioning of the brain:",
+    "options": [
+      "Glycoprotein",
+      "Lipoprotein",
+      "Glycolipids",
+      "Nucleoproteins"
+    ],
+    "correct_answer": "Glycolipids",
+    "explanation": "Glycolipids, like cerebrosides, are abundant in nerve cell membranes, aiding brain function."
+  },
+  {
+    "id": 69646,
+    "question": "_______________ make up the structure of the organism and are essential for their survival:",
+    "options": [
+      "Air Molecules",
+      "Biological molecules",
+      "Metals",
+      "Trace minerals"
+    ],
+    "correct_answer": "Biological molecules",
+    "explanation": "Biological molecules (carbohydrates, lipids, proteins, nucleic acids) form the basis of life."
+  },
+  {
+    "id": 69647,
+    "question": "The most common or abundant elements found in the body are also called?",
+    "options": [
+      "Bioelements",
+      "Life elements",
+      "Cool Elements",
+      "Trace elements"
+    ],
+    "correct_answer": "Bioelements",
+    "explanation": "Bioelements (C, H, O, N, P, S) are the most abundant elements in organisms."
+  },
+  {
+    "id": 69648,
+    "question": "Bioelements constitute about what percentage of the protoplasm?",
+    "options": [
+      "90%",
+      "100%",
+      "95%",
+      "99%"
+    ],
+    "correct_answer": "99%",
+    "explanation": "Bioelements make up ~99% of protoplasm, with water being the primary component."
+  },
+  {
+    "id": 69649,
+    "question": "Those elements which make up less than 0.01% of the protoplasm are called?",
+    "options": [
+      "Natural Elements",
+      "Trace Elements",
+      "Major Elements",
+      "Inorganic Elements"
+    ],
+    "correct_answer": "Trace Elements",
+    "explanation": "Trace elements (e.g., Fe, Zn, Cu) are essential in minute amounts (<0.01%)."
+  },
+  {
+    "id": 69650,
+    "question": "Bioelements combine to form which types of molecules?",
+    "options": [
+      "Organic",
+      "Inorganic",
+      "Both",
+      "Neither"
+    ],
+    "correct_answer": "Both",
+    "explanation": "Bioelements form organic (e.g., proteins) and inorganic (e.g., water, salts) molecules."
+  },
+  {
+    "id": 69651,
+    "question": "What percentage of Bacterial cell is water?",
+    "options": [
+      "100%",
+      "99%",
+      "85%",
+      "70%"
+    ],
+    "correct_answer": "70%",
+    "explanation": "Bacterial cells are ~70% water, serving as a solvent for biochemical reactions."
+  },
+  {
+    "id": 69652,
+    "question": "How many fundamental types of biological molecules are there?",
+    "options": [
+      "9",
+      "10",
+      "4",
+      "6"
+    ],
+    "correct_answer": "4",
+    "explanation": "The four types are carbohydrates, lipids, proteins, and nucleic acids."
+  },
+  {
+    "id": 69653,
+    "question": "Which of the following molecule's main function is to act as the fuel for the body?",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Nucleic Acids",
+      "Proteins"
+    ],
+    "correct_answer": "Carbohydrates",
+    "explanation": "Carbohydrates, like glucose, are the body’s primary energy source via glycolysis."
+  },
+  {
+    "id": 69654,
+    "question": "Which lipid acts as a signaling molecule in cell membranes?",
+    "options": [
+      "Phospholipids",
+      "Steroids",
+      "Waxes",
+      "Carotenoids"
+    ],
+    "correct_answer": "Steroids",
+    "explanation": "Steroids, like cholesterol, modulate membrane fluidity and act as signaling molecules."
+  },
+  {
+    "id": 69655,
+    "question": "Organic compounds which are polyhydroxy aldehydes or polyhydroxy ketones are called:",
+    "options": [
+      "Carbohydrates",
+      "Lipids",
+      "Nucleic Acids",
+      "Amino acids"
+    ],
+    "correct_answer": "Carbohydrates",
+    "explanation": "Carbohydrates are polyhydroxy aldehydes (e.g., glucose) or ketones (e.g., fructose)."
+  },
+  {
+    "id": 69656,
+    "question": "Carbohydrates are classified into how many types?",
+    "options": [
+      "4",
+      "5",
+      "3",
+      "6"
+    ],
+    "correct_answer": "3",
+    "explanation": "Carbohydrates are classified into monosaccharides, oligosaccharides, and polysaccharides."
+  },
+  {
+    "id": 69657,
+    "question": "How many monomers are there in the monosaccharide molecule?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correct_answer": "1",
+    "explanation": "Monosaccharides (e.g., glucose) are single sugar units, not composed of monomers."
+  },
+  {
+    "id": 69658,
+    "question": "How many monomers are there in the oligosaccharide molecule?",
+    "options": [
+      "2–20",
+      "2–10",
+      "2–1000",
+      "10–50"
+    ],
+    "correct_answer": "2–10",
+    "explanation": "Oligosaccharides, like maltose, contain 2–10 monosaccharide units linked by glycosidic bonds."
+  },
+  {
+    "id": 69659,
+    "question": "How many monomers are there in a polysaccharide molecule?",
+    "options": [
+      "2–20",
+      "2–10",
+      "Exactly 100",
+      "Up to several hundred"
+    ],
+    "correct_answer": "Up to several hundred",
+    "explanation": "Polysaccharides (e.g., cellulose) contain hundreds to thousands of monosaccharide units."
+  },
+  {
+    "id": 69660,
+    "question": "Which of the following carbohydrates cannot be hydrolysed any further?",
+    "options": [
+      "Monosaccharides",
+      "Polysaccharides",
+      "Oligosaccharides",
+      "Disaccharides"
+    ],
+    "correct_answer": "Monosaccharides",
+    "explanation": "Monosaccharides (e.g., glucose) cannot be broken down further by hydrolysis."
+  },
+  {
+    "id": 69661,
+    "question": "Which carbohydrate is a structural component of fungal cell walls?",
+    "options": [
+      "Cellulose",
+      "Chitin",
+      "Glycogen",
+      "Peptidoglycan"
+    ],
+    "correct_answer": "Chitin",
+    "explanation": "Chitin, a polysaccharide of N-acetylglucosamine, forms fungal cell walls."
+  },
+  {
+    "id": 69662,
+    "question": "Which of the following carbohydrates are insoluble in water and taste-less?",
+    "options": [
+      "Monosaccharides",
+      "Polysaccharides",
+      "Oligosaccharides",
+      "Disaccharides"
+    ],
+    "correct_answer": "Polysaccharides",
+    "explanation": "Polysaccharides (e.g., cellulose) are insoluble in water and tasteless due to their complex structure."
+  },
+  {
+    "id": 69663,
+    "question": "What is the minimum number of carbon atoms in the monosaccharide molecule?",
+    "options": [
+      "4",
+      "6",
+      "5",
+      "3"
+    ],
+    "correct_answer": "3",
+    "explanation": "Monosaccharides (e.g., glyceraldehyde) have at least 3 carbon atoms (trioses, pentoses, hexoses)."
+  },
+  {
+    "id": 69664,
+    "question": "Which of the following carbohydrates have a sweet taste?",
+    "options": [
+      "Monosaccharides",
+      "Polysaccharides",
+      "Oligosaccharides",
+      "Polymers"
+    ],
+    "correct_answer": "Monosaccharides",
+    "explanation": "Monosaccharides (e.g., glucose, fructose) are sweet due to their simple structure."
+  },
+  {
+    "id": 69665,
+    "question": "Which of the following hormone reduces the body's blood glucose level?",
+    "options": [
+      "Glucagon",
+      "Insulin",
+      "Testosterone",
+      "Adrenaline"
+    ],
+    "correct_answer": "Insulin",
+    "explanation": "Insulin promotes glucose uptake by cells, reducing blood glucose levels."
+  },
+  {
+    "id": 69666,
+    "question": "The structure of proteins in which the amino acids are linearly arranged in a long chain is called?",
+    "options": [
+      "Primary Structure",
+      "Secondary Structure",
+      "Tertiary Structure",
+      "Quaternary Structure"
+    ],
+    "correct_answer": "Primary Structure",
+    "explanation": "Primary structure is the linear sequence of amino acids linked by peptide bonds."
+  },
+  {
+    "id": 69667,
+    "question": "Alpha helix and Beta pleated sheets constitute the ________ of the proteins.",
+    "options": [
+      "Primary Structure",
+      "Secondary Structure",
+      "Tertiary Structure",
+      "Folding Path"
+    ],
+    "correct_answer": "Secondary Structure",
+    "explanation": "Secondary structure includes alpha helices and beta sheets, stabilized by hydrogen bonds."
+  },
+  {
+    "id": 69668,
+    "question": "The globular structure formed by refolding of Alpha Helix and Beta sheets is called?",
+    "options": [
+      "Primary Structure",
+      "Secondary Structure",
+      "Quaternary Structure",
+      "Tertiary Structure"
+    ],
+    "correct_answer": "Tertiary Structure",
+    "explanation": "Tertiary structure is the 3D folding of a polypeptide, stabilized by various bonds."
+  },
+  {
+    "id": 69669,
+    "question": "Which of the following represents the Quaternary Structure of proteins?",
+    "options": [
+      "Enzymes",
+      "Haemoglobin",
+      "Insulin",
+      "Myoglobin"
+    ],
+    "correct_answer": "Haemoglobin",
+    "explanation": "Haemoglobin’s quaternary structure involves four polypeptide chains."
+  },
+  {
+    "id": 69670,
+    "question": "In sickle cell anemia the glutamic acid is replaced by which amino acid?",
+    "options": [
+      "Valine",
+      "Myosine",
+      "Thymine",
+      "Leucine"
+    ],
+    "correct_answer": "Valine",
+    "explanation": "Glutamic acid at position 6 in beta-globin is replaced by valine, causing abnormal hemoglobin."
+  },
+  {
+    "id": 69671,
+    "question": "Is found in nails, beaks of bird and the outer covering of hairs?",
+    "options": [
+      "Elastin",
+      "Collagen",
+      "Chitin",
+      "Keratin"
+    ],
+    "correct_answer": "Keratin",
+    "explanation": "Keratin, a fibrous protein, forms nails, bird beaks, and hair."
+  },
+  {
+    "id": 69672,
+    "question": "Which of the following is always insoluble in water?",
+    "options": [
+      "Carbohydrates",
+      "Fats/Lipids",
+      "Proteins",
+      "Monosaccharides"
+    ],
+    "correct_answer": "Fats/Lipids",
+    "explanation": "Lipids are hydrophobic, insoluble in water but soluble in organic solvents."
+  },
+  {
+    "id": 69673,
+    "question": "Which of the following contain double the amount of energy as the carbohydrates?",
+    "options": [
+      "Carbohydrates",
+      "Fats/Lipids",
+      "Proteins",
+      "Nucleic acids"
+    ],
+    "correct_answer": "Fats/Lipids",
+    "explanation": "Lipids provide ~9 kcal/g, twice the energy of carbohydrates (~4 kcal/g)."
+  },
+  {
+    "id": 69674,
+    "question": "Fatty acids contain ____ of carbon atoms.",
+    "options": [
+      "Odd number",
+      "Prime number",
+      "Fractional number",
+      "Even number"
+    ],
+    "correct_answer": "Even number",
+    "explanation": "Fatty acids typically have an even number of carbons due to biosynthesis."
+  },
+  {
+    "id": 69675,
+    "question": "Which type of fatty acids are liquid at room temperature?",
+    "options": [
+      "Unsaturated Fatty acids",
+      "Saturated fatty acids",
+      "Both A and B",
+      "Trans-fats"
+    ],
+    "correct_answer": "Unsaturated Fatty acids",
+    "explanation": "Unsaturated fatty acids, with double bonds, are liquid due to lower melting points."
+  },
+  {
+    "id": 69676,
+    "question": "When two different types of biological molecules combine together the resultant molecule is called:",
+    "options": [
+      "Complex molecule",
+      "Polymer",
+      "Isomer",
+      "Conjugated molecule"
+    ],
+    "correct_answer": "Conjugated molecule",
+    "explanation": "Conjugated molecules (e.g., glycoproteins) combine different biomolecule types."
+  },
+  {
+    "id": 69677,
+    "question": "Glycolipids are formed by combination of:",
+    "options": [
+      "Ions",
+      "Proteins and Lipids",
+      "Carbohydrates and Lipids",
+      "Carbohydrates and Proteins"
+    ],
+    "correct_answer": "Carbohydrates and Lipids",
+    "explanation": "Glycolipids consist of a carbohydrate attached to a lipid, found in membranes."
+  },
+  {
+    "id": 69678,
+    "question": "Glycoproteins are formed by combination of:",
+    "options": [
+      "Ions",
+      "Proteins and Lipids",
+      "Lipids and Proteins",
+      "Carbohydrates and Proteins"
+    ],
+    "correct_answer": "Carbohydrates and Proteins",
+    "explanation": "Glycoproteins combine carbohydrates and proteins, aiding in cell signaling."
+  },
+  {
+    "id": 69679,
+    "question": "The property of water molecules to stick together is called?",
+    "options": [
+      "Adhesion",
+      "Cohesion",
+      "Hydration",
+      "Surface tension"
+    ],
+    "correct_answer": "Cohesion",
+    "explanation": "Cohesion is the attraction between water molecules due to hydrogen bonding."
+  },
+  {
+    "id": 69680,
+    "question": "Presence of Lipids is confirmed through which test?",
+    "options": [
+      "Emulsion Test",
+      "Biuret Test",
+      "Benedict Test",
+      "Iodine Test"
+    ],
+    "correct_answer": "Emulsion Test",
+    "explanation": "The emulsion test forms a cloudy emulsion with lipids in ethanol and water."
+  },
+  {
+    "id": 69681,
+    "question": "Presence of proteins is confirmed through which test?",
+    "options": [
+      "Emulsion Test",
+      "Biuret Test",
+      "Benedict Test",
+      "Sudan III Test"
+    ],
+    "correct_answer": "Biuret Test",
+    "explanation": "The Biuret test detects peptide bonds, turning violet with proteins."
+  },
+  {
+    "id": 69682,
+    "question": "Presence of reducing sugars is confirmed through which test?",
+    "options": [
+      "Emulsion Test",
+      "Biuret Test",
+      "Million's test",
+      "Benedict Test"
+    ],
+    "correct_answer": "Benedict Test",
+    "explanation": "Benedict’s test detects reducing sugars by forming a red precipitate."
+  },
+  {
+    "id": 69683,
+    "question": "If the name of the substance ends in -ose it means it is a:",
+    "options": [
+      "Sugar",
+      "Protein",
+      "Lipid",
+      "Enzyme"
+    ],
+    "correct_answer": "Sugar",
+    "explanation": "Substances ending in -ose (e.g., glucose) are typically sugars."
+  },
+  {
+    "id": 69684,
+    "question": "Forms the matrix of bones and the cartilages:",
+    "options": [
+      "Elastin",
+      "Collagen",
+      "Keratin",
+      "Osteocytes"
+    ],
+    "correct_answer": "Collagen",
+    "explanation": "Collagen forms the structural matrix of bones and cartilage."
+  },
+  {
+    "id": 69685,
+    "question": "Which of the following is a monomer?",
+    "options": [
+      "Chitin",
+      "Cellulose",
+      "Starch",
+      "Galactose"
+    ],
+    "correct_answer": "Galactose",
+    "explanation": "Galactose is a monosaccharide, while chitin, cellulose, and glycogen are polysaccharides."
+  },
+  {
+    "id": 69686,
+    "question": "Is water a polar molecule?",
+    "options": [
+      "Yes",
+      "No",
+      "In certain circumstances",
+      "Only when frozen"
+    ],
+    "correct_answer": "Yes",
+    "explanation": "Water is polar due to the electronegativity difference between oxygen and hydrogen."
+  },
+  {
+    "id": 69687,
+    "question": "Water is said to be which type of solvent?",
+    "options": [
+      "Polar Solvent",
+      "Universal Solvent",
+      "Both A and B",
+      "Organic solvent"
+    ],
+    "correct_answer": "Both A and B",
+    "explanation": "Water is a polar and universal solvent due to its ability to dissolve many substances."
+  },
+  {
+    "id": 69688,
+    "question": "Which of the following serves as the medium for all types of Biological chemical reactions in the cell?",
+    "options": [
+      "Oxygen",
+      "Chlorine",
+      "Cytosol",
+      "Water"
+    ],
+    "correct_answer": "Water",
+    "explanation": "Water’s polarity makes it the medium for cellular biochemical reactions."
+  },
+  {
+    "id": 69689,
+    "question": "Water can form which type of bonding between its molecules?",
+    "options": [
+      "Hydrogen Bonding",
+      "Ionic Bonding",
+      "Van Der Waal's Bonds",
+      "Covalent Bonding"
+    ],
+    "correct_answer": "Hydrogen Bonding",
+    "explanation": "Water molecules form hydrogen bonds between oxygen and hydrogen atoms."
+  },
+  {
+    "id": 69690,
+    "question": "Water has a _______ specific heat capacity?",
+    "options": [
+      "Large",
+      "Low",
+      "Small",
+      "Infinite"
+    ],
+    "correct_answer": "Large",
+    "explanation": "Water’s high specific heat (~4.18 J/g°C) stabilizes temperatures in organisms."
+  },
+  {
+    "id": 74528,
+    "question": "Synthesis of glycogen is known as:",
+    "options": [
+      "Gluconeogenesis",
+      "Glycogenolysis",
+      "Glycolysis",
+      "Glycogenesis"
+    ],
+    "correct_answer": "Glycogenesis",
+    "explanation": "Glycogenesis is the process of synthesizing glycogen from glucose in the liver and muscles for energy storage."
+  },
+  {
+    "id": 74532,
+    "question": "Membrane lipids are composed of which of the following?",
+    "options": [
+      "Waxes",
+      "Terpenoids",
+      "Acyglycerols",
+      "Phospholipids"
+    ],
+    "correct_answer": "Phospholipids",
+    "explanation": "Phospholipids, with hydrophilic heads and hydrophobic tails, form the bilayer of cell membranes."
+  },
+  {
+    "id": 74535,
+    "question": "Which of the following is known as 'Cerebroside'?",
+    "options": [
+      "Glycoproteins",
+      "Nucleoproteins",
+      "Lipoproteins",
+      "Glycolipids"
+    ],
+    "correct_answer": "Glycolipids",
+    "explanation": "Cerebrosides are glycolipids with a sugar attached to a ceramide, found in nerve cell membranes."
+  },
+  {
+    "id": 74540,
+    "question": "ATP or Adenosine Triphosphate is a:",
+    "options": [
+      "Lipids",
+      "Protein",
+      "Enzymes",
+      "Nucleotide"
+    ],
+    "correct_answer": "Nucleotide",
+    "explanation": "ATP, composed of adenine, ribose, and three phosphates, is a nucleotide that stores energy."
+  },
+  {
+    "id": 74545,
+    "question": "Which of the following is NOT a pyrimidine?",
+    "options": [
+      "Cytosine",
+      "Uracil",
+      "Thymine",
+      "Adenine"
+    ],
+    "correct_answer": "Adenine",
+    "explanation": "Adenine is a purine; cytosine, uracil, and thymine are pyrimidines. 'Pyridine' was corrected to 'pyrimidine.'"
+  },
+  {
+    "id": 74548,
+    "question": "A typical nucleotide has which of the following components:",
+    "options": [
+      "5 Carbon sugar and Nitrogenous base",
+      "Phosphoric acid",
+      "Ribose and Base",
+      "Phosphoric acid, Pentose sugar, Nitrogenous base"
+    ],
+    "correct_answer": "Phosphoric acid, Pentose sugar, Nitrogenous base",
+    "explanation": "A nucleotide consists of a nitrogenous base, pentose sugar (ribose/deoxyribose), and phosphate group."
+  },
+  {
+    "id": 74554,
+    "question": "Which field of Biology is concerned with the study of biological molecules?",
+    "options": [
+      "Biochemistry",
+      "Molecular biology",
+      "Anatomy",
+      "Both A and B"
+    ],
+    "correct_answer": "Both A and B",
+    "explanation": "Biochemistry studies chemical processes, and molecular biology focuses on molecular mechanisms."
+  },
+  {
+    "id": 74555,
+    "question": "Approximately how many of the naturally occurring elements are found in the living organism?",
+    "options": [
+      "All 92 elements",
+      "80 elements",
+      "10 elements",
+      "25 elements"
+    ],
+    "correct_answer": "25 elements",
+    "explanation": "About 25 of the 92 naturally occurring elements are found in organisms, with 6 major ones."
+  },
+  {
+    "id": 74574,
+    "question": "Which protein structure involves interactions between multiple polypeptide chains?",
+    "options": [
+      "Primary",
+      "Secondary",
+      "Tertiary",
+      "Quaternary"
+    ],
+    "correct_answer": "Quaternary",
+    "explanation": "Quaternary structure involves multiple polypeptide chains, as in hemoglobin."
+  },
+  {
+    "id": 74576,
+    "question": "The chemical bond between two amino acids is called?",
+    "options": [
+      "Glycosidic Bond",
+      "Bohr Linkage",
+      "Ionic Bond",
+      "Peptide Bond"
+    ],
+    "correct_answer": "Peptide Bond",
+    "explanation": "A peptide bond is a covalent bond between the carboxyl and amino groups of amino acids."
+  },
+  {
+    "id": 74581,
+    "question": "Which disease is characterised by presence of sickle shaped red blood cells in the blood?",
+    "options": [
+      "Blood Cancer",
+      "Hemorrhage",
+      "Leukemia",
+      "Sickle Cell Anaemia"
+    ],
+    "correct_answer": "Sickle Cell Anaemia",
+    "explanation": "Sickle cell anemia is caused by a mutation in hemoglobin, leading to sickle-shaped RBCs."
+  },
+  {
+    "id": 74584,
+    "question": "Choose the substance around which DNA strand gets wound to form the chromosomal structure:",
+    "options": [
+      "Elastin",
+      "Collagen",
+      "Keratin",
+      "Histone"
+    ],
+    "correct_answer": "Histone",
+    "explanation": "Histones are proteins around which DNA winds to form nucleosomes."
+  },
+  {
+    "id": 74589,
+    "question": "Waxes are esters of which of the following:",
+    "options": [
+      "Long chain alcohol and carboxylic acid",
+      "Alcohol and ester",
+      "Glycerol and fatty acid",
+      "Long chain alcohol and long chain fatty acid"
+    ],
+    "correct_answer": "Long chain alcohol and long chain fatty acid",
+    "explanation": "Waxes are esters of long-chain alcohols and fatty acids, used in coatings."
+  },
+  {
+    "id": 74600,
+    "question": "Jelly Fish contains how much water?",
+    "options": [
+      "100%",
+      "10%",
+      "50%",
+      "99%"
+    ],
+    "correct_answer": "99%",
+    "explanation": "Jellyfish are ~95–99% water, contributing to their gelatinous structure."
+  }
+];
+
+async function replaceMcqs() {
+  const lessonId = 978; // Test 2
+  try {
+    const client = await pool.connect();
+    console.log('Starting replacement of MCQs in Test 2...\\n');
+
+    // 1. Unlink all current MCQs in Test 2
+    const unlinkRes = await client.query('UPDATE mcqs SET lesson_id = null WHERE lesson_id = $1', [lessonId]);
+    console.log(`Unlinked ${unlinkRes.rowCount} current MCQs from Test 2.`);
+
+    // 2. Update and link the new MCQs
+    let updatedCount = 0;
+    for (const mcq of mcqs) {
+      const { id, question, options, correct_answer, explanation } = mcq;
+      
+      const correctIdx = options.indexOf(correct_answer);
+      let correctOpt = '';
+      if (correctIdx === 0) correctOpt = 'a';
+      else if (correctIdx === 1) correctOpt = 'b';
+      else if (correctIdx === 2) correctOpt = 'c';
+      else if (correctIdx === 3) correctOpt = 'd';
+      
+      if (!correctOpt) {
+        console.error(`Error: Correct answer "${correct_answer}" not found in options for MCQ ID ${id}`);
+        continue;
+      }
+
+      const res = await client.query(`
+        UPDATE mcqs 
+        SET question_text = $1, 
+            option_a = $2, 
+            option_b = $3, 
+            option_c = $4, 
+            option_d = $5, 
+            correct_opt = $6, 
+            explanation = $7,
+            lesson_id = $8,
+            is_active = TRUE
+        WHERE id = $9
+      `, [question, options[0], options[1], options[2], options[3], correctOpt, explanation, lessonId, id]);
+
+      if (res.rowCount === 0) {
+        console.log(`MCQ ID ${id} not found in DB. Skipped.`);
+      } else {
+        updatedCount++;
+      }
+    }
+
+    console.log(`\\nSuccessfully updated and linked ${updatedCount} MCQs to Test 2.`);
+    
+    client.release();
+  } catch (err) {
+    console.error('Error replacing MCQs:', err);
+  } finally {
+    await pool.end();
+  }
+}
+
+replaceMcqs();
