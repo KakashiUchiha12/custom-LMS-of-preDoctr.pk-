@@ -379,3 +379,161 @@
     grid-template-columns: 1fr;
   }
 }
+
+/* Date Picker Styles */
+.date-picker-container {
+  position: relative;
+}
+
+.date-picker-trigger {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  padding: 0.6rem 1rem;
+  border-radius: 10px;
+  font-weight: 600;
+  color: #1e293b;
+  cursor: pointer;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+
+.date-picker-trigger:hover {
+  border-color: #cbd5e1;
+  background: #f8fafc;
+}
+
+.date-picker-dropdown {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 0.5rem;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+.picker-body {
+  display: flex;
+  min-height: 250px;
+}
+
+.presets-sidebar {
+  width: 160px;
+  border-left: 1px solid #e2e8f0;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.presets-sidebar button {
+  text-align: left;
+  padding: 0.4rem 1rem;
+  background: transparent;
+  border: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #475569;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.presets-sidebar button:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.presets-sidebar button.active {
+  background: #ecfdf5;
+  color: #10b981;
+  border-left: 3px solid #10b981;
+  padding-left: calc(1rem - 3px);
+}
+
+.custom-range-selector {
+  flex: 1;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.date-inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.input-group label {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #64748b;
+}
+
+.input-group input {
+  padding: 0.5rem;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: #1e293b;
+  outline: none;
+}
+
+.input-group input:focus {
+  border-color: #10b981;
+}
+
+.calendar-placeholder {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px dashed #e2e8f0;
+  border-radius: 8px;
+  background: #f8fafc;
+}
+
+.picker-footer {
+  padding: 1rem 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.btn-cancel {
+  background: white;
+  border: 1px solid #e2e8f0;
+  color: #475569;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-apply {
+  background: #10b981;
+  border: none;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-apply:hover {
+  background: #059669;
+}

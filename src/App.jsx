@@ -18,6 +18,7 @@ import AdminLayout from './pages/admin/AdminLayout';
 import AdminDashboard from './pages/admin/AdminDashboard';
 import UserManager from './pages/admin/UserManager';
 import MCQManager from './pages/admin/MCQManager';
+import Tracker from './components/Tracker';
 
 const ProtectedRoute = ({ children }) => {
   const { user, profile, loading } = useAuth();
@@ -72,6 +73,7 @@ function App() {
 
   return (
     <div className="app">
+      <Tracker />
       {!isTestInterface && !isAdminArea && !isAuthPage && <Header />}
       <main>
         <Routes>

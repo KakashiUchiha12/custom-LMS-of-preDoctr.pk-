@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { ChevronDown, ChevronRight, Eye, Lock, Loader2 } from 'lucide-react';
 import { SubtestIcon } from '../data/courseData';
 import { useChapterLessons } from '../hooks/useSubject';
@@ -160,27 +160,42 @@ export const CourseAccordion = ({
   // Fetch lessons lazily when accordion is open
   const { grouped, loading: lessonsLoading } = useChapterLessons(isOpen ? chapter.id : null);
 
+  const accordionRef = useRef(null);
+
+  useEffect(() => {
+    if (isOpen && accordionRef.current) {
+      accordionRef.current.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }, [isOpen]);
+
+  // Fallback for mock lectures (which don't have real DB IDs)
+  let effectiveGrouped = grouped;
+  if (type === 'lectures' && (!chapter.id || Object.keys(grouped).length === 0)) {
+    effectiveGrouped = {
+      video: [
+        { id: 'm1', title: 'Syllabus Introduction', lesson_type: 'video' },
+        { id: 'm2', title: 'Core Concepts Part 1', lesson_type: 'video' },
+        { id: 'm3', title: 'Core Concepts Part 2', lesson_type: 'video' },
+      ]
+    };
+  }
+
   // Show the correct count based on content type
   // For MCQ subjects → mcq_count; for lecture subjects → lesson_count
   const rawCount = type === 'lectures'
     ? (chapter.lesson_count || 0)
     : (chapter.mcq_count || 0);
   const countLabel = type === 'lectures' ? 'lectures' : 'MCQs';
-  const totalFetched = Object.values(grouped).reduce((sum, arr) => sum + (arr?.length || 0), 0);
+  const totalFetched = Object.values(effectiveGrouped).reduce((sum, arr) => sum + (arr?.length || 0), 0);
 
   return (
-    <div className={`chapter-accordion ${isOpen ? 'open' : ''} ${isSidebar ? 'sidebar-variant' : ''}`}>
+    <div ref={accordionRef} className={`chapter-accordion ${isOpen ? 'open' : ''} ${isSidebar ? 'sidebar-variant' : ''}`}>
       <button className="chapter-accordion-header" onClick={onToggle}>
         <div className="chapter-header-left">
           <span className="chapter-emoji">{chapter.emoji}</span>
           <span className="chapter-accordion-name">{chapter.name}</span>
         </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-          {isSidebar && rawCount > 0 && (
-            <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>
-              {rawCount.toLocaleString()} {countLabel}
-            </span>
-          )}
           {isOpen ? <ChevronDown size={isSidebar ? 16 : 20} className="accordion-chevron" /> : <ChevronRight size={isSidebar ? 16 : 20} className="accordion-chevron" />}
         </div>
       </button>
@@ -192,13 +207,13 @@ export const CourseAccordion = ({
               <Loader2 size={16} style={{ animation: 'spin 1s linear infinite' }} />
               Loading content...
             </div>
-          ) : Object.values(grouped).flat().length === 0 ? (
+          ) : Object.values(effectiveGrouped).flat().length === 0 ? (
             <div style={{ padding: '12px 16px', color: '#94a3b8', fontSize: '0.875rem' }}>
               No content available yet.
             </div>
           ) : (
             LESSON_GROUP_DEFS.flatMap(def => {
-              const lessons = def.types.flatMap(t => grouped[t] || []);
+              const lessons = def.types.flatMap(t => effectiveGrouped[t] || []);
               return lessons.map(lesson => {
                 const displayName = getLessonDisplayName(lesson);
                 const iconType    = getLessonIconType(lesson.lesson_type);
@@ -207,7 +222,7 @@ export const CourseAccordion = ({
                 return (
                   <div
                     key={lesson.id}
-                    className={`subtest-item ${isActive ? 'active' : ''} ${!isFreeChapter ? 'locked-item' : ''}`}
+                    className={`subtest-item type-${lesson.lesson_type} ${isActive ? 'active' : ''} ${!isFreeChapter ? 'locked-item' : ''}`}
                     onClick={() => {
                       if (!isFreeChapter) {
                         onLockedItemClick?.(chapter.name);

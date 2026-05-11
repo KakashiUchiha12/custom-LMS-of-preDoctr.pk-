@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Play, Pause, RotateCcw, Volume2, VolumeX, Maximize, Settings, FastForward } from 'lucide-react';
+import { Play, Pause, RotateCcw, Volume2, VolumeX, Maximize, Settings, FastForward, Loader2 } from 'lucide-react';
 import './VideoPlayer.css';
 
 const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
@@ -14,6 +14,8 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
   const [showSpeedMenu, setShowSpeedMenu] = useState(false);
   const [duration, setDuration] = useState(0);
   const [currentTime, setCurrentTime] = useState(0);
+  const [isBuffering, setIsBuffering] = useState(false);
+  const [bufferPercentage, setBufferPercentage] = useState(0);
 
   const speedOptions = [0.5, 1, 1.25, 1.5, 2, 2.5, 3];
 
@@ -51,6 +53,16 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
     const dur = videoRef.current.duration;
     setCurrentTime(current);
     setProgress((current / dur) * 100);
+  };
+
+  const handleProgress = () => {
+    if (videoRef.current && videoRef.current.buffered.length > 0) {
+      const bufferedEnd = videoRef.current.buffered.end(videoRef.current.buffered.length - 1);
+      const dur = videoRef.current.duration;
+      if (dur > 0) {
+        setBufferPercentage(Math.round((bufferedEnd / dur) * 100));
+      }
+    }
   };
 
   const handleSeek = (e) => {
@@ -101,6 +113,9 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
         onClick={togglePlay}
         onTimeUpdate={handleTimeUpdate}
         onLoadedMetadata={() => setDuration(videoRef.current.duration)}
+        onWaiting={() => setIsBuffering(true)}
+        onPlaying={() => setIsBuffering(false)}
+        onProgress={handleProgress}
       />
 
       {/* Custom Overlay Controls */}
@@ -110,7 +125,14 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
         </div>
 
         <div className="center-controls" onClick={togglePlay}>
-          {!isPlaying && <div className="big-play-btn"><Play size={48} fill="white" /></div>}
+          {isBuffering ? (
+            <div className="video-loader">
+              <Loader2 size={48} className="spin" />
+              <span>Loading {bufferPercentage}%</span>
+            </div>
+          ) : !isPlaying && (
+            <div className="big-play-btn"><Play size={48} fill="white" /></div>
+          )}
         </div>
 
         <div className="bottom-controls-bar">
@@ -157,7 +179,7 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
               <div className="speed-selector-container">
                 <button 
                   className="ctrl-btn speed-btn" 
-                  onClick={() => setShowSpeedMenu(!showSpeedMenu)}
+                  onClick={(e) => { e.stopPropagation(); setShowSpeedMenu(!showSpeedMenu); }}
                 >
                   {playbackRate}x
                 </button>
@@ -167,7 +189,7 @@ const VideoPlayer = ({ videoUrl, videoId, onProgress }) => {
                       <div 
                         key={speed} 
                         className={`speed-opt ${playbackRate === speed ? 'active' : ''}`}
-                        onClick={() => changeSpeed(speed)}
+                        onClick={(e) => { e.stopPropagation(); changeSpeed(speed); }}
                       >
                         {speed}x
                       </div>

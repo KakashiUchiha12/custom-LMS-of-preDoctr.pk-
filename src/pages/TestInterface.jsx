@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useMemo, useRef, useCallback } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { Clock, ChevronLeft, ChevronRight, Send, Flag, CheckCircle2, HelpCircle, Bookmark, FolderPlus, X, Map, Menu, Maximize, Minimize, Loader2 } from 'lucide-react';
+import { Clock, ChevronLeft, ChevronRight, Send, Flag, CheckCircle2, HelpCircle, Bookmark, FolderPlus, X, Map, Menu, Maximize, Minimize, Loader2, Trophy } from 'lucide-react';
 import { CourseAccordion } from '../components/CourseAccordion';
 import { useSubject } from '../hooks/useSubject';
 import { useChapterMcqs, useCollectionMcqs } from '../hooks/useChapterMcqs';
@@ -41,6 +41,7 @@ const TestInterface = () => {
   const rawSubjectId = subjectId ? subjectId.replace('-mcqs', '').replace('-lectures', '') : '';
   const subjectSlug  = rawSubjectId ? `${rawSubjectId}-mcqs` : '';
   const { chapters: topics, subject } = useSubject(subjectSlug);
+  const [isShowingResults, setIsShowingResults] = useState(false);
 
   // ── Source of truth: is this a saved-folder practice or a chapter test? ──
   const actualFolderName = folderName ? folderName.replace(/-/g, ' ') : null;
@@ -679,10 +680,19 @@ const TestInterface = () => {
         <div className="container toolbar-inner">
           <button 
             className={`toolbar-btn ${isQuestionMapOpen ? 'active' : ''}`}
-            onClick={() => setIsQuestionMapOpen(!isQuestionMapOpen)}
+            onClick={() => { setIsQuestionMapOpen(!isQuestionMapOpen); setIsShowingResults(false); }}
           >
             <Map size={18} />
             <span className="hide-mobile">Question Map</span>
+          </button>
+
+          <button 
+            className={`toolbar-btn ${isShowingResults ? 'active' : ''}`}
+            onClick={() => { setIsShowingResults(!isShowingResults); setIsQuestionMapOpen(false); }}
+            style={{ marginLeft: '10px' }}
+          >
+            <Trophy size={18} />
+            <span className="hide-mobile">View Results</span>
           </button>
 
           <div className="toolbar-center">
@@ -743,7 +753,56 @@ const TestInterface = () => {
         {/* Main Question Display */}
         <main className="question-display-area">
           <div className="question-card fade-in-up">
-            <div className="q-header-row">
+            {isShowingResults ? (
+              <div className="results-dropdown" style={{ padding: '20px', background: 'white', borderRadius: '12px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '15px' }}>
+                  <h3 style={{ margin: 0, color: '#1e293b' }}>Leaderboard for this Test</h3>
+                  <span style={{ color: '#64748b' }}>Average Score: <strong style={{ color: '#0f172a' }}>62%</strong></span>
+                </div>
+                <div style={{ overflowX: 'auto' }}>
+                  <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left' }}>
+                    <thead>
+                      <tr style={{ background: '#1e293b', color: 'white' }}>
+                        <th style={{ padding: '12px', borderRadius: '6px 0 0 6px' }}>Pos.</th>
+                        <th style={{ padding: '12px' }}>Name</th>
+                        <th style={{ padding: '12px' }}>Score</th>
+                        <th style={{ padding: '12px' }}>Duration</th>
+                        <th style={{ padding: '12px' }}>Province</th>
+                        <th style={{ padding: '12px', borderRadius: '0 6px 6px 0' }}>Date</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr style={{ borderBottom: '1px solid #e2e8f0', background: '#f8fafc' }}>
+                        <td style={{ padding: '12px' }}>1</td>
+                        <td style={{ padding: '12px', fontWeight: '600', color: '#1e293b' }}>Muhammad Muzamil</td>
+                        <td style={{ padding: '12px', color: '#10b981', fontWeight: '700' }}>46 / 65 (71%)</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>15m 36s</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>Punjab</td>
+                        <td style={{ padding: '12px', color: '#94a3b8' }}>10 May 2026</td>
+                      </tr>
+                      <tr style={{ borderBottom: '1px solid #e2e8f0' }}>
+                        <td style={{ padding: '12px' }}>2</td>
+                        <td style={{ padding: '12px', fontWeight: '600', color: '#1e293b' }}>Werdat</td>
+                        <td style={{ padding: '12px', color: '#10b981', fontWeight: '700' }}>38 / 65 (59%)</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>8m 46s</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>Sindh</td>
+                        <td style={{ padding: '12px', color: '#94a3b8' }}>09 May 2026</td>
+                      </tr>
+                      <tr style={{ background: '#f8fafc' }}>
+                        <td style={{ padding: '12px' }}>3</td>
+                        <td style={{ padding: '12px', fontWeight: '600', color: '#1e293b' }}>Romaisa Salahuddin</td>
+                        <td style={{ padding: '12px', color: '#ef4444', fontWeight: '700' }}>34 / 65 (53%)</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>7m 35s</td>
+                        <td style={{ padding: '12px', color: '#64748b' }}>KPK</td>
+                        <td style={{ padding: '12px', color: '#94a3b8' }}>09 May 2026</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            ) : (
+              <React.Fragment>
+                <div className="q-header-row">
               <div className="q-badge">Question {currentQuestion + 1} of {questions.length}</div>
               <div className="q-utility-actions">
                 <button 
@@ -804,7 +863,9 @@ const TestInterface = () => {
                 <p>{renderTextWithMath(q.explanation)}</p>
               </div>
             )}
-          </div>
+          </React.Fragment>
+        )}
+      </div>
 
           <div className="test-navigation">
             <button

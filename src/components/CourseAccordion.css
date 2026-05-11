@@ -192,6 +192,10 @@
   font-weight: 500;
 }
 
+.subtest-item.type-board_book .subtest-label {
+  font-size: 0.82rem;
+}
+
 .subtest-eye {
   color: #cbd5e1;
   flex-shrink: 0;
@@ -252,6 +256,10 @@
 /* Nested Items in Sidebar Variant */
 .chapter-accordion.sidebar-variant .subtest-item {
   padding: 0.75rem 1rem 0.75rem 2rem;
+}
+
+.chapter-accordion.sidebar-variant .subtest-label {
+  font-size: 0.8rem;
 }
 
 .chapter-accordion.sidebar-variant .subtest-item.active {

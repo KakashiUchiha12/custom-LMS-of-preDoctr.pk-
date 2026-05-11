@@ -29,8 +29,18 @@ router.post('/complete', requireAuth, async (req, res) => {
 // GET /api/profile
 router.get('/', requireAuth, (req, res) => {
   const u = req.user;
-  res.json({ fullName: u.name, whatsapp: u.whatsapp, gender: u.gender,
-    province: u.province, city: u.city, targetYear: u.target_year, college: u.college });
+  res.json({ 
+    fullName: u.name, 
+    whatsapp: u.whatsapp, 
+    gender: u.gender,
+    province: u.province, 
+    city: u.city, 
+    targetYear: u.target_year, 
+    college: u.college,
+    has_mcq_access: u.has_mcq_access,
+    has_lecture_access: u.has_lecture_access,
+    full_access_until: u.full_access_until
+  });
 });
 
 module.exports = router;

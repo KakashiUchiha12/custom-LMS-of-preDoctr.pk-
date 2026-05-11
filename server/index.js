@@ -22,6 +22,7 @@ app.use('/api/collections', require('./routes/collections'));
 app.use('/api/tests',       require('./routes/tests'));
 app.use('/api/admin',       require('./routes/admin'));
 app.use('/api/subjects',    require('./routes/courses'));
+app.use('/api/analytics',   require('./routes/analytics'));
 
 
 // ── Global error handler ────────────────────────────────

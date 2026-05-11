@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useLocation, useNavigate } from 'react-router-dom';
 import { Play, FileText, CheckCircle2, ChevronDown, ChevronRight, ChevronUp, Eye, ArrowLeft, Menu, X, ChevronLeft } from 'lucide-react';
 import VideoPlayer from '../components/VideoPlayer';
-import { LECTURE_TOPICS } from '../data/courseData';
 import { CourseAccordion } from '../components/CourseAccordion';
+import { useSubject } from '../hooks/useSubject';
 import './LecturePlayer.css';
 
 const LecturePlayer = () => {
@@ -15,17 +15,18 @@ const LecturePlayer = () => {
   const requestedChapter = searchParams.get('chapter');
   const currentLecture = searchParams.get('lecture');
 
-  const topics = LECTURE_TOPICS[subjectId] || [];
+  const { subject, chapters: topics = [], loading } = useSubject(`${subjectId}-lectures`);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
+  const [openIndex, setOpenIndex] = useState(0);
   
-  // Open the requested chapter automatically
-  const [openIndex, setOpenIndex] = useState(() => {
-    if (requestedChapter && topics.length > 0) {
+  // Open the requested chapter automatically when data loads
+  useEffect(() => {
+    if (!topics.length) return;
+    if (requestedChapter) {
       const idx = topics.findIndex(t => t.name === requestedChapter);
-      return idx !== -1 ? idx : 0;
+      if (idx !== -1) setOpenIndex(idx);
     }
-    return 0;
-  });
+  }, [topics, requestedChapter]);
 
   const subjectName = subjectId 
     ? subjectId
@@ -62,6 +63,7 @@ const LecturePlayer = () => {
                   currentSubtest={currentLecture}
                   isSidebar={true}
                   type="lectures"
+                  isFreeChapter={true}
                 />
               ))
             ) : (
@@ -98,7 +100,7 @@ const LecturePlayer = () => {
           <div className="lecture-content-inner">
             <div className="course-main">
               <VideoPlayer 
-                videoUrl="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" 
+                videoUrl="https://www.w3schools.com/html/mov_bbb.mp4" 
                 videoId={subjectId} 
               />
               

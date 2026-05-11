@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { 
   Search, 
   Filter, 
@@ -10,78 +10,102 @@ import {
   ShieldAlert,
   ChevronLeft,
   ChevronRight,
-  Download
+  Download,
+  XCircle
 } from 'lucide-react';
+import { api } from '../../utils/api';
 import './UserManager.css';
 
 const UserManager = () => {
+  const [users, setUsers] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
+  const [total, setTotal] = useState(0);
+  const [page, setPage] = useState(1);
+  const [limit, setLimit] = useState(20);
+  const [search, setSearch] = useState('');
   const [filter, setFilter] = useState('all');
-  
-  // Mock users data
-  const users = [
-    { 
-      id: 1, 
-      name: 'Ahmed Khan', 
-      whatsapp: '+92 300 1234567', 
-      email: 'ahmed.k@example.com',
-      status: 'Trial',
-      activity: 'Attempted Biology Test',
-      lastActive: '2 mins ago',
-      level: 'Free',
-      joined: 'May 1, 2024'
-    },
-    { 
-      id: 2, 
-      name: 'Sara Malik', 
-      whatsapp: '+92 321 7654321', 
-      email: 'sara.m@example.com',
-      status: 'Paid',
-      activity: 'Watched Physics Lecture',
-      lastActive: '15 mins ago',
-      level: 'Lectures Only',
-      joined: 'April 28, 2024'
-    },
-    { 
-      id: 3, 
-      name: 'Bilal Ahmed', 
-      whatsapp: '+92 333 9876543', 
-      email: 'bilal.a@example.com',
-      status: 'Trial',
-      activity: 'Signed up',
-      lastActive: '45 mins ago',
-      level: 'Free',
-      joined: 'May 1, 2024'
-    },
-    { 
-      id: 4, 
-      name: 'Zainab Qureshi', 
-      whatsapp: '+92 345 6789012', 
-      email: 'zainab.q@example.com',
-      status: 'Paid',
-      activity: 'Attempted Chemistry Mock',
-      lastActive: '1 hour ago',
-      level: 'Pro (Full Access)',
-      joined: 'April 25, 2024'
-    },
-    { 
-      id: 5, 
-      name: 'Usman Ali', 
-      whatsapp: '+92 311 2233445', 
-      email: 'usman.ali@example.com',
-      status: 'Trial',
-      activity: 'Watched English Intro',
-      lastActive: '3 hours ago',
-      level: 'Free',
-      joined: 'May 1, 2024'
-    }
-  ];
 
-  const getStatusColor = (status) => {
-    switch (status) {
-      case 'Paid': return '#10b981';
-      case 'Trial': return '#f59e0b';
-      default: return '#64748b';
+  // Modal State
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [currentUser, setCurrentUser] = useState(null);
+  const [formData, setFormData] = useState({
+    has_mcq_access: false,
+    has_lecture_access: false,
+    give_full_access_24h: false
+  });
+
+  const fetchUsers = useCallback(async () => {
+    setLoading(true);
+    try {
+      const data = await api.get(`/api/admin/users?search=${search}&filter=${filter}&page=${page}&limit=${limit}`);
+      setUsers(data.users);
+      setTotal(data.total);
+      setError(null);
+    } catch (err) {
+      console.error('Failed to fetch users:', err);
+      setError('Failed to load users');
+    } finally {
+      setLoading(false);
     }
+  }, [search, filter, page, limit]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      fetchUsers();
+    }, 300); // Debounce search
+    return () => clearTimeout(timer);
+  }, [fetchUsers]);
+
+  const handleSearchChange = (e) => {
+    setSearch(e.target.value);
+    setPage(1);
+  };
+
+  const handleFilterChange = (newFilter) => {
+    setFilter(newFilter);
+    setPage(1);
+  };
+
+  const handleOpenUpgradeModal = (user) => {
+    setCurrentUser(user);
+    setFormData({
+      has_mcq_access: user.has_mcq_access || false,
+      has_lecture_access: user.has_lecture_access || false,
+      give_full_access_24h: false
+    });
+    setIsModalOpen(true);
+  };
+
+  const handleFormChange = (e) => {
+    const { name, checked, type } = e.target;
+    setFormData(prev => ({ ...prev, [name]: type === 'checkbox' ? checked : e.target.value }));
+  };
+
+  const handleSaveAccess = async (e) => {
+    e.preventDefault();
+    try {
+      await api.put(`/api/admin/users/${currentUser.id}/access`, formData);
+      setIsModalOpen(false);
+      fetchUsers(); // Refresh
+    } catch (err) {
+      console.error('Failed to update access:', err);
+      alert('Failed to update access');
+    }
+  };
+
+  const getStatusColor = (user) => {
+    if (user.full_access_until && new Date(user.full_access_until) > new Date()) return '#10b981'; // Active 24h
+    if (user.access_level === 'paid') return '#10b981';
+    return '#64748b';
+  };
+
+  const getAccessLevelText = (user) => {
+    if (user.full_access_until && new Date(user.full_access_until) > new Date()) return 'Pro (24h Access)';
+    if (user.has_mcq_access && user.has_lecture_access) return 'Pro (Full Access)';
+    if (user.has_mcq_access) return 'Question Bank Only';
+    if (user.has_lecture_access) return 'Lectures Only';
+    return 'Free';
   };
 
   return (
@@ -100,95 +124,168 @@ const UserManager = () => {
       <div className="manager-controls">
         <div className="search-bar">
           <Search size={18} />
-          <input type="text" placeholder="Search by name, email, or WhatsApp..." />
+          <input 
+            type="text" 
+            placeholder="Search by name, email, or WhatsApp..." 
+            value={search}
+            onChange={handleSearchChange}
+          />
         </div>
         <div className="filter-group">
-          <button className={`filter-btn ${filter === 'all' ? 'active' : ''}`} onClick={() => setFilter('all')}>All Users</button>
-          <button className={`filter-btn ${filter === 'trial' ? 'active' : ''}`} onClick={() => setFilter('trial')}>Trial Accounts</button>
-          <button className={`filter-btn ${filter === 'paid' ? 'active' : ''}`} onClick={() => setFilter('paid')}>Paid Members</button>
+          <button className={`filter-btn ${filter === 'all' ? 'active' : ''}`} onClick={() => handleFilterChange('all')}>All Users</button>
+          <button className={`filter-btn ${filter === 'free' ? 'active' : ''}`} onClick={() => handleFilterChange('free')}>Free Accounts</button>
+          <button className={`filter-btn ${filter === 'paid' ? 'active' : ''}`} onClick={() => handleFilterChange('paid')}>Paid Members</button>
           <button className="btn-advanced"><Filter size={18} /> More Filters</button>
         </div>
       </div>
 
       {/* Users Table */}
       <div className="users-table-container">
-        <table className="users-table">
-          <thead>
-            <tr>
-              <th>Student</th>
-              <th>Status</th>
-              <th>Contact</th>
-              <th>Recent Activity</th>
-              <th>Access Level</th>
-              <th>Actions</th>
-            </tr>
-          </thead>
-          <tbody>
-            {users.map((user) => (
-              <tr key={user.id}>
-                <td>
-                  <div className="student-cell">
-                    <div className="avatar">{user.name.charAt(0)}</div>
-                    <div className="info">
-                      <span className="name">{user.name}</span>
-                      <span className="joined">Joined: {user.joined}</span>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <span className="status-badge" style={{ backgroundColor: `${getStatusColor(user.status)}15`, color: getStatusColor(user.status) }}>
-                    {user.status}
-                  </span>
-                </td>
-                <td>
-                  <div className="contact-cell">
-                    <div className="contact-item">
-                      <Smartphone size={14} />
-                      <span>{user.whatsapp}</span>
-                    </div>
-                    <div className="contact-item">
-                      <ExternalLink size={14} />
-                      <span className="email">{user.email}</span>
-                    </div>
-                  </div>
-                </td>
-                <td>
-                  <div className="activity-cell">
-                    <span className="activity-text">{user.activity}</span>
-                    <span className="last-active"><Clock size={12} /> {user.lastActive}</span>
-                  </div>
-                </td>
-                <td>
-                  <div className="level-cell">
-                    <Award size={16} color={user.level === 'Free' ? '#94a3b8' : '#3b82f6'} />
-                    <span>{user.level}</span>
-                  </div>
-                </td>
-                <td>
-                  <div className="action-buttons">
-                    <button className="btn-upgrade">Upgrade</button>
-                    <button className="btn-icon"><MoreVertical size={18} /></button>
-                  </div>
-                </td>
+        {loading ? (
+          <div className="loading-state">Loading users...</div>
+        ) : error ? (
+          <div className="error-state">{error}</div>
+        ) : users.length === 0 ? (
+          <div className="empty-state">No users found.</div>
+        ) : (
+          <table className="users-table">
+            <thead>
+              <tr>
+                <th>Student</th>
+                <th>Status</th>
+                <th>Contact</th>
+                <th>Joined</th>
+                <th>Access Level</th>
+                <th>Actions</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {users.map((user) => (
+                <tr key={user.id}>
+                  <td>
+                    <div className="student-cell">
+                      <div className="avatar">{user.name?.charAt(0) || 'U'}</div>
+                      <div className="info">
+                        <span className="name">{user.name}</span>
+                        <span className="joined">ID: {user.id}</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    <span className="status-badge" style={{ backgroundColor: `${getStatusColor(user)}15`, color: getStatusColor(user) }}>
+                      {user.access_level === 'paid' ? 'Paid' : 'Free'}
+                    </span>
+                  </td>
+                  <td>
+                    <div className="contact-cell">
+                      <div className="contact-item">
+                        <Smartphone size={14} />
+                        <span>{user.whatsapp || 'N/A'}</span>
+                      </div>
+                      <div className="contact-item">
+                        <ExternalLink size={14} />
+                        <span className="email">{user.email}</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td>
+                    {new Date(user.created_at).toLocaleDateString()}
+                  </td>
+                  <td>
+                    <div className="level-cell">
+                      <Award size={16} color={getAccessLevelText(user) === 'Free' ? '#94a3b8' : '#3b82f6'} />
+                      <span>{getAccessLevelText(user)}</span>
+                    </div>
+                  </td>
+                  <td>
+                    <div className="action-buttons">
+                      <button className="btn-upgrade" onClick={() => handleOpenUpgradeModal(user)}>Grant Access</button>
+                      <button className="btn-icon"><MoreVertical size={18} /></button>
+                    </div>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        )}
       </div>
 
       {/* Pagination */}
       <div className="pagination">
-        <span>Showing 5 of 1,240 users</span>
+        <span>Showing {users.length} of {total} users</span>
         <div className="page-controls">
-          <button className="btn-page"><ChevronLeft size={18} /></button>
-          <button className="btn-page active">1</button>
-          <button className="btn-page">2</button>
-          <button className="btn-page">3</button>
-          <button className="btn-page">...</button>
-          <button className="btn-page">24</button>
-          <button className="btn-page"><ChevronRight size={18} /></button>
+          <button 
+            className="btn-page" 
+            disabled={page === 1} 
+            onClick={() => setPage(p => Math.max(1, p - 1))}
+          >
+            <ChevronLeft size={18} />
+          </button>
+          <button className="btn-page active">{page}</button>
+          <button 
+            className="btn-page" 
+            disabled={page >= Math.ceil(total / limit)} 
+            onClick={() => setPage(p => p + 1)}
+          >
+            <ChevronRight size={18} />
+          </button>
         </div>
       </div>
+
+      {/* Upgrade Access Modal */}
+      {isModalOpen && (
+        <div className="modal-overlay">
+          <div className="modal-content">
+            <div className="modal-header">
+              <h2>Grant Access to {currentUser?.name}</h2>
+              <button className="close-btn" onClick={() => setIsModalOpen(false)}><XCircle size={20} /></button>
+            </div>
+            <form onSubmit={handleSaveAccess}>
+              <div className="form-group">
+                <label className="checkbox-label">
+                  <input 
+                    type="checkbox" 
+                    name="has_mcq_access" 
+                    checked={formData.has_mcq_access} 
+                    onChange={handleFormChange} 
+                  />
+                  <span>Question Bank MCQs Access</span>
+                </label>
+              </div>
+              <div className="form-group">
+                <label className="checkbox-label">
+                  <input 
+                    type="checkbox" 
+                    name="has_lecture_access" 
+                    checked={formData.has_lecture_access} 
+                    onChange={handleFormChange} 
+                  />
+                  <span>Lectures Access</span>
+                </label>
+              </div>
+              <hr style={{ margin: '1.5rem 0', borderColor: '#e2e8f0' }} />
+              <div className="form-group">
+                <label className="checkbox-label">
+                  <input 
+                    type="checkbox" 
+                    name="give_full_access_24h" 
+                    checked={formData.give_full_access_24h} 
+                    onChange={handleFormChange} 
+                  />
+                  <span>Give Full Access for 24 Hours</span>
+                </label>
+                <p style={{ fontSize: '0.75rem', color: '#64748b', marginTop: '0.25rem' }}>
+                  This will override other settings and grant full access for exactly 24 hours.
+                </p>
+              </div>
+              <div className="modal-actions">
+                <button type="button" className="btn-secondary" onClick={() => setIsModalOpen(false)}>Cancel</button>
+                <button type="submit" className="btn-primary">Save Changes</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

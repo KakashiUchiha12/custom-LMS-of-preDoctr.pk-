@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { api } from '../../utils/api';
 import { 
   Users, 
   Eye, 
@@ -11,7 +12,8 @@ import {
   Clock,
   ArrowUpRight,
   MapPin,
-  ExternalLink
+  ExternalLink,
+  Star
 } from 'lucide-react';
 import { 
   BarChart, 
@@ -21,12 +23,52 @@ import {
   CartesianGrid, 
   Tooltip, 
   ResponsiveContainer,
-  Legend
+  Legend,
+  LineChart,
+  Line
 } from 'recharts';
 import './AdminDashboard.css';
 
 const AdminDashboard = () => {
   const [chartPeriod, setChartPeriod] = useState('weekly');
+  const [isDatePickerOpen, setIsDatePickerOpen] = useState(false);
+  const [dateRange, setDateRange] = useState({ from: '2026-05-05', to: '2026-05-11' });
+  const [activePreset, setActivePreset] = useState('7days');
+  
+  // New Analytics State
+  const [granularity, setGranularity] = useState('days');
+  const [chartType, setChartType] = useState('bar');
+  const [activeTab, setActiveTab] = useState('views');
+  const [showViews, setShowViews] = useState(true);
+  const [showVisitors, setShowVisitors] = useState(true);
+  const [showNewUsers, setShowNewUsers] = useState(true);
+
+  const handlePresetClick = (preset) => {
+    setActivePreset(preset);
+    const today = new Date('2026-05-11');
+    let fromDate = new Date('2026-05-11');
+    
+    if (preset === 'today') {
+      setGranularity('hours');
+      setDateRange({ from: '2026-05-11', to: '2026-05-11' });
+    } else if (preset === '7days') {
+      setGranularity('days');
+      fromDate.setDate(today.getDate() - 7);
+      setDateRange({ from: fromDate.toISOString().split('T')[0], to: '2026-05-11' });
+    } else if (preset === '30days') {
+      setGranularity('days');
+      fromDate.setDate(today.getDate() - 30);
+      setDateRange({ from: fromDate.toISOString().split('T')[0], to: '2026-05-11' });
+    } else if (preset === 'mtd') {
+      setGranularity('days');
+      fromDate = new Date(today.getFullYear(), today.getMonth(), 1);
+      setDateRange({ from: fromDate.toISOString().split('T')[0], to: '2026-05-11' });
+    } else if (preset === '12m') {
+      setGranularity('days');
+      fromDate.setFullYear(today.getFullYear() - 1);
+      setDateRange({ from: fromDate.toISOString().split('T')[0], to: '2026-05-11' });
+    }
+  };
 
   const stats = [
     { title: 'New Registered Today', value: '142', icon: <Users size={20} />, trend: '+12%', color: '#3b82f6' },
@@ -35,24 +77,74 @@ const AdminDashboard = () => {
     { title: 'Flagged MCQs', value: '24', icon: <Flag size={20} />, trend: '-2', color: '#ef4444' },
   ];
 
-  const weeklyData = [
-    { name: 'Mon', users: 45, views: 1200 },
-    { name: 'Tue', users: 52, views: 1450 },
-    { name: 'Wed', users: 38, views: 1100 },
-    { name: 'Thu', users: 65, views: 1800 },
-    { name: 'Fri', users: 48, views: 1300 },
-    { name: 'Sat', users: 70, views: 2100 },
-    { name: 'Sun', users: 55, views: 1600 },
-  ];
+  const getActiveData = () => {
+    const today = new Date('2026-05-11');
+    const data = [];
+    
+    if (granularity === 'hours') {
+      return Array.from({ length: 24 }, (_, i) => ({
+        name: `${i.toString().padStart(2, '0')}:00`,
+        views: Math.floor(Math.random() * 10),
+        visitors: Math.floor(Math.random() * 5),
+        newUsers: Math.floor(Math.random() * 3),
+      }));
+    }
+    
+    if (activePreset === '12m') {
+      const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+      return months.map(m => ({
+        name: m,
+        views: Math.floor(Math.random() * 1000) + 200,
+        visitors: Math.floor(Math.random() * 500) + 100,
+        newUsers: Math.floor(Math.random() * 100) + 10,
+      }));
+    }
+    
+    let days = 7;
+    if (activePreset === '30days') days = 30;
+    if (activePreset === 'mtd') days = today.getDate();
+    
+    for (let i = days - 1; i >= 0; i--) {
+      const date = new Date(today);
+      date.setDate(today.getDate() - i);
+      const name = date.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+      data.push({
+        name,
+        views: Math.floor(Math.random() * 50) + 10,
+        visitors: Math.floor(Math.random() * 20) + 5,
+        newUsers: Math.floor(Math.random() * 10) + 1,
+      });
+    }
+    return data;
+  };
 
-  const monthlyData = [
-    { name: 'Week 1', users: 320, views: 9800 },
-    { name: 'Week 2', users: 410, views: 12400 },
-    { name: 'Week 3', users: 290, views: 8900 },
-    { name: 'Week 4', users: 450, views: 14200 },
-  ];
+  const [chartData, setChartData] = useState([]);
+  const [isLoadingChart, setIsLoadingChart] = useState(false);
 
-  const activeData = chartPeriod === 'weekly' ? weeklyData : monthlyData;
+  useEffect(() => {
+    const fetchChartData = async () => {
+      setIsLoadingChart(true);
+      try {
+        // We use relative path because of Vite proxy
+        const data = await api.get(`/api/analytics/stats?from=${dateRange.from}&to=${dateRange.to}&granularity=${granularity}`);
+        if (data && data.length > 0) {
+          setChartData(data);
+        } else {
+          // Fallback to mock data if no real data yet
+          setChartData(getActiveData());
+        }
+      } catch (error) {
+        console.error('Failed to fetch chart data:', error);
+        setChartData(getActiveData());
+      } finally {
+        setIsLoadingChart(false);
+      }
+    };
+
+    fetchChartData();
+  }, [dateRange, granularity, activePreset]);
+
+  const activeData = chartData; // Reference for JSX
 
   const topSources = [
     { source: 'Direct', views: '4,200', share: '42%' },
@@ -82,6 +174,48 @@ const AdminDashboard = () => {
           <h1>Admin Command Center</h1>
           <p>Welcome back, Admin. Here's what's happening at preDoctr.pk today.</p>
         </div>
+        
+        {/* Date Range Picker */}
+        <div className="date-picker-container">
+          <div className="date-picker-trigger" onClick={() => setIsDatePickerOpen(!isDatePickerOpen)}>
+            <Clock size={16} />
+            <span>{dateRange.from} - {dateRange.to}</span>
+          </div>
+          
+          {isDatePickerOpen && (
+            <div className="date-picker-dropdown">
+              <div className="picker-body">
+                <div className="custom-range-selector">
+                  <div className="date-inputs">
+                    <div className="input-group">
+                      <label>FROM</label>
+                      <input type="date" value={dateRange.from} onChange={(e) => setDateRange(p => ({...p, from: e.target.value}))} />
+                    </div>
+                    <div className="input-group">
+                      <label>TO</label>
+                      <input type="date" value={dateRange.to} onChange={(e) => setDateRange(p => ({...p, to: e.target.value}))} />
+                    </div>
+                  </div>
+                  <div className="calendar-placeholder">
+                    <p style={{ color: '#64748b', fontSize: '0.85rem' }}>Native date pickers are active in the inputs above.</p>
+                  </div>
+                </div>
+                <div className="presets-sidebar">
+                  <button className={activePreset === 'today' ? 'active' : ''} onClick={() => handlePresetClick('today')}>Today</button>
+                  <button className={activePreset === '7days' ? 'active' : ''} onClick={() => handlePresetClick('7days')}>Last 7 Days</button>
+                  <button className={activePreset === '30days' ? 'active' : ''} onClick={() => handlePresetClick('30days')}>Last 30 Days</button>
+                  <button className={activePreset === 'mtd' ? 'active' : ''} onClick={() => handlePresetClick('mtd')}>Month to date</button>
+                  <button className={activePreset === '12m' ? 'active' : ''} onClick={() => handlePresetClick('12m')}>Last 12 months</button>
+                </div>
+              </div>
+              <div className="picker-footer">
+                <button className="btn-cancel" onClick={() => setIsDatePickerOpen(false)}>Cancel</button>
+                <button className="btn-apply" onClick={() => setIsDatePickerOpen(false)}>Apply</button>
+              </div>
+            </div>
+          )}
+        </div>
+
         <div className="admin-actions">
           <button className="btn-secondary">Export Report</button>
           <button className="btn-primary">Launch Offer</button>
@@ -109,68 +243,129 @@ const AdminDashboard = () => {
 
       <div className="dashboard-row chart-row">
         <div className="dashboard-card growth-chart">
-          <div className="card-header">
+          <div className="card-header" style={{ alignItems: 'center' }}>
             <div>
-              <h3>User Growth & Views</h3>
-              <p className="card-subtitle">Showing performance metrics for {chartPeriod}</p>
+              <h3 style={{ fontSize: '1.25rem', fontWeight: '700', color: '#1e293b' }}>
+                {activeTab.charAt(0).toUpperCase() + activeTab.slice(1)}
+              </h3>
             </div>
-            <div className="chart-toggles">
-              <button 
-                className={`toggle-btn ${chartPeriod === 'weekly' ? 'active' : ''}`}
-                onClick={() => setChartPeriod('weekly')}
+            <div className="chart-controls" style={{ display: 'flex', alignItems: 'center', gap: '1.5rem' }}>
+              <div className="checkbox-group" style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+                <label className="checkbox-label" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', fontWeight: '600', cursor: 'pointer' }}>
+                  <input type="checkbox" checked={showViews} onChange={(e) => setShowViews(e.target.checked)} style={{ width: '16px', height: '16px', accentColor: '#10b981' }} />
+                  <span style={{ width: '12px', height: '12px', backgroundColor: '#10b981', borderRadius: '3px', display: 'inline-block' }}></span> Views
+                </label>
+                <label className="checkbox-label" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', fontWeight: '600', cursor: 'pointer' }}>
+                  <input type="checkbox" checked={showVisitors} onChange={(e) => setShowVisitors(e.target.checked)} style={{ width: '16px', height: '16px', accentColor: '#047857' }} />
+                  <span style={{ width: '12px', height: '12px', backgroundColor: '#047857', borderRadius: '3px', display: 'inline-block' }}></span> Visitors
+                </label>
+                <label className="checkbox-label" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', fontWeight: '600', cursor: 'pointer' }}>
+                  <input type="checkbox" checked={showNewUsers} onChange={(e) => setShowNewUsers(e.target.checked)} style={{ width: '16px', height: '16px', accentColor: '#3b82f6' }} />
+                  <span style={{ width: '12px', height: '12px', backgroundColor: '#3b82f6', borderRadius: '3px', display: 'inline-block' }}></span> New Users
+                </label>
+              </div>
+              <select 
+                value={granularity} 
+                onChange={(e) => setGranularity(e.target.value)} 
+                className="granularity-select"
+                style={{ padding: '0.3rem 0.5rem', borderRadius: '6px', border: '1px solid #e2e8f0', fontSize: '0.85rem', fontWeight: '600', color: '#475569' }}
               >
-                Weekly
-              </button>
-              <button 
-                className={`toggle-btn ${chartPeriod === 'monthly' ? 'active' : ''}`}
-                onClick={() => setChartPeriod('monthly')}
-              >
-                Monthly
-              </button>
+                <option value="days">Days</option>
+                <option value="hours">Hours</option>
+              </select>
+              <div className="chart-type-toggles" style={{ display: 'flex', background: '#f1f5f9', padding: '0.2rem', borderRadius: '8px' }}>
+                <button 
+                  className={chartType === 'line' ? 'active' : ''} 
+                  onClick={() => setChartType('line')}
+                  style={{ padding: '0.3rem 0.6rem', borderRadius: '6px', border: 'none', background: chartType === 'line' ? 'white' : 'transparent', color: chartType === 'line' ? '#10b981' : '#64748b', cursor: 'pointer', boxShadow: chartType === 'line' ? '0 1px 2px rgba(0,0,0,0.05)' : 'none' }}
+                >
+                  <TrendingUp size={16} />
+                </button>
+                <button 
+                  className={chartType === 'bar' ? 'active' : ''} 
+                  onClick={() => setChartType('bar')}
+                  style={{ padding: '0.3rem 0.6rem', borderRadius: '6px', border: 'none', background: chartType === 'bar' ? 'white' : 'transparent', color: chartType === 'bar' ? '#10b981' : '#64748b', cursor: 'pointer', boxShadow: chartType === 'bar' ? '0 1px 2px rgba(0,0,0,0.05)' : 'none' }}
+                >
+                  <ArrowUpRight size={16} />
+                </button>
+              </div>
             </div>
           </div>
           
           <div className="chart-container" style={{ height: '300px', width: '100%' }}>
             <ResponsiveContainer width="100%" height="100%">
-              <BarChart data={activeData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
-                <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
-                <XAxis 
-                  dataKey="name" 
-                  axisLine={false} 
-                  tickLine={false} 
-                  tick={{ fill: '#64748b', fontSize: 12 }} 
-                  dy={10}
-                />
-                <YAxis 
-                  axisLine={false} 
-                  tickLine={false} 
-                  tick={{ fill: '#64748b', fontSize: 12 }} 
-                />
-                <Tooltip 
-                  cursor={{ fill: '#f8fafc' }}
-                  contentStyle={{ 
-                    borderRadius: '12px', 
-                    border: 'none', 
-                    boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)' 
-                  }}
-                />
-                <Legend verticalAlign="top" align="right" iconType="circle" height={36} />
-                <Bar 
-                  dataKey="users" 
-                  name="New Users" 
-                  fill="#3b82f6" 
-                  radius={[4, 4, 0, 0]} 
-                  barSize={32} 
-                />
-                <Bar 
-                  dataKey="views" 
-                  name="Page Views" 
-                  fill="#10b981" 
-                  radius={[4, 4, 0, 0]} 
-                  barSize={32} 
-                />
-              </BarChart>
+              {chartType === 'line' ? (
+                <LineChart data={activeData} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 12 }} dy={10} />
+                  <YAxis axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 12 }} />
+                  <Tooltip cursor={{ stroke: '#10b981', strokeWidth: 1 }} contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)' }} />
+                  {showViews && <Line type="monotone" dataKey="views" name="Views" stroke="#10b981" strokeWidth={3} dot={{ r: 4 }} activeDot={{ r: 6 }} />}
+                  {showVisitors && <Line type="monotone" dataKey="visitors" name="Visitors" stroke="#047857" strokeWidth={3} dot={{ r: 4 }} activeDot={{ r: 6 }} />}
+                  {showNewUsers && <Line type="monotone" dataKey="newUsers" name="New Users" stroke="#3b82f6" strokeWidth={3} dot={{ r: 4 }} activeDot={{ r: 6 }} />}
+                </LineChart>
+              ) : (
+                <BarChart data={activeData} barGap={0} barCategoryGap={5} margin={{ top: 20, right: 30, left: 0, bottom: 0 }}>
+                  <CartesianGrid strokeDasharray="3 3" vertical={false} stroke="#f1f5f9" />
+                  <XAxis dataKey="name" axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 12 }} dy={10} />
+                  <YAxis axisLine={false} tickLine={false} tick={{ fill: '#64748b', fontSize: 12 }} />
+                  <Tooltip cursor={{ fill: '#f8fafc' }} contentStyle={{ borderRadius: '12px', border: 'none', boxShadow: '0 10px 15px -3px rgba(0,0,0,0.1)' }} />
+                  {showViews && <Bar dataKey="views" name="Views" fill="#10b981" radius={[2, 2, 0, 0]} barSize={activePreset === '30days' ? 4 : 15} />}
+                  {showVisitors && <Bar dataKey="visitors" name="Visitors" fill="#047857" radius={[2, 2, 0, 0]} barSize={activePreset === '30days' ? 4 : 15} />}
+                  {showNewUsers && <Bar dataKey="newUsers" name="New Users" fill="#3b82f6" radius={[2, 2, 0, 0]} barSize={activePreset === '30days' ? 4 : 15} />}
+                </BarChart>
+              )}
             </ResponsiveContainer>
+          </div>
+
+          {/* Footer Tabs */}
+          <div className="chart-tabs" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem', marginTop: '1.5rem', borderTop: '1px solid #e2e8f0', paddingTop: '1.5rem' }}>
+            <div 
+              className={`chart-tab ${activeTab === 'views' ? 'active' : ''}`} 
+              onClick={() => setActiveTab('views')}
+              style={{ padding: '1rem', borderRadius: '12px', border: '1px solid', borderColor: activeTab === 'views' ? '#10b981' : '#e2e8f0', background: activeTab === 'views' ? '#f0fdf4' : 'white', cursor: 'pointer', transition: 'all 0.2s' }}
+            >
+              <div className="tab-header" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', fontWeight: '600', color: activeTab === 'views' ? '#10b981' : '#64748b', marginBottom: '0.5rem' }}>
+                <Eye size={14} /> Views
+              </div>
+              <div className="tab-value" style={{ fontSize: '1.5rem', fontWeight: '800', color: '#0f172a', display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
+                361 <span className="tab-trend up" style={{ fontSize: '0.75rem', color: '#10b981', fontWeight: '700' }}>↑ 100%</span>
+              </div>
+            </div>
+            <div 
+              className={`chart-tab ${activeTab === 'visitors' ? 'active' : ''}`} 
+              onClick={() => setActiveTab('visitors')}
+              style={{ padding: '1rem', borderRadius: '12px', border: '1px solid', borderColor: activeTab === 'visitors' ? '#10b981' : '#e2e8f0', background: activeTab === 'visitors' ? '#f0fdf4' : 'white', cursor: 'pointer', transition: 'all 0.2s' }}
+            >
+              <div className="tab-header" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', fontWeight: '600', color: activeTab === 'visitors' ? '#10b981' : '#64748b', marginBottom: '0.5rem' }}>
+                <Users size={14} /> Visitors
+              </div>
+              <div className="tab-value" style={{ fontSize: '1.5rem', fontWeight: '800', color: '#0f172a', display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
+                107 <span className="tab-trend up" style={{ fontSize: '0.75rem', color: '#10b981', fontWeight: '700' }}>↑ 100%</span>
+              </div>
+            </div>
+            <div 
+              className={`chart-tab ${activeTab === 'newUsers' ? 'active' : ''}`} 
+              onClick={() => setActiveTab('newUsers')}
+              style={{ padding: '1rem', borderRadius: '12px', border: '1px solid', borderColor: activeTab === 'newUsers' ? '#10b981' : '#e2e8f0', background: activeTab === 'newUsers' ? '#f0fdf4' : 'white', cursor: 'pointer', transition: 'all 0.2s' }}
+            >
+              <div className="tab-header" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', fontWeight: '600', color: activeTab === 'newUsers' ? '#10b981' : '#64748b', marginBottom: '0.5rem' }}>
+                <Users size={14} /> New Users
+              </div>
+              <div className="tab-value" style={{ fontSize: '1.5rem', fontWeight: '800', color: '#0f172a', display: 'flex', alignItems: 'baseline', gap: '0.5rem' }}>
+                45 <span className="tab-trend up" style={{ fontSize: '0.75rem', color: '#10b981', fontWeight: '700' }}>↑ 12%</span>
+              </div>
+            </div>
+            <div 
+              className={`chart-tab ${activeTab === 'comments' ? 'active' : ''}`} 
+              onClick={() => setActiveTab('comments')}
+              style={{ padding: '1rem', borderRadius: '12px', border: '1px solid', borderColor: activeTab === 'comments' ? '#10b981' : '#e2e8f0', background: activeTab === 'comments' ? '#f0fdf4' : 'white', cursor: 'pointer', transition: 'all 0.2s' }}
+            >
+              <div className="tab-header" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.8rem', fontWeight: '600', color: activeTab === 'comments' ? '#10b981' : '#64748b', marginBottom: '0.5rem' }}>
+                <MessageSquare size={14} /> Comments
+              </div>
+              <div className="tab-value" style={{ fontSize: '1.5rem', fontWeight: '800', color: '#0f172a' }}>0</div>
+            </div>
           </div>
         </div>
 

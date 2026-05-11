@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import { api } from '../utils/api';
-import { User, Book, Star, Clock, ChevronRight, Bookmark, PlayCircle, Trash2, X, Settings } from 'lucide-react';
+import { User, Book, Star, Clock, ChevronRight, Bookmark, PlayCircle, Trash2, X, Settings, Trophy, Activity, Target } from 'lucide-react';
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -91,6 +91,22 @@ const Dashboard = () => {
             <div>
               <h1>Welcome Back, {profile?.fullName || 'Future Doctor'}!</h1>
               <p>Your {profile?.targetYear} MDCAT preparation is 45% complete.</p>
+              {profile?.full_access_until && new Date(profile.full_access_until) > new Date() && (
+                <div className="premium-badge" style={{ 
+                  display: 'inline-flex', 
+                  alignItems: 'center', 
+                  gap: '0.5rem', 
+                  background: '#eff6ff', 
+                  color: '#3b82f6', 
+                  padding: '0.4rem 0.8rem', 
+                  borderRadius: '20px', 
+                  fontSize: '0.8rem', 
+                  fontWeight: '700',
+                  marginTop: '0.5rem'
+                }}>
+                  <Clock size={14} /> 24h Full Access Active!
+                </div>
+              )}
             </div>
           </div>
           <div className="header-stats">
@@ -175,6 +191,106 @@ const Dashboard = () => {
               ))}
             </div>
 
+            <div className="section-title-row" style={{ marginTop: '3rem' }}>
+              <h2>Recent Activity</h2>
+              <a href="#" className="view-all">View All</a>
+            </div>
+            <div className="activity-feed" style={{ marginBottom: '2rem' }}>
+              <div className="activity-item" style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'white', borderRadius: '12px', marginBottom: '10px', border: '1px solid #f1f5f9' }}>
+                <Activity size={20} color="#10b981" />
+                <div style={{ flexGrow: 1 }}>
+                  <p style={{ margin: 0, fontWeight: '600', fontSize: '0.9rem', color: '#1e293b' }}>Attempted Quiz: Biodiversity</p>
+                  <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Score: 8/10 • 2 hours ago</span>
+                </div>
+                <ChevronRight size={16} color="#cbd5e1" />
+              </div>
+              <div className="activity-item" style={{ display: 'flex', alignItems: 'center', gap: '12px', padding: '12px', background: 'white', borderRadius: '12px', marginBottom: '10px', border: '1px solid #f1f5f9' }}>
+                <PlayCircle size={20} color="#3b82f6" />
+                <div style={{ flexGrow: 1 }}>
+                  <p style={{ margin: 0, fontWeight: '600', fontSize: '0.9rem', color: '#1e293b' }}>Watched Lecture: Acellular Life</p>
+                  <span style={{ fontSize: '0.75rem', color: '#94a3b8' }}>Completed • Yesterday</span>
+                </div>
+                <ChevronRight size={16} color="#cbd5e1" />
+              </div>
+            </div>
+
+            <div className="section-title-row" style={{ marginTop: '3rem' }}>
+              <h2>Subject Progress</h2>
+            </div>
+            <div className="subject-progress-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '20px', marginBottom: '2rem' }}>
+              <div className="sub-prog-card" style={{ background: 'white', padding: '20px', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <h3 style={{ margin: '0 0 15px 0', fontSize: '1.1rem', color: '#1e293b' }}>🧬 Biology</h3>
+                
+                <div style={{ marginBottom: '15px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Lectures Watched</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>12 / 45</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `${(12/45)*100}%`, height: '100%', background: '#4096EE', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Tests Attempted</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>5 / 20</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `${(5/20)*100}%`, height: '100%', background: '#10b981', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="sub-prog-card" style={{ background: 'white', padding: '20px', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <h3 style={{ margin: '0 0 15px 0', fontSize: '1.1rem', color: '#1e293b' }}>⚗️ Chemistry</h3>
+                
+                <div style={{ marginBottom: '15px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Lectures Watched</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>4 / 40</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `${(4/40)*100}%`, height: '100%', background: '#4096EE', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Tests Attempted</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>2 / 15</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `${(2/15)*100}%`, height: '100%', background: '#10b981', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+              </div>
+
+              <div className="sub-prog-card" style={{ background: 'white', padding: '20px', borderRadius: '16px', border: '1px solid #e2e8f0' }}>
+                <h3 style={{ margin: '0 0 15px 0', fontSize: '1.1rem', color: '#1e293b' }}>⚡ Physics</h3>
+                
+                <div style={{ marginBottom: '15px' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Lectures Watched</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>0 / 35</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `0%`, height: '100%', background: '#4096EE', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+
+                <div>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.85rem', marginBottom: '5px' }}>
+                    <span style={{ color: '#64748b' }}>Tests Attempted</span>
+                    <span style={{ fontWeight: '700', color: '#0f172a' }}>0 / 12</span>
+                  </div>
+                  <div style={{ height: '6px', background: '#e2e8f0', borderRadius: '3px', overflow: 'hidden' }}>
+                    <div style={{ width: `0%`, height: '100%', background: '#10b981', borderRadius: '3px' }}></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
             <div className="performance-overview">
               <h2>Performance Overview</h2>
               <div className="perf-grid">
@@ -193,11 +309,29 @@ const Dashboard = () => {
                   <h4>Study Time</h4>
                   <p>{globalStats?.total_study_seconds ? `${Math.floor(globalStats.total_study_seconds / 3600)}h ${Math.floor((globalStats.total_study_seconds % 3600) / 60)}m` : '0h 0m'}</p>
                 </div>
+                <div className="perf-card">
+                  <Target className="perf-icon" />
+                  <h4>Daily Goal</h4>
+                  <p>15 / 50 MCQs</p>
+                </div>
               </div>
             </div>
           </section>
 
           <aside className="dashboard-sidebar">
+            <div className="sidebar-card leaderboard-card" style={{ background: 'linear-gradient(135deg, #fffbeb, #fff)', border: '1px solid #fef08a' }}>
+              <h3 style={{ color: '#854d0e' }}>Leaderboard Rank</h3>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '10px' }}>
+                <Trophy size={32} color="#f59e0b" fill="#fef08a" />
+                <div>
+                  <span style={{ fontSize: '1.5rem', fontWeight: '800', color: '#1e293b' }}>#12</span>
+                  <span style={{ color: '#64748b', fontSize: '0.9rem', marginLeft: '4px' }}>of 1,420 students</span>
+                </div>
+              </div>
+              <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '8px' }}>You need 150 more points to reach Top 10!</p>
+              <Link to="/leaderboard" className="sidebar-btn" style={{ background: '#fef08a', color: '#854d0e', border: 'none', marginTop: '10px', textDecoration: 'none', display: 'inline-block', textAlign: 'center', padding: '8px 12px', borderRadius: '6px', fontWeight: '600', fontSize: '0.85rem' }}>View Full Leaderboard</Link>
+            </div>
+
             <div className="sidebar-card notice-card">
               <h3>Important Notice</h3>
               <p>MDCAT Registration is now open. Don't forget to verify your documents!</p>

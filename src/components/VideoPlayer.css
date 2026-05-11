@@ -52,6 +52,25 @@
   justify-content: center;
 }
 
+.video-loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .big-play-btn {
   width: 80px;
   height: 80px;
@@ -139,18 +158,12 @@
 }
 
 .volume-slider {
-  width: 0;
+  width: 80px;
   height: 4px;
   appearance: none;
   background: rgba(255,255,255,0.3);
   border-radius: 2px;
   outline: none;
-  transition: width 0.3s;
-  overflow: hidden;
-}
-
-.volume-box:hover .volume-slider {
-  width: 80px;
 }
 
 .volume-slider::-webkit-slider-thumb {
